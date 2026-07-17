@@ -10,14 +10,7 @@
       "twitterDescription": "Complete PowerWash Simulator 2 guides for jobs, washers, tools, upgrades, achievements, co-op, DLC, and latest updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
