@@ -52,696 +52,1428 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "PowerWash Simulator 2 Gameplay",
+    "description": "Blast through 38 career jobs, master nozzles and surface-cleaning tools, decorate your Home Base, and clean solo, online, or in local split-screen co-op across PC, PS5, Xbox Series X|S, and Nintendo Switch 2."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "PowerWash Simulator 2",
+    "titleHighlight": "Wiki Guides",
+    "subtitle": "Everything you need to clean faster: jobs, equipment, co-op, achievements, DLC, completion help, and Home Base collectibles.",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Cleaning loop, controls, nozzles, soap, and the best opening route"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Map",
+        "title": "Jobs and Locations",
+        "description": "All 38 career jobs in unlock order with locations and equipment"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Wrench",
+        "title": "Equipment and Upgrades",
+        "description": "Best washers, nozzles, soap, and surface-cleaning tools ranked"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "Multiplayer and Co-op",
+        "description": "Online co-op, crossplay, split-screen, and shared progression"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Achievements and Trophies",
+        "description": "All 60 achievements across the base game and both DLC packs"
+      },
+      {
+        "icon": "Rocket",
+        "title": "DLC and Updates",
+        "description": "Free Caldera Chronicles jobs, paid crossover packs, and roadmap"
+      },
+      {
+        "icon": "Search",
+        "title": "Last Dirt Guide",
+        "description": "Find the final dirty surfaces and finish any job to 100%"
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Home Base and Collectibles",
+        "description": "Furniture, trinkets, mementos, cats, cosmetics, and hidden interactions"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "powerwashBeginnerGuide": {
+      "eyebrow": "Getting Started",
+      "title": "Start Cleaning Faster in PowerWash Simulator 2",
+      "subtitle": "Learn the cleaning loop, nozzle roles, free soap system and the best route through the opening jobs. Use the task list and dirt highlight to finish jobs without hunting blindly for the final specks.",
+      "intro": "Career Mode contains 38 new jobs across Muckingham and the wider Caldera County. Jobs pay Cash for washers and attachments, while Career and Free Play also award PowerWash Points for furniture and cosmetic customization at the Home Base.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "step": 1,
+          "title": "Set up at the Home Base",
+          "description": "Use the Job Map to choose Career assignments, visit the shop before leaving and return to the Home Base to clean and place unlocked furniture. Career jobs are the main source of Cash for new washers and equipment.",
+          "quickTip": "Spend early Cash on tools that improve coverage before buying cosmetic items."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "step": 2,
+          "title": "Learn the core cleaning controls",
+          "description": "Practice holding or toggling the washer, switching washers, opening the nozzle and extension wheels, rotating the nozzle, opening the task list, crouching, jumping and activating the dirt highlight. The task list shows which named parts are still incomplete.",
+          "quickTip": "Use continuous washing for long flat passes and free aim for edges, undersides and awkward angles."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "step": 3,
+          "title": "Match the nozzle to the surface",
+          "description": "The 40 and 25 nozzles cover broad, lightly soiled areas; the 15 and 0 nozzles concentrate pressure on narrow seams and stubborn dirt. Turbo attacks small stubborn patches, while the Adaptable Nozzle lets you change spray width without swapping attachments.",
+          "quickTip": "Start wide, then narrow the spray only when a surface stops cleaning efficiently."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "step": 4,
+          "title": "Clean the Removals Van in sections",
+          "description": "Begin with the roof and upper panels, sweep across both sides, clean the front and rear, then finish wheels, steps, handles and the underside. This is the opening Career job and can be completed with the free Prime Vista 1500 or Urban X U1.",
+          "quickTip": "Complete large panels before small trim so the task list becomes shorter and easier to scan."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "step": 5,
+          "title": "Understand multi-stage jobs",
+          "description": "The Public Facility introduces areas that reveal themselves in stages. Clean every currently available task to trigger the next section, then repeat the same top-to-bottom routine inside the newly opened area.",
+          "quickTip": "Do not waste time searching behind locked or hidden sections; finish the visible stage first."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "step": 6,
+          "title": "Use Soap 2.0 on stubborn layers",
+          "description": "Soap is free to use and clings to dirty surfaces. Cover a heavily soiled section with the Soap Nozzle, then rinse it with any water nozzle to remove the softened grime faster.",
+          "quickTip": "Soap broad dirty zones first, but use focused water nozzles for tiny missed edges."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "step": 7,
+          "title": "Buy coverage upgrades first",
+          "description": "The Adaptable Nozzle is the most flexible early attachment, while the SwirlForce Surf Ace is designed for floors and other large flat surfaces. Extensions, ladders, scaffolding, the scissor lift and abseiling kit solve height and reach problems in later jobs.",
+          "quickTip": "Choose equipment for the next job's shape: surface cleaner for flat areas, extensions for roofs and focused nozzles for vehicles."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "step": 8,
+          "title": "Finish the final percentage quickly",
+          "description": "Open the task list, select an incomplete part and use dirt highlight while circling the object from multiple heights. Check undersides, rear faces, trim seams, wheel wells, roof edges and surfaces hidden behind props.",
+          "quickTip": "When a part is almost clean, stop spraying the whole level and inspect only that named task."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "powerwashJobsAndLocations": {
+      "eyebrow": "Career Progression",
+      "title": "All 38 PowerWash Simulator 2 Career Jobs in Unlock Order",
+      "subtitle": "Follow the full base-game campaign from the Removals Van to Mount Rushless. Each row identifies the job location, cleaning format, practical equipment choice and an achievement or completion detail.",
+      "intro": "The 38-job Career campaign spans Muckingham and the wider Caldera County, with official location highlights including Sponge Valley, Suds East and Lubri City. Later jobs make heavier use of surface cleaning, extensions, lifts and abseiling.",
+      "jobs": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "unlockOrder": 1,
+          "job": "Removals Van",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehicle",
+          "difficulty": "Easy",
+          "equipment": "Prime Vista 1500 or Urban X U1; 25 for panels and 15 for seams",
+          "notableDetail": "Completing this opening Career job unlocks the All Moved In achievement."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "unlockOrder": 2,
+          "job": "Public Facility",
+          "location": "Detergento",
+          "jobType": "Multi-stage location",
+          "difficulty": "Easy",
+          "equipment": "25 or Adaptable Nozzle; soap for heavy layers",
+          "notableDetail": "The structure rises from the ground, then reveals its exterior and interior as each stage is completed."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "unlockOrder": 3,
+          "job": "Campsite",
+          "location": "Great River Campground, Power Falls",
+          "jobType": "Outdoor site",
+          "difficulty": "Easy",
+          "equipment": "25 for tents and furniture; 0 red nozzle for the achievement route",
+          "notableDetail": "Clean the lanterns first using only the red nozzle to earn Hit the Lights."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "unlockOrder": 4,
+          "job": "Art Deco House",
+          "location": "Caldera County",
+          "jobType": "Building",
+          "difficulty": "Easy",
+          "equipment": "Adaptable Nozzle, extensions and ladder access",
+          "notableDetail": "Work top to bottom so runoff and missed trim are easier to track."
+        },
+        {
+          "unlockOrder": 5,
+          "job": "Dog Car",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehicle",
+          "difficulty": "Easy",
+          "equipment": "Soap Nozzle followed by 15 or 25",
+          "notableDetail": "Cover every wash task with soap at the same time to earn Doggy Bath."
+        },
+        {
+          "unlockOrder": 6,
+          "job": "Billboard",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Large structure",
+          "difficulty": "Easy",
+          "equipment": "SwirlForce Surf Ace for broad flat areas; abseiling rig for height",
+          "notableDetail": "The surface cleaner is especially effective on the large sign face and lettering."
+        },
+        {
+          "unlockOrder": 7,
+          "job": "Teapot Tea Room",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "Building",
+          "difficulty": "Easy",
+          "equipment": "Adaptable Nozzle and soap",
+          "notableDetail": "Place a gnome on each seat to earn Tea Time."
+        },
+        {
+          "unlockOrder": 8,
+          "job": "Shooting Gallery",
+          "location": "Wengerloof Carnival, Muckingham Recreation Ground",
+          "jobType": "Attraction",
+          "difficulty": "Easy",
+          "equipment": "15 or Adaptable Nozzle for moving and detailed targets",
+          "notableDetail": "Complete the Bigfoot Target first to earn Where's Woolly?."
+        },
+        {
+          "unlockOrder": 9,
+          "job": "Road Sweeper",
+          "location": "Detergento",
+          "jobType": "Vehicle",
+          "difficulty": "Moderate",
+          "equipment": "15 for mechanisms, 25 for body panels, soap for stubborn grime",
+          "notableDetail": "Use the task list to isolate wheels, brushes and underside parts near the end."
+        },
+        {
+          "unlockOrder": 10,
+          "job": "Gas Station",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Location",
+          "difficulty": "Moderate",
+          "equipment": "SwirlForce Surf Ace for paving; Adaptable Nozzle for pumps and signs",
+          "notableDetail": "Roll the ball down the playground slide to earn Drop the Ball."
+        },
+        {
+          "unlockOrder": 11,
+          "job": "Bandstand",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Structure",
+          "difficulty": "Moderate",
+          "equipment": "Surface cleaner for the floor; Adaptable Nozzle for rails and trim",
+          "notableDetail": "Clean the central hatch last to earn Hatching a Plan."
+        },
+        {
+          "unlockOrder": 12,
+          "job": "Mobility Scooter",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehicle",
+          "difficulty": "Moderate",
+          "equipment": "15 or Adaptable Nozzle",
+          "notableDetail": "Its compact size makes it a practical replay job for nozzle-only achievements."
+        },
+        {
+          "unlockOrder": 13,
+          "job": "Nouveau House",
+          "location": "Muckingham",
+          "jobType": "Building",
+          "difficulty": "Moderate",
+          "equipment": "Adaptable Nozzle, long extension and scaffolding",
+          "notableDetail": "Divide the exterior into walls, roofline, windows and fixtures before the final dirt scan."
+        },
+        {
+          "unlockOrder": 14,
+          "job": "Airship",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Vehicle",
+          "difficulty": "Moderate",
+          "equipment": "Abseiling kit, extensions and Adaptable Nozzle",
+          "notableDetail": "Use traversal equipment to clean elevated bodywork without repeatedly repositioning from the ground."
+        },
+        {
+          "unlockOrder": 15,
+          "job": "Cement Mixer",
+          "location": "Fumerole",
+          "jobType": "Vehicle",
+          "difficulty": "Moderate",
+          "equipment": "Turbo Nozzle and soap for the drum and chassis",
+          "notableDetail": "Rotate around the vehicle and check the drum rim, frame and wheel recesses separately."
+        },
+        {
+          "unlockOrder": 16,
+          "job": "Farm",
+          "location": "Pumpton",
+          "jobType": "Outdoor location",
+          "difficulty": "Moderate",
+          "equipment": "Surface cleaner for broad ground areas; extensions for structures",
+          "notableDetail": "Clear large flat areas first, then finish fences, machinery and narrow edges."
+        },
+        {
+          "unlockOrder": 17,
+          "job": "Stone Circle",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "Outdoor landmark",
+          "difficulty": "Moderate",
+          "equipment": "25 or 40 for stone faces; soap for layered dirt",
+          "notableDetail": "Stand on every pillar without touching the ground to earn Floor is Lava."
+        },
+        {
+          "unlockOrder": 18,
+          "job": "Rock Climbing Park",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Outdoor attraction",
+          "difficulty": "Moderate",
+          "equipment": "Abseiling kit and Adaptable Nozzle",
+          "notableDetail": "Clean the Pterodactyl first to earn Flying Start."
+        },
+        {
+          "unlockOrder": 19,
+          "job": "Roller Disco",
+          "location": "Caldera County",
+          "jobType": "Indoor attraction",
+          "difficulty": "Moderate",
+          "equipment": "Surface cleaner for the floor; extensions for overhead fixtures",
+          "notableDetail": "Clean the disco ball first to earn Make it all Shine."
+        },
+        {
+          "unlockOrder": 20,
+          "job": "Tractor",
+          "location": "Pumpton",
+          "jobType": "Vehicle",
+          "difficulty": "Moderate",
+          "equipment": "Turbo or 15 Nozzle; soap around the engine and tires",
+          "notableDetail": "Check the axle, tread grooves and underside before relying on the final dirt highlight."
+        },
+        {
+          "unlockOrder": 21,
+          "job": "Temple Interior",
+          "location": "Pumpton",
+          "jobType": "Multi-room location",
+          "difficulty": "Challenging",
+          "equipment": "Adaptable Nozzle, soap and extensions",
+          "notableDetail": "Descend the stairs during the job to earn Deep Lore."
+        },
+        {
+          "unlockOrder": 22,
+          "job": "Car and Trailer",
+          "location": "Muckingham",
+          "jobType": "Vehicle set",
+          "difficulty": "Challenging",
+          "equipment": "Extensions for the roof; 15 or Adaptable Nozzle for details",
+          "notableDetail": "Clean the satellite dish first to earn Message Received."
+        },
+        {
+          "unlockOrder": 23,
+          "job": "Theater",
+          "location": "Bucketon",
+          "jobType": "Building",
+          "difficulty": "Challenging",
+          "equipment": "Surface cleaner for aisles and stage; extensions for upper details",
+          "notableDetail": "Clean the entire front seating row first to earn Front Row Seats."
+        },
+        {
+          "unlockOrder": 24,
+          "job": "Motel",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Building",
+          "difficulty": "Challenging",
+          "equipment": "Scissor lift, extensions and Adaptable Nozzle",
+          "notableDetail": "Clean all room doors, door handles and door numbers first to earn Door to Door."
+        },
+        {
+          "unlockOrder": 25,
+          "job": "Mini Roller Coaster",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Attraction",
+          "difficulty": "Challenging",
+          "equipment": "Adaptable Nozzle and Turbo Nozzle for track hardware",
+          "notableDetail": "Ride the roller coaster for a full loop to earn Ticket to Ride."
+        },
+        {
+          "unlockOrder": 26,
+          "job": "Solar System Exhibit",
+          "location": "Washingham",
+          "jobType": "Exhibit",
+          "difficulty": "Challenging",
+          "equipment": "15 or Adaptable Nozzle for models and supports",
+          "notableDetail": "Clean the Sun, then every planet in order moving outward to earn Cosmic Ordering."
+        },
+        {
+          "unlockOrder": 27,
+          "job": "Streetcar",
+          "location": "Detergento",
+          "jobType": "Vehicle",
+          "difficulty": "Challenging",
+          "equipment": "15 and 25 Nozzles; soap for layered exterior grime",
+          "notableDetail": "Work one side at a time, then inspect the roofline, wheels and undercarriage."
+        },
+        {
+          "unlockOrder": 28,
+          "job": "Salvage House",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "Building",
+          "difficulty": "Challenging",
+          "equipment": "Surface cleaner, extensions and soap",
+          "notableDetail": "Use room-by-room or wall-by-wall passes to keep the large task list manageable."
+        },
+        {
+          "unlockOrder": 29,
+          "job": "Mining Dump Truck",
+          "location": "Fumerole",
+          "jobType": "Heavy vehicle",
+          "difficulty": "Challenging",
+          "equipment": "Heavy- or professional-duty washer with Turbo Nozzle",
+          "notableDetail": "Prioritize the enormous bed and tires, then inspect ladders, rails and hydraulic parts."
+        },
+        {
+          "unlockOrder": 30,
+          "job": "Fun House",
+          "location": "Wengerloof Carnival, Muckingham Recreation Ground",
+          "jobType": "Interactive attraction",
+          "difficulty": "Challenging",
+          "equipment": "Surface cleaner and Adaptable Nozzle",
+          "notableDetail": "Play the giant piano from low to high for Glissando!, or clean a rotating floor disc with the surface cleaner for Spin Doctor."
+        },
+        {
+          "unlockOrder": 31,
+          "job": "Ski Center",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "Large location",
+          "difficulty": "Challenging",
+          "equipment": "Scissor lift, long extensions and professional-duty washer",
+          "notableDetail": "Clean broad exterior surfaces first, then use the lift for roofline and elevated fittings."
+        },
+        {
+          "unlockOrder": 32,
+          "job": "Extra Long Limo",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehicle",
+          "difficulty": "Advanced",
+          "equipment": "15 and 25 Nozzles with soap",
+          "notableDetail": "Split the long body into front, middle and rear sections to avoid losing track of small trim pieces."
+        },
+        {
+          "unlockOrder": 33,
+          "job": "Shopping Mall",
+          "location": "Sparkleton",
+          "jobType": "Large building",
+          "difficulty": "Advanced",
+          "equipment": "Surface cleaner, scissor lift and professional-duty washer",
+          "notableDetail": "Clean the owl statue first to earn Wise Decision."
+        },
+        {
+          "unlockOrder": 34,
+          "job": "Futuristic Bike",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Vehicle",
+          "difficulty": "Advanced",
+          "equipment": "0 or 15 for tight components; soap for dense grime",
+          "notableDetail": "Use short, controlled passes around the wheels, frame joints and compact mechanical parts."
+        },
+        {
+          "unlockOrder": 35,
+          "job": "Theater Sets",
+          "location": "Bucketon",
+          "jobType": "Multi-set location",
+          "difficulty": "Advanced",
+          "equipment": "Adaptable Nozzle, extensions and soap",
+          "notableDetail": "Treat each set as a separate mini-job and finish its props before moving to the next."
+        },
+        {
+          "unlockOrder": 36,
+          "job": "18 Wheeler",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Heavy vehicle",
+          "difficulty": "Advanced",
+          "equipment": "Professional-duty washer, Turbo Nozzle and long extension",
+          "notableDetail": "Clean the trailer panels in broad passes, then isolate the cab, wheels and undercarriage."
+        },
+        {
+          "unlockOrder": 37,
+          "job": "Town Floats",
+          "location": "Detergento",
+          "jobType": "Vehicle collection",
+          "difficulty": "Advanced",
+          "equipment": "Adaptable Nozzle and soap",
+          "notableDetail": "Clean the mouse last to earn Squeaky Clean."
+        },
+        {
+          "unlockOrder": 38,
+          "job": "Mount Rushless",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "Final location",
+          "difficulty": "Advanced",
+          "equipment": "Professional-duty washer plus all available traversal tools",
+          "notableDetail": "The final Career job is the largest capstone clean; use the task list and dirt highlight frequently during the last percentages."
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "powerwashBestEquipment": {
+      "eyebrow": "Equipment Tier List",
+      "title": "Best PowerWash Simulator 2 Washers, Nozzles and Tools",
+      "subtitle": "Compare the Light, Medium, Heavy and Professional washer lines, plus the SwirlForce Surf Ace and specialized nozzles. Rankings prioritize real cleaning speed, coverage, reach and value during Career progression.",
+      "intro": "PowerWash Simulator 2 offers nine different Prime Vista and Urban X washers across its Career progression, plus the SwirlForce Surf Ace surface cleaner. Standard washer options include the core 0, 15, 25, 40, Turbo and Soap nozzles, while the Adaptable Nozzle can be purchased for every washer.",
+      "tiers": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Best Overall",
+          "items": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Prime Vista Pro + Triple-Tip Nozzle",
+              "category": "Professional-duty washer",
+              "cleaningSpeed": "Very high",
+              "range": "Long",
+              "earlyGameValue": "Low",
+              "bestFor": "Large late-game jobs, mixed surfaces and fast general cleaning",
+              "why": "The Prime Vista Pro combines professional pressure with the exclusive Triple-Tip Nozzle, giving it exceptional coverage without losing too much cleaning force."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "Urban X Stream + Double Turbo Nozzle",
+              "category": "Professional-duty washer",
+              "cleaningSpeed": "Very high",
+              "range": "Long",
+              "earlyGameValue": "Low",
+              "bestFor": "Heavy grime, vehicles, machinery and narrow high-pressure passes",
+              "why": "The Urban X Stream gains the exclusive Double Turbo Nozzle, making it one of the strongest options for concentrated cleaning."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "name": "Adaptable Nozzle",
+              "category": "Universal attachment",
+              "cleaningSpeed": "High",
+              "range": "Variable",
+              "earlyGameValue": "Very high",
+              "bestFor": "Switching between broad panels and narrow details without changing nozzles",
+              "why": "It is purchasable for every washer and lets the player manually change spray width, making it the most flexible upgrade in the game."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "SwirlForce Surf Ace + 20-inch Head",
+              "category": "Surface cleaner",
+              "cleaningSpeed": "Very high on flat surfaces",
+              "range": "Ground-level",
+              "earlyGameValue": "High",
+              "bestFor": "Floors, paving, stages, wide walls and other broad flat areas",
+              "why": "The rotating surface cleaner covers large areas quickly, and the 20-inch head provides its widest cleaning path."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Powerful Career Upgrades",
+          "items": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Prime Vista 3000",
+              "category": "Heavy-duty washer",
+              "cleaningSpeed": "High",
+              "range": "Long",
+              "earlyGameValue": "Medium",
+              "bestFor": "Buildings, large props and long cleaning sessions",
+              "why": "A strong late-career workhorse that improves pressure and range before the professional tier becomes affordable."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Urban X MAX",
+              "category": "Heavy-duty washer",
+              "cleaningSpeed": "High",
+              "range": "Long",
+              "earlyGameValue": "Medium",
+              "bestFor": "Vehicles, stubborn dirt and compact mechanical details",
+              "why": "The heavy-duty Urban X option favors aggressive cleaning and performs well with Turbo and Adaptable attachments."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "name": "Soap Nozzle",
+              "category": "Universal cleaning tool",
+              "cleaningSpeed": "High on layered grime",
+              "range": "Medium",
+              "earlyGameValue": "Very high",
+              "bestFor": "Stubborn stains and heavily layered dirt",
+              "why": "Soap is free, clings visibly to the surface and allows any water nozzle to rinse softened grime away."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Turbo Nozzle",
+              "category": "Focused attachment",
+              "cleaningSpeed": "High on small areas",
+              "range": "Medium",
+              "earlyGameValue": "High",
+              "bestFor": "Rust-like patches, tire grooves, machinery and tight stubborn spots",
+              "why": "Its rotating concentrated spray removes stubborn dirt faster than broad fan nozzles, but covers less area."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Reliable Mid-Game Choices",
+          "items": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Prime Vista 2400",
+              "category": "Medium-duty washer",
+              "cleaningSpeed": "Medium-high",
+              "range": "Medium-long",
+              "earlyGameValue": "High",
+              "bestFor": "Houses, attractions and general-purpose Career jobs",
+              "why": "A balanced upgrade from the starter tier with enough pressure and reach for most early and mid-game work."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Urban X U2",
+              "category": "Medium-duty washer",
+              "cleaningSpeed": "Medium-high",
+              "range": "Medium",
+              "earlyGameValue": "High",
+              "bestFor": "Vehicles and detailed objects",
+              "why": "A practical mid-game Urban X washer for players who prefer stronger focused cleaning over maximum reach."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "name": "Prime Vista 1500",
+              "category": "Light-duty starter washer",
+              "cleaningSpeed": "Medium",
+              "range": "Medium",
+              "earlyGameValue": "Excellent",
+              "bestFor": "The Removals Van, Public Facility and other opening jobs",
+              "why": "It is available free at the start and remains useful when paired with the Adaptable Nozzle."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Urban X U1",
+              "category": "Light-duty starter washer",
+              "cleaningSpeed": "Medium",
+              "range": "Short-medium",
+              "earlyGameValue": "Excellent",
+              "bestFor": "Compact vehicles, trim and close-range cleaning",
+              "why": "The second free starter washer provides a different handling option before the medium-duty tier is purchased."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+    "powerwashMultiplayer": {
+      "eyebrow": "Co-op Guide",
+      "title": "PowerWash Simulator 2 Multiplayer, Crossplay and Split-Screen",
+      "subtitle": "Play Career or Free Play with up to four people online, or clean locally with two players on one screen. Platform subscriptions and crossplay availability differ between Xbox, PC, PS5 and Nintendo Switch 2.",
+      "intro": "PowerWash Simulator 2 adds shared online campaign progression and two-player local split-screen. Online sessions support up to four players in Career and Free Play, while cross-platform play is available between supported Xbox and PC versions rather than across every platform.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "How many players can play PowerWash Simulator 2 together?",
+          "answer": "Online co-op supports up to four players. Local split-screen supports two players on one PC or console, and the game can also be played solo."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "Which PowerWash Simulator 2 modes support online co-op?",
+          "answer": "Both Career and Free Play support four-player online co-op. Online teams share job progression during the session, so large jobs can be completed together instead of each player repeating the same clean separately."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "How does local split-screen work in PowerWash Simulator 2?",
+          "answer": "Open the multiplayer menu and start a split-screen session, then connect a second controller or local input supported by the platform. Two players clean the same job from one screen and contribute to the same campaign save."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Does PowerWash Simulator 2 support crossplay?",
+          "answer": "Crossplay is supported between Xbox Series X|S and compatible PC versions, including Steam, Epic Games Store and Windows Store. PS5 players use the PlayStation player pool, while Nintendo Switch 2 players use the Switch 2 player pool."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "question": "How do I host or join an online PowerWash Simulator 2 session?",
+          "answer": "Open the multiplayer screen from the pause menu, change Session Type from Singleplayer to Online Multiplayer and share the generated Room Code. Joining players open the same menu, choose Enter a Code and type the host's code; platform invites can also be used where supported."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "question": "What subscriptions are required for PowerWash Simulator 2 console online play?",
+          "answer": "PS5 online multiplayer requires PlayStation Plus. Nintendo Switch 2 online play requires Nintendo Switch Online. Xbox console online multiplayer requires an eligible Xbox Game Pass tier that includes online console multiplayer. PC online play does not require a console subscription."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Do PowerWash Simulator 2 career progress and saves transfer between platforms?",
+          "answer": "Shared online progression lets a co-op team advance a job together, but the game does not provide cross-platform save transfer. A save created on one platform ecosystem does not automatically move to another ecosystem."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "Can completed PowerWash Simulator 2 jobs be replayed with friends?",
+          "answer": "Yes. Completed Career jobs can be selected again in Free Play, and online co-op supports Free Play with up to four players. This is useful for achievement routes, nozzle-only runs and relaxed replays."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "powerwashAchievements": {
+      "eyebrow": "Achievements",
+      "title": "All PowerWash Simulator 2 Achievements and Trophies",
+      "subtitle": "Track all 60 current achievements across the base game and both paid packs. Every entry includes its exact requirement, related job, difficulty and a fast completion method.",
+      "intro": "The current list contains 40 base-game achievements, 10 Adventure Time achievements and 10 STAR WARS achievements. Clear normal completion milestones during the campaigns, then replay jobs for clean-first, clean-last, equipment-only and hidden interaction challenges.",
+      "packs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "pack": "Base Game",
+          "count": 40,
+          "entries": [
+            {
+              "achievement": "All Moved In",
+              "requirement": "Complete the Removals Van job in Career Mode.",
+              "job": "Removals Van",
+              "difficulty": "Easy",
+              "guide": "Finish the opening Career job normally; the achievement unlocks when the job completion screen appears."
+            },
+            {
+              "achievement": "High Pressure",
+              "requirement": "Complete a wash task while abseiling.",
+              "job": "Any job with an abseiling rig",
+              "difficulty": "Easy",
+              "guide": "Attach to the abseiling rig, remain suspended and finish one named wash task to 100%."
+            },
+            {
+              "achievement": "Geo-Cashing",
+              "requirement": "In the Home Base, select a job using the Job Map.",
+              "job": "Home Base",
+              "difficulty": "Easy",
+              "guide": "Use the large Job Map in the Home Base and launch any available assignment from it."
+            },
+            {
+              "achievement": "Purr Bonding",
+              "requirement": "In the Home Base, pet all three cats.",
+              "job": "Home Base",
+              "difficulty": "Easy",
+              "guide": "Find each of the three cats around the Home Base and use the interaction prompt on every cat once."
+            },
+            {
+              "achievement": "Home Decor",
+              "requirement": "In the Home Base, clean and place a piece of furniture.",
+              "job": "Home Base",
+              "difficulty": "Easy",
+              "guide": "Choose a dirty furniture item, wash it to 100%, then place it through the Home Base decoration controls."
+            },
+            {
+              "achievement": "Dressed for Success",
+              "requirement": "Equip an item of clothing.",
+              "job": "Customization",
+              "difficulty": "Easy",
+              "guide": "Open character customization and equip any owned clothing item."
+            },
+            {
+              "achievement": "Leading Light",
+              "requirement": "Own a light duty washer and all of its attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Medium",
+              "guide": "Buy the light duty washer and every compatible attachment, keeping the complete set in your inventory."
+            },
+            {
+              "achievement": "Flush Surface",
+              "requirement": "Own the surface cleaner and all of its attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Medium",
+              "guide": "Purchase the surface cleaner and every attachment made for it without refunding any part of the set."
+            },
+            {
+              "achievement": "Deep Lore",
+              "requirement": "In the Temple Interior job, descend the stairs.",
+              "job": "Temple Interior",
+              "difficulty": "Easy",
+              "guide": "Progress through the job until the stairway is accessible, then walk down it."
+            },
+            {
+              "achievement": "Taking Note",
+              "requirement": "In the Home Base, examine an item on Harper's pinboard.",
+              "job": "Home Base",
+              "difficulty": "Easy",
+              "guide": "Approach Harper's pinboard and interact with any pinned note or item."
+            },
+            {
+              "achievement": "Radical Rebrand",
+              "requirement": "Apply a skin to your Van.",
+              "job": "Van Customization",
+              "difficulty": "Easy",
+              "guide": "Open the Van appearance options and apply any unlocked skin."
+            },
+            {
+              "achievement": "Happy Medium",
+              "requirement": "Own a medium duty washer and all of its attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Medium",
+              "guide": "Buy the medium duty washer and every compatible attachment, then keep the full set owned together."
+            },
+            {
+              "achievement": "Consummate Professional",
+              "requirement": "Own a professional duty washer and all of its attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Hard",
+              "guide": "Save enough cash to purchase the professional duty washer and every compatible attachment without refunding them."
+            },
+            {
+              "achievement": "It All Comes Out in the Wash",
+              "requirement": "Complete all jobs in Career Mode.",
+              "job": "Career Mode",
+              "difficulty": "Hard",
+              "guide": "Finish every Career assignment, including all stages of multi-stage jobs, until the Career list is fully complete."
+            },
+            {
+              "achievement": "Doggy Bath",
+              "requirement": "In the Dog Car job, have soap on every wash task at the same time.",
+              "job": "Dog Car",
+              "difficulty": "Medium",
+              "guide": "Cover every listed wash task with soap before fully rinsing any one task clean."
+            },
+            {
+              "achievement": "Heavy Water",
+              "requirement": "Own a heavy duty washer and all of its attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Hard",
+              "guide": "Purchase the heavy duty washer and all compatible attachments, keeping the complete set in your inventory."
+            },
+            {
+              "achievement": "Staying Adaptable",
+              "requirement": "Complete any job using only the Adaptable Nozzle.",
+              "job": "Any replayable job",
+              "difficulty": "Medium",
+              "guide": "Choose a compact job, equip the Adaptable Nozzle from the start and do not switch to another nozzle or cleaner."
+            },
+            {
+              "achievement": "Gnome from Home",
+              "requirement": "In the Home Base, find and pick up the hidden gnome.",
+              "job": "Home Base",
+              "difficulty": "Medium",
+              "guide": "Search the Home Base rooms and corners for the concealed gnome, then use the interaction prompt to pick it up."
+            },
+            {
+              "achievement": "Ticket to Ride",
+              "requirement": "In the Mini Roller Coaster job, ride the Roller Coaster for a full loop.",
+              "job": "Mini Roller Coaster",
+              "difficulty": "Easy",
+              "guide": "Board the moving coaster and stay on it until it completes one uninterrupted circuit."
+            },
+            {
+              "achievement": "Washing with Style",
+              "requirement": "Apply a skin to a Washer.",
+              "job": "Washer Customization",
+              "difficulty": "Easy",
+              "guide": "Open washer customization and apply any owned washer skin."
+            },
+            {
+              "achievement": "Tea Time",
+              "requirement": "In the Teapot Tea Room job, place a gnome on each seat.",
+              "job": "Teapot Tea Room",
+              "difficulty": "Medium",
+              "guide": "Move the available gnomes onto the seats and confirm that every seat has one before completing the job."
+            },
+            {
+              "achievement": "Maxed Out",
+              "requirement": "Own all washers and attachments at the same time.",
+              "job": "Equipment Shop",
+              "difficulty": "Hard",
+              "guide": "Accumulate enough money to own every washer and every attachment simultaneously; avoid refunding earlier equipment."
+            },
+            {
+              "achievement": "Drop the Ball",
+              "requirement": "In the Gas Station job, roll the ball down the Playground Slide.",
+              "job": "Gas Station",
+              "difficulty": "Easy",
+              "guide": "Use the water stream to push the loose ball onto the top of the Playground Slide and send it all the way down."
+            },
+            {
+              "achievement": "Glissando!",
+              "requirement": "In the Fun House job, hit all Giant Piano keys in order from low to high.",
+              "job": "Fun House",
+              "difficulty": "Medium",
+              "guide": "Start on the lowest Giant Piano key and spray each next key in ascending pitch without skipping or reversing the order."
+            },
+            {
+              "achievement": "Three-Pronged Approach",
+              "requirement": "Complete any job using only the Prime Vista Triple-Tip nozzle.",
+              "job": "Any replayable job",
+              "difficulty": "Medium",
+              "guide": "Equip the Prime Vista Triple-Tip nozzle at the start of a small job and keep it equipped through 100% completion."
+            },
+            {
+              "achievement": "Rise and Shine",
+              "requirement": "In any job, fully extend a Scissor Lift with a gnome on it.",
+              "job": "Any job with a Scissor Lift",
+              "difficulty": "Medium",
+              "guide": "Place a movable gnome on the lift platform, then raise the Scissor Lift to its maximum height."
+            },
+            {
+              "achievement": "Flying Start",
+              "requirement": "In the Rock Climbing Park job, clean the Pterodactyl first.",
+              "job": "Rock Climbing Park",
+              "difficulty": "Medium",
+              "guide": "Locate the Pterodactyl and complete it before allowing any other named wash task to reach 100%."
+            },
+            {
+              "achievement": "Where's Woolly?",
+              "requirement": "In the Shooting Gallery job, complete the Bigfoot Target first.",
+              "job": "Shooting Gallery",
+              "difficulty": "Medium",
+              "guide": "Find the Bigfoot Target and fully clean it before completing any other listed task."
+            },
+            {
+              "achievement": "Floor is Lava",
+              "requirement": "In the Stone Circle job, stand on all Pillars without touching the floor.",
+              "job": "Stone Circle",
+              "difficulty": "Hard",
+              "guide": "Plan a continuous jump route across every pillar; restart the attempt if your character touches the ground."
+            },
+            {
+              "achievement": "Make it all Shine",
+              "requirement": "In the Roller Disco job, clean the Disco Ball first.",
+              "job": "Roller Disco",
+              "difficulty": "Medium",
+              "guide": "Reach the Disco Ball and finish it before any other named object reaches 100%."
+            },
+            {
+              "achievement": "Message Received",
+              "requirement": "In the Car and Trailer job, clean the Satellite Dish first.",
+              "job": "Car and Trailer",
+              "difficulty": "Medium",
+              "guide": "Complete the Satellite Dish before finishing any other wash task."
+            },
+            {
+              "achievement": "Hit the Lights",
+              "requirement": "In the Campsite job, clean the Lanterns first using only the red nozzle.",
+              "job": "Campsite",
+              "difficulty": "Hard",
+              "guide": "Equip the red nozzle immediately and fully clean every Lantern before completing any other task or changing nozzle."
+            },
+            {
+              "achievement": "Spin Doctor",
+              "requirement": "In the Fun House job, clean a Rotating Floor Disc with the surface cleaner.",
+              "job": "Fun House",
+              "difficulty": "Medium",
+              "guide": "Equip the surface cleaner and keep it on one Rotating Floor Disc until that disc reaches 100%."
+            },
+            {
+              "achievement": "Front Row Seats",
+              "requirement": "In the Theater job, clean the entire Front Seating Row first.",
+              "job": "Theater",
+              "difficulty": "Medium",
+              "guide": "Finish every component belonging to the Front Seating Row before completing anything outside that row."
+            },
+            {
+              "achievement": "Hatching a Plan",
+              "requirement": "In the Bandstand job, clean the Hatch last.",
+              "job": "Bandstand",
+              "difficulty": "Medium",
+              "guide": "Avoid finishing the Hatch while cleaning the rest of the Bandstand, then complete it as the final task."
+            },
+            {
+              "achievement": "Door to Door",
+              "requirement": "In the Motel job, clean all room Doors, Door Handles and Door Numbers first.",
+              "job": "Motel",
+              "difficulty": "Hard",
+              "guide": "Work room by room and complete every Door, Door Handle and Door Number before finishing any other object."
+            },
+            {
+              "achievement": "Double Top",
+              "requirement": "Complete any job using only the UrbanX Double Turbo Nozzle.",
+              "job": "Any replayable job",
+              "difficulty": "Medium",
+              "guide": "Select a short replay job, use the UrbanX Double Turbo Nozzle from the first spray and never switch tools."
+            },
+            {
+              "achievement": "Cosmic Ordering",
+              "requirement": "In the Solar System job, clean the Sun, then all planets in order from the Sun.",
+              "job": "Solar System",
+              "difficulty": "Hard",
+              "guide": "Finish the Sun first, then clean Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune in that order."
+            },
+            {
+              "achievement": "Wise Decision",
+              "requirement": "In the Shopping Mall job, clean the Owl first.",
+              "job": "Shopping Mall",
+              "difficulty": "Medium",
+              "guide": "Locate the Owl and complete it before any other named task reaches 100%."
+            },
+            {
+              "achievement": "Squeaky Clean",
+              "requirement": "In the Town Floats job, clean the Mouse last.",
+              "job": "Town Floats",
+              "difficulty": "Medium",
+              "guide": "Leave the Mouse unfinished while completing every other task, then clean the Mouse to finish the job."
+            }
+          ]
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "pack": "Adventure Time Pack",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "Homies Help Homies",
+              "requirement": "Complete the Living Room job.",
+              "job": "Tree House Living Room",
+              "difficulty": "Easy",
+              "guide": "Finish every wash task in the Living Room level."
+            },
+            {
+              "achievement": "Give Me a Hug, Hero",
+              "requirement": "Complete the Pizza Sassy's job.",
+              "job": "Pizza Sassy's",
+              "difficulty": "Easy",
+              "guide": "Reach 100% completion on Pizza Sassy's."
+            },
+            {
+              "achievement": "Who Wants to Play Videogames?",
+              "requirement": "Pet BMO in the Living Room job.",
+              "job": "Tree House Living Room",
+              "difficulty": "Easy",
+              "guide": "Find BMO in the Living Room and use the interaction prompt to pet them."
+            },
+            {
+              "achievement": "King of Cool",
+              "requirement": "Complete the Ice King's Castle job.",
+              "job": "Ice King's Castle",
+              "difficulty": "Easy",
+              "guide": "Finish every area and object in Ice King's Castle."
+            },
+            {
+              "achievement": "Mmm... Acceptable!!!",
+              "requirement": "Complete the Candy Vehicles job.",
+              "job": "Candy Vehicles",
+              "difficulty": "Easy",
+              "guide": "Clean all Candy Vehicles to 100%."
+            },
+            {
+              "achievement": "The Limit",
+              "requirement": "In the Tree House job, reach maximum height on the Jake Scissor Lift.",
+              "job": "Tree House Exterior",
+              "difficulty": "Easy",
+              "guide": "Stand on or operate the Jake-themed Scissor Lift and raise it to its highest position."
+            },
+            {
+              "achievement": "Party God!",
+              "requirement": "Complete the Tree House job.",
+              "job": "Tree House Exterior",
+              "difficulty": "Easy",
+              "guide": "Finish the full exterior Tree House assignment."
+            },
+            {
+              "achievement": "ONLY ONE!!!",
+              "requirement": "Complete the Candy Vehicles job using only the Adaptable Nozzle.",
+              "job": "Candy Vehicles",
+              "difficulty": "Hard",
+              "guide": "Equip the Adaptable Nozzle before cleaning and use no other nozzle, soap applicator or surface cleaner until the job is complete."
+            },
+            {
+              "achievement": "Oh My Glob!",
+              "requirement": "In the Ice King's Castle job, clean the Handbag last with the Cage Door closed.",
+              "job": "Ice King's Castle",
+              "difficulty": "Hard",
+              "guide": "Keep the Cage Door closed, leave the Handbag dirty while finishing everything else, then clean the Handbag as the final task."
+            },
+            {
+              "achievement": "Door Lord",
+              "requirement": "In the Pizza Sassy's job, clean all three doors first.",
+              "job": "Pizza Sassy's",
+              "difficulty": "Medium",
+              "guide": "Fully clean the three door tasks before completing any other named object."
+            }
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "pack": "STAR WARS Pack",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "What a Desolate Place This Is",
+              "requirement": "Complete the Lars Homestead job.",
+              "job": "Lars Homestead",
+              "difficulty": "Easy",
+              "guide": "Finish every wash task at Lars Homestead."
+            },
+            {
+              "achievement": "Sorry About the Mess",
+              "requirement": "Complete the Mos Eisley Cantina job.",
+              "job": "Mos Eisley Cantina",
+              "difficulty": "Easy",
+              "guide": "Reach 100% completion in the Cantina."
+            },
+            {
+              "achievement": "Woah, That Got Him!",
+              "requirement": "Complete the AT-AT job.",
+              "job": "Blizzard 3 AT-AT",
+              "difficulty": "Easy",
+              "guide": "Finish cleaning the full Blizzard 3 AT-AT assignment."
+            },
+            {
+              "achievement": "Great Shot Kid, That Was One in a Million!",
+              "requirement": "In the Lars Homestead job, spray Luke's T-16 Skyhopper while standing on the EG-6 Power Droid.",
+              "job": "Lars Homestead",
+              "difficulty": "Medium",
+              "guide": "Climb onto the EG-6 Power Droid, remain standing on it and spray Luke's T-16 Skyhopper."
+            },
+            {
+              "achievement": "There is a Great Disturbance in the Force",
+              "requirement": "Block the MSE-6 Repair Droid from performing its patrol.",
+              "job": "Executor Super Star Destroyer Bridge",
+              "difficulty": "Medium",
+              "guide": "Stand directly in the MSE-6 Repair Droid's route and keep your character in place until its patrol is blocked."
+            },
+            {
+              "achievement": "I Find Your Lack of Soap Disturbing",
+              "requirement": "Complete the AT-AT job without using any soap.",
+              "job": "Blizzard 3 AT-AT",
+              "difficulty": "Medium",
+              "guide": "Use water nozzles and navigation equipment only; do not apply soap at any point before reaching 100%."
+            },
+            {
+              "achievement": "We Don't Need That Scum",
+              "requirement": "Complete the Super Star Destroyer Bridge job.",
+              "job": "Executor Super Star Destroyer Bridge",
+              "difficulty": "Easy",
+              "guide": "Finish every bridge component and reach 100% completion."
+            },
+            {
+              "achievement": "Red Leader Standing By",
+              "requirement": "Complete the X-wing Fighter job.",
+              "job": "Red 2 X-wing Fighter",
+              "difficulty": "Easy",
+              "guide": "Clean the Red 2 X-wing Fighter assignment to 100%."
+            },
+            {
+              "achievement": "She's Got it Where it Counts, Kid",
+              "requirement": "In the Millennium Falcon job, find and clean the hidden Blaster Cannon.",
+              "job": "Millennium Falcon",
+              "difficulty": "Hard",
+              "guide": "Inspect concealed and newly exposed sections of the Falcon, locate the Blaster Cannon and clean that component fully."
+            },
+            {
+              "achievement": "The Force Will Be With You, Always",
+              "requirement": "Complete the Millennium Falcon job.",
+              "job": "Millennium Falcon",
+              "difficulty": "Easy",
+              "guide": "Finish the entire Millennium Falcon assignment."
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "powerwashDlcAndUpdates": {
+      "eyebrow": "Roadmap",
+      "title": "PowerWash Simulator 2 DLC, Free Jobs and Update Timeline",
+      "subtitle": "Follow every major content release from the 2025 launch support plan through the latest STAR WARS Pack. The timeline separates free Caldera Chronicles jobs from paid crossover campaigns.",
+      "intro": "FuturLab's 2025-2026 roadmap scheduled quality-of-life support, three free Caldera Chronicles jobs and three paid IP packs. Adventure Time and STAR WARS are the first two paid campaigns, while Miniature Village and Bowling Alley are already available as free jobs.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "October-December 2025",
+          "status": "Released",
+          "release": "Post-Launch Support",
+          "type": "Free updates",
+          "price": "Free",
+          "jobs": [],
+          "highlights": [
+            "Bug fixes, optimization and quality-of-life improvements",
+            "Small furniture and cosmetic content drops",
+            "Foundation work for the larger 2026 roadmap"
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "March 10, 2026",
+          "status": "Released",
+          "release": "Update 1.2 and Caldera Chronicles 1",
+          "type": "Free update",
+          "price": "Free",
+          "jobs": [
+            "Miniature Village"
+          ],
+          "highlights": [
+            "Added the first free Caldera Chronicles cleaning job",
+            "Added key rebinding",
+            "Added stackable furniture in the Home Base",
+            "Added controller deadzone sliders",
+            "Included job, achievement, cash tracking, navigation equipment, furniture, UI and multiplayer fixes"
+          ]
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "date": "April 9, 2026",
+          "status": "Released",
+          "release": "Adventure Time Pack",
+          "type": "Paid crossover DLC",
+          "price": "$7.99 USD",
+          "jobs": [
+            "Tree House Living Room",
+            "Pizza Sassy's",
+            "Ice King's Castle",
+            "Candy Vehicles",
+            "Tree House Exterior"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "Five-level campaign set in the Land of Ooo",
+            "Solo campaign, shared campaign co-op and up to four players in Free Play",
+            "Interactive characters and themed equipment, including BMO and the Jake Scissor Lift"
+          ]
+        },
+        {
+          "date": "July 16, 2026",
+          "status": "Released",
+          "release": "Update 1.3 and Caldera Chronicles 2",
+          "type": "Free update",
+          "price": "Free",
+          "jobs": [
+            "Bowling Alley"
+          ],
+          "highlights": [
+            "Added the second free Caldera Chronicles job",
+            "Added a message archive sortable by job and group chat",
+            "Improved clean-first and clean-last achievement unlocking",
+            "Fixed furniture placement, dirty furniture spawning, shop refunds, navigation equipment, UI and multiplayer issues",
+            "Improved cleaning behavior for the Record Player and several Home Base objects"
+          ]
+        },
+        {
+          "date": "July 16, 2026",
+          "status": "Released",
+          "release": "STAR WARS Pack",
+          "type": "Paid crossover DLC",
+          "price": "$9.99 USD / 9.99 EUR / 7.99 GBP",
+          "jobs": [
+            "Lars Homestead",
+            "Mos Eisley Cantina",
+            "Blizzard 3 AT-AT",
+            "Executor Super Star Destroyer Bridge",
+            "Red 2 X-wing Fighter",
+            "Millennium Falcon"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "Six jobs inspired by the original Star Wars trilogy",
+            "Play as the exclusive P0-W2 Class Five cleaning droid",
+            "New story messages from Han Solo, Luke Skywalker, Owen Lars and other characters",
+            "Star Wars-themed scissor lifts, scaffolding and abseiling rigs",
+            "Solo campaign, shared campaign co-op and up to four players in Free Play"
+          ]
+        },
+        {
+          "date": "Later in 2026",
+          "status": "Announced",
+          "release": "Caldera Chronicles 3: Bouncy Castle",
+          "type": "Free job",
+          "price": "Free",
+          "jobs": [
+            "Bouncy Castle"
+          ],
+          "highlights": [
+            "The third free Caldera Chronicles assignment",
+            "Players can bounce higher to reach dirty elevated surfaces",
+            "Includes swinging hanging objects that must be tracked while cleaning"
+          ]
+        },
+        {
+          "date": "2026",
+          "status": "Planned",
+          "release": "Paid IP Pack 3",
+          "type": "Paid crossover DLC",
+          "price": "TBA",
+          "jobs": [],
+          "highlights": [
+            "The third paid IP collaboration from the official 2025-2026 roadmap",
+            "Theme, job list, achievements, price and release date have not been announced"
+          ]
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "powerwashLastDirtGuide": {
+      "eyebrow": "Completion Help",
+      "title": "How to Find the Last Dirt in PowerWash Simulator 2",
+      "subtitle": "Use the upgraded object list, orange task markers and dirt highlighting to isolate the final unfinished surfaces. This route works for vehicles, buildings and multi-stage jobs.",
+      "intro": "When a job stalls near 100%, stop washing the whole map and narrow the search to one named task at a time. The sequel lets you mark multiple incomplete sections, shows distant orange indicators and unlocks new areas during multi-stage jobs, so the fastest solution is a controlled checklist sweep rather than random spraying.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Open the object list",
+          "action": "Sort or scan the job checklist for every task below 100%. Start with the item showing the lowest completion percentage because it usually has the largest visible patch remaining.",
+          "commonMisses": [
+            "Tiny repeated parts listed separately",
+            "A newly added task after a multi-stage unlock",
+            "One component hidden inside a larger object"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Mark every unfinished task",
+          "action": "Select the incomplete checklist entries. PowerWash Simulator 2 can mark multiple unfinished sections and display orange check indicators over distant targets, making it easier to identify the correct side of a large job.",
+          "commonMisses": [
+            "A matching component on the opposite side",
+            "Upper and lower versions of the same part",
+            "Several identical doors, lights, wheels or supports"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Pulse the dirt highlight",
+          "action": "Face the marked object and trigger the dirt highlight in short bursts while slowly rotating around it. Look for small glowing lines or dots that remain after the larger grime has disappeared.",
+          "commonMisses": [
+            "Thin dirt lines along seams",
+            "Spots hidden by wet reflections",
+            "Dark grime blending into dark materials"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Switch to precision cleaning",
+          "action": "Put away the surface cleaner and wide spray when only a sliver remains. Use a narrow fan, the red nozzle or a narrowed Adaptable Nozzle, then trace the edge from close range.",
+          "commonMisses": [
+            "Window and panel borders",
+            "Lettering, bolts and trim",
+            "Corners where two surfaces meet",
+            "The lip around circular parts"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Check every hidden angle",
+          "action": "Crouch, step behind the object and look upward from below. Sweep the underside first, then the rear face, inner recesses and any space partly blocked by another component.",
+          "commonMisses": [
+            "Undersides of vehicles and furniture",
+            "Backs of signs and panels",
+            "Inside wheel arches, frames and railings",
+            "Door jambs, interior corners and recessed handles"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Use the correct access equipment",
+          "action": "Move the ladder, Scissor Lift or cherry picker until the nozzle is level with the dirty surface. On tall vertical jobs, use the abseiling rig and inspect the top edge before descending in straight passes.",
+          "commonMisses": [
+            "Roof ridges and upper ledges",
+            "The tops of beams, letters and decorations",
+            "Areas directly below a lift platform",
+            "High rear surfaces visible only from outside the main route"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Recheck multi-stage sections",
+          "action": "After a stage completes, pause and inspect the expanded checklist before continuing. Newly opened interiors, rooms and vehicle sections add fresh tasks that may sit away from the area you were just cleaning.",
+          "commonMisses": [
+            "The inside of a structure revealed after its exterior",
+            "A newly opened door, hatch or compartment",
+            "Objects that move or appear when the next stage begins",
+            "Tasks added to the bottom of the object list"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Run a final systematic sweep",
+          "action": "Choose one direction and finish a complete route: top to bottom, clockwise around the exterior, then through every interior room. Keep only the final incomplete task marked and repeat the edge, underside and elevation checks until the completion ding triggers.",
+          "commonMisses": [
+            "Returning to random spraying instead of following the route",
+            "Leaving one side of a repeated object unchecked",
+            "Using a broad tool that passes over narrow gaps",
+            "Assuming the visible front is the whole named task"
+          ]
+        }
+      ]
+    },
+    "powerwashHomeBase": {
+      "eyebrow": "Home Base",
+      "title": "PowerWash Simulator 2 Home Base, Mementos and Collectibles",
+      "subtitle": "Turn the Home Base into a personalized cleaning headquarters while completing its hidden interactions. Use this checklist for furniture, trinkets, job mementos, cats, cosmetics and achievement actions.",
+      "intro": "The Home Base is a playable hub between jobs rather than a simple menu. Completed assignments add mementos, furniture can be cleaned and arranged, trinkets personalize the space, the Job Map launches work, and several small interactions unlock achievements.",
+      "items": [
+        {
+          "item": "Job Map",
+          "category": "Job Access",
+          "howToGetOrUse": "Approach the large map in the Home Base and select any available assignment directly from it.",
+          "checklist": [
+            "Open the Job Map",
+            "Choose an available location",
+            "Launch the selected job"
+          ],
+          "achievement": "Geo-Cashing",
+          "reward": "Unlocks the achievement and provides an in-world route into the job list."
+        },
+        {
+          "item": "Cleanable Furniture",
+          "category": "Customization",
+          "howToGetOrUse": "Collect or unlock furniture, wash dirty pieces to 100%, then position them with the Home Base decoration controls. Update 1.2 also added stackable furniture.",
+          "checklist": [
+            "Choose a dirty furniture item",
+            "Clean every named section",
+            "Place the finished item",
+            "Try stacked arrangements where supported"
+          ],
+          "achievement": "Home Decor",
+          "reward": "Unlocks the achievement and makes the cleaned piece usable in your custom Home Base layout."
+        },
+        {
+          "item": "Trinkets",
+          "category": "Collectibles",
+          "howToGetOrUse": "Collect decorative trinkets during progression and use them to add smaller details around the Home Base.",
+          "checklist": [
+            "Review newly collected trinkets",
+            "Choose a display area",
+            "Arrange trinkets around furniture and shelves"
+          ],
+          "achievement": "None",
+          "reward": "Adds decorative variety to the Home Base."
+        },
+        {
+          "item": "Job Mementos",
+          "category": "Career Collection",
+          "howToGetOrUse": "Complete jobs to add new mementos to the Home Base. Each memento acts as a permanent reminder of a finished cleaning assignment.",
+          "checklist": [
+            "Complete each available job",
+            "Return to the Home Base after major assignments",
+            "Check the memento display for new additions",
+            "Continue through new content to expand the collection"
+          ],
+          "achievement": "None",
+          "reward": "Builds a visual collection that records campaign progress."
+        },
+        {
+          "item": "Three Cats",
+          "category": "Interactive Characters",
+          "howToGetOrUse": "Find all three cats around the Home Base and interact with each one.",
+          "checklist": [
+            "Pet the first cat",
+            "Pet the second cat",
+            "Pet the third cat"
+          ],
+          "achievement": "Purr Bonding",
+          "reward": "Unlocks the achievement after all three cats have been petted."
+        },
+        {
+          "item": "Harper's Pinboard",
+          "category": "Hidden Interaction",
+          "howToGetOrUse": "Inspect Harper's pinboard and interact with any pinned note or object.",
+          "checklist": [
+            "Locate the pinboard",
+            "Move close enough for the prompt",
+            "Examine one pinned item"
+          ],
+          "achievement": "Taking Note",
+          "reward": "Unlocks the achievement and reveals an extra piece of Home Base detail."
+        },
+        {
+          "item": "Hidden Gnome",
+          "category": "Hidden Collectible",
+          "howToGetOrUse": "Search the Home Base rooms, furniture and corners until the concealed gnome can be picked up.",
+          "checklist": [
+            "Inspect low shelves and floor-level hiding places",
+            "Check behind and around placed objects",
+            "Pick up the hidden gnome"
+          ],
+          "achievement": "Gnome from Home",
+          "reward": "Unlocks the achievement and completes the Home Base's hidden gnome interaction."
+        },
+        {
+          "item": "Van Skins",
+          "category": "Vehicle Cosmetic",
+          "howToGetOrUse": "Open Van customization and apply any unlocked skin.",
+          "checklist": [
+            "Open the Van appearance menu",
+            "Select an owned skin",
+            "Apply and save the new look"
+          ],
+          "achievement": "Radical Rebrand",
+          "reward": "Unlocks the achievement and changes the Van's appearance."
+        },
+        {
+          "item": "Washer Skins",
+          "category": "Equipment Cosmetic",
+          "howToGetOrUse": "Open washer customization and apply a skin to any compatible washer.",
+          "checklist": [
+            "Choose a washer",
+            "Select an owned skin",
+            "Equip the skin"
+          ],
+          "achievement": "Washing with Style",
+          "reward": "Unlocks the achievement and customizes the washer used on jobs."
+        },
+        {
+          "item": "Clothing",
+          "category": "Character Cosmetic",
+          "howToGetOrUse": "Open character customization and equip any owned clothing item.",
+          "checklist": [
+            "Open character appearance options",
+            "Choose a clothing item",
+            "Equip the selected item"
+          ],
+          "achievement": "Dressed for Success",
+          "reward": "Unlocks the achievement and changes the cleaner's outfit."
         }
       ]
     }
@@ -749,31 +1481,39 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about PowerWash Simulator 2",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 is a relaxing co-op cleaning simulator from FuturLab. You blast grime from vehicles, buildings and attractions across a 38-job Career campaign, unlock stronger washers and tools, and clean solo, online with up to four players, or in two-player local split-screen."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Which platforms is PowerWash Simulator 2 available on?",
+        "answer": "PowerWash Simulator 2 is available on PC (Steam, Epic Games Store and Windows Store), PlayStation 5, Xbox Series X|S, and Nintendo Switch 2. It also launched on Xbox Game Pass on day one."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many jobs are in PowerWash Simulator 2?",
+        "answer": "The base-game PowerWash Simulator 2 Career Mode contains 38 jobs, from the opening Removals Van to the final Mount Rushless capstone. Free Caldera Chronicles jobs and paid crossover packs add even more cleaning assignments."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does PowerWash Simulator 2 support co-op and split-screen?",
+        "answer": "Yes. PowerWash Simulator 2 supports up to four players in online co-op for both Career and Free Play, plus two-player local split-screen. Crossplay is available between Xbox Series X|S and compatible PC versions."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How many achievements does PowerWash Simulator 2 have?",
+        "answer": "PowerWash Simulator 2 currently has 60 achievements: 40 in the base game, 10 in the Adventure Time Pack, and 10 in the STAR WARS Pack. Each includes an exact requirement and a fast completion method."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What DLC is available for PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 has free Caldera Chronicles jobs (Miniature Village and Bowling Alley) and two paid crossover packs: the Adventure Time Pack and the STAR WARS Pack. A third free job and a third paid IP pack are planned for later in 2026."
+      },
+      {
+        "question": "Is there a Home Base in PowerWash Simulator 2?",
+        "answer": "Yes. The PowerWash Simulator 2 Home Base is a playable hub between jobs where you clean and arrange furniture, collect trinkets and mementos, pet cats, launch jobs from the Job Map, and unlock several achievements through hidden interactions."
+      },
+      {
+        "question": "Will PowerWash Simulator 2 keep getting updates?",
+        "answer": "Yes. PowerWash Simulator 2's 2025-2026 roadmap from FuturLab includes free quality-of-life updates, three free Caldera Chronicles jobs, and paid crossover packs, with continued support planned throughout 2026."
       }
     ]
   },
@@ -802,124 +1542,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "title": "PowerWash Simulator 2 Walkthroughs",
+      "description": "Step-by-step walkthroughs for every career job, from the first spray to the final 100% completion.",
+      "metaTitle": "PowerWash Simulator 2 Walkthroughs - Step-by-Step Job Guides",
+      "metaDescription": "Complete PowerWash Simulator 2 walkthroughs covering cleaning order, nozzles, soap, and the best route through all 38 career jobs.",
+      "categoryLabel": "WALKTHROUGHS",
+      "whatIs": "What Is a Walkthrough?",
+      "whatIsDescription": "Detailed cleaning routes for vehicles, buildings and multi-stage jobs, including the nozzles, tools and equipment that make each job faster.",
+      "why": "Why use walkthroughs?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Clean in the Right Order",
+        "step1Description": "Follow a top-to-bottom route so runoff and missed dirt are easy to track",
+        "step2Title": "Pick the Best Nozzles",
+        "step2Description": "Match each nozzle and tool to the surface you are cleaning",
+        "step3Title": "Reach 100% Faster",
+        "step3Description": "Use the task list and dirt highlight to finish jobs without guesswork"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Walkthroughs"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "PowerWash Simulator 2 Equipment",
+      "description": "Compare washers, nozzles, soap and surface-cleaning tools, and plan the best upgrade order.",
+      "metaTitle": "PowerWash Simulator 2 Equipment - Washers, Nozzles & Upgrades",
+      "metaDescription": "Compare every PowerWash Simulator 2 washer, nozzle, soap and surface cleaner. Learn cleaning speed, range, value and the best upgrade order.",
+      "categoryLabel": "EQUIPMENT & UPGRADES",
+      "whatIs": "What is Equipment?",
+      "whatIsDescription": "Rankings and comparisons for light, medium, heavy and professional washers, plus the Adaptable Nozzle, Turbo Nozzle, Soap Nozzle and SwirlForce Surf Ace.",
+      "why": "Why plan upgrades?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Buy Coverage First",
+        "step1Description": "Prioritize tools that improve coverage before cosmetics",
+        "step2Title": "Match Tools to Jobs",
+        "step2Description": "Choose surface cleaners for flat areas and extensions for height",
+        "step3Title": "Save for the Professional Tier",
+        "step3Description": "Plan a route toward the strongest late-game washers"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Equipment Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "PowerWash Simulator 2 Tools",
+      "description": "Detailed guides for nozzles, attachments, soap, extensions and traversal equipment.",
+      "metaTitle": "PowerWash Simulator 2 Tools - Nozzles, Attachments & Soap",
+      "metaDescription": "Complete PowerWash Simulator 2 tool guides covering every nozzle, attachment, soap type, extension, ladder, lift and abseiling rig.",
+      "categoryLabel": "TOOLS & ATTACHMENTS",
+      "whatIs": "What are Tools?",
+      "whatIsDescription": "Guides for every cleaning tool and attachment, including spray widths, best surfaces and how traversal equipment solves height and reach problems.",
+      "why": "Why learn the tools?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know Each Nozzle",
+        "step1Description": "Understand the 0, 15, 25, 40, Turbo and Soap nozzles",
+        "step2Title": "Use Traversal Gear",
+        "step2Description": "Solve tall jobs with ladders, lifts, scaffolding and abseiling rigs",
+        "step3Title": "Clean Smarter",
+        "step3Description": "Combine the right tool with the right technique on every job"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Tools"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "PowerWash Simulator 2 Locations",
+      "description": "Explore every career location across Muckingham, Caldera County and beyond.",
+      "metaTitle": "PowerWash Simulator 2 Locations - Career Jobs & Areas",
+      "metaDescription": "Explore every PowerWash Simulator 2 location including Muckingham, Sponge Valley, Suds East, Lubri City, Power Falls and Mount Rushless.",
+      "categoryLabel": "LOCATIONS",
+      "whatIs": "What are Locations?",
+      "whatIsDescription": "Guides to each career location and region, including unlock order, job types, recommended equipment and notable secrets.",
+      "why": "Why explore locations?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Follow Unlock Order",
+        "step1Description": "Track which jobs unlock next across the campaign",
+        "step2Title": "Prepare the Right Gear",
+        "step2Description": "Bring the correct equipment for each location's shape",
+        "step3Title": "Find Every Secret",
+        "step3Description": "Discover hidden interactions tied to specific locations"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Locations"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "PowerWash Simulator 2 Home Base",
+      "description": "Customize your Home Base with furniture, trinkets, mementos and cosmetics.",
+      "metaTitle": "PowerWash Simulator 2 Home Base - Furniture & Collectibles",
+      "metaDescription": "Master the PowerWash Simulator 2 Home Base with furniture cleaning, trinkets, job mementos, cats, cosmetics and hidden collectibles.",
+      "categoryLabel": "HOME BASE & COLLECTIBLES",
+      "whatIs": "What is the Home Base?",
+      "whatIsDescription": "A playable hub where you clean and arrange furniture, collect trinkets and mementos, pet cats, and unlock achievements through hidden interactions.",
+      "why": "Why customize the Home Base?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Clean and Place Furniture",
+        "step1Description": "Wash dirty furniture and arrange your own layout",
+        "step2Title": "Collect Mementos",
+        "step2Description": "Build a visual record of your campaign progress",
+        "step3Title": "Complete Hidden Interactions",
+        "step3Description": "Unlock achievements tied to Home Base secrets"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Home Base Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "PowerWash Simulator 2 Updates",
+      "description": "Track free updates, DLC packs, patch notes and the content roadmap.",
+      "metaTitle": "PowerWash Simulator 2 Updates - DLC, Patch Notes & Roadmap",
+      "metaDescription": "Follow PowerWash Simulator 2 updates including free Caldera Chronicles jobs, paid crossover packs, patch notes and the 2026 content roadmap.",
+      "categoryLabel": "UPDATES & DLC",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Coverage of free quality-of-life updates, Caldera Chronicles jobs, paid crossover DLC packs and the official content roadmap.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Track New Jobs",
+        "step1Description": "See which free and paid jobs are available now",
+        "step2Title": "Read Patch Notes",
+        "step2Description": "Stay current on fixes and quality-of-life improvements",
+        "step3Title": "Plan Ahead",
+        "step3Description": "Know what content is coming next on the roadmap"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update Articles"
     }
   }
 }
