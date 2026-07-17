@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cooperativo en PowerWash Simulator 2: Guía de configuración para 4 jugadores y pantalla dividida",
+  description: "Organiza partidas en línea o juega en pantalla dividida en PowerWash Simulator 2. Conoce las reglas de crossplay, el progreso compartido y estrategias cooperativas para los 38 trabajos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Co-op+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de PowerWash Simulator 2",
+  keywords: "PowerWash Simulator 2, cooperativo, multijugador, pantalla dividida, crossplay, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El modo cooperativo de PowerWash Simulator 2** admite hasta cuatro jugadores en línea tanto en el modo Carrera como en el modo Juego libre.
+- **La pantalla dividida local** permite que dos jugadores limpien juntos en una sola consola o PC.
+- **El crossplay es compatible** entre las plataformas Xbox Series X|S y PC, pero PlayStation y Nintendo están restringidas.
+- **El progreso de la campaña** se comparte durante las sesiones en línea activas, lo que hace que los trabajos masivos se completen mucho más rápido.
+- **Las campañas de DLC** como Adventure Time y Star Wars son totalmente compatibles con el juego cooperativo en todas las misiones.
+</Callout>
+
+<Section icon={Map} title="Límites de jugadores y modos cooperativos de PowerWash Simulator 2">
+
+Ya sea que busques enfrentarte a sitios industriales masivos o limpiar mapas icónicos de colaboraciones, entender cómo funciona el sistema **cooperativo de PowerWash Simulator 2** es esencial para maximizar tu eficiencia. La secuela expande las bases cooperativas del juego original ofreciendo límites de jugadores más flexibles, progreso de campaña compartido y una opción dedicada de pantalla dividida local.
+
+En este juego, el juego cooperativo se divide en dos formatos principales: multijugador en línea y cooperativo local de sofá. Las sesiones en línea te permiten formar equipo con hasta otros tres jugadores, lo que eleva el tamaño total del equipo a cuatro. Esto es particularmente útil para misiones avanzadas como Mount Rushless o el Centro Comercial, donde la enorme superficie puede tardar horas en limpiarse en solitario. El juego local, por otro lado, está diseñado para dos jugadores que comparten una sola pantalla, proporcionando una experiencia clásica de pantalla dividida.
+
+| Modo | Límite de jugadores | Tipo de progreso | Pantalla dividida | Ideal para |
+| :--- | :--- | :--- | :--- | :--- |
+| Carrera en línea | 4 Jugadores | Compartido | No | Ubicaciones grandes |
+| Juego libre en línea | 4 Jugadores | Ninguno | No | Rejugar trabajos |
+| Pantalla dividida local | 2 Jugadores | Compartido | Sí | Cooperativo de sofá |
+
+<Callout type="info" title="Flexibilidad de la Sesión">
+Puedes cambiar el tipo de sesión en cualquier momento desde el menú de pausa. Si comienzas un trabajo solo y te das cuenta de que es demasiado grande, simplemente abre el menú y cambia la sesión a multijugador en línea para invitar a tus amigos.
+</Callout>
+
+El juego cuenta con 38 trabajos de carrera que pueden completarse de forma cooperativa. Al jugar en el Modo Carrera, el archivo de guardado del anfitrión sirve como base. Cualquier progreso realizado por los jugadores visitantes se guarda en la campaña del anfitrión, lo que significa que pueden terminar trabajos de varias etapas juntos sin necesidad de repetirlos individualmente en sus propios archivos de juego.
+
+</Section>
+
+<Section icon={Target} title="Cómo organizar y unirse a sesiones cooperativas">
+
+Configurar una sesión cooperativa en PowerWash Simulator 2 es sencillo, pero requiere navegar por el menú multijugador del juego. El juego utiliza un sistema de códigos de sala para facilitar las conexiones entre diferentes tiendas en PC, asegurando que los jugadores de Steam, Epic Games Store y Windows Store puedan conectarse sin problemas.
+
+Sigue estos pasos para organizar o unirte a un equipo de limpieza activo:
+
+<Steps>
+  <Step num="1" title="Acceder al menú multijugador">
+    Inicia PowerWash Simulator 2 y abre el menú de pausa o navega hasta el tablero principal. Selecciona la opción Multijugador para abrir la configuración de conexión.
+  </Step>
+  <Step num="2" title="Configurar tu tipo de sesión">
+    Si eres el anfitrión, cambia tu Tipo de Sesión de Un Jugador a Multijugador en Línea. Esto generará un Código de Sala único y temporal en tu pantalla.
+  </Step>
+  <Step num="3" title="Compartir el código de conexión">
+    Copia el Código de Sala generado y envíalo a tus amigos a través de Discord, mensaje de texto o el sistema de mensajería de tu plataforma.
+  </Step>
+  <Step num="4" title="Unirse a una sala activa">
+    Para los jugadores que se unen, seleccionen Introducir un Código en el menú multijugador, peguen el código del anfitrión y confirmen para conectarse instantáneamente a la sesión.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Usa invitaciones de plataforma">
+Si juegas en el mismo ecosistema de plataforma (como de Steam a Steam o de Xbox a Xbox), puedes omitir el sistema de códigos de sala por completo utilizando la interfaz estándar de la plataforma para enviar invitaciones directas.
+</Callout>
+
+Para la pantalla dividida local, el proceso es aún más simple. Conecta un segundo controlador a tu consola o PC, abre el menú multijugador y selecciona la opción de Pantalla Dividida. La pantalla se dividirá vertical u horizontalmente según tus ajustes, permitiendo que ambos jugadores contribuyan al mismo guardado de campaña activo.
+
+</Section>
+
+<Section icon={Shield} title="Crossplay y requisitos de plataforma">
+
+El multijugador multiplataforma es una característica muy solicitada, pero conlleva limitaciones específicas en PowerWash Simulator 2. El juego admite crossplay entre los ecosistemas de Xbox y PC, pero se aplican restricciones específicas de consola para los usuarios de PlayStation y Nintendo.
+
+El grupo de jugadores de PC está completamente unificado. Si compraste el juego en Steam, puedes jugar con amigos que lo tengan en la Epic Games Store o en la Windows Store. Además, los jugadores de Xbox Series X|S pueden unirse a estas sesiones de PC sin problemas. Sin embargo, los jugadores de PlayStation 5 y Nintendo Switch 2 están restringidos a sus propios grupos de emparejamiento específicos de la plataforma.
+
+| Plataforma | Socios de Crossplay | Transferencia de guardado | Suscripción requerida |
+| :--- | :--- | :--- | :--- |
+| Xbox Series X/S | PC (Steam, Epic, MS Store) | No | Xbox Game Pass |
+| PC (Steam/Epic) | Xbox Series X/S, Plataformas de PC | No | Ninguna |
+| PlayStation 5 | Solo grupo de PlayStation | No | PlayStation Plus |
+| Nintendo Switch 2 | Solo grupo de Switch 2 | No | Nintendo Switch Online |
+
+<Callout type="warning" title="Advertencia de suscripción en línea">
+Los jugadores de consola deben tener una suscripción en línea activa para jugar al cooperativo en línea. Esto incluye PlayStation Plus para PS5, Nintendo Switch Online para Switch 2 y un nivel elegible de Xbox Game Pass para las consolas Xbox.
+</Callout>
+
+También es importante notar que el juego no admite transferencias de guardado multiplataforma. Aunque puedes jugar con amigos en plataformas compatibles, tu progreso en el Modo Carrera, las hidrolimpiadoras desbloqueadas y el dinero ganado permanecerán vinculados al ecosistema de la plataforma donde se creó originalmente el archivo de guardado.
+
+</Section>
+
+<Section icon={Sparkles} title="Progreso compartido y mejores estrategias cooperativas">
+
+Para limpiar de manera eficiente en el juego cooperativo, tu equipo debe evitar agruparse en el mismo lugar. Debido a que la presión del agua disminuye a largas distancias, tener a varios jugadores rociando exactamente la misma superficie es muy ineficiente. En su lugar, dividir el mapa en distintas zonas o roles acelerará drásticamente los tiempos de finalización.
+
+Cuando un equipo se une a una sesión de Carrera en línea, todos los jugadores obtienen acceso al equipo y al inventario de jabón desbloqueados del anfitrión. Esto permite que los jugadores avanzados ayuden a los principiantes trayendo hidrolimpiadoras de alto nivel a los niveles iniciales, eliminando rápidamente las capas de suciedad persistentes.
+
+<CardGrid cols={3}>
+  <Card title="El barredor de suelos">
+    - **Herramienta principal**: SwirlForce Surf Ace
+    - **Rol**: Limpiar grandes superficies planas como carreteras, suelos y techos.
+    - **Estrategia**: Concentrarse en barridos amplios para limpiar rápidamente el 80% de la suciedad del mapa.
+  </Card>
+  <Card title="El especialista en detalles">
+    - **Herramienta principal**: Boquilla adaptable
+    - **Rol**: Limpiar molduras, ruedas, juntas y esquinas difíciles de alcanzar.
+    - **Estrategia**: Seguir al barredor de suelos para limpiar los porcentajes restantes.
+  </Card>
+  <Card title="El aplicador de jabón">
+    - **Herramienta principal**: Boquilla de jabón
+    - **Rol**: Pretratar áreas muy sucias y manchas de óxido persistentes.
+    - **Estrategia**: Ablandar las capas de suciedad para que los compañeros puedan enjuagarlas al instante.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Maximiza tu flujo de efectivo">
+En el Modo Carrera, completar trabajos otorga dinero a todos los jugadores participantes, no solo al anfitrión. Esto hace que el juego cooperativo sea una de las formas más rápidas para que los nuevos jugadores ganen el dinero necesario para comprar hidrolimpiadoras profesionales costosas.
+</Callout>
+
+Para una eficiencia óptima, utiliza la siguiente tabla de sinergia de equipo para asignar roles antes de comenzar un trabajo grande:
+
+| Rol | Herramienta principal | Mejores superficies objetivo | Valor cooperativo |
+| :--- | :--- | :--- | :--- |
+| Aplicador de jabón | Boquilla de jabón | Mugre persistente, grasa pesada | ★★★★★ |
+| Barredor de suelos | SwirlForce Surf Ace | Pavimento, techos planos, escenarios | ★★★★☆ |
+| Especialista en detalles | Boquilla adaptable | Molduras, ruedas, juntas estrechas | ★★★★☆ |
+| Limpiador de altura | Elevador de tijera y extensiones | Líneas de techo, carteles altos, pilares | ★★★★★ |
+
+</Section>
+
+<Section icon={Trophy} title="Guía de logros cooperativos">
+
+PowerWash Simulator 2 cuenta con 60 logros entre el juego base y sus paquetes de DLC. Aunque muchos pueden completarse en solitario, varios desafíos son significativamente más fáciles cuando se abordan con un compañero cooperativo. Por ejemplo, los logros que requieren limpiar objetos específicos primero o mantener limitaciones estrictas de equipo pueden coordinarse fácilmente con un segundo par de manos.
+
+Al aspirar a logros en sesiones cooperativas, la comunicación es clave. Si un jugador limpia accidentalmente el objeto equivocado, puede arruinar una partida de "limpiar primero" para toda la sala. Usa el chat de texto del juego o la comunicación por voz para coordinar tus objetivos.
+
+<Checklist
+  id="coop-achievements"
+  title="Logros ideales para cooperativo:"
+  items={[
+    "Coordinar la ruta de 'El suelo es lava' en el trabajo del Círculo de Piedra.",
+    "Aplicar jabón a todas las tareas simultáneamente para 'Baño perruno'.",
+    "Aislar puertas y manijas juntos para desbloquear 'De puerta en puerta'.",
+    "Dividir los paneles grandes del AT-AT sin usar jabón."
+  ]}
+/>
+
+| Logro | Dificultad | Mapa requerido | Ventaja cooperativa |
+| :--- | :--- | :--- | :--- |
+| El suelo es lava | Difícil | Círculo de Piedra | Los amigos pueden vigilar o limpiar mientras saltas |
+| Baño perruno | Media | Coche perro | Varios jugadores aplican jabón simultáneamente |
+| De puerta en puerta | Difícil | Motel | Dividir las puertas entre los jugadores para terminar primero |
+
+<Callout type="tip" title="Desbloqueo de logros">
+La mayoría de los logros en PowerWash Simulator 2 se desbloquean para todos los jugadores en la sala al completarse. Sin embargo, algunos logros de interacción específicos (como acariciar gatos o montar en la montaña rusa) deben ser realizados individualmente por cada jugador.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes sobre el modo cooperativo">
+
+<FAQ items={[
+  {
+    question: "¿Admite el cooperativo de PowerWash Simulator 2 crossplay en todas las plataformas?",
+    answer: "No. El crossplay es compatible entre Xbox Series X|S y las versiones de PC compatibles (Steam, Epic Games Store y Windows Store). Los jugadores de PlayStation 5 y Nintendo Switch 2 están restringidos a sus propios grupos de emparejamiento específicos de la plataforma."
+  },
+  {
+    question: "¿Cómo funciona el progreso para los jugadores visitantes en el cooperativo en línea?",
+    answer: "El progreso se guarda en el archivo de campaña del anfitrión. Los jugadores visitantes no avanzan en sus propias historias del Modo Carrera, pero sí ganan dinero y Puntos PowerWash que se transfieren a sus perfiles individuales."
+  },
+  {
+    question: "¿Podemos jugar en pantalla dividida y cooperativo en línea al mismo tiempo?",
+    answer: "No. El juego no admite el cooperativo combinado. Debes elegir entre una sesión local de pantalla dividida para dos jugadores o una sesión multijugador en línea con hasta cuatro jugadores."
+  },
+  {
+    question: "¿Necesitan todos los jugadores tener los paquetes de DLC para jugar cooperativo en esos mapas?",
+    answer: "Sí. Para unirse a una sesión cooperativa en un mapa de DLC (como las ubicaciones de Adventure Time o Star Wars), todos los jugadores participantes deben poseer el paquete de DLC correspondiente comprado en la tienda de su respectiva plataforma."
+  }
+]} />
+
+<Callout type="info" title="¿Necesitas más ayuda?">
+Si encuentras problemas de conexión o errores de código de sala, asegúrate de que todos los jugadores hayan actualizado su juego a la última versión del parche. Las discrepancias de versión son la causa más común de fallos en las conexiones cooperativas.
+</Callout>
+
+</Section>

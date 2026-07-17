@@ -38,14 +38,16 @@ export async function DetailPage({
   // 服务端加载翻译
   const t = await getTranslations();
 
-  // 内容类型翻译映射
+  // 内容类型翻译映射（key 与 src/config/navigation.ts 的 NAVIGATION_CONFIG 一一对应）
   const contentTypeLabels: Record<string, string> = {
-    guides: t("nav.guides"),
-    crafting: t("nav.crafting"),
-    items: t("nav.items"),
-    biomes: t("nav.biomes"),
-    building: t("nav.building"),
-    support: t("nav.support"),
+    guide: t("nav.guide"),
+    updates: t("nav.updates"),
+    achievements: t("nav.achievements"),
+    levels: t("nav.levels"),
+    multiplayer: t("nav.multiplayer"),
+    equipment: t("nav.equipment"),
+    technical: t("nav.technical"),
+    purchase: t("nav.purchase"),
   };
 
   // 提取图片元数据

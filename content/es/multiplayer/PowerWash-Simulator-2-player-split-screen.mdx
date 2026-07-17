@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pantalla dividida para 2 jugadores en PowerWash Simulator 2: Guía cooperativa",
+  description: "Aprende a configurar la pantalla dividida para 2 jugadores en PowerWash Simulator 2, gestionar el progreso compartido y dominar el modo cooperativo local en PC, PS5, Xbox y Switch 2.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/203b89/fff?text=Split+Screen+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de PowerWash Simulator 2"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cooperativo local**: Admite **pantalla dividida para 2 jugadores en PowerWash Simulator 2** en una sola consola o PC.
+- **Cooperativo en línea**: Permite que hasta **cuatro jugadores** limpien juntos en los modos Carrera y Juego libre.
+- **Progreso compartido**: Todo el progreso de limpieza y el dinero ganado se guardan en el archivo de Carrera del anfitrión.
+- **Soporte de plataformas**: Disponible en PC, PlayStation 5, Xbox Series X|S y la nueva Nintendo Switch 2.
+- **Mecánica de sinergia**: Un jugador puede concentrarse en la aplicación de **Jabón 2.0** mientras el otro lo sigue con enjuague a alta presión.
+</Callout>
+
+<Section icon={Map} title="Introducción a la pantalla dividida para 2 jugadores en PowerWash Simulator 2">
+
+El lanzamiento de la secuela el 23 de octubre de 2025 trajo una de las funciones más solicitadas a la franquicia: el multijugador local nativo. Con el modo de **pantalla dividida para 2 jugadores en PowerWash Simulator 2**, tú y un amigo pueden enfrentarse a la suciedad de Muckingham desde la comodidad de un solo sofá. Ya sea que estén frotando el enorme camión de 18 ruedas o los intrincados detalles del Teapot Tea Room, tener un segundo juego de boquillas reduce significativamente el tiempo necesario para completar el juego al 100%.
+
+A diferencia del juego original, que dependía en gran medida de las conexiones en línea, el modo local está diseñado para un juego de entrada y salida sin interrupciones. Esto es particularmente útil para los 38 trabajos de Carrera que se extienden por todo el condado de Caldera, incluyendo nuevas ubicaciones como Sponge Valley y Lubri City. En este modo, la pantalla se divide verticalmente, lo que le da a cada limpiador una vista dedicada de su área de tarea específica mientras comparten el mismo estado del mundo.
+
+<Callout type="info" title="Requisitos del sistema">
+La pantalla dividida local requiere dos dispositivos de entrada compatibles (por ejemplo, dos mandos o un teclado/ratón y un mando) reconocidos por tu plataforma.
+</Callout>
+
+| Característica | Pantalla dividida local | Cooperativo en línea |
+| :--- | :--- | :--- |
+| **Límite de jugadores** | 2 jugadores | 4 jugadores |
+| **Suscripción** | No requerida | PS Plus / Xbox Live / NSO |
+| **Progreso** | Solo anfitrión | Solo anfitrión |
+| **Modos** | Carrera y Juego libre | Carrera y Juego libre |
+| **Tipo de pantalla** | Dividida (Vertical) | Pantalla completa |
+
+</Section>
+
+<Section icon={Target} title="Cómo configurar la pantalla dividida para 2 jugadores en PowerWash Simulator 2">
+
+Configurar una sesión local es sencillo, pero requiere navegar correctamente por el menú multijugador antes de iniciar un trabajo. Dado que el juego rastrea datos de limpieza complejos para miles de "píxeles de volumen" (voxels) de superficie, el hardware del anfitrión gestiona la física para ambos jugadores simultáneamente.
+
+Sigue estos pasos para iniciar tu sesión de **pantalla dividida para 2 jugadores en PowerWash Simulator 2**:
+
+<Steps>
+  <Step num="1" title="Acceder al menú multijugador">
+    Desde el menú principal o la pantalla de pausa dentro de la Base de operaciones, selecciona la pestaña **Multijugador**. Asegúrate de que tu segundo mando esté encendido y sincronizado con el sistema.
+  </Step>
+  <Step num="2" title="Activar el cooperativo local">
+    Cambia el tipo de sesión de "Un jugador" a "Pantalla dividida local". El juego le pedirá al segundo jugador que presione un botón específico (generalmente 'Opciones' o 'Start') para unirse a la sala.
+  </Step>
+  <Step num="3" title="Seleccionar tu equipamiento">
+    Ambos jugadores pueden visitar la Tienda de equipamiento para personalizar sus hidrolimpiadoras. El jugador 2 tendrá acceso al mismo nivel de equipamiento desbloqueado por el progreso de Carrera del anfitrión.
+  </Step>
+  <Step num="4" title="Iniciar el trabajo">
+    Abre el Mapa de trabajos y selecciona cualquier tarea disponible. El juego cargará el entorno y dividirá la pantalla una vez que ambos jugadores estén listos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de rendimiento">
+Si experimentas caídas en la tasa de fotogramas en hardware más antiguo durante la pantalla dividida, intenta desactivar los "Reflejos de agua de alta calidad" en los ajustes de vídeo para estabilizar el rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soporte de plataformas y requisitos">
+
+Aunque la **pantalla dividida para 2 jugadores en PowerWash Simulator 2** es una característica principal, los requisitos técnicos varían según los diferentes ecosistemas de juego. Las actualizaciones de 2026 han optimizado la experiencia para la Nintendo Switch 2 y PC de gama alta, asegurando que la vista dividida no comprometa la visibilidad del "resaltado de suciedad".
+
+| Plataforma | Máx. jugadores locales | Resolución (Dividida) | Juego cruzado |
+| :--- | :--- | :--- | :--- |
+| **PC (Steam/Epic)** | 2 | Hasta 4K | Xbox / Windows |
+| **PlayStation 5** | 2 | 1440p / 60 FPS | No |
+| **Xbox Series X** | 2 | 4K / 60 FPS | PC / Windows |
+| **Nintendo Switch 2** | 2 | 1080p (Acoplada) | No |
+
+<Callout type="warning" title="Limitación de mandos">
+En PC, actualmente no se puede jugar en pantalla dividida usando dos teclados independientes. Al menos un jugador debe usar un mando.
+</Callout>
+
+El juego también cuenta con un sistema de "Invitado" para el Jugador 2. Si el segundo jugador no tiene un perfil local, puede jugar como invitado, pero sus preferencias estéticas individuales (como aspectos personalizados de la hidrolimpiadora o trajes) podrían no guardarse una vez finalizada la sesión. Sin embargo, cualquier cantidad de **dinero** ganado durante el trabajo se suma al total del anfitrión, lo que permite mejorar el equipamiento más rápido con opciones como la **Prime Vista Pro** o la **SwirlForce Surf Ace**.
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas cooperativas: Jabón 2.0 y sinergia">
+
+Limpiar con un compañero en la **pantalla dividida para 2 jugadores en PowerWash Simulator 2** es más que tener dos mangueras; permite adoptar roles estratégicos. La secuela presenta el **Jabón 2.0**, un sistema químico renovado donde el jabón se adhiere a las superficies y ablanda la suciedad con el tiempo.
+
+<CardGrid cols={3}>
+  <Card title="El enjabonador">
+    - Usa la **boquilla de jabón**
+    - Cubre áreas amplias y difíciles
+    - Resalta los puntos olvidados para el compañero
+  </Card>
+  <Card title="El enjuagador">
+    - Usa boquillas de alta presión (15° o Turbo)
+    - Sigue el rastro de jabón para una limpieza instantánea
+    - Se enfoca en molduras y juntas detalladas
+  </Card>
+  <Card title="El explorador">
+    - Usa el **resaltado de suciedad** con frecuencia
+    - Gestiona escaleras y andamios
+    - Revisa las partes inferiores y los bordes de los techos
+  </Card>
+</CardGrid>
+
+Al dividir el trabajo, puedes obtener fácilmente el logro "Baño perruno" asegurándote de aplicar jabón en cada tarea del Coche perro simultáneamente. Esta sinergia es esencial para trabajos de dificultad "Avanzada" como **Mount Rushless**, donde la gran escala de la pared rocosa puede ser abrumadora para un limpiador en solitario.
+
+<Callout type="success" title="Reparto de ganancias">
+En pantalla dividida, ambos jugadores ganan puntos de PowerWash para la Base de operaciones. Estos puntos se usan para desbloquear muebles y adornos con los que ambos jugadores pueden interactuar entre trabajos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Los mejores trabajos para el cooperativo de 2 jugadores">
+
+Algunos trabajos en la campaña de 38 misiones están diseñados específicamente con varios jugadores en mente. Estas ubicaciones suelen presentar diseños simétricos o "zonas" distintas que permiten a cada jugador en la **pantalla dividida para 2 jugadores en PowerWash Simulator 2** reclamar un territorio.
+
+| Nombre del trabajo | Ubicación | Por qué es mejor en cooperativo |
+| :--- | :--- | :--- |
+| **Centro comercial** | Sparkleton | Área de suelo enorme; un jugador usa el limpiador de superficies. |
+| **Sistema solar** | Washingham | Un jugador limpia el Sol; el otro se encarga de los planetas. |
+| **Paquete de Star Wars** | Mos Eisley | Se pueden limpiar interiores y exteriores grandes a la vez. |
+| **Casa de la risa** | Muckingham | Elementos interactivos como el piano gigante son divertidos de activar juntos. |
+| **Dirigible** | Muckingham | Un jugador se encarga de la parte superior mediante rápel; otro limpia la inferior. |
+
+El **Paquete de Hora de Aventuras**, lanzado en abril de 2026, también ofrece el trabajo de la Casa del Árbol, que es notoriamente difícil de navegar en solitario debido a su verticalidad. En pantalla dividida, un jugador puede operar la **plataforma de tijera de Jake** mientras el otro se para sobre ella para alcanzar las ramas más altas, proporcionando una ruta de limpieza mucho más eficiente.
+
+<Callout type="info" title="Accesibilidad del DLC">
+Solo el anfitrión necesita poseer el DLC (Star Wars o Hora de Aventuras) para que ambos jugadores jueguen juntos en pantalla dividida local.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de finalización cooperativa">
+
+Para aprovechar al máximo tus sesiones de multijugador local, intenta completar estos hitos cooperativos específicos. Trabajar juntos hace que los logros "Difíciles" y "Avanzados" sean mucho más llevaderos.
+
+<Checklist
+  id="coop-milestones"
+  title="Objetivos en pantalla dividida:"
+  items={[
+    "Completar juntos la furgoneta de mudanzas en menos de 5 minutos",
+    "Limpiar toda la fila de asientos delantera en el teatro simultáneamente",
+    "Hacer que ambos jugadores se paren sobre el droide de energía EG-6 en la granja de los Lars",
+    "Desbloquear la Prime Vista Pro para el anfitrión usando el dinero compartido",
+    "Acariciar a los tres gatos en la Base de operaciones con tu compañero"
+  ]}
+/>
+
+<Callout type="tip" title="Guía de logros">
+Para el logro "El suelo es lava" en el Círculo de piedras, un jugador puede actuar como observador para asegurarse de que el otro nunca toque el suelo mientras salta entre los pilares.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Admite PowerWash Simulator 2 la pantalla dividida para 4 jugadores?",
+    answer: "No, la pantalla dividida local está limitada a 2 jugadores. Se requiere el cooperativo en línea para 3 o 4 jugadores."
+  },
+  {
+    question: "¿Podemos jugar en pantalla dividida y en línea al mismo tiempo?",
+    answer: "Sí, PowerWash Simulator 2 admite 'Cooperativo mixto' (Combo Co-op), lo que permite a dos jugadores locales unirse a una sesión en línea con otros dos amigos."
+  },
+  {
+    question: "¿Se guarda el progreso para el segundo jugador?",
+    answer: "El progreso solo se guarda en el archivo de Carrera del anfitrión. Sin embargo, si el Jugador 2 está utilizando un perfil local, su personalización de personaje y los trofeos/logros obtenidos se seguirán activando."
+  },
+  {
+    question: "¿Cómo soluciono el error 'Mando 2 no detectado'?",
+    answer: "Asegúrate de que el mando esté asignado a un perfil o cuenta de invitado en tu consola antes de iniciar el juego. En PC, verifica la configuración de Steam Input para asegurarte de que ambos mandos sean reconocidos como dispositivos XInput independientes."
+  }
+]} />
+
+</Section>

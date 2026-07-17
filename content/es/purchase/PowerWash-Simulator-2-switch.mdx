@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 en Switch: Guía de Rendimiento y Juego",
+  description: "Domina PowerWash Simulator 2 en Switch con nuestra guía de 2026. Explora pruebas de rendimiento, consejos para cooperativo local y mecánicas avanzadas de limpieza.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=PowerWash+Simulator+2+Switch+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de PowerWash Simulator 2",
+  keywords: "PowerWash Simulator 2, Switch, rendimiento, cooperativo, guía de limpieza"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El rendimiento de **PowerWash Simulator 2 en Switch** alcanza unos fluidos **60 FPS** en modo de un solo jugador en el hardware más reciente.
+- El **cooperativo en pantalla dividida** es una nueva e importante adición, que permite jugar localmente mientras se completan los sucios contratos de la campaña.
+- La **física mejorada** significa que la espuma del jabón ahora se adhiere a las superficies y la presión del agua afecta dinámicamente la disipación de la mugre.
+- La **rotación de la boquilla** y el bloqueo de la cámara son herramientas esenciales para mitigar el mareo por movimiento y mejorar la precisión.
+- La **Base de Operaciones** actúa como un centro personalizable donde los jugadores pueden mejorar su equipo y limpiar los objetos obtenidos.
+</Callout>
+
+<Section icon={Map} title="Benchmarks de Rendimiento y Fidelidad Visual">
+
+PowerWash Simulator 2 marca un salto técnico significativo respecto a su predecesor, optimizado específicamente para el ecosistema de Nintendo Switch en 2026. Mientras que el juego original tenía dificultades con ciertas texturas y caídas de fotogramas, la secuela utiliza un motor actualizado (probablemente una versión evolucionada de Unity) para ofrecer una experiencia mucho más nítida. La resolución es notablemente mayor, reduciendo el efecto de "parpadeo" que se veía en objetos pequeños en el título anterior.
+
+**Puntos destacados del video:**
+- Vistazo detallado al **rendimiento de 60 FPS** en el hardware de Switch 2.
+- Comparación de la física del agua y cómo la mugre se mancha de forma realista.
+- Demostración del nuevo modo cooperativo en pantalla dividida en acción.
+- Exploración de la furgoneta de limpieza personalizable y el área central.
+
+<YouTubeEmbed videoId="U3YA8SjFA7s" title="¡Powerwash Simulator 2 es ASQUEROSAMENTE adictivo en Switch 2 | Reseña y Rendimiento!" />
+
+La estrella visual del espectáculo es la interacción entre el agua y la mugre. La suciedad ahora tiene niveles variables de opacidad y reflectividad, que cambian a medida que se seca con el tiempo. Si la presión es demasiado baja o usas una boquilla incorrecta, la suciedad no desaparecerá simplemente; se manchará y se diluirá por la superficie, lo que requiere un enfoque más táctico para la limpieza.
+
+| Característica | Switch (Original) | Switch 2 (PowerWash 2) |
+| :--- | :--- | :--- |
+| **Tasa de Fotogramas Objetivo** | 30 FPS | **60 FPS (Un solo jugador)** |
+| **Soporte Cooperativo** | Solo en línea | **Pantalla dividida local + En línea** |
+| **Física del Agua** | Disipación estática | **Manchado y secado dinámico** |
+| **Mecánicas de Jabón** | Limitadas/Temporales | **Adherencia a la superficie (Persistente)** |
+| **Resolución** | Sub-720p Portátil | **Resolución nativa en modo portátil** |
+
+<Callout type="success" title="Consejo de Rendimiento">
+En el modo de un solo jugador, el juego mantiene unos sólidos 60 FPS. Si notas ligeras caídas durante sesiones intensas en pantalla dividida, intenta reducir la "Intensidad de partículas" en el menú de ajustes para estabilizar la tasa de fotogramas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nuevas Mecánicas de Limpieza y Sistema de Hub">
+
+El núcleo del juego de **PowerWash Simulator 2 en Switch** sigue centrado en la "satisfacción", pero la secuela introduce capas de complejidad que evitan la monotonía. Ambientado tres años después del juego original, los jugadores regresan al condado de Muckingham para descubrir nuevos misterios a través de la narrativa ambiental y mensajes en pantalla.
+
+La adición más significativa es la **Base de Operaciones**. A diferencia del primer juego, donde simplemente seleccionabas misiones de un menú, ahora tienes un centro físico. Los objetos ganados durante las misiones se traen aquí, pero a menudo están cubiertos de inmundicia. Debes limpiar tus propias recompensas antes de que puedan usarse para decorar o mejorar tus instalaciones.
+
+<CardGrid cols={3}>
+  <Card title="Jabón que se Adhiere a la Superficie">
+    - **Aplicación Persistente**: El jabón permanece en la superficie hasta que se enjuaga.
+    - **Reacción Química**: Diferentes jabones funcionan mejor en madera, metal o piedra.
+    - **Retroalimentación Visual**: Observa cómo reacciona la espuma al tipo específico de suciedad.
+  </Card>
+  <Card title="Entornos Dinámicos">
+    - **Partes Móviles**: Los niveles ahora cuentan con objetos que se desplazan o se abren al ser limpiados.
+    - **Verticalidad**: Usa elevadores de tijera y equipo de rápel para alcanzar puntos altos.
+    - **Acceso a Interiores**: Limpiar una puerta puede revelar una habitación completamente nueva y sucia.
+  </Card>
+  <Card title="Herramientas Avanzadas">
+    - **Limpiador de Superficies Grandes**: Ideal para entradas de coches y paredes extensas.
+    - **Furgoneta Personalizable**: Tu base móvil puede mejorarse para una mayor eficiencia.
+    - **Mejoras de Herramientas**: Compra mejores bombas y mangueras más largas con el dinero de las misiones.
+  </Card>
+</CardGrid>
+
+| Tipo de Herramienta | Mejor Uso | Requisito de Desbloqueo |
+| :--- | :--- | :--- |
+| **Hidrolimpiadora Estándar** | Limpieza general / Multiusos | Equipo inicial |
+| **Limpiador de Superficies** | Áreas planas grandes (Suelos/Paredes) | Nivel de carrera 5 |
+| **Bomba de Alta Resistencia** | Alta presión para óxido persistente | 2,000 Créditos Muckingham |
+| **Extensión de Largo Alcance** | Techos altos y azoteas | Nivel de carrera 8 |
+| **Boquilla de Triple Punta** | Áreas medianas con alta velocidad | 1,500 Créditos Muckingham |
+
+<Callout type="info" title="Nota de Lore">
+Los mensajes de la historia son sutiles pero proporcionan contexto sobre la "Gran Mugre" que ha cubierto Muckingham. Presta atención a las notificaciones de texto durante la campaña para resolver los misterios del pueblo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando los Controles en Switch">
+
+Un punto de discordia para los veteranos es el esquema de control. Sorprendentemente, **PowerWash Simulator 2 en Switch** no cuenta con apuntado por giroscopio ni un "modo ratón" para la pantalla táctil en su lanzamiento. Esto hace que la limpieza de precisión con los sticks analógicos sea un poco más desafiante. Sin embargo, los desarrolladores han incluido varias funciones de "Facilidad de control" para compensar.
+
+<Steps>
+  <Step num="1" title="Activar el Bloqueo de Cámara">
+    Ve al menú de opciones y activa el **Bloqueo de Cámara**. Esto te permite mover la boquilla de forma independiente con el stick derecho mientras la cámara permanece fija, reduciendo significativamente el mareo por movimiento.
+  </Step>
+  <Step num="2" title="Dominar la Rotación de la Boquilla">
+    Usa la **cruceta (D-pad)** para rotar tu boquilla sobre la marcha. Alternar entre patrones de pulverización horizontales y verticales es esencial para seguir la veta de la madera o los bordes de los ladrillos.
+  </Step>
+  <Step num="3" title="Utilizar Cambios de Postura">
+    La secuela introduce un movimiento más fluido. No te limites a estar de pie; usa los botones de **Agacharse** y **Tumbado** para meterte debajo de vehículos o detrás de tuberías donde suele esconderse la suciedad.
+  </Step>
+  <Step num="4" title="Resaltar la Suciedad Restante">
+    Si estás atascado en el 99%, usa el botón de **Resaltar Suciedad**. Esto hará que la mugre restante parpadee en un color brillante, haciendo visibles esas últimas motas molestas.
+  </Step>
+</Steps>
+
+| Entrada de Control | Función | Consejo Pro |
+| :--- | :--- | :--- |
+| **Stick Derecho** | Apuntar Boquilla | Úsalo con Bloqueo de Cámara para precisión. |
+| **Stick Izquierdo** | Desplazarse/Moverse | Desplázate siempre lateralmente al rociar para una cobertura uniforme. |
+| **D-Pad Arriba/Abajo** | Cambiar Boquilla | Roja es alta presión; Blanca es rociado amplio. |
+| **D-Pad Izq./Der.** | Rotar Boquilla | Ajusta el ángulo al borde del objeto. |
+| **Gatillos L/R** | Rociar/Jabón | Activa "Rociado Continuo" en ajustes para descansar los dedos. |
+
+<Callout type="warning" title="Aviso sobre Mareo por Movimiento">
+Debido a la falta de controles por giroscopio, el balanceo constante de la cámara puede causar náuseas a algunos jugadores. **Siempre** activa el Bloqueo de Cámara y aumenta los ajustes de "Zona Muerta" para estabilizar la vista.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desplazamiento Avanzado y Verticalidad">
+
+El diseño de niveles en la secuela es mucho más vertical. Ya no estás limitado al suelo o a simples escaleras de mano. La introducción de poleas, rápel y elevadores de tijera industriales te permite abordar estructuras masivas como torres de reloj y edificios de varias plantas.
+
+| Herramienta de Desplazamiento | Cómo Usarla | Ideal Para |
+| :--- | :--- | :--- |
+| **Elevador de Tijera** | Interactúa con el panel de control | Alcanzar fachadas de edificios altas y planas. |
+| **Equipo de Rápel** | Engánchate a los ganchos de techo designados | Limpiar pendientes pronunciadas o laderas de acantilados. |
+| **Poleas** | Tira de la cuerda para ascender | Movimiento vertical rápido en espacios reducidos. |
+| **Andamios** | Montaje manual en los niveles | Altura personalizable para formas complejas. |
+
+La física de estos dispositivos es realista. Cuando estés en un elevador de tijera, la plataforma se balanceará ligeramente, afectando la precisión de tu rociado. Dominar el tiempo de tu rociado mientras la plataforma se mueve es una habilidad clave para los contratos avanzados.
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Al limpiar áreas altas, comienza siempre desde arriba y ve bajando. La nueva física del agua permite que el "agua sucia" escurra hacia abajo, y aunque no volverá a ensuciar un área perfectamente limpia, puede hacer que sea más difícil ver la mugre restante en las secciones inferiores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión Multijugador y Objetivos">
+
+La adición del cooperativo en pantalla dividida cambia las reglas del juego para la versión de Switch. Ahora puedes jugar toda la campaña con un amigo de forma local. Aunque la tasa de fotogramas se resiente ligeramente en este modo, la capacidad de dividir tareas (una persona en el techo, otra en el suelo) hace que los niveles más grandes sean mucho más manejables.
+
+<Checklist
+  id="career-milestones"
+  title="Objetivos de Progresión de Carrera 2026:"
+  items={[
+    "Completar la restauración de la 'Fuente de Muckingham'",
+    "Desbloquear la Hidrolimpiadora de Grado Profesional",
+    "Limpiar y restaurar los 10 trofeos del Área Central",
+    "Ganar 5,000 créditos en una sola sesión multijugador",
+    "Completar un nivel usando solo la boquilla de 0 grados (Roja)"
+  ]}
+/>
+
+| Hito | Recompensa | Importancia |
+| :--- | :--- | :--- |
+| **10 Estrellas** | Limpiadora de Carga Media | **Alta** - Necesaria para superficies de piedra. |
+| **25 Estrellas** | Mejora de Boquilla de Jabón | **Media** - Mejora la eficiencia del jabón. |
+| **50 Estrellas** | Skin de Furgoneta Industrial | **Baja** - Puramente cosmético. |
+| **100 Estrellas** | Control Remoto de Elevador | **Alta** - Controla los elevadores a distancia. |
+
+<Callout type="info" title="Mecánicas Cooperativas">
+En el modo de pantalla dividida, el dinero ganado se comparte entre ambos jugadores, pero solo se guarda el progreso de la campaña del anfitrión. Asegúrate de jugar en la cuenta principal si quieres desbloquear nuevas herramientas para el juego en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Admite PowerWash Simulator 2 en Switch el juego cruzado (cross-play)?",
+    answer: "Sí, el juego admite juego cruzado entre Switch, PC y otras consolas para los modos multijugador en línea, aunque la pantalla dividida local es exclusiva de las versiones de consola."
+  },
+  {
+    question: "¿Puedo usar la pantalla táctil para limpiar en la Switch?",
+    answer: "Actualmente, no hay un 'Modo Ratón' dedicado para la pantalla táctil. Debes usar los Joy-Con o un Pro Controller para todas las acciones de limpieza."
+  },
+  {
+    question: "¿Hay alguna forma de escuchar música mientras limpio?",
+    answer: "El juego carece de una función de radio integrada. La mayoría de los jugadores recomiendan usar el audio de fondo de la Switch o un dispositivo aparte para reproducir música, ya que los sonidos de la limpiadora pueden volverse repetitivos."
+  },
+  {
+    question: "¿Cuál es la mejor forma de limpiar áreas grandes rápidamente?",
+    answer: "Desbloquea el Limpiador de Superficies Grandes lo antes posible. Combinado con el jabón adecuado, puede limpiar entradas y paredes extensas en una fracción del tiempo en comparación con las boquillas estándar."
+  }
+]} />
+
+</Section>

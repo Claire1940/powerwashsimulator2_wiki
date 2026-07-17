@@ -10,7 +10,16 @@
       "twitterDescription": "Complete PowerWash Simulator 2 guides for jobs, washers, tools, upgrades, achievements, co-op, DLC, and latest updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "updates": "Updates",
+    "achievements": "Achievements",
+    "levels": "Levels",
+    "multiplayer": "Multiplayer",
+    "equipment": "Equipment",
+    "technical": "Technical",
+    "purchase": "Purchase"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1541,125 +1550,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "PowerWash Simulator 2 Walkthroughs",
-      "description": "Step-by-step walkthroughs for every career job, from the first spray to the final 100% completion.",
-      "metaTitle": "PowerWash Simulator 2 Walkthroughs - Step-by-Step Job Guides",
-      "metaDescription": "Complete PowerWash Simulator 2 walkthroughs covering cleaning order, nozzles, soap, and the best route through all 38 career jobs.",
-      "categoryLabel": "WALKTHROUGHS",
-      "whatIs": "What Is a Walkthrough?",
-      "whatIsDescription": "Detailed cleaning routes for vehicles, buildings and multi-stage jobs, including the nozzles, tools and equipment that make each job faster.",
-      "why": "Why use walkthroughs?",
+    "guide": {
+      "title": "PowerWash Simulator 2 Guides",
+      "description": "Clear, step-by-step PowerWash Simulator 2 guides covering controls, cleaning tips, nozzle management, and how to restart or replay any level.",
+      "metaTitle": "PowerWash Simulator 2 Guides - Controls, Tips & Cleaning Help",
+      "metaDescription": "Master PowerWash Simulator 2 with practical guides on controls, advanced cleaning tips, nozzle selection, and restarting or replaying levels.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Are PowerWash Simulator 2 Guides?",
+      "whatIsDescription": "Practical walkthroughs that explain the core cleaning loop, the full control layout, and the small workflow habits that help you finish jobs to 100% without hunting for the last speck of dirt.",
+      "why": "Why read these guides?",
       "whySteps": {
-        "step1Title": "Clean in the Right Order",
-        "step1Description": "Follow a top-to-bottom route so runoff and missed dirt are easy to track",
-        "step2Title": "Pick the Best Nozzles",
-        "step2Description": "Match each nozzle and tool to the surface you are cleaning",
-        "step3Title": "Reach 100% Faster",
-        "step3Description": "Use the task list and dirt highlight to finish jobs without guesswork"
+        "step1Title": "Learn the Controls",
+        "step1Description": "Lock the camera, rotate nozzles, and set up your preferred layout on PC, PS5, Xbox and Switch 2",
+        "step2Title": "Clean Smarter",
+        "step2Description": "Match each nozzle and soap pass to the surface so broad areas and stubborn edges finish faster",
+        "step3Title": "Replay Any Level",
+        "step3Description": "Restart or replay jobs in Free Play to chase achievements and practice new techniques"
       },
       "featured": "Featured & Essential",
-      "all": "All Walkthroughs"
+      "all": "All Guides"
     },
-    "crafting": {
-      "title": "PowerWash Simulator 2 Equipment",
-      "description": "Compare washers, nozzles, soap and surface-cleaning tools, and plan the best upgrade order.",
-      "metaTitle": "PowerWash Simulator 2 Equipment - Washers, Nozzles & Upgrades",
-      "metaDescription": "Compare every PowerWash Simulator 2 washer, nozzle, soap and surface cleaner. Learn cleaning speed, range, value and the best upgrade order.",
-      "categoryLabel": "EQUIPMENT & UPGRADES",
-      "whatIs": "What is Equipment?",
-      "whatIsDescription": "Rankings and comparisons for light, medium, heavy and professional washers, plus the Adaptable Nozzle, Turbo Nozzle, Soap Nozzle and SwirlForce Surf Ace.",
-      "why": "Why plan upgrades?",
+    "updates": {
+      "title": "PowerWash Simulator 2 Updates & DLC",
+      "description": "Track every PowerWash Simulator 2 update, free Caldera Chronicles job, and paid DLC pack, including the Adventure Time and STAR WARS crossovers and the 2026 roadmap.",
+      "metaTitle": "PowerWash Simulator 2 Updates & DLC - Patch Notes, Jobs & Roadmap",
+      "metaDescription": "Follow PowerWash Simulator 2 updates, free Caldera Chronicles jobs, paid DLC packs like Adventure Time and STAR WARS, and the full 2026 content roadmap.",
+      "categoryLabel": "UPDATES & DLC",
+      "whatIs": "What Are PowerWash Simulator 2 Updates?",
+      "whatIsDescription": "Coverage of free quality-of-life patches, the free Caldera Chronicles job series, and paid crossover DLC campaigns that add new levels, characters and achievements to the game.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Buy Coverage First",
-        "step1Description": "Prioritize tools that improve coverage before cosmetics",
-        "step2Title": "Match Tools to Jobs",
-        "step2Description": "Choose surface cleaners for flat areas and extensions for height",
-        "step3Title": "Save for the Professional Tier",
-        "step3Description": "Plan a route toward the strongest late-game washers"
+        "step1Title": "Catch New Jobs",
+        "step1Description": "See which free Caldera Chronicles jobs and paid DLC levels are available right now",
+        "step2Title": "Read the Roadmap",
+        "step2Description": "Know what FuturLab has planned next, including upcoming crossover packs",
+        "step3Title": "Stay Current",
+        "step3Description": "Keep up with bug fixes, optimization improvements and quality-of-life changes"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates & DLC"
+    },
+    "achievements": {
+      "title": "PowerWash Simulator 2 Achievements",
+      "description": "Every PowerWash Simulator 2 achievement and trophy explained, including hidden achievements, Mount Rushless milestones, and Cosmic Ordering completion routes.",
+      "metaTitle": "PowerWash Simulator 2 Achievements & Trophies - Full List",
+      "metaDescription": "Complete PowerWash Simulator 2 achievement guide with exact requirements for hidden achievements, Mount Rushless, Cosmic Ordering, and every DLC pack.",
+      "categoryLabel": "ACHIEVEMENTS",
+      "whatIs": "What Are PowerWash Simulator 2 Achievements?",
+      "whatIsDescription": "A full breakdown of the game's achievements and trophies across the base game and DLC, with the exact requirement, the related job, and a fast completion method for each one.",
+      "why": "Why track achievements?",
+      "whySteps": {
+        "step1Title": "Find Hidden Achievements",
+        "step1Description": "Locate secret objectives tied to specific jobs and interactions",
+        "step2Title": "Plan Completion Runs",
+        "step2Description": "Use clean-first and clean-last routes to unlock job-specific challenges",
+        "step3Title": "Reach 100%",
+        "step3Description": "Check off base game, Adventure Time and STAR WARS packs in order"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Achievements"
+    },
+    "levels": {
+      "title": "PowerWash Simulator 2 Levels & Jobs",
+      "description": "Walkthroughs for PowerWash Simulator 2 levels and jobs, from the Removals Van to Mount Rushless, including all career jobs and tricky spots like the Gas Station wall.",
+      "metaTitle": "PowerWash Simulator 2 Levels & Jobs - Career Walkthroughs",
+      "metaDescription": "Clean every PowerWash Simulator 2 level with job walkthroughs, unlock order, recommended equipment, and solutions for tough spots like the Gas Station wall and Motel doors.",
+      "categoryLabel": "LEVELS & JOBS",
+      "whatIs": "What Are PowerWash Simulator 2 Levels?",
+      "whatIsDescription": "Career and Free Play cleaning assignments across Muckingham and Caldera County, each with a recommended route, the right equipment, and notes on the trickiest surfaces.",
+      "why": "Why use level guides?",
+      "whySteps": {
+        "step1Title": "Follow the Unlock Order",
+        "step1Description": "See which job comes next and what equipment you will need",
+        "step2Title": "Solve Tricky Spots",
+        "step2Description": "Find stubborn surfaces like the Gas Station wall and hidden dirt fast",
+        "step3Title": "Finish Every Job",
+        "step3Description": "Complete all 38 career jobs from start to the Mount Rushless finale"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Levels & Jobs"
+    },
+    "multiplayer": {
+      "title": "PowerWash Simulator 2 Multiplayer",
+      "description": "Everything about PowerWash Simulator 2 multiplayer: online co-op, crossplay, split-screen, and local co-op across PC, PS5, Xbox and Nintendo Switch 2.",
+      "metaTitle": "PowerWash Simulator 2 Multiplayer - Co-op, Crossplay & Split-Screen",
+      "metaDescription": "Set up PowerWash Simulator 2 multiplayer with guides on online co-op, crossplay, local split-screen, and shared campaign progression across every platform.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What Is PowerWash Simulator 2 Multiplayer?",
+      "whatIsDescription": "Co-operative cleaning for up to four players online and two players in local split-screen, with shared campaign progression during sessions and crossplay between supported platforms.",
+      "why": "Why play co-op?",
+      "whySteps": {
+        "step1Title": "Clean Together Online",
+        "step1Description": "Tackle Career and Free Play jobs with up to four players",
+        "step2Title": "Set Up Split-Screen",
+        "step2Description": "Play local two-player co-op on one PC or console",
+        "step3Title": "Understand Crossplay",
+        "step3Description": "See which platforms can play together and what subscriptions are required"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Guides"
+    },
+    "equipment": {
+      "title": "PowerWash Simulator 2 Equipment",
+      "description": "Compare PowerWash Simulator 2 washers, nozzles, soap, and surface-cleaning tools, including Urban X vs Prime Vista, spray modes, and how to equip new gear.",
+      "metaTitle": "PowerWash Simulator 2 Equipment - Washers, Nozzles & Soap",
+      "metaDescription": "Rank and compare PowerWash Simulator 2 equipment: Prime Vista vs Urban X washers, every nozzle and spray mode, soap usage, and how to equip new tools.",
+      "categoryLabel": "EQUIPMENT",
+      "whatIs": "What Is PowerWash Simulator 2 Equipment?",
+      "whatIsDescription": "The washers, nozzles, soap, surface cleaners and attachments that determine cleaning speed and coverage, ranked by real performance during Career progression.",
+      "why": "Why plan your equipment?",
+      "whySteps": {
+        "step1Title": "Choose the Right Washer",
+        "step1Description": "Compare Urban X and Prime Vista lines by pressure, range and value",
+        "step2Title": "Master Spray Modes",
+        "step2Description": "Switch nozzle widths and use soap for stubborn layered grime",
+        "step3Title": "Equip New Gear",
+        "step3Description": "Quickly attach and swap tools from the equipment wheel"
       },
       "featured": "Featured & Essential",
       "all": "All Equipment Guides"
     },
-    "items": {
-      "title": "PowerWash Simulator 2 Tools",
-      "description": "Detailed guides for nozzles, attachments, soap, extensions and traversal equipment.",
-      "metaTitle": "PowerWash Simulator 2 Tools - Nozzles, Attachments & Soap",
-      "metaDescription": "Complete PowerWash Simulator 2 tool guides covering every nozzle, attachment, soap type, extension, ladder, lift and abseiling rig.",
-      "categoryLabel": "TOOLS & ATTACHMENTS",
-      "whatIs": "What are Tools?",
-      "whatIsDescription": "Guides for every cleaning tool and attachment, including spray widths, best surfaces and how traversal equipment solves height and reach problems.",
-      "why": "Why learn the tools?",
+    "technical": {
+      "title": "PowerWash Simulator 2 Technical",
+      "description": "PowerWash Simulator 2 technical help: optimized settings, mod support, GPU requirements like the GTX 1650, and fixes for issues such as an empty pack select.",
+      "metaTitle": "PowerWash Simulator 2 Technical - Settings, Mods & Performance",
+      "metaDescription": "Optimize PowerWash Simulator 2 with technical guides on best settings, mods, GPU performance (including GTX 1650), and fixes for bugs like an empty pack select screen.",
+      "categoryLabel": "TECHNICAL",
+      "whatIs": "What Is the PowerWash Simulator 2 Technical Section?",
+      "whatIsDescription": "Performance tuning, recommended settings, modding options, hardware requirements, and troubleshooting for common bugs and glitches that affect cleaning sessions.",
+      "why": "Why check the technical guides?",
       "whySteps": {
-        "step1Title": "Know Each Nozzle",
-        "step1Description": "Understand the 0, 15, 25, 40, Turbo and Soap nozzles",
-        "step2Title": "Use Traversal Gear",
-        "step2Description": "Solve tall jobs with ladders, lifts, scaffolding and abseiling rigs",
-        "step3Title": "Clean Smarter",
-        "step3Description": "Combine the right tool with the right technique on every job"
+        "step1Title": "Optimize Performance",
+        "step1Description": "Apply the best settings for smooth framerates on your hardware",
+        "step2Title": "Know Your Hardware",
+        "step2Description": "See how the game runs on GPUs like the GTX 1650 and integrated graphics",
+        "step3Title": "Fix Common Bugs",
+        "step3Description": "Resolve issues such as an empty pack select or missing content"
       },
       "featured": "Featured & Essential",
-      "all": "All Tools"
+      "all": "All Technical Guides"
     },
-    "biomes": {
-      "title": "PowerWash Simulator 2 Locations",
-      "description": "Explore every career location across Muckingham, Caldera County and beyond.",
-      "metaTitle": "PowerWash Simulator 2 Locations - Career Jobs & Areas",
-      "metaDescription": "Explore every PowerWash Simulator 2 location including Muckingham, Sponge Valley, Suds East, Lubri City, Power Falls and Mount Rushless.",
-      "categoryLabel": "LOCATIONS",
-      "whatIs": "What are Locations?",
-      "whatIsDescription": "Guides to each career location and region, including unlock order, job types, recommended equipment and notable secrets.",
-      "why": "Why explore locations?",
+    "purchase": {
+      "title": "PowerWash Simulator 2 Purchase & Platforms",
+      "description": "PowerWash Simulator 2 buying guides covering price, release date, platforms (PC, PS5, Xbox, Switch 2), PowerWash Simulator 2 vs 1, and community resources like Reddit.",
+      "metaTitle": "PowerWash Simulator 2 Purchase - Price, Platforms & Release Date",
+      "metaDescription": "Decide where to buy PowerWash Simulator 2 with guides on price, release date, PC/PS5/Xbox/Switch 2 platforms, how it compares to the first game, and the Reddit community.",
+      "categoryLabel": "PURCHASE & PLATFORMS",
+      "whatIs": "What Is the PowerWash Simulator 2 Purchase Section?",
+      "whatIsDescription": "Buying and platform information including current price, release date, every available platform, how the sequel compares to the original, and where to find community help.",
+      "why": "Why check before buying?",
       "whySteps": {
-        "step1Title": "Follow Unlock Order",
-        "step1Description": "Track which jobs unlock next across the campaign",
-        "step2Title": "Prepare the Right Gear",
-        "step2Description": "Bring the correct equipment for each location's shape",
-        "step3Title": "Find Every Secret",
-        "step3Description": "Discover hidden interactions tied to specific locations"
+        "step1Title": "Compare Platforms",
+        "step1Description": "Pick between PC, PS5, Xbox Series X|S and Nintendo Switch 2",
+        "step2Title": "Check Price and Date",
+        "step2Description": "See current pricing and the launch details you need",
+        "step3Title": "Compare to the Original",
+        "step3Description": "Understand what is new in PowerWash Simulator 2 vs 1"
       },
       "featured": "Featured & Essential",
-      "all": "All Locations"
-    },
-    "building": {
-      "title": "PowerWash Simulator 2 Home Base",
-      "description": "Customize your Home Base with furniture, trinkets, mementos and cosmetics.",
-      "metaTitle": "PowerWash Simulator 2 Home Base - Furniture & Collectibles",
-      "metaDescription": "Master the PowerWash Simulator 2 Home Base with furniture cleaning, trinkets, job mementos, cats, cosmetics and hidden collectibles.",
-      "categoryLabel": "HOME BASE & COLLECTIBLES",
-      "whatIs": "What is the Home Base?",
-      "whatIsDescription": "A playable hub where you clean and arrange furniture, collect trinkets and mementos, pet cats, and unlock achievements through hidden interactions.",
-      "why": "Why customize the Home Base?",
-      "whySteps": {
-        "step1Title": "Clean and Place Furniture",
-        "step1Description": "Wash dirty furniture and arrange your own layout",
-        "step2Title": "Collect Mementos",
-        "step2Description": "Build a visual record of your campaign progress",
-        "step3Title": "Complete Hidden Interactions",
-        "step3Description": "Unlock achievements tied to Home Base secrets"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Home Base Guides"
-    },
-    "support": {
-      "title": "PowerWash Simulator 2 Updates",
-      "description": "Track free updates, DLC packs, patch notes and the content roadmap.",
-      "metaTitle": "PowerWash Simulator 2 Updates - DLC, Patch Notes & Roadmap",
-      "metaDescription": "Follow PowerWash Simulator 2 updates including free Caldera Chronicles jobs, paid crossover packs, patch notes and the 2026 content roadmap.",
-      "categoryLabel": "UPDATES & DLC",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Coverage of free quality-of-life updates, Caldera Chronicles jobs, paid crossover DLC packs and the official content roadmap.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Track New Jobs",
-        "step1Description": "See which free and paid jobs are available now",
-        "step2Title": "Read Patch Notes",
-        "step2Description": "Stay current on fixes and quality-of-life improvements",
-        "step3Title": "Plan Ahead",
-        "step3Description": "Know what content is coming next on the roadmap"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Update Articles"
+      "all": "All Purchase Guides"
     }
   }
 }

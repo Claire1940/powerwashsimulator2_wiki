@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 controls: Setup Guide & Layout Tips",
+  description: "Optimize your PowerWash Simulator 2 controls with our layout guide. Learn camera locking, nozzle rotation, and Switch 2 controller setups.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controller+Setup+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Setup**: Mastering the **PowerWash Simulator 2 controls** is essential for cleaning efficiency and preventing physical fatigue.
+- **Camera Lock**: Toggle the camera lock with the Right Stick click to stabilize your view and reduce motion sickness.
+- **Nozzle Adjustments**: Use the D-pad to rotate spray angles instantly and swap between wide or narrow cleaning streams.
+- **Traversal Controls**: Utilize crouching, going prone, and operating scissor lifts to access hard-to-reach areas.
+- **Co-op Compatibility**: Split-screen cooperative play introduces shared control configurations for local cleaning sessions.
+</Callout>
+
+<Section icon={Map} title="Controller Layout & Configuration Overview">
+
+Configuring your controller layout is the first step toward achieving cleaning efficiency in Muckingham. While PC players rely on mouse precision, console players—especially those on the Nintendo Switch 2—must adapt to analog stick configurations. The **PowerWash Simulator 2 controls** offer a robust system of button mappings designed to simulate the physical handling of high-pressure cleaning equipment. Although the sequel does not feature native gyroscopic controls or a dedicated mouse mode at launch, the developers have integrated several controller assists to ensure smooth gameplay.
+
+Understanding how each button interacts with your washer, nozzle, and character movement will significantly reduce the time spent on larger contracts. Below is the default button layout designed to help you navigate the dirty environments of the game.
+
+**Video Highlights:**
+- **Split-Screen Co-op**: Learn how local multiplayer functions and how controls are divided between players.
+- **Camera Stabilization**: Discover how to use the camera lock feature to eliminate motion sickness during long sessions.
+- **Nozzle Rotation Mechanics**: Watch a demonstration of D-pad controls for rotating spray angles.
+- **Visual Dirt Indicators**: See how the "Show Dirt" button highlights microscopic grime instantly.
+
+<YouTubeEmbed videoId="U3YA8SjFA7s" title="Powerwash Simulator 2 Control Optimization & Performance Review" />
+
+| Action | Input (Switch 2) | Purpose |
+| :--- | :--- | :--- |
+| **Spray Water** | ZR Trigger | Activates the power washer stream |
+| **Rotate Nozzle** | D-Pad Left/Right | Changes nozzle orientation from horizontal to vertical |
+| **Cycle Nozzles** | D-Pad Up/Down | Switches between available spray tips and soap attachments |
+| **Show Dirt** | RX Button | Highlights remaining grime in bright orange |
+| **Camera Lock** | Right Stick Click | Locks camera to focus on precise cleaning angles |
+| **Equip Soap** | X Button | Automatically loads the selected chemical cleaning agent |
+
+<Callout type="warning" title="Control Limitation Alert">
+Unlike some modern first-person simulators, this release does not support motion-based aiming. You must rely entirely on analog stick inputs for targeting dirt. Adjusting your stick deadzones in the settings menu is highly recommended to compensate for this design choice.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Movement & Traversal Controls">
+
+Cleaning massive structures like double-decker buses, fire stations, and outdoor public spaces requires constant movement. The sequel introduces greater verticality to its level designs, meaning you will spend as much time climbing and positioning yourself as you do washing. The **PowerWash Simulator 2 controls** provide several options for changing your physical posture, allowing you to squeeze into tight spaces or reach high rooftops.
+
+To clean the undersides of vehicles or low-hanging benches, you must master the transition between standing, crouching, and going prone. Additionally, the game introduces mechanical traversal aids such as scissor lifts, scaffolding, and abseiling ropes, each requiring specific button prompts to operate.
+
+| Traversal Action | Input Command | Gameplay Benefit |
+| :--- | :--- | :--- |
+| **Crouch** | B Button (Press) | Lowers your height to clean under car bumpers and tables |
+| **Prone** | B Button (Hold) | Lays your character flat to reach deep chassis crevices |
+| **Jump / Climb** | A Button | Scales ladders, steps on scaffolding, and climbs onto roofs |
+| **Scissor Lift** | Y Button (Prompt) | Activates control panels on mobile platforms to raise your height |
+| **Abseil / Pulley** | Left Stick + Interact | Allows secure movement along steep vertical walls |
+
+<Callout type="tip" title="Vertical Alignment Tip">
+When cleaning high walls from a scissor lift, lock your camera and use only the Left Stick to strafe left and right. This keeps your horizontal cleaning line perfectly level, saving water and reducing overlapping spray patterns.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Nozzle & Cleaning Mechanics">
+
+Choosing the correct nozzle is just as important as knowing how to move. The cleaning physics in the game react dynamically to the angle of your spray, the surface material, and the type of grime you are tackling. If your hose pressure is too low or you use an incorrect angle, the water will smear the dirt across the surface instead of blasting it away.
+
+Nozzle rotation is a critical mechanic. By rotating your nozzle 90 degrees, you can change your spray from a horizontal fan to a vertical fan. This allows you to match the shape of the object you are cleaning—such as thin fence posts or wide brick walls.
+
+<CardGrid cols={3}>
+  <Card title="0-Degree Red Nozzle">
+    - **High Pressure**: Delivers a concentrated pinpoint stream.
+    - **Best For**: Stubborn rust, deep-set grime, and hard metal surfaces.
+    - **Downside**: Extremely narrow coverage area.
+  </Card>
+  <Card title="25-Degree Green Nozzle">
+    - **Balanced Pressure**: Offers a medium-width spray fan.
+    - **Best For**: General cleaning of wood, plastic, and brickwork.
+    - **Downside**: May require multiple passes on heavy rust.
+  </Card>
+  <Card title="Soap Nozzle & Suds">
+    - **Chemical Action**: Automatically applies specialized cleaning agents.
+    - **Best For**: Dissolving thick grease layers before washing.
+    - **Downside**: Requires purchasing soap refills from the shop.
+  </Card>
+</CardGrid>
+
+| Nozzle Type | Angle | Best Use Case | Efficiency Rating |
+| :--- | :--- | :--- | :--- |
+| **Red Nozzle** | 0 Degrees | Deep rust, industrial grease, and dried mud | ★★★★★ |
+| **Yellow Nozzle** | 15 Degrees | Concrete driveways, stone walls, and iron gates | ★★★★☆ |
+| **Green Nozzle** | 25 Degrees | Wooden decks, residential siding, and vehicles | ★★★★☆ |
+| **White Nozzle** | 40 Degrees | Rinsing away loose dirt and chemical soap suds | ★★★☆☆ |
+| **Soap Nozzle** | Wide Fan | Pre-treating heavily soiled areas with chemical agents | ★★★★★ |
+
+<Callout type="success" title="Soap Suds Upgrade">
+In this sequel, soap physics have been improved. Soap suds now cling to dirty surfaces indefinitely until you wash them off with clean water, but they will dissolve quickly if sprayed onto an already clean surface. Use this visual indicator to track your progress.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Control Customization & Motion Sickness Solutions">
+
+First-person simulation games can occasionally cause motion sickness due to repetitive sweeping motions and camera bobbing. To combat this, the developers have included a dedicated "Camera Lock" feature within the **PowerWash Simulator 2 controls** settings. This feature allows you to freeze the camera in a fixed forward position, shifting the analog stick control entirely to the washer nozzle itself.
+
+If you find yourself feeling dizzy after cleaning a large playground or a multi-story building, follow these steps to optimize your control settings for maximum comfort.
+
+<Steps>
+  <Step num="1" title="Enable Camera Lock Mode">
+    Press the Right Stick click (R3) to lock your camera in place. This detaches your nozzle aim from the screen movement, allowing you to paint the surface with water without rotating the entire camera.
+  </Step>
+  <Step num="2" title="Adjust Controller Sensitivity">
+    Navigate to the Options Menu and lower your horizontal and vertical analog sensitivity to between 40% and 50%. This prevents erratic, high-speed camera movements when releasing the stick.
+  </Step>
+  <Step num="3" title="Toggle Aim Assist Settings">
+    Turn on the subtle Aim Assist feature. This option helps the nozzle snap slightly to small, hard-to-see dirt spots, reducing the need for micro-adjustments with the analog stick.
+  </Step>
+</Steps>
+
+| Setting Option | Recommended Value | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Camera Lock Mode** | Toggle (On) | Eliminates screen sway and reduces motion sickness |
+| **Analog Sensitivity** | 45% Horizontal / 40% Vertical | Provides smooth, deliberate sweeping motions |
+| **Aim Assist Strength** | Medium | Assists in targeting tiny, stubborn spots of grime |
+| **Show Dirt Mode** | Toggle (Instead of Hold) | Allows continuous dirt highlighting without hand strain |
+
+<Callout type="info" title="Accessibility Focus">
+Using the "Toggle" setting for the "Show Dirt" function is highly recommended. By default, you must hold the button down, which can cause finger fatigue during long play sessions. Changing this to a toggle allows you to scan for dirt with a single tap.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Performance & Co-op Control Setup">
+
+The addition of proper split-screen cooperative play on the Nintendo Switch 2 is one of the most significant upgrades in this sequel. Playing with a friend alters how you manage your cleaning tasks, but it also impacts game performance and control responsiveness. When playing solo, the game targets a smooth 60 frames per second (FPS), providing highly responsive inputs. In split-screen mode, the frame rate decreases to maintain visual fidelity, which can introduce minor input latency.
+
+To ensure a seamless cooperative experience, both players should coordinate their control configurations before starting a campaign mission.
+
+<Checklist
+  id="coop-setup-checklist"
+  title="Co-op Control Preparation Checklist:"
+  items={[
+    "Connect both controllers to the console before launching the game application.",
+    "Set Player 2 sensitivity to match Player 1 to maintain consistent cleaning speeds.",
+    "Assign one player as the high-pressure detailer and the other as the wide-area rinser.",
+    "Enable separate Camera Lock preferences for each screen half to avoid mutual motion sickness.",
+    "Verify that the split-screen layout (horizontal or vertical) matches your physical seating arrangement."
+  ]}
+/>
+
+| Performance Feature | Single-Player Mode | Split-Screen Co-op Mode |
+| :--- | :--- | :--- |
+| **Target Frame Rate** | Smooth 60 FPS | Dynamic 30 to 45 FPS |
+| **Resolution Target** | Native 1080p (Docked) | Dynamic 900p (Per Player) |
+| **Input Latency** | Minimal / Highly Responsive | Low to Moderate |
+| **Physics Simulation** | Full real-time water and grime | Optimized synchronized physics |
+
+<Callout type="tip" title="Co-op Cleaning Strategy">
+In split-screen mode, have one player apply soap using a wide-angle nozzle while the second player follows closely behind with the high-pressure 15-degree nozzle. This cooperative method maximizes your soap efficiency and cleans surfaces twice as fast.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I rotate my spray nozzle using the PowerWash Simulator 2 controls?",
+    answer: "You can rotate your nozzle 90 degrees by pressing Left or Right on the D-pad. This changes your spray pattern from a horizontal fan to a vertical fan, allowing you to clean different structural shapes efficiently."
+  },
+  {
+    question: "Is there support for gyroscopic aiming or mouse controls on consoles?",
+    answer: "No, the console versions of the game do not support gyroscopic aiming or mouse mode at launch. Players must use the analog sticks to control their movement and aiming."
+  },
+  {
+    question: "What does the Camera Lock feature do and how do I activate it?",
+    answer: "Camera Lock detaches your nozzle aiming from the camera movement. You can activate it by clicking the Right Stick (R3). This allows you to spray back and forth without moving your entire field of view, which helps prevent motion sickness."
+  },
+  {
+    question: "Can I customize the button layouts on my controller?",
+    answer: "Yes, the game features a fully rebindable controller configuration menu. You can access this in the settings under 'Controls' to map actions like spraying, jumping, and showing dirt to your preferred buttons."
+  }
+]} />
+
+</Section>

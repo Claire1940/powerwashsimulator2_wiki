@@ -1,0 +1,181 @@
+import { Cpu, Settings, Layers, Sliders, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 GTX 1650: Einstellungen & Setup-Guide",
+  description: "Optimieren Sie PowerWash Simulator 2 auf Ihrer GTX 1650. Erhalten Sie die besten Grafikeinstellungen, FPS-Benchmarks und Hardware-Konfigurationen für ein flüssiges Gameplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=GTX+1650+Performance+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **GTX 1650 Leistung**: Erreicht ein stabiles Erlebnis mit 1080p/60 FPS durch benutzerdefinierte optimierte Einstellungen.
+- **Hauptengpässe**: Hochauflösende Schatten-Maps und intensive Wasserphysik-Shader beeinträchtigen die Bildrate.
+- **VRAM-Verwaltung**: Wenn Sie Texturen auf Mittel oder Hoch belassen, wird Ruckeln am 4-GB-VRAM-Limit verhindert.
+- **Koop-Skalierung**: Lokaler Splitscreen und Online-Sitzungen mit 4 Spielern erfordern eine Reduzierung der Partikeleffekte.
+</Callout>
+
+<Section icon={Cpu} title="PowerWash Simulator 2 GTX 1650: Benchmark-Erwartungen">
+
+Die Optimierung Ihrer Hardware ist der Schlüssel zu einer reibungslosen Reinigungssitzung. Die Konfiguration von **PowerWash Simulator 2 gtx 1650**-Systemen stellt sicher, dass Sie stabile Bildraten erzielen, ohne auf visuelle Klarheit verzichten zu müssen. Obwohl die Fortsetzung massive Verbesserungen der Wasserphysik, der dynamischen Schmutzschichten und der interaktiven Beleuchtung bei allen 38 Karriere-Aufträgen mit sich bringt, fordert sie auch mehr von budgetorientierten Grafikkarten. Die GTX 1650 bleibt eine äußerst beliebte Wahl für Simulator-Fans und bietet bei richtiger Konfiguration eine zuverlässige Basis für Gaming in 1080p.
+
+Die Desktop- und Laptop-Varianten der GTX 1650 verfügen über 4 GB GDDR5- oder GDDR6-VRAM. In den erweiterten Umgebungen der Fortsetzung, insbesondere an den mehrstufigen Orten und riesigen Strukturen, ist die Verwaltung dieses VRAM-Pools von entscheidender Bedeutung. Das Überschreiten des 4-GB-Limits führt zu spürbaren Mikrorucklern beim Schwenken der Kamera oder bei der Verwendung des Hochdruck-Seifensystems Soap 2.0.
+
+| Metrik | Mindestanforderung | GTX 1650 Leistung |
+| :--- | :--- | :--- |
+| **Zielauflösung** | 720p / 30 FPS | **1080p / 60 FPS** |
+| **VRAM-Zuweisung** | Mindestens 2 GB | **4 GB GDDR5/GDDR6** |
+| **Grafik-Voreinstellung** | Niedrige Einstellungen | **Mischung aus Mittel und Hoch** |
+| **DirectX-Version** | DirectX 11 | **DirectX 12 (Unterstützt)** |
+
+<Callout type="info" title="Hardware-Übersicht">
+Die GDDR6-Version der GTX 1650 ist etwa 5 % bis 8 % schneller als das ältere GDDR5-Modell. Wenn Sie auf einem Gaming-Laptop spielen, stellen Sie sicher, dass Ihr Gerät an das Stromnetz angeschlossen ist, um thermische und Leistungsdrosselungen bei langen Karriere-Levels zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimierte Grafikeinstellungen für GTX 1650">
+
+Um konstante 60 FPS sowohl in Einzelspieler-Kampagnen als auch in hektischen Online-Koop-Sitzungen zu erreichen, müssen Sie bestimmte Grafikparameter anpassen. Die Standardvoreinstellung „Hoch“ des Spiels kann dazu erfüllen, dass die Bildrate in intensiven Reinigungsphasen auf unter 40 FPS abfällt, insbesondere wenn Sie das seifige Schaumspray verwenden oder stark reflektierende Metalloberflächen reinigen.
+
+Durch die Feinabstimmung von Shader-Qualität, Schatten-Maps und Wassersimulationsdetails können Sie wertvolle GPU-Leistung zurückgewinnen. Die „Soap 2.0“-Mechanik führt dynamischen Schaum ein, der an schmutzigen Objekten haftet, was die Shader-Berechnungen erhöht. Eine leichte Reduzierung der Wassersimulationsqualität verringert die physikalischen Details des Sprühnebels, ohne Ihre Reinigungsgenauigkeit oder -geschwindigkeit zu beeinträchtigen.
+
+| Einstellung | Standardwert | Empfohlener Wert | Leistungsauswirkung |
+| :--- | :--- | :--- | :--- |
+| **Wassersimulation** | Hoch | **Mittel** | Hoch (5-8 % FPS-Gewinn) |
+| **Schattenqualität** | Ultra | **Mittel** | Hoch (4-6 % FPS-Gewinn) |
+| **Umgebungsverdeckung (AO)** | Hoch | **Niedrig** | Mittel (3-4 % FPS-Gewinn) |
+| **Anti-Aliasing** | TAA | **FXAA** | Mittel (3-5 % FPS-Gewinn) |
+| **Texturauflösung** | Hoch | **Hoch** | Gering (VRAM-abhängig) |
+| **Schmutz-Hervorhebung** | Ein | **Ein** | Sehr gering (<1 % Auswirkung) |
+
+<Callout type="tip" title="Profi-Optimierungstipp">
+Lassen Sie die Texturauflösung auf **Hoch** eingestellt, wenn Sie 4 GB VRAM haben. Wenn Sie sie auf „Mittel“ reduzieren, wirken die Schmutztexturen verschwommen, was das Finden des letzten Prozents Schmutz erheblich erschwert. Sparen Sie stattdessen Leistung, indem Sie anspruchsvolle Anti-Aliasing-Methoden deaktivieren.
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="Leistungsauswirkungen bei Aufträgen und DLCs">
+
+Die Fortsetzung bietet eine vielfältige Auswahl von 38 Karriere-Aufträgen sowie umfangreiche kostenpflichtige Erweiterungen wie das STAR WARS Pack und das Adventure Time Pack. Die Leistung auf der GTX 1650 skaliert unterschiedlich, je nach Größe, Komplexität und Geometrie der Umgebung, die Sie reinigen.
+
+Kleinere Fahrzeugaufträge wie der Umzugswagen oder das Hundeauto laufen problemlos mit maximalen Bildraten. Riesige Aufträge im späten Spielverlauf und Crossover-DLC-Karten führen jedoch komplexe Assets ein, die die GPU stärker belasten.
+
+<CardGrid cols={3}>
+  <Card title="Kleine Fahrzeuge">
+    - **Durchschnittliche FPS**: 70 - 75 FPS
+    - **VRAM-Auslastung**: ~2,2 GB
+    - **Optimierte Leistung**: Flüssige Performance ohne Ruckler, selbst bei schnellen Kameraschwenks.
+  </Card>
+  <Card title="Große Karriere-Orte">
+    - **Durchschnittliche FPS**: 48 - 55 FPS
+    - **VRAM-Auslastung**: ~3,5 GB
+    - **Optimierte Leistung**: Leichte Einbrüche in der Nähe komplexer Geometrie wie dem Einkaufszentrum oder Mount Rushless.
+  </Card>
+  <Card title="Kostenpflichtige Crossover-DLCs">
+    - **Durchschnittliche FPS**: 45 - 52 FPS
+    - **VRAM-Auslastung**: ~3,7 GB
+    - **Optimierte Leistung**: Die STAR WARS Millennium Falcon-Karte verfügt über reflektierende Metallplatten, die die Shader stark beanspruchen.
+  </Card>
+</CardGrid>
+
+Große Umgebungen mit weiten Sichtlinien erfordern mehr Draw-Calls, was bei älteren Prozessoren, die mit der GTX 1650 gepaart sind, zu einem Engpass führen kann. Darüber hinaus erhöht das Hosten von Multiplayer-Sitzungen die Last der physikalischen Simulation.
+
+| Auftragskategorie | Durchschnittliche FPS (Ausgewogene Einstellungen) | Empfohlene Anpassungen |
+| :--- | :--- | :--- |
+| **Fahrzeuge & Requisiten** | **65 - 75 FPS** | Alle Einstellungen auf Hoch belassen |
+| **Gebäude & Häuser** | **52 - 60 FPS** | Schatten auf Mittel reduzieren |
+| **Riesige Wahrzeichen** | **45 - 52 FPS** | Schatten und Wasser auf Mittel reduzieren |
+| **Crossover-DLC-Karten** | **48 - 55 FPS** | Anti-Aliasing auf FXAA einstellen |
+
+| Spieleranzahl | Leistungsauswirkung | Empfohlene Maßnahme |
+| :--- | :--- | :--- |
+| **Einzelspieler** | **Basislinie (100 % FPS)** | Empfohlene optimierte Voreinstellungen verwenden |
+| **Lokaler Splitscreen (2 Spieler)** | **18 - 22 % FPS-Verlust** | Bildrate auf 45 FPS begrenzen; Schatten auf Niedrig einstellen |
+| **Online-Koop (4 Spieler)** | **12 - 15 % FPS-Verlust** | Wassersimulation auf Mittel oder Niedrig reduzieren |
+
+<Callout type="success" title="DLC-Leistungs-Update">
+Das STAR WARS Pack (veröffentlicht am 16. Juli 2026) ist auf der GTX 1650 voll spielbar. Obwohl Karten wie die Brücke des Executor-Supersternzerstörers stark reflektierende Oberflächen aufweisen, sorgt eine niedrige Umgebungsverdeckung für stabile 50+ FPS.
+</Callout>
+
+</Section>
+
+<Section icon={Sliders} title="Schritt-für-Schritt-Optimierungsanleitung">
+
+Befolgen Sie diese Schritte, um Ihr Betriebssystem und Ihre Grafikkarte für die beste Leistung zu konfigurieren. Diese Anpassungen stellen sicher, dass Ihre Hardware dem Spiel maximale Leistung zuweist, während Hintergrundunterbrechungen vermieden werden.
+
+<Steps>
+  <Step num="1" title="Nvidia-Systemsteuerung konfigurieren">
+    Klicken Sie mit der rechten Maustaste auf Ihren Desktop und öffnen Sie die Nvidia-Systemsteuerung. Navigieren Sie zu „3D-Einstellungen verwalten“, wählen Sie die ausführbare Datei des Spiels aus und stellen Sie den „Energieverwaltungsmodus“ auf „Maximale Leistung bevorzugen“. Ändern Sie die „Texturfilterung – Qualität“ auf „Leistung“, um einen stetigen Schub von 2-3 FPS zu erzielen.
+  </Step>
+  <Step num="2" title="Hardwarebeschleunigte GPU-Planung in Windows aktivieren">
+    Öffnen Sie die Windows-Einstellungen, gehen Sie zu „System“, dann „Anzeige“ und wählen Sie „Grafikeinstellungen“. Aktivieren Sie den Schalter für „Hardwarebeschleunigte GPU-Planung“ (HAGS). Dies reduziert die CPU-Belastung und verbessert die Konsistenz der Bildrate auf Mittelklasse-Karten.
+  </Step>
+  <Step num="3" title="Benutzerdefiniertes Bildratenlimit festlegen">
+    Aktivieren Sie in den Anzeigeoptionen des Spiels V-Sync oder legen Sie eine benutzerdefinierte Bildratenbegrenzung von 60 FPS fest. Das Begrenzen Ihrer Bildrate verhindert, dass die GPU in einfachen Menübildschirmen mit 100 % Auslastung läuft, was den Gesamtstromverbrauch senkt und die Systemtemperaturen stabil hält.
+  </Step>
+  <Step num="4" title="Nvidia Game Ready-Treiber aktualisieren">
+    Stellen Sie sicher, dass Sie die neuesten Nvidia-Treiber für 2026 über GeForce Experience oder die offizielle Website installiert haben. Treiber-Updates enthalten oft spezifische Engine-Optimierungen und Fehlerbehebungen für neu veröffentlichte DLC-Pakete und saisonale Updates.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Laptop-Benutzer">
+Stellen Sie sicher, dass der Windows-Energiemodus auf „Beste Leistung“ eingestellt ist. Wenn Ihr Laptop über ein Dual-GPU-Setup verfügt (integrierte Intel/AMD-Grafik neben der GTX 1650), überprüfen Sie in der Nvidia-Systemsteuerung, ob der Hochleistungs-Nvidia-Prozessor als bevorzugter Grafikprozessor ausgewählt ist.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldCheck} title="Checkliste für die Hardware-Wartung">
+
+Um thermische Drosselung und plötzliche Leistungseinbrüche während langer, entspannender Reinigungssitzungen zu verhindern, halten Sie Ihre physische Hardware in optimalem Zustand. Verwenden Sie diese Checkliste regelmäßig, um sicherzustellen, dass Ihre Grafikkarte mit maximaler Effizienz arbeitet.
+
+<Checklist
+  id="hardware-maintenance"
+  title="GTX 1650 Wartungsroutine:"
+  items={[
+    "Überwachen Sie die GPU-Temperaturen mit einer zuverlässigen Overlay-Software, um sicherzustellen, dass die Temperaturen unter Last unter 80 °C bleiben.",
+    "Reinigen Sie alle drei bis sechs Monate Staubablagerungen von Ihren PC-Gehäuselüftern, dem GPU-Kühler und den Auslassöffnungen des Laptops.",
+    "Konfigurieren Sie eine benutzerdefinierte Lüfterkurve in einer Software wie MSI Afterburner, um die Lüftergeschwindigkeit zu erhöhen, bevor die Karte hohe Temperaturen erreicht.",
+    "Schließen Sie anspruchsvolle Hintergrundanwendungen, Webbrowser und hardwarebeschleunigte Overlays, bevor Sie das Spiel starten."
+  ]}
+/>
+
+<Callout type="info" title="Anzeichen für thermische Drosselung">
+Wenn Ihr Spiel in den ersten fünfzehn Minuten flüssig mit 60 FPS läuft, dann aber dauerhaft in den 30er-Bereich abfällt, drosselt Ihre Grafikkarte wahrscheinlich thermisch. Das Reinigen Ihres Kühlsystems oder das Ersetzen alter Wärmeleitpaste kann dieses Problem beheben.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann die GTX 1650 PowerWash Simulator 2 mit 1080p und 60 FPS ausführen?",
+    answer: "Ja. Durch die Verwendung einer Mischung aus mittleren und hohen Einstellungen, insbesondere durch die Reduzierung der Schattenqualität und der Wassersimulation, hält die GTX 1650 auf den meisten Karrieremodus-Karten problemlos stabile 60 FPS."
+  },
+  {
+    question: "Warum sinkt meine Bildrate, wenn ich die Seifendüse verwende?",
+    answer: "Das Soap 2.0-System verwendet fortschrittliche Schaum-Shader, die an Oberflächen haften und mit Licht interagieren. Das Reduzieren der Gesamtschattenqualität und der Umgebungsverdeckung hilft, die GPU-Last beim Sprühen von Seife zu verringern."
+  },
+  {
+    question: "Laufen die DLC-Pakete STAR WARS und Adventure Time auf dieser Karte gut?",
+    answer: "Ja. Beide kostenpflichtigen DLC-Pakete sind voll kompatibel und laufen gut auf der GTX 1650. Für komplexe Karten wie den Millennium Falcon sorgt die Einstellung des Anti-Aliasings auf FXAA für eine flüssige Performance."
+  },
+  {
+    question: "Sollte ich V-Sync aktivieren oder meine Bildrate begrenzen?",
+    answer: "Wir empfehlen, Ihre Bildrate auf 60 FPS zu begrenzen. Dies verhindert, dass Ihre GPU unnötig hart arbeitet, was Ihr System kühler hält und eine thermische Drosselung bei langen Spielsitzungen verhindert."
+  }
+]} />
+
+<Callout type="tip" title="Abschließende Empfehlung">
+Wenn Sie auf riesigen Karten wie Mount Rushless leichte Ruckler bemerken, versuchen Sie, Ihre Auflösungsskalierung in den Spieloptionen auf 90 % zu senken. Dies sorgt für einen deutlichen Leistungsschub, während die Benutzeroberfläche und der Text perfekt scharf bleiben.
+</Callout>
+
+</Section>

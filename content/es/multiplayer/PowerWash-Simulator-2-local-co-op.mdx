@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cooperativo local en PowerWash Simulator 2: Guía de configuración de pantalla dividida",
+  description: "Aprende a configurar el cooperativo local en pantalla dividida en PowerWash Simulator 2, gestionar el progreso de carrera compartido y limpiar con un compañero.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0284c7/fff?text=Local+Co-Op+Guide",
+  date: "2026-07-17",
+  author: "Equipo de Wiki de PowerWash Simulator 2"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **cooperativo local de PowerWash Simulator 2** admite hasta dos jugadores en una sola pantalla en plataformas compatibles.
+- El **progreso de campaña compartido** permite que ambos jugadores contribuyan directamente al archivo de guardado del modo carrera del anfitrión.
+- Las **configuraciones de los mandos** deben establecerse correctamente a través del menú multijugador del juego antes de comenzar un trabajo.
+- El **modo Juego libre** sigue estando totalmente accesible para disfrutar de sesiones relajadas en pantalla dividida local con amigos.
+</Callout>
+
+<Section icon={Map} title="Configuración del cooperativo local en PowerWash Simulator 2">
+
+Jugar con un compañero en la misma pantalla es una de las formas más satisfactorias de combatir la suciedad en Muckingham. Configurar el **cooperativo local de PowerWash Simulator 2** es sencillo, pero requiere una sincronización adecuada de los mandos y la gestión de perfiles según juegues en PC, Xbox, PlayStation 5 o Nintendo Switch 2.
+
+A diferencia del multijugador en línea, que requiere suscripciones activas a servicios de red, la pantalla dividida local permite a dos jugadores limpiar codo con codo utilizando una sola consola o PC y dos dispositivos de entrada.
+
+<Steps>
+  <Step num="1" title="Conecta tus mandos">
+    Asegúrate de que ambos mandos estén conectados y sean reconocidos por tu consola o PC. En PC, puedes usar una combinación de teclado/ratón y un mando, o dos gamepads independientes. En consolas, asegúrate de que ambos mandos estén sincronizados con el sistema.
+  </Step>
+  <Step num="2" title="Inicia el juego y accede al menú">
+    Inicia el juego con el perfil del jugador principal. Una vez en el menú principal o dentro de la Base de operaciones, abre el menú de pausa y navega hasta el panel de configuración de Multijugador.
+  </Step>
+  <Step num="3" title="Activa el modo de pantalla dividida">
+    Cambia el tipo de sesión multijugador de Un jugador a Cooperativo local. El juego le pedirá al segundo jugador que pulse un botón específico (normalmente Options, Menú o Más) para unirse a la sesión.
+  </Step>
+  <Step num="4" title="Selecciona tu trabajo y empieza a limpiar">
+    Una vez que el Jugador 2 se haya registrado correctamente, usa el Mapa de trabajos en la Base de operaciones para seleccionar cualquier encargo disponible de Carrera o Juego libre. La pantalla se dividirá horizontalmente y ambos jugadores cargarán el trabajo juntos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia sobre el perfil del mando">
+En consolas como Xbox and PlayStation 5, lo ideal es que el Jugador 2 inicie sesión con un perfil de invitado o una cuenta secundaria. El uso de un perfil de invitado garantiza que los ajustes de control personalizados no sobrescriban las configuraciones principales del Jugador 1.
+</Callout>
+
+### Requisitos de plataforma y compatibilidad
+
+Aunque la pantalla dividida local está muy optimizada, el rendimiento y los requisitos de entrada varían ligeramente según la plataforma. Asegúrate de que tu sistema cumple con las configuraciones de mando estándar que se detallan a continuación.
+
+| Plataforma | Límite de jugadores | Configuración de mandos | Rendimiento |
+|---|---|---|---|
+| PC (Steam/Epic) | 2 jugadores | Teclado + Mando o dos mandos | Excelente |
+| Xbox Series X/S | 2 jugadores | Dos mandos (se recomienda iniciar sesión) | Alto |
+| PlayStation 5 | 2 jugadores | Dos mandos DualSense | Alto |
+| Nintendo Switch 2 | 2 jugadores | Dos Joy-Con o mandos Pro | Equilibrado |
+
+</Section>
+
+<Section icon={Target} title="Progreso de carrera compartido y características de la pantalla dividida">
+
+Una de las mejoras más importantes de la secuela es cómo se integra el cooperativo local con la campaña principal. En lugar de limitar a los jugadores secundarios a simples roles de invitado, el juego local permite a ambos participantes progresar de forma significativa.
+
+Al jugar en el Modo carrera, todos los trabajos desbloqueados, el dinero ganado y los puntos de PowerWash están vinculados directamente al archivo de guardado del anfitrión. Sin embargo, ambos jugadores pueden utilizar el equipo desbloqueado por el anfitrión, lo que garantiza que el Jugador 2 no se quede usando herramientas iniciales débiles mientras el Jugador 1 maneja maquinaria de nivel profesional.
+
+### Comparación de características del modo cooperativo
+
+Para ayudarte a decidir entre el juego local y las sesiones en línea, revisa cómo gestionan los diferentes modos de juego los límites de multijugador, el progreso y la distribución de la pantalla.
+
+| Característica | Juego en solitario | Cooperativo local | Cooperativo en línea |
+|---|---|---|---|
+| Máx. jugadores | 1 jugador | 2 jugadores | 4 jugadores |
+| Progreso | Guardado personal | Guardado compartido (Anfitrión) | Guardado compartido (Anfitrión) |
+| Formato de pantalla | Pantalla completa | Pantalla dividida | Pantalla completa |
+| Personalización | Acceso total | Controlado por el anfitrión | Individual |
+
+<Callout type="success" title="Consejo de progreso">
+Si el Jugador 2 se une a un trabajo de Carrera que aún no ha desbloqueado en su perfil personal, completarlo en vuestra sesión cooperativa local le otorgará de todos modos los logros de finalización correspondientes en el perfil de su respectiva plataforma.
+</Callout>
+
+Durante el juego cooperativo, la interfaz se adapta para mostrar barras de progreso independientes para las tareas individuales, mientras que el porcentaje de finalización global del trabajo se mantiene compartido en la parte superior de la pantalla. Esto permite a los jugadores dividirse el trabajo y vencer, concentrándose uno en las estructuras elevadas mientras el otro limpia el suelo.
+
+</Section>
+
+<Section icon={Sparkles} title="Hidrolimpiadoras y mejoras recomendadas para la limpieza en pareja">
+
+Completar los 38 enormes trabajos de la carrera es el doble de rápido cuando coordináis vuestro equipamiento. Para maximizar la eficiencia en el cooperativo local, los jugadores deberían adoptar roles especializados en lugar de usar un equipo idéntico.
+
+El uso de la combinación adecuada de hidrolimpiadoras de alta potencia, limpiadores de superficies y boquillas especializadas evita que se duplique el trabajo y garantiza que la suciedad persistente se elimine rápidamente sin desperdiciar la valiosa presión del agua.
+
+<CardGrid cols={3}>
+  <Card title="El barredor general">
+    - **Herramienta principal**: SwirlForce Surf Ace
+    - **Mejor boquilla**: Cabezal de 20 pulgadas
+    - **Rol**: Limpia rápidamente áreas grandes y planas como suelos, caminos pavimentados y paredes enormes.
+  </Card>
+  <Card title="El detallista">
+    - **Herramienta principal**: Prime Vista Pro
+    - **Mejor boquilla**: Boquilla adaptable
+    - **Rol**: Se centra en molduras intrincadas, costuras estrechas, ruedas y esquinas de difícil acceso.
+  </Card>
+  <Card title="El preparador">
+    - **Herramienta principal**: Urban X Stream
+    - **Mejor boquilla**: Boquilla de jabón
+    - **Rol**: Esparce Jabón 2.0 gratuito sobre zonas muy sucias para ablandar la mugre antes de que pase el barredor.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sinergia de boquillas">
+Haz que el preparador cubra un edificio sucio con Jabón 2.0 mientras el barredor general le sigue de cerca con una hidrolimpiadora de potencia media o alta. Esta secuencia reduce a la mitad el tiempo de limpieza en estructuras grandes como la gasolinera o el centro comercial.
+</Callout>
+
+### Equipamientos recomendados para cooperativo
+
+Utiliza esta guía de equipamiento para coordinar las compras de vuestro equipo. Comprar accesorios complementarios os asegurará no gastar todo el dinero ganado en herramientas idénticas al principio de la campaña.
+
+| Rol | Herramienta principal | Mejor boquilla | Objetivo principal |
+|---|---|---|---|
+| El barredor | SwirlForce Surf Ace | Cabezal de 20 pulgadas | Suelos y paredes grandes |
+| El detallista | Prime Vista Pro | Adaptable o de 15 grados | Costuras, molduras y pernos |
+| El preparador | Urban X Stream | Boquilla de jabón | Capas de suciedad persistente |
+
+</Section>
+
+<Section icon={Trophy} title="Logros cooperativos locales y lista de tareas">
+
+Muchos de los 60 logros del juego son significativamente más fáciles de desbloquear cuando se trabaja en equipo. Las tareas que requieren una sincronización precisa, el uso de boquillas específicas o un posicionamiento complejo se pueden completar sin esfuerzo cuando dos jugadores coordinan sus acciones.
+
+Por ejemplo, logros como *Baño perruno* (aplicar jabón a todas las tareas de lavado del coche canino simultáneamente) o *El suelo es lava* (recorrer el círculo de piedra sin tocar el suelo) se benefician enormemente de tener a un segundo jugador que ayude con la preparación o la limpieza.
+
+<Checklist
+  id="coop-milestones"
+  title="Objetivos de finalización cooperativos:"
+  items={[
+    "Completa la furgoneta de mudanzas en pantalla dividida para desbloquear el primer hito de la campaña.",
+    "Consigue el logro Baño perruno enjabonando todas las partes del coche simultáneamente.",
+    "Limpia un enorme trabajo de varias fases como las instalaciones públicas en compañía.",
+    "Coordinaos en Mount Rushless para dividiros el trabajo de rápel en las alturas y el barrido a ras de suelo."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de sincronización de logros">
+Es posible que algunos trofeos o logros específicos de la plataforma solo se desbloqueen para el Jugador 1 (el perfil del anfitrión) durante el juego local en pantalla dividida. Si el Jugador 2 no recibe el logro, intenta cambiar los perfiles de anfitrión y volver a jugar el trabajo en Juego libre.
+</Callout>
+
+### Los mejores trabajos para jugar en pantalla dividida
+
+Aunque los 38 trabajos de carrera admiten el modo cooperativo, algunos niveles están perfectamente diseñados para dos jugadores debido a su distribución simétrica o a su escala masiva.
+
+| Nombre del trabajo | Tipo de fase | Dificultad cooperativa | Recompensa de finalización |
+|---|---|---|---|
+| Furgoneta de mudanzas | Fase única | Fácil | Dinero estándar |
+| Instalaciones públicas | Multifase | Media | Dinero alto |
+| Gasolinera | Ubicación grande | Media | Dinero alto |
+| Mount Rushless | Fase cumbre | Difícil | Dinero máximo |
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas y preguntas frecuentes">
+
+Aunque la pantalla dividida local es muy estable, los jugadores pueden encontrarse ocasionalmente con problemas de detección de mandos, caídas de rendimiento en hardware más antiguo o preferencias de escala de la interfaz de usuario. 
+
+El uso del modo de rendimiento en consolas y asegurarse de que ambos mandos estén completamente asignados a perfiles independientes antes de iniciar el juego resolverá la gran mayoría de los problemas del multijugador local.
+
+<Callout type="info" title="Consejo de rendimiento">
+Si experimentas caídas en la tasa de fotogramas durante el juego en pantalla dividida en Nintendo Switch 2 o en ordenadores de gama baja, ve a las opciones gráficas y reduce la calidad de los reflejos en los charcos de agua. Esto mejora significativamente el rendimiento sin afectar a la jugabilidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿El Jugador 2 consigue logros en el modo cooperativo local?",
+    answer: "Sí, en la mayoría de las plataformas, si el Jugador 2 ha iniciado sesión en un perfil activo independiente, obtendrá logros junto al Jugador 1. Sin embargo, los perfiles de invitado no guardan el progreso de los logros."
+  },
+  {
+    question: "¿Podemos jugar a los packs de DLC en pantalla dividida local?",
+    answer: "Sí. Las expansiones cruzadas de pago, incluidos el paquete de Hora de Aventuras y el paquete de STAR WARS, son totalmente compatibles con la pantalla dividida local para dos jugadores, siempre que el perfil del anfitrión sea propietario del DLC."
+  },
+  {
+    question: "¿Cómo ajustamos la distribución de la pantalla dividida?",
+    answer: "El juego utiliza por defecto una distribución de pantalla dividida horizontal para conservar el amplio campo de visión necesario para rastrear las superficies sucias. Esta distribución no se puede cambiar a vertical."
+  },
+  {
+    question: "¿Podemos mezclar el cooperativo local y el multijugador en línea?",
+    answer: "No. Las sesiones deben configurarse como pantalla dividida local (limitada a 2 jugadores) o como multijugador en línea (hasta 4 jugadores). No es posible que jugadores en línea se unan a una sesión de pantalla dividida local."
+  }
+]} />
+
+</Section>

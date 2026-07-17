@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 Koop: Guide für 4-Spieler & Split-Screen-Setup",
+  description: "Hosten Sie Online-Matches oder spielen Sie im Split-Screen in PowerWash Simulator 2. Erfahren Sie alles über Crossplay-Regeln, geteilten Fortschritt und Koop-Strategien für alle 38 Aufträge.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Co-op+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **PowerWash Simulator 2 Koop** unterstützt bis zu vier Spieler online, sowohl im Karriere- als auch im Freien Spielmodus.
+- **Lokaler Split-Screen** ermöglicht es zwei Spielern, gemeinsam an einer Konsole oder einem PC zu reinigen.
+- **Crossplay wird unterstützt** zwischen Xbox Series X|S und PC-Plattformen, PlayStation und Nintendo sind jedoch eingeschränkt.
+- **Kampagnenfortschritt** wird während aktiver Online-Sitzungen geteilt, wodurch massive Aufträge viel schneller abgeschlossen werden können.
+- **DLC-Kampagnen** wie Adventure Time und Star Wars unterstützen den Koop-Modus für alle Missionen vollständig.
+</Callout>
+
+<Section icon={Map} title="PowerWash Simulator 2 Koop: Spielerlimits und Modi">
+
+Egal, ob Sie riesige Industriestandorte in Angriff nehmen oder ikonische Crossover-Karten reinigen möchten – das Verständnis des **PowerWash Simulator 2 Koop-Systems** ist entscheidend für maximale Effizienz. Die Fortsetzung baut auf den kooperativen Grundlagen des Originals auf und bietet flexiblere Spielerlimits, geteilten Kampagnenfortschritt und eine dedizierte lokale Split-Screen-Option.
+
+In diesem Spiel ist das kooperative Gameplay in zwei Hauptformate unterteilt: Online-Multiplayer und lokaler Couch-Koop. Online-Sitzungen ermöglichen es Ihnen, sich mit bis zu drei anderen Spielern zusammenzutun, was eine Gesamtteamgröße von vier Personen ergibt. Dies ist besonders nützlich für späte Aufträge wie Mount Rushless oder das Einkaufszentrum, wo die schiere Oberfläche Stunden dauern kann, wenn man sie alleine reinigt. Der lokale Modus hingegen ist für zwei Spieler konzipiert, die sich einen Bildschirm teilen, und bietet ein klassisches Split-Screen-Erlebnis.
+
+| Modus | Spielerlimit | Fortschrittstyp | Split-Screen | Bestens geeignet für |
+| :--- | :--- | :--- | :--- | :--- |
+| Online-Karriere | 4 Spieler | Geteilt | Nein | Große Standorte |
+| Online-Freies Spiel | 4 Spieler | Keiner | Nein | Wiederholen von Aufträgen |
+| Lokaler Split-Screen | 2 Spieler | Geteilt | Ja | Couch-Koop |
+
+<Callout type="info" title="Sitzungsflexibilität">
+Sie können Ihren Sitzungstyp jederzeit über das Pausenmenü ändern. Wenn Sie einen Auftrag solo beginnen und feststellen, dass er zu groß ist, öffnen Sie einfach das Menü und ändern Sie die Sitzung auf Online, um Ihre Freunde einzuladen.
+</Callout>
+
+Das Spiel bietet 38 Karriere-Aufträge, die alle kooperativ abgeschlossen werden können. Im Karrieremodus dient die Speicherdatei des Hosts als Grundlage. Jeglicher Fortschritt der Gastspieler wird in der Kampagne des Hosts gespeichert. Das bedeutet, dass Sie mehrstufige Aufträge gemeinsam erledigen können, ohne sie einzeln in Ihren eigenen Spieldateien wiederholen zu müssen.
+
+</Section>
+
+<Section icon={Target} title="So hosten Sie kooperative Sitzungen und treten ihnen bei">
+
+Das Einrichten einer kooperativen Sitzung in PowerWash Simulator 2 ist unkompliziert, erfordert jedoch das Navigieren durch das Multiplayer-Menü im Spiel. Das Spiel verwendet ein Raumcode-System, um Verbindungen über verschiedene Storefronts auf dem PC zu erleichtern, sodass Steam-, Epic Games Store- und Windows Store-Spieler nahtlos zusammen spielen können.
+
+Befolgen Sie diese Schritte, um eine aktive Reinigungstruppe zu hosten oder einer beizutreten:
+
+<Steps>
+  <Step num="1" title="Multiplayer-Menü aufrufen">
+    Starten Sie PowerWash Simulator 2 und öffnen Sie das Pausenmenü oder navigieren Sie zum Haupt-Dashboard. Wählen Sie die Option Multiplayer, um die Verbindungseinstellungen zu öffnen.
+  </Step>
+  <Step num="2" title="Sitzungstyp konfigurieren">
+    Wenn Sie hosten, ändern Sie Ihren Sitzungstyp von Einzelspieler auf Online-Multiplayer. Dadurch wird ein eindeutiger, temporärer Raumcode auf Ihrem Bildschirm generiert.
+  </Step>
+  <Step num="3" title="Verbindungscode teilen">
+    Kopieren Sie den generierten Raumcode und senden Sie ihn über Discord, Textnachricht oder das Nachrichtensystem Ihrer Plattform an Ihre Freunde.
+  </Step>
+  <Step num="4" title="Einem aktiven Raum beitreten">
+    Wählende Spieler wählen im Multiplayer-Menü „Code eingeben“, fügen den Code des Hosts ein und bestätigen, um sofort mit der Sitzung verbunden zu werden.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Plattform-Einladungen nutzen">
+Wenn Sie auf demselben Plattform-Ökosystem spielen (z. B. Steam-zu-Steam oder Xbox-zu-Xbox), können Sie das Raumcode-System komplett umgehen, indem Sie das Standard-Plattform-Overlay verwenden, um direkte Einladungen zu senden.
+</Callout>
+
+Für den lokalen Split-Screen ist der Vorgang noch einfacher. Schließen Sie einen zweiten Controller an Ihre Konsole oder Ihren PC an, öffnen Sie das Multiplayer-Menü und wählen Sie die Option Split-Screen. Der Bildschirm teilt sich je nach Ihren Einstellungen vertikal oder horizontal, sodass beide Spieler zum selben aktiven Kampagnen-Speicherstand beitragen können.
+
+</Section>
+
+<Section icon={Shield} title="Crossplay und Plattformanforderungen">
+
+Cross-Plattform-Multiplayer ist ein häufig gewünschtes Feature, bringt aber in PowerWash Simulator 2 spezifische Einschränkungen mit sich. Das Spiel unterstützt Crossplay zwischen dem Xbox- und dem PC-Ökosystem, aber konsolenspezifische Einschränkungen gelten für PlayStation- und Nintendo-Nutzer.
+
+Der PC-Spielerpool ist komplett vereinheitlicht. Wenn Sie das Spiel auf Steam gekauft haben, können Sie mit Freunden spielen, die es im Epic Games Store oder im Windows Store besitzen. Zusätzlich können Xbox Series X|S-Spieler diesen PC-Sitzungen nahtlos beitreten. PlayStation 5- und Nintendo Switch 2-Spieler sind jedoch auf ihre jeweiligen plattformspezifischen Matchmaking-Pools beschränkt.
+
+| Plattform | Crossplay-Partner | Speicher-Transfer | Abonnement erforderlich |
+| :--- | :--- | :--- | :--- |
+| Xbox Series X/S | PC (Steam, Epic, MS Store) | Nein | Xbox Game Pass |
+| PC (Steam/Epic) | Xbox Series X/S, PC-Plattformen | Nein | Keine |
+| PlayStation 5 | Nur PlayStation-Pool | Nein | PlayStation Plus |
+| Nintendo Switch 2 | Nur Switch 2-Pool | Nein | Nintendo Switch Online |
+
+<Callout type="warning" title="Hinweis zum Online-Abonnement">
+Konsolenspieler müssen über ein aktives Online-Abonnement verfügen, um Online-Koop spielen zu können. Dazu gehören PlayStation Plus für PS5, Nintendo Switch Online für Switch 2 und eine berechtigte Xbox Game Pass-Stufe für Xbox-Konsolen.
+</Callout>
+
+Es ist auch wichtig zu beachten, dass das Spiel keine plattformübergreifenden Speicherstand-Transfers unterstützt. Sie können zwar mit Freunden auf unterstützten Plattformen spielen, aber Ihr Karrieremodus-Fortschritt, freigeschaltete Reiniger und verdientes Geld bleiben an das Plattform-Ökosystem gebunden, in dem der Speicherstand ursprünglich erstellt wurde.
+
+</Section>
+
+<Section icon={Sparkles} title="Geteilter Fortschritt und beste Koop-Strategien">
+
+Um im kooperativen Spiel effizient zu reinigen, sollte Ihr Team es vermeiden, sich an derselben Stelle zu drängen. Da der Wasserdruck auf größere Distanz abfällt, ist es höchst ineffizient, wenn mehrere Spieler dieselbe Oberfläche besprühen. Stattdessen beschleunigt das Aufteilen der Karte in verschiedene Zonen oder Rollen Ihre Abschlusszeiten dramatisch.
+
+Wenn ein Team einer Online-Karriere-Sitzung beitritt, erhalten alle Spieler Zugriff auf die freigeschaltete Ausrüstung und das Seifeninventar des Hosts. Dies ermöglicht es fortgeschrittenen Spielern, Anfängern zu helfen, indem sie High-Tier-Reiniger in frühe Level mitbringen und so kurzen Prozess mit hartnäckigen Schmutzschichten machen.
+
+<CardGrid cols={3}>
+  <Card title="Der Bodenreiniger">
+    - **Hauptwerkzeug**: SwirlForce Surf Ace
+    - **Rolle**: Große flache Oberflächen wie Straßen, Böden und Dächer reinigen.
+    - **Strategie**: Fokus auf breite Bahnen, um 80 % des Schmutzes auf der Karte schnell zu entfernen.
+  </Card>
+  <Card title="Der Detailspezialist">
+    - **Hauptwerkzeug**: Anpassbare Düse
+    - **Rolle**: Verkleidungen, Räder, Nähte und schwer zugängliche Ecken reinigen.
+    - **Strategie**: Dem Bodenreiniger folgen, um verpasste Prozente nachzubessern.
+  </Card>
+  <Card title="Der Seifenanwender">
+    - **Hauptwerkzeug**: Seifendüse
+    - **Rolle**: Stark verschmutzte Bereiche und hartnäckige Roststellen vorbehandeln.
+    - **Strategie**: Schmutzschichten aufweichen, damit Teamkollegen sie sofort abspülen können.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Maximieren Sie Ihren Cashflow">
+Im Karrieremodus gewährt das Abschließen von Aufträgen allen teilnehmenden Spielern Geld, nicht nur dem Host. Dies macht das kooperative Spiel zu einem der schnellsten Wege für neue Spieler, das Geld für teure Profi-Reiniger zu verdienen.
+</Callout>
+
+Für optimale Effizienz nutzen Sie die folgende Tabelle zur Ausrüstungssynergie, um Rollen zuzuweisen, bevor Sie einen großen Auftrag beginnen:
+
+| Rolle | Hauptwerkzeug | Beste Zieloberflächen | Koop-Wert |
+| :--- | :--- | :--- | :--- |
+| Seifenanwender | Seifendüse | Hartnäckiger Schmutz, schweres Fett | ★★★★★ |
+| Bodenreiniger | SwirlForce Surf Ace | Pflasterung, Flachdächer, Bühnen | ★★★★☆ |
+| Detailspezialist | Anpassbare Düse | Verkleidungen, Räder, schmale Nähte | ★★★★☆ |
+| Höhenreiniger | Scherenbühne & Verlängerungen | Dachlinien, hohe Schilder, Säulen | ★★★★★ |
+
+</Section>
+
+<Section icon={Trophy} title="Leitfaden für kooperative Erfolge">
+
+PowerWash Simulator 2 bietet 60 Erfolge im Basisspiel und seinen DLC-Packs. Während viele solo abgeschlossen werden können, sind einige Herausforderungen mit einem Koop-Partner deutlich einfacher. Zum Beispiel können Erfolge, die das Reinigen bestimmter Objekte zuerst oder die Einhaltung strenger Ausrüstungsbeschränkungen erfordern, mit einem zweiten Paar Hände leichter koordiniert werden.
+
+Wenn Sie in Koop-Sitzungen auf Erfolge aus sind, ist Kommunikation der Schlüssel. Wenn ein Spieler versehentlich das falsche Objekt reinigt, kann dies einen „Zuerst-Reinigen“-Run für die gesamte Lobby ruinieren. Nutzen Sie den Text-Chat im Spiel oder die Sprachkommunikation, um Ihre Ziele abzustimmen.
+
+<Checklist
+  id="coop-achievements"
+  title="Koop-freundliche Erfolge:"
+  items={[
+    "Koordinieren Sie die Route für 'Der Boden ist Lava' im Steinkreis-Auftrag.",
+    "Tragen Sie für 'Hundebad' gleichzeitig Seife auf alle Aufgaben auf.",
+    "Isolieren Sie gemeinsam Türen und Griffe, um 'Von Tür zu Tür' freizuschalten.",
+    "Teilen Sie die großen Paneele des AT-AT auf, ohne Seife zu benutzen."
+  ]}
+/>
+
+| Erfolg | Schwierigkeit | Benötigte Karte | Koop-Vorteil |
+| :--- | :--- | :--- | :--- |
+| Floor is Lava | Schwer | Steinkreis | Freunde können spotten oder reinigen, während du springst |
+| Doggy Bath | Mittel | Hundewagen | Mehrere Spieler tragen gleichzeitig Seife auf |
+| Door to Door | Schwer | Motel | Türen unter Spielern aufteilen, um schneller fertig zu werden |
+
+<Callout type="tip" title="Freischaltung von Erfolgen">
+Die meisten Erfolge in PowerWash Simulator 2 werden für alle Spieler in der Lobby nach Abschluss freigeschaltet. Einige spezifische Interaktionserfolge (wie das Streicheln von Katzen oder das Fahren mit der Achterbahn) müssen jedoch von jedem Spieler einzeln durchgeführt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Koop – Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Unterstützt PowerWash Simulator 2 Koop Crossplay auf allen Plattformen?",
+    answer: "Nein. Crossplay wird zwischen Xbox Series X|S und kompatiblen PC-Versionen (Steam, Epic Games Store und Windows Store) unterstützt. PlayStation 5- und Nintendo Switch 2-Spieler sind auf ihre eigenen plattformspezifischen Matchmaking-Pools beschränkt."
+  },
+  {
+    question: "Wie funktioniert der Fortschritt für Gastspieler im Online-Koop?",
+    answer: "Der Fortschritt wird in der Kampagnendatei des Hosts gespeichert. Gastspieler treiben ihre eigenen Karrieremodus-Storylines nicht voran, verdienen aber Geld und PowerWash-Punkte, die in ihre individuellen Profile übernommen werden."
+  },
+  {
+    question: "Können wir gleichzeitig Split-Screen und Online-Koop spielen?",
+    answer: "Nein. Das Spiel unterstützt keinen Combo-Koop. Sie müssen sich entweder für eine lokale Zwei-Spieler-Split-Screen-Sitzung oder eine Online-Multiplayer-Sitzung mit bis zu vier Spielern entscheiden."
+  },
+  {
+    question: "Müssen alle Spieler die DLC-Packs besitzen, um auf diesen Karten Koop zu spielen?",
+    answer: "Ja. Um an einer Koop-Sitzung auf einer DLC-Karte (wie den Adventure Time- oder Star Wars-Standorten) teilzunehmen, müssen alle teilnehmenden Spieler das entsprechende DLC-Paket auf ihrer jeweiligen Plattform erworben haben."
+  }
+]} />
+
+<Callout type="info" title="Benötigen Sie weitere Hilfe?">
+Wenn Verbindungsprobleme oder Raumcode-Fehler auftreten, stellen Sie sicher, dass alle Spieler ihr Spiel auf die neueste Patch-Version aktualisiert haben. Versionsunterschiede sind die häufigste Ursache für fehlgeschlagene Koop-Verbindungen.
+</Callout>
+
+</Section>

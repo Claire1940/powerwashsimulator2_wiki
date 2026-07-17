@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 How to Restart a Level: Setup Guide",
+  description: "Learn how to restart individual levels, replay cleanups, or reset career progression in PowerWash Simulator 2 with this step-by-step guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Restart+Level+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki Team",
+  slug: "powerwash-simulator-2-how-to-restart-a-level"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Restarting levels** in PowerWash Simulator 2 is typically done via the in-game pause menu or by selecting Free Play mode.
+- **Career reset** clears all progression data, including money, washers, and upgrades, returning the game to its initial state.
+- **Free Play mode** allows you to replay completed maps for fun without affecting your main career progression save.
+- **Co-op progress** is tied to the host player, meaning guests cannot independently trigger a level reset during active sessions.
+</Callout>
+
+<Section icon={Shield} title="Understanding Progression and Reset Mechanics">
+
+PowerWash Simulator 2 features a variety of cleaning jobs, ranging from small vehicles to massive industrial complexes. As you wash away layers of dirt, grime, and moss, the game automatically saves your progress in real-time. This ensures that you do not lose your hard work if you need to exit the game mid-job. However, there are times when players want to start a job fresh. Whether you want to try a different cleaning strategy, optimize your route for a speedrun, or resolve a minor physics glitch with a specific asset, knowing in **PowerWash Simulator 2 how to restart a level** is a highly useful skill.
+
+Understanding the progression mechanics is key before taking action. The game differentiates between your overall career progress, individual job status, and replayable missions in Free Play mode. Resetting an active job clears the dirt data for that specific level, returning it to a 0% completion state, but it does not affect your career funds or unlocked equipment. On the other hand, wiping your save data resets everything, requiring you to build your cleaning empire from scratch.
+
+| Method | Description | Progress Retained | Best For |
+| --- | --- | --- | --- |
+| Free Play Replay | Replay completed levels from main menu | Keeps high scores | Casual cleaning |
+| Active Job Reset | Reset current job percentage via menu | Wipes current job | Fixing glitches |
+| Full Career Wipe | Clear all save data from options menu | Zero progress | Starting fresh |
+
+<Callout type="warning" title="Warning">
+Clearing your career save data is permanent and cannot be undone. Always backup your local save files if you plan to start the entire campaign fresh.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PowerWash Simulator 2: How to Restart a Level Step-by-Step">
+
+Restarting a level is a common practice when players want to optimize their cleaning routes, achieve specific achievements, or resolve a bug where dirt becomes unreachable. The individual level reset tool is designed to wipe the dirt progress of the active map without penalizing your career standing or removing your hard-earned cash.
+
+Before initiating a reset, make sure you have claimed any pending rewards or bonuses. Once you confirm the reset, the level will reload, and all surfaces will be covered in dirt once more. This feature allows for endless replayability and experimentation with different nozzles, cleaning liquids, and extensions.
+
+<Steps>
+  <Step num="1" title="Open the Menu">
+    Press the Escape key on your keyboard or the menu button on your controller to pause the game.
+  </Step>
+  <Step num="2" title="Navigate to Job Details">
+    Locate the active job panel on the tablet interface, which shows your current completion percentage.
+  </Step>
+  <Step num="3" title="Select Restart Option">
+    Click the reset button next to the job details to clear the dirt data for the current level.
+  </Step>
+  <Step num="4" title="Confirm the Reset">
+    Agree to the confirmation prompt to reload the level with 0% progress.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+If a specific object is stuck at 99.9% due to a microscopic speck of dirt, try resetting the individual job rather than wiping your entire career progress.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Career Mode Progression Reset vs. Individual Level Reset">
+
+It is important to distinguish between restarting an individual level and wiping your entire career progression. A career reset is a drastic measure that players typically choose when they want to experience the progression loop of PowerWash Simulator 2 from the very beginning. This includes unlocking washers, purchasing upgrades, and completing the story campaign in order.
+
+For players who simply want to enjoy their favorite levels without the pressure of career progression, Free Play mode is the ideal choice. Free Play unlocks levels as you complete them in the main campaign, allowing you to replay them with any equipment you have purchased. This mode is perfect for testing new gear or simply relaxing with a familiar map.
+
+<CardGrid cols={3}>
+  <Card title="Individual Job Reset">
+    - Target single levels
+    - Keeps career cash
+    - Keeps unlocked gear
+  </Card>
+  <Card title="Complete Save Wipe">
+    - Deletes all career progress
+    - Resets cash to zero
+    - Relocks all power washers
+  </Card>
+  <Card title="Free Play Mode">
+    - Replay unlocked levels
+    - No career impact
+    - Customize water pressure
+  </Card>
+</CardGrid>
+
+| Level Type | Reset Availability | Cash Impact | Gear Retained |
+| --- | --- | --- | --- |
+| Career Levels | Menu reset or full wipe | Resets cash earned | Yes (unless full wipe) |
+| Special Jobs | Individual reset only | None | Yes |
+| DLC Levels | Individual reset only | None | Yes |
+
+<Callout type="info" title="Note">
+Completing jobs in Free Play mode does not award career cash but allows you to practice efficient cleaning paths and earn achievements.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Troubleshooting Common Restart Issues">
+
+While the reset mechanics in PowerWash Simulator 2 are generally reliable, players may occasionally run into issues where a level does not reload correctly or progress tracking becomes desynchronized. This can happen due to cloud save conflicts, multiplayer session errors, or local file corruption. Knowing how to troubleshoot these issues ensures a smooth gameplay experience.
+
+If you find that your restart button is unresponsive, or if the level loads but immediately marks objects as clean, you may need to verify your game files or check your network connection if playing in co-op mode. Multiplayer hosts have sole control over the session save state, so guests cannot independently restart levels during a shared job.
+
+| Issue | Common Cause | Recommended Solution |
+| --- | --- | --- |
+| Reset button greyed out | Job is already at 0% | Start cleaning to enable the option |
+| Progress not saving | Cloud sync conflict | Disable Steam Cloud temporarily |
+| Level stuck at 99% | Micro-dirt remaining | Use the dirt finder or reset job |
+
+<Checklist
+  id="reset-prep"
+  title="Pre-Reset Checklist:"
+  items={[
+    "Verify you have claimed all job rewards and bonuses",
+    "Check if the current progress is backed up locally",
+    "Confirm you want to clear current dirt percentage",
+    "Ensure no co-op players are active in your lobby"
+  ]}
+/>
+
+<Callout type="success" title="Success">
+Restarting a level can help you unlock time-based achievements more easily by starting with a clean slate and a pre-planned route.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Here are the answers to the most common questions regarding level resets and progression.
+
+<FAQ items={[
+  {
+    question: "How do I restart a level in PowerWash Simulator 2 without losing my gear?",
+    answer: "You can reset the active job from the pause menu, which clears the dirt progress but keeps your unlocked equipment, cleaning liquids, and cash."
+  },
+  {
+    question: "Can I replay completed levels in PowerWash Simulator 2?",
+    answer: "Yes, you can use the Free Play mode from the main menu to replay any completed job at any time with your choice of equipment."
+  },
+  {
+    question: "Does resetting a career level refund the money spent on upgrades?",
+    answer: "No, resetting an individual level does not affect your inventory or wallet. Only a full career save wipe resets your cash and upgrades."
+  },
+  {
+    question: "What should I do if a level is bugged and won't let me finish?",
+    answer: "Open the pause menu, select the job reset option, and confirm the restart to reload the dirty assets and fix potential rendering issues."
+  }
+]} />
+
+<Callout type="tip" title="Tip">
+Always check the official community forums or patch notes if you experience persistent progression bugs that a simple level reset cannot resolve.
+</Callout>
+
+</Section>

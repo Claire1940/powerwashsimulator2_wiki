@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 Paketauswahl leer: Schritt-für-Schritt-Lösungen",
+  description: "Erfahren Sie in unserer detaillierten Anleitung zur Fehlerbehebung, wie Sie den Fehler der leeren Paketauswahl in PowerWash Simulator 2 beheben können.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pack+Select+Empty+Fix",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Der Fehler **PowerWash Simulator 2 Paketauswahl leer** (pack select empty) ist in der Regel auf ein Problem mit der Lizenzierung oder der Synchronisierung des lokalen Caches zurückzuführen.
+- **Überprüfen Sie die Spieldateien** auf Steam oder installieren Sie DLC-Pakete auf der Konsole neu, um das Auswahlmenü neu zu laden.
+- **Löschen Sie den lokalen Cache** und stellen Sie sicher, dass Sie vor dem Start vollständig bei den Online-Diensten Ihrer Plattform angemeldet sind.
+- **Überprüfen Sie den Netzwerkstatus**, um sicherzustellen, dass das Spiel eine Verbindung zu den Content-Delivery-Servern herstellen kann.
+</Callout>
+
+<Section icon={Shield} title="PowerWash Simulator 2 Paketauswahl leer: Ursachen">
+
+Es gibt kaum etwas Frustrierenderes, als das Spiel zu starten, um virtuellen Schmutz zu beseitigen, nur um dann vor dem Bildschirm **PowerWash Simulator 2 Paketauswahl leer** zu stehen, der den Zugriff auf Ihre Premium-DLC-Inhalte blockiert. Dieses Problem äußert sich in der Regel als völlig leeres Raster, in dem Ihre gekauften Erweiterungspakete – wie spezielle Crossover-Level oder saisonale Karten – angezeigt werden sollten. Anstatt einen Job auszuwählen, blicken Sie auf eine nicht reagierende Benutzeroberfläche.
+
+Um dieses Problem zu lösen, ist es wichtig zu verstehen, wie das Spiel mit der Bereitstellung von Inhalten umgeht. Wenn Sie das Paketauswahlmenü öffnen, sendet der Spiel-Client eine API-Anfrage sowohl an den Store Ihrer Plattform (Steam, Xbox Live, PlayStation Network oder Nintendo eShop) als auch an die Backend-Server des Spiels. Dieser Handshake überprüft Ihre Eigentumslizenzen. Wenn es während dieses Vorgangs zu einer Verzögerung, einer beschädigten lokalen Datei oder einem Netzwerk-Timeout kommt, wird das Menü nicht geladen und der Auswahlbildschirm bleibt völlig leer.
+
+| Symptom | Mögliche Ursache | Schweregrad |
+|---|---|---|
+| Leeres DLC-Raster | Fehler bei der Lizenzsynchronisierung | Hoch |
+| Unendliche Ladeanzeige | Netzwerk-Timeout mit den Inhaltsserveren | Mittel |
+| Gesperrte Pakete mit Kaufaufforderung | Beschädigter lokaler Cache oder veralteter Client | Hoch |
+| Nur ein bestimmtes Paket fehlt | Nicht installierte DLC-Dateien oder regionale Abweichung | Mittel |
+
+<Callout type="warning" title="Sichern Sie Ihre Spielstände">
+Sichern Sie immer Ihre lokalen Speicherstände, bevor Sie Cache-Dateien oder lokale App-Daten löschen, um den Verlust Ihres Spielfortschritts in der Karriere zu verhindern.
+</Callout>
+
+Dieser Fehler wird selten durch ein Hardwareproblem verursacht. Stattdessen handelt es sich fast immer um einen Kommunikationsfehler auf Softwareebene zwischen Ihrem lokalen Gerät und den Authentifizierungsserveren. Unabhängig davon, ob Sie auf dem PC oder einer Konsole spielen, helfen Ihnen die folgenden Schritte zur Fehlerbehebung dabei, diese Verbindungen zu aktualisieren und Ihren Zugriff auf alle Erweiterungspakete wiederherzustellen.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Fehlerbehebung">
+
+Wenn Sie auf den leeren Auswahlbildschirm stoßen, geraten Sie nicht in Panik. Ihre Einkäufe sind sicher mit Ihrem Plattform-Konto verknüpft. Befolgen Sie diese Diagnoseschritte der Reihe nach, um beschädigte temporäre Dateien zu bereinigen und den Spiel-Client zu zwingen, Ihre Lizenzdaten neu zu laden.
+
+<Steps>
+  <Step num="1" title="Netzwerk- und Kontostatus überprüfen">
+    Stellen Sie zunächst sicher, dass Ihr Spielsystem vollständig mit dem Internet verbunden ist. Eine instabile Verbindung kann den ersten Handshake unterbrechen, der zum Laden des DLC-Menüs erforderlich ist. Melden Sie sich von Ihrem Spielprofil (Steam, Xbox oder PSN) ab und wieder an. Dieser einfache Schritt aktualisiert das aktive Sitzungstoken Ihres Kontos, was für die Überprüfung digitaler Käufe entscheidend ist.
+  </Step>
+  <Step num="2" title="Integrität der Spieldateien überprüfen">
+    Für PC-Spieler auf Steam sind beschädigte Installationsdateien eine häufige Ursache für UI-Fehler. Klicken Sie in Ihrer Bibliothek mit der rechten Maustaste auf das Spiel, wählen Sie Eigenschaften, navigieren Sie zur Registerkarte Installierte Dateien und klicken Sie auf Spieldateien auf Fehler überprüfen. Dieser Vorgang gleicht Ihr lokales Verzeichnis mit der offiziellen Datenbank ab und ersetzt alle fehlenden oder beschädigten Dateien, die das ordnungsgemäße Laden der Paketauswahl-Benutzeroberfläche verhindern könnten.
+  </Step>
+  <Step num="3" title="Plattform- und Spiel-Cache löschen">
+    Lokale Cache-Dateien speichern temporäre UI-Daten, um die Ladezeiten zu verkürzen. Wenn diese Dateien jedoch veraltet oder beschädigt sind, kann dies dazu führen, dass das Spiel ein veraltetes, leeres Menü lädt. Das Löschen Ihres System-Caches zwingt das Spiel, beim nächsten Start ein frisches Verzeichnis zu erstellen, wodurch Layout-Fehler behoben werden.
+  </Step>
+  <Step num="4" title="Spezifische Erweiterungspakete neu installieren">
+    Wenn nur bestimmte Pakete fehlen, navigieren Sie zu den Spielverwaltungseinstellungen Ihrer Plattform. Deaktivieren Sie die betroffenen DLC-Pakete, warten Sie einen Moment und aktivieren Sie sie dann wieder, um einen neuen Download zu starten. Dies zwingt den Plattform-Store, die Lizenzen lokal auf Ihrer Festplatte neu zu registrieren.
+  </Step>
+</Steps>
+
+| Plattform | Methode zum Löschen des Caches | Empfohlene Häufigkeit |
+|---|---|---|
+| Steam (PC) | Download-Cache über die Einstellungen löschen und neu starten | Nach großen Spiel-Updates |
+| Xbox Series X/S | Vollständigen Neustart durchführen (Power-Button gedrückt halten) | Monatlich oder nach UI-Fehlern |
+| PlayStation 5 | Lizenzen in den Einstellungen für Benutzer und Konten wiederherstellen | Wenn DLCs nicht geladen werden |
+| Nintendo Switch | Cache in den Systemeinstellungen unter Formatierungsoptionen zurücksetzen | Nur bei Spielabstürzen |
+
+<Callout type="success" title="Überprüfung erfolgreich">
+Die Überprüfung der Spielintegrität auf Steam behebt über 85% der Fehler bei fehlenden Paketauswahlen auf dem PC, ohne dass eine vollständige Neuinstallation erforderlich ist.
+</Callout>
+
+Sobald Sie diese Schritte abgeschlossen haben, starten Sie das Spiel und warten Sie mindestens dreißig Sekunden im Hauptmenü. Dies gibt dem Spiel-Client genügend Zeit, um Netzwerkanfragen im Hintergrund zu verarbeiten, bevor Sie zum Paketauswahlbildschirm navigieren.
+
+</Section>
+
+<Section icon={Swords} title="Vergleich plattformspezifischer Lösungen">
+
+Die genaue Methode zur Behebung des Fehlers **PowerWash Simulator 2 Paketauswahl leer** hängt von dem von Ihnen verwendeten System ab. Verschiedene Plattformen nutzen unterschiedliche DRM-Systeme (Digital Rights Management), was sich darauf auswirken kann, wie Lizenzen zwischengespeichert und verifiziert werden.
+
+<CardGrid cols={3}>
+  <Card title="Steam (PC)">
+    - **Spieldateien auf Fehler überprüfen**, um beschädigte UI-Assets zu reparieren.
+    - Steam-Download-Cache löschen, um Verbindungsprobleme zu beheben.
+    - Überprüfen, ob die Steam Cloud korrekt synchronisiert ist.
+  </Card>
+  <Card title="Xbox & Game Pass">
+    - **Vollständigen Neustart durchführen**, um den Systemspeicher zu leeren.
+    - Sicherstellen, dass Ihr Abonnement aktiv und Sie angemeldet sind.
+    - Das Menü „Spiel und Add-ons verwalten“ verwenden, um den DLC-Status zu prüfen.
+  </Card>
+  <Card title="PlayStation & Switch">
+    - **Lizenzen wiederherstellen** über die Kontoverwaltungseinstellungen.
+    - Sicherstellen, dass Ihre Konsole als primäres Gerät eingestellt ist.
+    - Den eShop oder PSN Store überprüfen, um zu bestätigen, dass der DLC aktiv ist.
+  </Card>
+</CardGrid>
+
+Auf dem PC hängt das Problem häufig mit lokalen Dateipfaden oder Hintergrundanwendungen zusammen, die das für das Crossplay verwendete Epic Online Services-Framework blockieren. Auf Konsolen handelt es sich fast ausschließlich um einen Lizenzkonflikt, insbesondere wenn Sie Spiele über mehrere Konten auf demselben Gerät teilen.
+
+| Plattform | Lösungsmethode | Erfolgsquote | Benötigte Zeit |
+|---|---|---|---|
+| Steam | Spieldateien auf Fehler überprüfen | 90% | 5-10 Minuten |
+| Xbox | Profil-Resynchronisierung | 80% | 3-5 minutes |
+| PlayStation | Lizenzen wiederherstellen | 85% | 2-3 Minuten |
+| Nintendo Switch | DLC erneut herunterladen | 75% | 15-20 Minuten |
+
+<Callout type="tip" title="Uhrzeitsynchronisation">
+Stellen Sie sicher, dass Ihre Systemzeit mit der Internetzeit synchronisiert ist, da asynchrone Uhren SSL-Handshakes mit den DLC-Servern blockieren können.
+</Callout>
+
+Wenn Sie ein Konsolen-Sharing-Setup verwenden, stellen Sie sicher, dass das Konto, mit dem die Erweiterungspakete gekauft wurden, angemeldet ist oder die aktuelle Konsole als primäres Gerät festgelegt hat. Andernfalls laden sekundäre Profile aufgrund fehlender Offline-Lizenzberechtigungen möglicherweise einen leeren Auswahlbildschirm.
+
+</Section>
+
+<Section icon={Trophy} title="Prävention und zukünftige Updates">
+
+Um zu verhindern, dass Sie in Zukunft wieder vor einem leeren Paketmenü stehen, wird dringend empfohlen, sowohl Ihren Spiel-Client als auch Ihre Systemsoftware auf die neuesten Patches von 2026 zu aktualisieren. Die Entwickler veröffentlichen regelmäßig Stabilitätsupdates, die die Serverkommunikation und das UI-Rendering optimieren.
+
+Darüber hinaus kann eine stabile Netzwerkkonfiguration Handshake-Timeouts verhindern, die diesen Fehler verursachen. Wenn Sie häufig offline spielen, beachten Sie bitte, dass einige DLC-Pakete gelegentlich eine Online-Überprüfung erfordern, um das Eigentum erneut zu bestätigen. Wenn Sie Ihr Gerät alle paar Tage mit dem Internet verbinden, können Sie plötzliche Sperren leicht vermeiden.
+
+<Checklist
+  id="pws2-maintenance"
+  title="PWS2-Wartungs-Checkliste:"
+  items={[
+    "Überprüfen Sie die Spieldateien nach jedem größeren Patch",
+    "Stellen Sie sicher, dass die Konsolenlizenzen mit Ihrem aktiven Konto synchronisiert sind",
+    "Konfigurieren Sie den Netzwerk-DNS auf die öffentlichen Server von Google oder Cloudflare",
+    "Überprüfen Sie den offiziellen Serverstatus, bevor Sie Fehler an der Hardware suchen",
+    "Aktivieren Sie automatische Updates für alle erworbenen Erweiterungspakete"
+  ]}
+/>
+
+| Einstellungstyp | Empfohlener Wert | Zweck |
+|---|---|---|
+| DNS-Server | 8.8.8.8 (Primär) / 8.8.4.4 (Sekundär) | Schnellere Verbindung zu den DLC-Servern |
+| NAT-Typ | Offen (Typ 1 oder 2) | Uneingeschränkte Netzwerk-Handshakes |
+| Cloud-Speicherstände | Aktiviert | Sichert den Karrierefortschritt beim Löschen des Caches |
+| Automatische Updates | Aktiviert | Verhindert Versionskonflikte zwischen Client und Server |
+
+<Callout type="info" title="Entwickler-Updates">
+Das Entwicklerteam veröffentlicht regelmäßig Hotfixes für UI- und DLC-Ladeprobleme. Suchen Sie auf den offiziellen Social-Media-Kanälen nach Informationen, wenn ein globaler Ausfall vermutet wird.
+</Callout>
+
+Indem Sie Ihr System optimiert halten und routinemäßige Dateiprüfungen durchführen, können Sie sicherstellen, dass Ihr Paketauswahlbildschirm immer vollständig gefüllt bleibt, sodass Sie ohne Unterbrechung direkt in Ihre Reinigungsaufträge einsteigen können.
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Warum wird mein Paketauswahlbildschirm in PowerWash Simulator 2 leer angezeigt?",
+    answer: "Dies geschieht aufgrund eines Netzwerk-Timeouts oder eines Lizenzsynchronisierungsfehlers zwischen Ihrem lokalen Spielgerät und den Authentifizierungsserveren der Plattform, was verhindert, dass die Benutzeroberfläche Ihre gekauften Inhalte lädt."
+  },
+  {
+    question: "Verliere ich meinen Karrierefortschritt, wenn ich meinen Spiel-Cache lösche?",
+    answer: "Nein. Durch das Löschen des lokalen Caches werden nur temporäre UI- und Verbindungsdateien entfernt. Ihr Karrierefortschritt wird in einem separaten Speicherverzeichnis abgelegt und in der Regel über den Cloud-Speicher gesichert."
+  },
+  {
+    question: "Muss ich die DLC-Pakete erneut kaufen, wenn sie verschwinden?",
+    answer: "Auf keinen Fall. Ihre Einkäufe sind dauerhaft mit Ihrem Plattform-Konto verknüpft. Wenn Sie Ihre Lizenzen wiederherstellen oder Ihre Dateien überprüfen, werden sie wieder auf dem Paketauswahlbildschirm angezeigt."
+  },
+  {
+    question: "Kann ich PowerWash Simulator 2 DLCs offline spielen?",
+    answer: "Ja, aber Sie müssen das Spiel nach dem Kauf oder der Aktualisierung eines Pakets mindestens einmal online starten, damit das System Ihre Lizenz lokal validieren kann, bevor Sie offline gehen."
+  }
+]} />
+
+<Callout type="tip" title="Support-Portal">
+Wenn keiner dieser Schritte hilft, senden Sie ein Ticket an das offizielle Support-Portal mit Ihren Plattform-Details und Fehlerprotokollen.
+</Callout>
+
+</Section>

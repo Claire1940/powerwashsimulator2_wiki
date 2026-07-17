@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2: So startest du ein Level neu – Setup-Leitfaden",
+  description: "Erfahre in dieser Schritt-für-Schritt-Anleitung, wie du einzelne Level in PowerWash Simulator 2 neu startest, Reinigungen wiederholst oder den Karrierefortschritt zurücksetzt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Restart+Level+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki-Team",
+  slug: "powerwash-simulator-2-how-to-restart-a-level"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Das Neustarten von Leveln** in PowerWash Simulator 2 erfolgt in der Regel über das Pausenmenü im Spiel oder durch Auswahl des Freispiel-Modus.
+- **Ein Karriere-Reset** löscht alle Fortschrittsdaten, einschließlich Geld, Hochdruckreiniger und Upgrades, und setzt das Spiel in seinen ursprünglichen Zustand zurück.
+- **Der Freispiel-Modus** ermöglicht es dir, abgeschlossene Karten zum Spaß zu wiederholen, ohne deinen Haupt-Speicherstand im Karrieremodus zu beeinflussen.
+- **Der Koop-Fortschritt** ist an den Host-Spieler gebunden, was bedeutet, dass Gäste während aktiver Sitzungen keinen Level-Reset unabhängig auslösen können.
+</Callout>
+
+<Section icon={Shield} title="Fortschritts- und Reset-Mechaniken verstehen">
+
+PowerWash Simulator 2 bietet eine Vielzahl von Reinigungsaufträgen, die von kleinen Fahrzeugen bis hin zu massiven Industriekomplexen reichen. Während du Schichten von Schmutz, Dreck und Moos wegwäschst, speichert das Spiel deinen Fortschritt automatisch in Echtzeit. Dies stellt sicher, dass du deine harte Arbeit nicht verlierst, wenn du das Spiel mitten im Auftrag beenden musst. Es gibt jedoch Zeiten, in denen Spieler einen Auftrag von Grund auf neu beginnen möchten. Egal, ob du eine andere Reinigungsstrategie ausprobieren, deine Route für einen Speedrun optimieren oder einen kleinen Physik-Glitch beheben möchtest – zu wissen, wie man in **PowerWash Simulator 2 ein Level neu startet**, ist eine äußerst nützliche Fähigkeit.
+
+Das Verständnis der Fortschrittsmechanik ist der Schlüssel, bevor du Maßnahmen ergreifst. Das Spiel unterscheidet zwischen deinem gesamten Karrierefortschritt, dem Status einzelner Aufträge und wiederholbaren Missionen im Freispiel-Modus. Das Zurücksetzen eines aktiven Auftrags löscht die Schmutzdaten für dieses spezifische Level und setzt es auf einen Fortschritt von 0 % zurück, hat jedoch keinen Einfluss auf dein Karriereguthaben oder deine freigeschaltete Ausrüstung. Das Löschen deiner Speicherdaten hingegen setzt alles zurück und erfordert, dass du dein Reinigungsimperium von Grund auf neu aufbaust.
+
+| Methode | Beschreibung | Behaltener Fortschritt | Am besten geeignet für |
+| --- | --- | --- | --- |
+| Freispiel-Wiederholung | Abgeschlossene Level aus dem Hauptmenü wiederholen | Behält Highscores | Gelegentliches Reinigen |
+| Aktiver Job-Reset | Aktuellen Job-Prozentsatz über das Menü zurücksetzen | Löscht aktuellen Job | Behebung von Glitches |
+| Kompletter Karriere-Wipe | Alle Speicherdaten über das Optionen-Menü löschen | Null Fortschritt | Neuanfang |
+
+<Callout type="warning" title="Warnung">
+Das Löschen deiner Karriere-Speicherdaten ist dauerhaft und kann nicht rückgängig gemacht werden. Erstelle immer ein Backup deiner lokalen Speicherdateien, wenn du planst, die gesamte Kampagne neu zu starten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PowerWash Simulator 2: So startest du ein Level neu – Schritt-für-Schritt">
+
+Das Neustarten eines Levels ist eine gängige Praxis, wenn Spieler ihre Reinigungsrouten optimieren, bestimmte Erfolge erzielen oder einen Fehler beheben wollen, bei dem Schmutz unerreichbar wird. Das Tool zum Zurücksetzen einzelner Level wurde entwickelt, um den Schmutzfortschritt der aktiven Karte zu löschen, ohne deinen Karrierestatus zu beeinträchtigen oder dein hart verdientes Geld zu entfernen.
+
+Bevor du einen Reset einleitest, stelle sicher, dass du alle ausstehenden Belohnungen oder Boni beansprucht hast. Sobald du den Reset bestätigst, wird das Level neu geladen und alle Oberflächen sind wieder mit Schmutz bedeckt. Diese Funktion ermöglicht endlose Wiederspielbarkeit und Experimente mit verschiedenen Düsen, Reinigungsflüssigkeiten und Verlängerungen.
+
+<Steps>
+  <Step num="1" title="Menü öffnen">
+    Drücke die Escape-Taste auf deiner Tastatur oder die Menü-Taste auf deinem Controller, um das Spiel zu pausieren.
+  </Step>
+  <Step num="2" title="Zu den Job-Details navigieren">
+    Suche das aktive Auftrags-Panel auf dem Tablet-Interface, das deinen aktuellen Fertigstellungsgrad anzeigt.
+  </Step>
+  <Step num="3" title="Neustart-Option wählen">
+    Klicke auf die Reset-Schaltfläche neben den Auftragsdetails, um die Schmutzdaten für das aktuelle Level zu löschen.
+  </Step>
+  <Step num="4" title="Neustart bestätigen">
+    Bestätige die Abfrage, um das Level mit 0 % Fortschritt neu zu laden.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn ein bestimmtes Objekt aufgrund eines mikroskopisch kleinen Schmutzpartikels bei 99,9 % feststeckt, versuche, den einzelnen Auftrag zurückzusetzen, anstatt deinen gesamten Karrierefortschritt zu löschen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Karrieremodus-Fortschritt zurücksetzen vs. Einzelner Level-Reset">
+
+Es ist wichtig, zwischen dem Neustart eines einzelnen Levels und dem Löschen deines gesamten Karrierefortschritts zu unterscheiden. Ein Karriere-Reset ist eine drastische Maßnahme, die Spieler normalerweise wählen, wenn sie die Fortschrittsschleife von PowerWash Simulator 2 von ganz vorne erleben möchten. Dies beinhaltet das Freischalten von Hochdruckreinigern, den Kauf von Upgrades und das Abschließen der Story-Kampagne in der richtigen Reihenfolge.
+
+Für Spieler, die einfach nur ihre Lieblingslevel ohne den Druck des Karrierefortschritts genießen möchten, ist der Freispiel-Modus die ideale Wahl. Das Freispiel schaltet Level frei, sobald du sie in der Hauptkampagne abgeschlossen hast, sodass du sie mit jeder Ausrüstung, die du gekauft hast, wiederholen kannst. Dieser Modus ist perfekt, um neue Ausrüstung zu testen oder sich einfach auf einer vertrauten Karte zu entspannen.
+
+<CardGrid cols={3}>
+  <Card title="Einzelner Job-Reset">
+    - Zielt auf einzelne Level ab
+    - Behält Karriere-Geld
+    - Behält freigeschaltete Ausrüstung
+  </Card>
+  <Card title="Kompletter Speicherstand-Wipe">
+    - Löscht den gesamten Karrierefortschritt
+    - Setzt Geld auf Null zurück
+    - Sperrt alle Hochdruckreiniger erneut
+  </Card>
+  <Card title="Freispiel-Modus">
+    - Freigeschaltete Level wiederholen
+    - Keine Auswirkungen auf die Karriere
+    - Wasserdruck anpassen
+  </Card>
+</CardGrid>
+
+| Level-Typ | Reset-Verfügbarkeit | Auswirkung auf Geld | Behaltene Ausrüstung |
+| --- | --- | --- | --- |
+| Karriere-Level | Menü-Reset oder kompletter Wipe | Setzt verdientes Geld zurück | Ja (außer bei komplettem Wipe) |
+| Spezialaufträge | Nur individueller Reset | Keine | Ja |
+| DLC-Level | Nur individueller Reset | Keine | Ja |
+
+<Callout type="info" title="Hinweis">
+Das Abschließen von Aufträgen im Freispiel-Modus bringt kein Karriere-Geld ein, ermöglicht es dir jedoch, effiziente Reinigungswege zu üben und Erfolge zu erzielen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fehlerbehebung bei häufigen Neustart-Problemen">
+
+Obwohl die Reset-Mechaniken in PowerWash Simulator 2 im Allgemeinen zuverlässig sind, können Spieler gelegentlich auf Probleme stoßen, bei denen ein Level nicht korrekt neu geladen wird oder die Fortschrittsverfolgung asynchron wird. Dies kann aufgrund von Cloud-Speicherkonflikten, Fehlern in Multiplayer-Sitzungen oder lokaler Dateikorruption passieren. Zu wissen, wie man diese Probleme behebt, sorgt für ein reibungsloses Spielerlebnis.
+
+Wenn du feststellst, dass deine Neustart-Schaltfläche nicht reagiert oder wenn das Level geladen wird, aber Objekte sofort als sauber markiert werden, musst du möglicherweise deine Spieldateien überprüfen oder deine Netzwerkverbindung kontrollieren, wenn du im Koop-Modus spielst. Multiplayer-Hosts haben die alleinige Kontrolle über den Speicherzustand der Sitzung, sodass Gäste Level während eines gemeinsamen Auftrags nicht unabhängig voneinander neu starten können.
+
+| Problem | Häufige Ursache | Empfohlene Lösung |
+| --- | --- | --- |
+| Reset-Button ausgegraut | Job ist bereits bei 0% | Beginne mit der Reinigung, um die Option zu aktivieren |
+| Fortschritt wird nicht gespeichert | Cloud-Synchronisationskonflikt | Deaktiviere Steam Cloud vorübergehend |
+| Level hängt bei 99% | Mikroskopischer Schmutz verbleibt | Nutze den Schmutzfinder oder setze den Job zurück |
+
+<Checklist
+  id="reset-prep"
+  title="Checkliste vor dem Reset:"
+  items={[
+    "Überprüfe, ob du alle Job-Belohnungen und Boni beansprucht hast",
+    "Prüfe, ob der aktuelle Fortschritt lokal gesichert ist",
+    "Bestätige, dass du den aktuellen Schmutz-Prozentsatz löschen möchtest",
+    "Stelle sicher, dass keine Koop-Spieler in deiner Lobby aktiv sind"
+  ]}
+/>
+
+<Callout type="success" title="Erfolg">
+Das Neustarten eines Levels kann dir helfen, zeitbasierte Erfolge leichter freizuschalten, indem du mit einer sauberen Weste und einer vorgeplanten Route beginnst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+Hier sind die Antworten auf die häufigsten Fragen zum Zurücksetzen von Leveln und zum Fortschritt.
+
+<FAQ items={[
+  {
+    question: "Wie starte ich ein Level in PowerWash Simulator 2 neu, ohne meine Ausrüstung zu verlieren?",
+    answer: "Du kannst den aktiven Auftrag über das Pausenmenü zurücksetzen. Dies löscht den Schmutzfortschritt, behält aber deine freigeschaltete Ausrüstung, Reinigungsflüssigkeiten und dein Geld."
+  },
+  {
+    question: "Kann ich abgeschlossene Level in PowerWash Simulator 2 wiederholen?",
+    answer: "Ja, du kannst den Freispiel-Modus im Hauptmenü nutzen, um jeden abgeschlossenen Auftrag jederzeit mit der Ausrüstung deiner Wahl zu wiederholen."
+  },
+  {
+    question: "Erstattet das Zurücksetzen eines Karriere-Levels das für Upgrades ausgegebene Geld?",
+    answer: "Nein, das Zurücksetzen eines einzelnen Levels hat keine Auswirkungen auf dein Inventar oder dein Guthaben. Nur ein vollständiges Löschen des Karriere-Speicherstands setzt dein Geld und deine Upgrades zurück."
+  },
+  {
+    question: "Was soll ich tun, wenn ein Level verbuggt ist und mich nicht abschließen lässt?",
+    answer: "Öffne das Pausenmenü, wähle die Option zum Zurücksetzen des Auftrags und bestätige den Neustart, um die verschmutzten Assets neu zu laden und potenzielle Rendering-Probleme zu beheben."
+  }
+]} />
+
+<Callout type="tip" title="Tipp">
+Sieh immer in den offiziellen Community-Foren oder Patch-Notes nach, wenn du anhaltende Fortschrittsfehler bemerkst, die ein einfacher Level-Reset nicht lösen kann.
+</Callout>
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 coop: 4-Player & Split-Screen Setup Guide",
+  description: "Host online matches or play split-screen in PowerWash Simulator 2. Learn crossplay rules, progression sharing, and coop strategies for all 38 jobs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Co-op+Guide",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **PowerWash Simulator 2 coop** supports up to four players online in both Career and Free Play modes.
+- **Local split-screen** allows two players to clean together on a single console or PC.
+- **Crossplay is supported** between Xbox Series X|S and PC platforms, but PlayStation and Nintendo are restricted.
+- **Campaign progression** is shared during active online sessions, making massive jobs much faster to complete.
+- **DLC campaigns** like Adventure Time and Star Wars fully support cooperative play for all missions.
+</Callout>
+
+<Section icon={Map} title="PowerWash Simulator 2 coop Player Limits and Modes">
+
+Whether you are looking to tackle massive industrial sites or clean up iconic crossover maps, understanding how the **PowerWash Simulator 2 coop** system works is essential for maximizing your efficiency. The sequel expands on the original game's cooperative foundations by offering more flexible player limits, shared campaign progression, and a dedicated local split-screen option. 
+
+In this game, cooperative play is divided into two primary formats: online multiplayer and local couch co-op. Online sessions allow you to team up with up to three other players, bringing the total team size to four. This is particularly useful for late-game assignments like Mount Rushless or the Shopping Mall, where the sheer surface area can take hours to clean alone. Local play, on the other hand, is designed for two players sharing a single screen, providing a classic split-screen experience.
+
+| Mode | Player Limit | Progression Type | Split-Screen | Best For |
+| Online Career | 4 Players | Shared | No | Large locations |
+| Online Free Play | 4 Players | None | No | Replaying jobs |
+| Local Split-Screen | 2 Players | Shared | Yes | Couch co-op |
+
+<Callout type="info" title="Session Flexibility">
+You can switch your session type at any time from the pause menu. If you start a job solo and realize it is too large, simply open the menu and change the session to online to invite your friends.
+</Callout>
+
+The game features 38 career jobs that can all be completed cooperatively. When playing in Career Mode, the host's save file serves as the baseline. Any progress made by the visiting players is saved to the host's campaign, meaning you can knock out multi-stage jobs together without needing to repeat them individually in your own game files.
+
+</Section>
+
+<Section icon={Target} title="How to Host and Join Cooperative Sessions">
+
+Setting up a cooperative session in PowerWash Simulator 2 is straightforward, but it requires navigating the in-game multiplayer menu. The game utilizes a room code system to facilitate connections across different storefronts on PC, ensuring that Steam, Epic Games Store, and Windows Store players can connect seamlessly.
+
+Follow these steps to host or join an active cleaning crew:
+
+<Steps>
+  <Step num="1" title="Access the Multiplayer Menu">
+    Launch PowerWash Simulator 2 and open the pause menu or navigate to the main dashboard. Select the Multiplayer option to open the connection settings.
+  </Step>
+  <Step num="2" title="Configure Your Session Type">
+    If you are hosting, change your Session Type from Singleplayer to Online Multiplayer. This will generate a unique, temporary Room Code on your screen.
+  </Step>
+  <Step num="3" title="Share the Connection Code">
+    Copy the generated Room Code and send it to your friends via Discord, text, or your platform's messaging system. 
+  </Step>
+  <Step num="4" title="Join an Active Room">
+    For joining players, select Enter a Code in the multiplayer menu, paste the host's code, and confirm to instantly connect to the session.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Use Platform Invites">
+If you are playing on the same platform ecosystem (such as Steam-to-Steam or Xbox-to-Xbox), you can bypass the room code system entirely by using the standard platform overlay to send direct invites.
+</Callout>
+
+For local split-screen, the process is even simpler. Connect a second controller to your console or PC, open the multiplayer menu, and select the Split-Screen option. The screen will divide vertically or horizontally depending on your settings, allowing both players to contribute to the same active campaign save.
+
+</Section>
+
+<Section icon={Shield} title="Crossplay and Platform Requirements">
+
+Cross-platform multiplayer is a highly requested feature, but it comes with specific limitations in PowerWash Simulator 2. The game supports crossplay across the Xbox and PC ecosystems, but console-specific restrictions apply to PlayStation and Nintendo users.
+
+The PC player pool is completely unified. If you purchased the game on Steam, you can play with friends who own it on the Epic Games Store or the Windows Store. Additionally, Xbox Series X|S players can join these PC sessions seamlessly. However, PlayStation 5 and Nintendo Switch 2 players are restricted to their own platform-specific matchmaking pools.
+
+| Platform | Crossplay Partners | Save Transfer | Subscription Required |
+| Xbox Series X/S | PC (Steam, Epic, MS Store) | No | Xbox Game Pass |
+| PC (Steam/Epic) | Xbox Series X/S, PC Platforms | No | None |
+| PlayStation 5 | PlayStation Pool Only | No | PlayStation Plus |
+| Nintendo Switch 2 | Switch 2 Pool Only | No | Nintendo Switch Online |
+
+<Callout type="warning" title="Online Subscription Warning">
+Console players must have an active online subscription to play online co-op. This includes PlayStation Plus for PS5, Nintendo Switch Online for Switch 2, and an eligible Xbox Game Pass tier for Xbox consoles.
+</Callout>
+
+It is also important to note that the game does not support cross-platform save transfers. While you can play with friends across supported platforms, your Career Mode progress, unlocked washers, and earned cash will remain tied to the platform ecosystem where the save file was originally created.
+
+</Section>
+
+<Section icon={Sparkles} title="Shared Progression and Best Co-op Strategies">
+
+To clean efficiently in cooperative play, your team should avoid clustering in the same spot. Because water pressure drops at longer ranges, having multiple players spray the exact same surface is highly inefficient. Instead, dividing the map into distinct zones or roles will dramatically speed up your completion times.
+
+When a team joins an online Career session, all players gain access to the host's unlocked equipment and soap inventory. This allows late-game players to assist beginners by bringing high-tier washers into early-game levels, making quick work of stubborn dirt layers.
+
+<CardGrid cols={3}>
+  <Card title="The Floor Sweeper">
+    - **Primary Tool**: SwirlForce Surf Ace
+    - **Role**: Clear large flat surfaces like roads, floors, and roofs.
+    - **Strategy**: Focus on broad sweeps to clear 80% of the map's dirt quickly.
+  </Card>
+  <Card title="The Detail Specialist">
+    - **Primary Tool**: Adaptable Nozzle
+    - **Role**: Clean trim, wheels, seams, and hard-to-reach corners.
+    - **Strategy**: Follow behind the floor sweeper to clean up missed percentages.
+  </Card>
+  <Card title="The Soap Applicator">
+    - **Primary Tool**: Soap Nozzle
+    - **Role**: Pre-treat heavily soiled areas and stubborn rust patches.
+    - **Strategy**: Soften dirt layers so teammates can rinse them away instantly.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Maximize Your Cash Flow">
+In Career Mode, completing jobs awards Cash to all participating players, not just the host. This makes cooperative play one of the fastest ways for newer players to earn the money needed for expensive professional washers.
+</Callout>
+
+For optimal efficiency, use the following equipment synergy table to assign roles before starting a large job:
+
+| Role | Primary Tool | Best Target Surfaces | Co-op Value |
+| Soap Applicator | Soap Nozzle | Stubborn grime, heavy grease | ★★★★★ |
+| Floor Sweeper | SwirlForce Surf Ace | Paving, flat roofs, stages | ★★★★☆ |
+| Detail Specialist | Adaptable Nozzle | Trim, wheels, narrow seams | ★★★★☆ |
+| High-Reach Cleaner | Scissor Lift & Extensions | Rooflines, high signs, pillars | ★★★★★ |
+
+</Section>
+
+<Section icon={Trophy} title="Cooperative Achievement Guide">
+
+PowerWash Simulator 2 features 60 achievements across the base game and its DLC packs. While many can be completed solo, several challenges are significantly easier when tackled with a cooperative partner. For instance, achievements that require cleaning specific objects first or maintaining strict equipment limitations can be coordinated easily with a second set of hands.
+
+When aiming for achievements in cooperative sessions, communication is key. If a player accidentally cleans the wrong object, it can ruin a "clean-first" run for the entire lobby. Use the in-game text chat or voice communication to coordinate your targets.
+
+<Checklist
+  id="coop-achievements"
+  title="Co-op Friendly Achievements:"
+  items={[
+    "Coordinate the 'Floor is Lava' route in the Stone Circle job.",
+    "Apply soap to all tasks simultaneously for 'Doggy Bath'.",
+    "Isolate doors and handles together to unlock 'Door to Door'.",
+    "Divide the large panels of the AT-AT without using soap."
+  ]}
+/>
+
+| Achievement | Difficulty | Map Required | Co-op Advantage |
+| Floor is Lava | Hard | Stone Circle | Friends can spot or clean while you jump |
+| Doggy Bath | Medium | Dog Car | Multiple players apply soap simultaneously |
+| Door to Door | Hard | Motel | Divide doors among players to finish first |
+
+<Callout type="tip" title="Achievement Unlocks">
+Most achievements in PowerWash Simulator 2 unlock for all players in the lobby upon completion. However, some specific interaction achievements (like petting cats or riding the roller coaster) must be performed individually by each player.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does PowerWash Simulator 2 coop support crossplay across all platforms?",
+    answer: "No. Crossplay is supported between Xbox Series X|S and compatible PC versions (Steam, Epic Games Store, and Windows Store). PlayStation 5 and Nintendo Switch 2 players are restricted to their own platform-specific matchmaking pools."
+  },
+  {
+    question: "How does progression work for visiting players in online coop?",
+    answer: "Progression is saved to the host's campaign file. Visiting players do not advance their own Career Mode storylines, but they do earn Cash and PowerWash Points that carry back to their individual profiles."
+  },
+  {
+    question: "Can we play split-screen and online co-op at the same time?",
+    answer: "No. The game does not support combo co-op. You must choose either a local two-player split-screen session or an online multiplayer session with up to four players."
+  },
+  {
+    question: "Do all players need to own the DLC packs to play coop on those maps?",
+    answer: "Yes. To join a cooperative session on a DLC map (such as the Adventure Time or Star Wars locations), all participating players must own the corresponding DLC pack purchased on their respective platform storefront."
+  }
+]} />
+
+<Callout type="info" title="Need More Help?">
+If you encounter connection issues or room code errors, ensure that all players have updated their game to the latest patch version. Version mismatches are the most common cause of failed co-op connections.
+</Callout>
+
+</Section>

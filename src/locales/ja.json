@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "updates": "アップデート",
+    "achievements": "実績",
+    "levels": "レベル",
+    "multiplayer": "マルチプレイ",
+    "equipment": "装備",
+    "technical": "技術",
+    "purchase": "購入"
+  }
+}

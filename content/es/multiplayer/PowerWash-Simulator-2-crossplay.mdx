@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego cruzado en PowerWash Simulator 2: Guía paso a paso y de plataformas",
+  description: "Aprende a habilitar el juego cruzado en PowerWash Simulator 2, invita a amigos de PC y consolas, y domina las estrategias de limpieza cooperativa en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Crossplay+Setup+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de PowerWash Simulator 2"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **juego cruzado (crossplay) de PowerWash Simulator 2** permite a los usuarios de PC, Xbox, PlayStation y Switch limpiar juntos sin problemas.
+- Los **códigos de sala** son el método principal para conectar a jugadores entre diferentes plataformas y hardware.
+- El **progreso del anfitrión** es el estándar para el modo Carrera, lo que significa que solo el anfitrión guarda el estado de finalización de las misiones.
+- Las **invitaciones directas** están disponibles para jugadores en la misma plataforma (por ejemplo, de Steam a Steam) a través de la lista de amigos del juego.
+- La **pantalla dividida** está disponible para el juego cooperativo local en las versiones de consola compatibles.
+</Callout>
+
+<Section icon={Map} title="Compatibilidad y visión general del juego cruzado en PowerWash Simulator 2">
+
+El lanzamiento de PowerWash Simulator 2 en 2026 ha traído una característica muy esperada: funcionalidad multiplataforma completa. Entender cómo funciona el **juego cruzado de PowerWash Simulator 2** es esencial para los equipos que buscan abordar juntos proyectos de limpieza industrial masivos. A diferencia de la versión anterior, la secuela utiliza un sistema de cuentas unificado que simplifica el proceso de encontrar y unirse a amigos, sin importar si están en una PC de gama alta o en una consola portátil.
+
+**Aspectos destacados del video:**
+- Acceso al menú multijugador mediante la tecla Escape o el botón de pausa.
+- Activación del interruptor de multijugador en línea para generar una sesión única.
+- Copia y uso compartido de códigos de sala para invitaciones multiplataforma.
+- Uso de la lista de amigos de Steam para invitaciones directas dentro del mismo ecosistema.
+- Breve resumen de la funcionalidad de pantalla dividida local.
+
+<YouTubeEmbed videoId="7-xjrWKq0eU" title="Cómo invitar a tus amigos en PowerWash Simulator 2" />
+
+El sistema de juego cruzado está diseñado para ser inclusivo, garantizando que la comunidad no se fragmente por las elecciones de hardware. Ya sea que utilices ratón y teclado para mayor precisión o un mando para una experiencia más relajada, el juego equilibra la interacción para asegurar que todos puedan contribuir eficazmente al proceso de eliminación de suciedad.
+
+| Plataforma | Compatibilidad con Crossplay | Método de invitación | Cooperativo local |
+| :--- | :--- | :--- | :--- |
+| **PC (Steam/Epic)** | Soporte completo | Código de sala / Directo | No |
+| **Xbox Series X/S** | Soporte completo | Código de sala / Xbox Live | Sí (pantalla dividida) |
+| **PlayStation 5** | Soporte completo | Código de sala / PSN | Sí (pantalla dividida) |
+| **Nintendo Switch 2** | Soporte completo | Código de sala | No |
+
+<Callout type="info" title="Sincronización de plataforma">
+Para garantizar la mejor experiencia durante las sesiones de **juego cruzado de PowerWash Simulator 2**, todos los jugadores deben verificar que están ejecutando la misma versión del juego. Los números de versión que no coinciden son la causa principal de los errores de "Sala no encontrada".
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Cómo habilitar y configurar sesiones multijugador">
+
+Configurar una sesión para el **juego cruzado de PowerWash Simulator 2** es un proceso sencillo, pero requiere que el anfitrión habilite manualmente las funciones en línea. De forma predeterminada, muchas sesiones comienzan en modo "Solo" para preservar el rendimiento y evitar interrupciones no deseadas. Para traer amigos a tu mundo, debes navegar al menú social multifuncional ubicado dentro de la interfaz de la tableta o en la pantalla de pausa principal.
+
+<Steps>
+  <Step num="1" title="Accede al menú social">
+    Inicia tu trabajo de limpieza deseado en el modo Carrera o Juego libre. Una vez que cargue el nivel, presiona la tecla Escape (PC) o el botón de Opciones/Menú (Consola). Busca el icono que representa a dos personas juntas.
+  </Step>
+  <Step num="2" title="Activa el multijugador en línea">
+    En la esquina superior derecha de la superposición social, verás un interruptor para "Multijugador en línea". Cámbialo a la posición "Activado". Esta acción inicializa el servidor del juego para tu sesión específica.
+  </Step>
+  <Step num="3" title="Genera y copia el código de sala">
+    Una vez en línea, aparecerá un campo de "Código de sala". Haz clic en el botón "Copiar" junto al código. Esta cadena alfanumérica única es lo que tus amigos en otras plataformas necesitarán para unirse a tu partida.
+  </Step>
+  <Step num="4" title="Comparte el código">
+    Envía el código copiado a tus amigos a través de Discord, mensaje de texto o la mensajería específica de la plataforma. Ellos deben ingresar este código en la sección "Unirse a una partida" de su propio menú principal para conectarse a tu instancia.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Visibilidad de la sesión">
+Habilitar el **juego cruzado de PowerWash Simulator 2** mediante códigos de sala no hace que tu partida sea pública para todo el mundo. Solo los jugadores con tu código específico pueden unirse, asegurando que tus sesiones de limpieza privadas permanezcan seguras frente a jugadores aleatorios.
+</Callout>
+
+| Método | Ideal para | Requisito | Velocidad |
+| :--- | :--- | :--- | :--- |
+| **Invitación directa** | Amigos en la misma plataforma | Entrada en lista de amigos | Muy rápido |
+| **Código de sala** | Juego multiplataforma | Mensajería externa | Rápido |
+| **Pantalla dividida** | Amigos locales | Segundo mando | Instantáneo |
+
+</Section>
+
+<Section icon={Users} title="Modos de juego cooperativo y límites">
+
+El multijugador en PowerWash Simulator 2 no se trata solo de tener compañía, sino de eficiencia. El juego escala sus recompensas y desafíos según el número de limpiadores activos. Sin embargo, existen limitaciones específicas sobre cuántos jugadores pueden ocupar una sola "Zona de lavado" dependiendo del modo seleccionado. Comprender estas restricciones ayuda a planificar tu programa de limpieza de 2026 con tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="Modo Carrera">
+    - **Centrado en el anfitrión**: Solo el anfitrión guarda el progreso del trabajo.
+    - **Límite de jugadores**: Hasta 6 jugadores en mapas grandes.
+    - **Economía**: Los invitados ganan moneda parcial para mejoras.
+  </Card>
+  <Card title="Juego libre">
+    - **Reglas relajadas**: Se puede jugar cualquier mapa desbloqueado.
+    - **Límite de jugadores**: Hasta 6 jugadores sin importar el tamaño del mapa.
+    - **Personalización**: El anfitrión puede activar agua/jabón infinito.
+  </Card>
+  <Card title="Modo Desafío">
+    - **Cooperativo competitivo**: Carrera contra el reloj.
+    - **Límite de jugadores**: Estrictamente limitado a 2 jugadores.
+    - **Recompensas**: Insignias cosméticas exclusivas por medallas de oro.
+  </Card>
+</CardGrid>
+
+Al participar en el **juego cruzado de PowerWash Simulator 2**, la conexión a Internet del anfitrión actúa como el ancla. Si el anfitrión experimenta una latencia alta, los invitados pueden ver "suciedad fantasma", donde los objetos parecen limpios para ellos pero permanecen sucios en la pantalla del anfitrión. Para mitigar esto, el jugador con la conexión de fibra más estable siempre debe actuar como anfitrión de la sesión.
+
+| Característica del modo | Modo Carrera | Juego libre | Modo Desafío |
+| :--- | :--- | :--- | :--- |
+| **Jugadores máx.** | 6 jugadores | 6 jugadores | 2 jugadores |
+| **Persistencia de suciedad** | Guardada por el anfitrión | No guardada | No |
+| **Moneda ganada** | Completa (Anfitrión) / Parcial (Invitado) | Ninguna | Ninguna |
+| **Crossplay activo** | Sí | Sí | Sí |
+
+<Callout type="tip" title="Estrategia de eficiencia">
+Divide el mapa en cuadrantes. Asigna a un jugador al techo, a dos a las paredes y a uno al suelo/detalles. Esto evita el "cruce de boquillas" y asegura que no se pasen por alto puntos, maximizando tus ganancias por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas de conexión en el juego cruzado">
+
+Aunque el sistema de **juego cruzado de PowerWash Simulator 2** es robusto, los jugadores pueden encontrar ocasionalmente obstáculos de conectividad. Estos a menudo están relacionados con la configuración de seguridad de la red o restricciones específicas de la plataforma. En 2026, la mayoría de las consolas tienen tipos de NAT estrictos que pueden interferir con la naturaleza punto a punto de la arquitectura multijugador del juego.
+
+<Checklist
+  id="connection-checklist"
+  title="Lista de verificación antes del multijugador:"
+  items={[
+    "Verifica que la versión del juego esté actualizada al último parche de 2026",
+    "Asegúrate de que el tipo de NAT esté configurado en 'Abierto' o 'Tipo 1/2'",
+    "Comprueba que el 'Juego multiplataforma' esté habilitado en la configuración del sistema",
+    "Confirma que el anfitrión haya habilitado el 'Multijugador en línea' en el juego",
+    "Reinicia el cliente del juego si el código de sala falla dos veces"
+  ]}
+/>
+
+Si recibes un error de "Tiempo de conexión agotado" al intentar unirte a un amigo, la solución más común es reiniciar el interruptor de "Multijugador en línea". A veces, el enlace entre el backend del juego y el servicio de la plataforma (como PlayStation Network o Xbox Live) necesita un refresco.
+
+| Mensaje de error | Causa probable | Solución recomendada |
+| :--- | :--- | :--- |
+| **Sala no encontrada** | Código caducado / Versión incorrecta | Generar nuevo código / Actualizar juego |
+| **NAT incompatible** | Firewall del router | Habilitar UPnP o reenvío de puertos |
+| **Sesión llena** | Límite de jugadores alcanzado | Comprobar límites del modo (2 o 6) |
+| **Conexión perdida** | Anfitrión desconectado | Volver a alojar la sesión |
+
+<Callout type="success" title="Consejo de éxito">
+Usar una conexión Ethernet por cable en lugar de Wi-Fi reduce significativamente los problemas de "desincronización", donde el chorro de agua parece retrasarse con respecto a tus movimientos durante las intensas sesiones de **juego cruzado de PowerWash Simulator 2**.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progreso compartido y recompensas de invitados">
+
+Una pregunta común sobre el **juego cruzado de PowerWash Simulator 2** es cómo se manejan las recompensas y el progreso para aquellos que no son anfitriones. Los desarrolladores han implementado un "Sistema de mercenarios" para 2026, que garantiza que los invitados sean compensados por su trabajo incluso si el progreso de la misión solo cuenta para la carrera del anfitrión.
+
+Los invitados ganan un porcentaje del valor total del trabajo, que se deposita directamente en sus cuentas personales. Este dinero se puede usar para comprar nuevas hidrolimpiadoras, boquillas y líquidos de limpieza en sus propios juegos individuales o alojados. Sin embargo, los desbloqueos cosméticos vinculados a misiones específicas (como la "Boquilla de oro") deben ganarse en tu propio archivo de guardado de carrera.
+
+| Tipo de recompensa | Beneficio para el anfitrión | Beneficio para el invitado |
+| :--- | :--- | :--- |
+| **Progreso de misión** | 100% guardado | 0% guardado |
+| **Moneda base** | 100% pago | 25-50% pago |
+| **XP / Nivel** | Progreso completo | Progreso completo |
+| **Logros** | La mayoría desbloqueados | Algunos desbloqueados |
+
+<Callout type="info" title="Sincronización de equipo">
+Al unirte a un amigo a través del **juego cruzado de PowerWash Simulator 2**, traes tu propio equipo comprado. Si tienes la "Prime-X 3000" pero el anfitrión solo tiene el kit inicial, aún puedes usar tu equipo avanzado para ayudarle a limpiar el nivel más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes de PowerWash Simulator 2">
+
+<FAQ items={[
+  {
+    question: "¿El juego cruzado de PowerWash Simulator 2 admite chat de voz?",
+    answer: "El juego cuenta con un sistema básico de 'ping' y chat de texto. Para la comunicación por voz, la mayoría de los jugadores utilizan las funciones integradas de las plataformas (Xbox/PlayStation) o Discord para la coordinación multiplataforma."
+  },
+  {
+    question: "¿Puedo jugar en pantalla dividida y en línea con juego cruzado al mismo tiempo?",
+    answer: "Sí, en PlayStation 5 y Xbox Series X/S, puedes tener dos jugadores locales en pantalla dividida que se unan a una sesión en línea con otros amigos multiplataforma mediante códigos de sala."
+  },
+  {
+    question: "¿Existe un límite de cuántas consolas pueden unirse a un anfitrión de PC?",
+    answer: "No, un anfitrión de PC puede admitir cualquier combinación de jugadores de consola (por ejemplo, 2 usuarios de Switch, 1 de PS5 y 2 de Xbox) hasta el límite de 6 jugadores por sesión."
+  },
+  {
+    question: "¿Necesito una suscripción como PS Plus o Xbox Game Pass Core para el juego cruzado?",
+    answer: "Sí, los jugadores de consola generalmente requieren el servicio de suscripción en línea respectivo de su plataforma para acceder a las funciones de juego cruzado de PowerWash Simulator 2."
+  }
+]} />
+
+</Section>

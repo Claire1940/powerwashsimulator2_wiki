@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "PowerWash Simulator 2 Tipps: Fortgeschrittene Reinigungsstrategien & Ausrüstungs-Guide",
+  description: "Meistern Sie die Kunst des Hochdruckreinigens mit unseren Experten-Tipps für PowerWash Simulator 2. Lernen Sie Düsenmanagement, Seifeneffizienz und professionelle Arbeitsabläufe.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PowerWash+Simulator+2+Tipps",
+  date: "2026-07-17",
+  author: "PowerWash Simulator 2 Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **PowerWash Simulator 2 Tipps** konzentrieren sich auf die Maximierung der Reinigungseffizienz durch richtige Düsenrotation und Distanzmanagement.
+- **Farbcodierung der Düsen** ist essenziell: Rot steht für Hochdruck-Präzision, während Weiß die größte Fläche abdeckt.
+- **Seifenspender** sind der schnellste Weg, um große, hartnäckige Bereiche zu säubern, erfordern jedoch spezifische Flüssigkeiten für verschiedene Materialien.
+- **Schmutz-Hervorhebung** (Steuerkreuz rechts/Tab) ist Ihr wichtigstes Werkzeug, um das letzte 1 % Schmutz zu finden.
+- **Zielmodus** kann Reisekrankheit bei langen Reinigungssitzungen an detailreichen Aufträgen erheblich reduzieren.
+</Callout>
+
+<Section icon={Map} title="Beherrschung der Düsenphysik und Sprühmuster">
+
+Das Verständnis der Physik Ihrer Ausrüstung ist die Grundlage jeder professionellen Reinigungskarriere. In PowerWash Simulator 2 verwendet das Spiel ein farbcodiertes System, um Ihnen zu helfen, den Druck und die Ausbreitung Ihres Strahls zu identifizieren. Die Wahl der richtigen Düse ist nicht nur eine Frage der Vorliebe; es geht um die strukturelle Integrität des Materials, das Sie reinigen, und die Dichte des Schmutzes.
+
+| Düsenfarbe | Sprühwinkel | Druckstufe | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| **Rot** | 0 Grad | **Extrem** | Tiefer Rost, hartnäckiger Vogelkot, winzige Spalten |
+| **Gelb** | 15 Grad | **Hoch** | Entfernen alter Farbe, Reinigung von Betoneinfahrten |
+| **Grün** | 25 Grad | **Mittel** | Allgemeine Hausfassaden, Holzdecks, Fahrzeuge |
+| **Weiß** | 40 Grad | **Niedrig** | Abspülen großer Fenster, leichter Staub auf Kunststoff |
+| **Seife** | Breiter Fächer | **Sehr niedrig** | Auftragen chemischer Reiniger auf große Flächen |
+
+Die rote Düse bietet einen konzentrierten Wasserpunkt, der fast alles entfernen kann, aber ihre winzige Abdeckungsfläche macht sie für große Wände ineffizient. Umgekehrt ermöglicht die weiße Düse ein schnelles Abspülen, scheitert jedoch an "festgebackenen" Algen oder Rost. Profispieler wechseln oft schnell mit den LB/RB-Tasten oder dem Auswahlrad zwischen diesen, um sie sofort an den Schmutztyp anzupassen.
+
+<Callout type="tip" title="Profi-Tipp: Düsenrotation">
+Sie können Ihre Düse vertikal oder horizontal drehen, indem Sie den linken Trigger drücken. Dies ist entscheidend für die Reinigung dünner Objekte wie Zaunlatten oder Geländer. Das Drehen des Strahls passend zur Ausrichtung des Objekts gewährleistet maximalen Wasserkontakt und reduziert Verschwendung.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Professionelle Ausrüstung: Verlängerungen und Upgrades">
+
+Im Laufe Ihrer Karriere im Jahr 2026 werden Sie genug Geld verdienen, um Ihren primären Hochdruckreiniger aufzurüsten und spezialisierte Verlängerungen zu kaufen. Diese Werkzeuge sind nicht nur kosmetisch; sie verändern die Art und Weise, wie Sie mit der Umgebung interagieren. Verlängerungen ermöglichen es Ihnen, hohe Dachrinnen ohne Leiter zu erreichen oder in enge Motorräume zu gelangen, ohne durch die Geometrie zu klippen.
+
+<CardGrid cols={3}>
+  <Card title="Kurze Verlängerung">
+    - **Hohe Manövrierfähigkeit**
+    - Bestens geeignet für enge Innenräume
+    - Ideal für Radkästen von Autos
+  </Card>
+  <Card title="Lange Verlängerung">
+    - **Überlegene Reichweite**
+    - Reinigt Dächer vom Boden aus
+    - Hält den Druck auf Distanz
+  </Card>
+  <Card title="Extra-lange Verlängerung">
+    - **Maximale Höhe**
+    - Unerlässlich für Wolkenkratzer
+    - Schwerer zu zielen in engen Räumen
+  </Card>
+</CardGrid>
+
+Das Aufrüsten Ihres eigentlichen Hochdruckreinigers erhöht die Basis-Liter pro Minute (LPM). Ein höherer LPM-Wert bedeutet, dass selbst Ihre Niederdruckdüsen den Schmutz schneller entfernen als ein Einsteigergerät mit einer Hochdruckdüse. Die Investition in den Prime Vista Pro oder dessen 2026er Äquivalente sollte Ihre oberste Priorität sein, sobald Sie die ersten Vorstadt-Aufträge abgeschlossen haben.
+
+| Verlängerungstyp | Reichweiten-Bonus | Kontrollschwierigkeit | Optimale Distanz |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Basiswert | **Einfach** | 1-2 Meter |
+| **Lang** | +50 % Reichweite | **Mittel** | 3-5 Meter |
+| **Extra lang** | +120 % Reichweite | **Schwer** | 6-10 Meter |
+| **Turbodüse** | n. v. | **Mittel** | 1-3 Meter |
+
+<Callout type="warning" title="Budgetmanagement">
+Auch wenn es verlockend ist, jeden kosmetischen Skin für Ihren Reiniger zu kaufen, sollten Sie funktionale Upgrades priorisieren. Ein leistungsstärkerer Motor spart Ihnen Stunden an Echtzeit, was sich in mehr verdientem Geld pro Sitzung niederschlägt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chemische Reinigung und Seifeneffizienz">
+
+Einer der am häufigsten übersehenen **PowerWash Simulator 2 Tipps** ist der strategische Einsatz von Reinigungsflüssigkeiten. Während der Standard-Wasserstrahl kostenlos ist, kosten Flüssigkeiten Geld. Die Zeitersparnis durch die Verwendung eines Seifenspenders bei einem massiven Steinmonument überwiegt jedoch oft die Kosten für das Nachfüllen. Sie müssen den Flüssigkeitstyp auf das Material abstimmen, das in der oberen linken Ecke Ihres HUDs angezeigt wird.
+
+<Steps>
+  <Step num="1" title="Material identifizieren">
+    Bewegen Sie Ihr Fadenkreuz über die Oberfläche. Das HUD zeigt "Metall", "Holz", "Stein" oder "Kunststoff" an.
+  </Step>
+  <Step num="2" title="Seifendüse ausrüsten">
+    Wechseln Sie zur spezialisierten Seifenspenderdüse. Stellen Sie sicher, dass Sie die richtige Flüssigkeit in Ihrem Inventar geladen haben.
+  </Step>
+  <Step num="3" title="Gleichmäßig auftragen">
+    Sprühen Sie die Oberfläche ein, bis der Schmutz beginnt, "weich" zu werden. Sie müssen den Auftrag nicht mit Seife beenden; lockern Sie den Schmutz nur an.
+  </Step>
+  <Step num="4" title="Abspülen und abschließen">
+    Wechseln Sie zurück zu einer Standard-Hochdruckdüse (Grün oder Gelb), um die gelösten Rückstände wegzustrahlen.
+  </Step>
+</Steps>
+
+| Flüssigkeitstyp | Zielmaterial | Wirksamkeit | Kosten pro Nachfüllung |
+| :--- | :--- | :--- | :--- |
+| **Mehrzweck** | Jede Oberfläche | **Mittel** | $10 |
+| **Metallreiniger** | Eisen, Stahl, Chrom | **Hoch** | $15 |
+| **Holzreiniger** | Decks, Zäune, Baumstämme | **Hoch** | $15 |
+| **Steinreiniger** | Beton, Ziegel, Statue | **Hoch** | $15 |
+| **Glasreiniger** | Fenster, Spiegel | **Extrem** | $20 |
+
+<Callout type="success" title="Effizienz-Hack">
+Der Seifenspender hat eine riesige "Hitbox". Sie können einen ganzen Lieferwagen in weniger als fünf Sekunden mit Seife einbalsamieren. Wenn Sie mit einem komplexen Objekt wie einem Fahrrad oder einem Klettergerüst zu kämpfen haben, nutzen Sie die Seife, um alle winzigen Ecken auf einmal zu treffen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fortgeschrittene Arbeitsablauf-Taktiken">
+
+Um ein wahrer Experte zu werden, müssen Sie Ihre Bewegungen und Kameraeinstellungen optimieren. Viele Spieler verspüren Ermüdung oder Reisekrankheit aufgrund der ständigen Wischbewegungen, die zum Reinigen großer Böden erforderlich sind. PowerWash Simulator 2 enthält mehrere Barrierefreiheitsfunktionen, die gleichzeitig als Effizienzwerkzeuge dienen.
+
+**Wichtige Effizienzfunktionen:**
+- **Zielmodus (Steuerkreuz oben):** Fixiert Ihre Füße an Ort und Stelle und ermöglicht es Ihnen, nur die Düse zu bewegen. Dies ist perfekt für Detailarbeiten oder das "Malen" sauberer Linien, ohne Ihr gesamtes Sichtfeld zu bewegen.
+- **Automatisches Sprühen (Steuerkreuz links):** Schaltet das Wasser dauerhaft ein. Dies verhindert Fingerkrämpfe bei massiven Aufträgen wie der U-Bahn-Station oder dem Wüsten-Rover.
+- **Schmutz-Hervorhebung (Steuerkreuz rechts):** Lässt allen verbleibenden Schmutz hellorange leuchten. Nutzen Sie dies häufig, um winzige Flecken nicht zu übersehen, die eine 100-prozentige Abschlussbewertung verhindern.
+
+| Funktion | Eingabe (Controller) | Eingabe (PC) | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Sprühen umschalten** | Steuerkreuz links | **C** | Reduziert Fingerermüdung |
+| **Schmutz anzeigen** | Steuerkreuz rechts | **Tab** | Findet versteckten Schmutz |
+| **Zielmodus** | Steuerkreuz oben | **V** | Präzisionssteuerung |
+| **Düse wechseln** | LB / RB | **Mausrad** | Schnelle Druckanpassung |
+
+<Callout type="info" title="Leitersicherheit">
+Bewegen Sie Ihre Leiter oder Ihren Tritthocker immer mit Ihrem Fortschritt mit. Der Versuch, auf einer Leiter "nur ein Stück weiter" zu reichen, führt oft zu einem ungünstigen Winkel, in dem Ihr Strahl an Druck verliert. Wenn das Wasser den Schmutz nicht entfernt, sind Sie wahrscheinlich zu weit entfernt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Karriere-Meilensteine und Checkliste für Komplettierer">
+
+Um Ihr Unternehmen in PowerWash Simulator 2 aufzubauen, müssen Sie Aufträge abschließen, um Sterne zu verdienen. Sterne schalten höherwertige Ausrüstung und komplexere Verträge frei. Egal, ob Sie einen schmutzigen Bungalow oder einen massiven Mars-Rover reinigen, das Befolgen einer konsistenten Checkliste stellt sicher, dass Sie nie einen Auftrag halbfertig hinterlassen.
+
+<Checklist
+  id="pro-cleaner-goals"
+  title="Ziele für professionelle Komplettierer:"
+  items={[
+    "Schalten Sie den Hochleistungs-Hochdruckreiniger frei, indem Sie 30 Sterne verdienen",
+    "Schließen Sie einen Auftrag nur mit der roten Düse ab, um einen versteckten Erfolg zu erhalten",
+    "Kaufen Sie alle spezialisierten Reinigungsflüssigkeiten für das Abzeichen 'Chemie-Fan'",
+    "Reinigen Sie das gesamte Riesenrad, ohne von den Plattformen zu fallen",
+    "Erreichen Sie eine 100 %-Bewertung bei 5 Aufträgen der Kategorie 'Oldtimer'"
+  ]}
+/>
+
+| Auftragskategorie | Durchschnittliche Zeit | Sternenbelohnung | Schwierigkeit |
+| :--- | :--- | :--- | :--- |
+| **Fahrzeuge** | 10-20 Min. | 5 Sterne | **Einfach** |
+| **Wohngebäude** | 45-90 Min. | 5 Sterne | **Mittel** |
+| **Öffentliche Plätze** | 2-4 Std. | 5 Sterne | **Schwer** |
+| **Spezial/DLC** | Variiert | 5 Sterne | **Variiert** |
+
+<Callout type="tip" title="Geldspar-Tipp">
+Der Shop hat gelegentlich bestimmte Flüssigkeiten nicht vorrätig. Kaufen Sie immer die maximale Menge an Stein- und Metallreiniger, wann immer diese verfügbar sind, da dies die am häufigsten verwendeten Chemikalien in Missionen im mittleren Spielverlauf sind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich das letzte 1 % Schmutz in einem Level?",
+    answer: "Öffnen Sie Ihr Inventarmenü und schauen Sie in den Reiter 'Details'. Dort wird jede einzelne Komponente aufgelistet (z. B. 'Fensterrahmen 4'). Wählen Sie das fehlende Element aus, und es wird in der Spielwelt blinken, was das Auffinden erheblich erleichtert."
+  },
+  {
+    question: "Sind die PowerWash Simulator 2 Tipps für Seife das Geld wert?",
+    answer: "Ja, aber nur für große oder sehr komplexe Oberflächen. Seife auf einem flachen Holzzaun zu verwenden, ist oft Geldverschwendung, aber bei einem komplexen Motor oder einem moosbedeckten Steinbrunnen spart es erheblich Zeit."
+  },
+  {
+    question: "Kann ich das gesamte Spiel im Zielmodus spielen?",
+    answer: "Technisch gesehen ja, aber es ist viel langsamer, um sich über große Flächen zu bewegen. Er wird am besten für die 'Detailarbeit' verwendet, sobald der Großteil des Schmutzes mit normaler Bewegung entfernt wurde."
+  },
+  {
+    question: "Spielt die Entfernung zum Objekt wirklich eine Rolle?",
+    answer: "Absolut. Je weiter Sie entfernt sind, desto geringer ist der Aufpralldruck. Wenn eine Düse nicht funktioniert, gehen Sie näher heran, bevor Sie zu einer Hochdruckdüse (geringerer Winkel) wechseln."
+  }
+]} />
+
+</Section>

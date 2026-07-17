@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo reiniciar un nivel en PowerWash Simulator 2: Guía de configuración",
+  description: "Aprende a reiniciar niveles individuales, volver a jugar limpiezas o restablecer el progreso de la carrera en PowerWash Simulator 2 con esta guía paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Restart+Level+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de PowerWash Simulator 2",
+  slug: "powerwash-simulator-2-how-to-restart-a-level"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Reiniciar niveles** en PowerWash Simulator 2 se realiza normalmente a través del menú de pausa del juego o seleccionando el modo Juego libre.
+- **El restablecimiento de la carrera** borra todos los datos de progreso, incluidos el dinero, las hidrolimpiadoras y las mejoras, devolviendo el juego a su estado inicial.
+- **El modo Juego libre** te permite volver a jugar mapas completados para divertirte sin afectar tu archivo de guardado de progreso de la carrera principal.
+- **El progreso cooperativo** está vinculado al jugador anfitrión, lo que significa que los invitados no pueden activar de forma independiente un reinicio de nivel durante las sesiones activas.
+</Callout>
+
+<Section icon={Shield} title="Entendiendo las mecánicas de progreso y reinicio">
+
+PowerWash Simulator 2 presenta una variedad de trabajos de limpieza, que van desde vehículos pequeños hasta complejos industriales masivos. A medida que limpias capas de suciedad, mugre y musgo, el juego guarda automáticamente tu progreso en tiempo real. Esto garantiza que no pierdas tu arduo trabajo si necesitas salir del juego a mitad del trabajo. Sin embargo, hay ocasiones en las que los jugadores quieren comenzar un trabajo desde cero. Ya sea que desees probar una estrategia de limpieza diferente, optimizar tu ruta para un speedrun o resolver un pequeño error de física con un objeto específico, saber **cómo reiniciar un nivel en PowerWash Simulator 2** es una habilidad muy útil.
+
+Entender las mecánicas de progreso es clave antes de tomar medidas. El juego diferencia entre tu progreso general de la carrera, el estado de los trabajos individuales y las misiones rejugables en el modo Juego libre. Reiniciar un trabajo activo borra los datos de suciedad de ese nivel específico, devolviéndolo a un estado de finalización del 0%, pero no afecta los fondos de tu carrera ni el equipo desbloqueado. Por otro lado, borrar tus datos de guardado restablece todo, lo que te obligará a construir tu imperio de limpieza desde cero.
+
+| Método | Descripción | Progreso retenido | Ideal para |
+| --- | --- | --- | --- |
+| Rejugabilidad en Juego libre | Vuelve a jugar niveles completados desde el menú principal | Conserva las puntuaciones altas | Limpieza casual |
+| Reinicio de trabajo activo | Restablece el porcentaje del trabajo actual a través del menú | Borra el trabajo actual | Solucionar errores |
+| Borrado completo de la carrera | Borra todos los datos de guardado desde el menú de opciones | Progreso cero | Empezar de cero |
+
+<Callout type="warning" title="Advertencia">
+Borrar los datos de guardado de tu carrera es permanente y no se puede deshacer. Realiza siempre una copia de seguridad de tus archivos de guardado locales si planeas comenzar toda la campaña de nuevo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PowerWash Simulator 2: Cómo reiniciar un nivel paso a paso">
+
+Reiniciar un nivel es una práctica común cuando los jugadores quieren optimizar sus rutas de limpieza, conseguir logros específicos o resolver un error en el que la suciedad se vuelve inalcanzable. La herramienta de reinicio de nivel individual está diseñada para borrar el progreso de suciedad del mapa activo sin penalizar tu posición en la carrera ni quitarte el dinero que tanto te ha costado ganar.
+
+Antes de iniciar un reinicio, asegúrate de haber reclamado las recompensas o bonificaciones pendientes. Una vez que confirmes el reinicio, el nivel se volverá a cargar y todas las superficies se cubrirán de suciedad una vez más. Esta función permite una rejugabilidad infinita y la experimentación con diferentes boquillas, líquidos de limpieza y extensiones.
+
+<Steps>
+  <Step num="1" title="Abre el menú">
+    Presiona la tecla Escape en tu teclado o el botón de menú en tu mando para pausar el juego.
+  </Step>
+  <Step num="2" title="Navega a los detalles del trabajo">
+    Busca el panel de trabajo activo en la interfaz de la tableta, que muestra tu porcentaje de finalización actual.
+  </Step>
+  <Step num="3" title="Selecciona la opción de reiniciar">
+    Haz clic en el botón de reinicio junto a los detalles del trabajo para borrar los datos de suciedad del nivel actual.
+  </Step>
+  <Step num="4" title="Confirma el reinicio">
+    Acepta el mensaje de confirmación para volver a cargar el nivel con un 0% de progreso.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo profesional">
+Si un objeto específico se queda atascado en el 99,9% debido a una mota de suciedad microscópica, intenta reiniciar el trabajo individual en lugar de borrar todo el progreso de tu carrera.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Restablecimiento del progreso del modo Carrera frente al reinicio de nivel individual">
+
+Es importante distinguir entre reiniciar un nivel individual y borrar todo el progreso de tu carrera. Un restablecimiento de carrera es una medida drástica que los jugadores suelen elegir cuando quieren experimentar el ciclo de progresión de PowerWash Simulator 2 desde el principio. Esto incluye desbloquear hidrolimpiadoras, comprar mejoras y completar la campaña de la historia en orden.
+
+Para los jugadores que simplemente quieren disfrutar de sus niveles favoritos sin la presión del progreso de la carrera, el modo Juego libre es la opción ideal. El modo Juego libre desbloquea niveles a medida que los completas en la campaña principal, lo que te permite volver a jugarlos con cualquier equipo que hayas comprado. Este modo es perfecto para probar nuevas herramientas o simplemente relajarse con un mapa conocido.
+
+<CardGrid cols={3}>
+  <Card title="Reinicio de trabajo individual">
+    - Se enfoca en niveles individuales
+    - Conserva el dinero de la carrera
+    - Conserva el equipo desbloqueado
+  </Card>
+  <Card title="Borrado completo del guardado">
+    - Elimina todo el progreso de la carrera
+    - Restablece el dinero a cero
+    - Vuelve a bloquear todas las hidrolimpiadoras
+  </Card>
+  <Card title="Modo Juego libre">
+    - Vuelve a jugar niveles desbloqueados
+    - Sin impacto en la carrera
+    - Personaliza la presión del agua
+  </Card>
+</CardGrid>
+
+| Tipo de nivel | Disponibilidad de reinicio | Impacto en el dinero | Equipo retenido |
+| --- | --- | --- | --- |
+| Niveles de carrera | Reinicio del menú o borrado completo | Restablece el dinero ganado | Sí (a menos que se borre por completo) |
+| Trabajos especiales | Solo reinicio individual | Ninguno | Sí |
+| Niveles de DLC | Solo reinicio individual | Ninguno | Sí |
+
+<Callout type="info" title="Nota">
+Completar trabajos en el modo Juego libre no otorga dinero para la carrera, pero te permite practicar rutas de limpieza eficientes y obtener logros.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solución de problemas comunes al reiniciar">
+
+Aunque las mecánicas de reinicio en PowerWash Simulator 2 son generalmente fiables, los jugadores pueden encontrarse ocasionalmente con problemas en los que un nivel no se recarga correctamente o el seguimiento del progreso se desincroniza. Esto puede ocurrir debido a conflictos de guardado en la nube, errores de sesión multijugador o corrupción de archivos locales. Saber cómo solucionar estos problemas garantiza una experiencia de juego fluida.
+
+Si descubres que el botón de reinicio no responde, o si el nivel se carga pero marca inmediatamente los objetos como limpios, es posible que debas verificar los archivos del juego o comprobar tu conexión de red si juegas en modo cooperativo. Los anfitriones multijugador tienen el control exclusivo sobre el estado de guardado de la sesión, por lo que los invitados no pueden reiniciar niveles de forma independiente durante un trabajo compartido.
+
+| Problema | Causa común | Solución recomendada |
+| --- | --- | --- |
+| Botón de reinicio atenuado | El trabajo ya está al 0% | Comienza a limpiar para habilitar la opción |
+| El progreso no se guarda | Conflicto de sincronización en la nube | Desactiva Steam Cloud temporalmente |
+| Nivel atascado al 99% | Resta suciedad microscópica | Usa el buscador de suciedad o reinicia el trabajo |
+
+<Checklist
+  id="reset-prep"
+  title="Lista de verificación previa al reinicio:"
+  items={[
+    "Verifica que hayas reclamado todas las recompensas y bonificaciones del trabajo",
+    "Comprueba si el progreso actual está respaldado localmente",
+    "Confirma que deseas borrar el porcentaje de suciedad actual",
+    "Asegúrate de que no haya jugadores cooperativos activos en tu sala"
+  ]}
+/>
+
+<Callout type="success" title="Éxito">
+Reiniciar un nivel puede ayudarte a desbloquear logros basados en el tiempo más fácilmente al comenzar de cero y con una ruta planificada de antemano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Aquí tienes las respuestas a las preguntas más comunes sobre el reinicio de niveles y la progresión.
+
+<FAQ items={[
+  {
+    question: "¿Cómo reinicio un nivel en PowerWash Simulator 2 sin perder mi equipo?",
+    answer: "Puedes reiniciar el trabajo activo desde el menú de pausa, lo que borra el progreso de la suciedad pero conserva tu equipo desbloqueado, los líquidos de limpieza y el dinero."
+  },
+  {
+    question: "¿Puedo volver a jugar niveles completados en PowerWash Simulator 2?",
+    answer: "Sí, puedes usar el modo Juego libre desde el menú principal para volver a jugar cualquier trabajo completado en cualquier momento con el equipo que elijas."
+  },
+  {
+    question: "¿El reinicio de un nivel de carrera reembolsa el dinero gastado en mejoras?",
+    answer: "No, reiniciar un nivel individual no afecta a tu inventario ni a tu cartera. Solo un borrado completo del guardado de la carrera restablece tu dinero y tus mejoras."
+  },
+  {
+    question: "¿Qué debo hacer si un nivel tiene un error y no me deja terminar?",
+    answer: "Abre el menú de pausa, selecciona la opción de reinicio del trabajo y confirma el reinicio para volver a cargar los elementos sucios y solucionar posibles problemas de renderizado."
+  }
+]} />
+
+<Callout type="tip" title="Consejo">
+Consulta siempre los foros oficiales de la comunidad o las notas del parche si experimentas errores de progreso persistentes que un simple reinicio de nivel no pueda resolver.
+</Callout>
+
+</Section>
