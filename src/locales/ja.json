@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "PowerWash Simulator 2 Wiki - ジョブ、ツール＆実績",
+      "description": "すべてのジョブ、ウォッシャー、ノズル、アップグレード、実績、収集品、協力プレイ機能、DLCパック、最新アップデートに関するPowerWash Simulator 2の完全ガイド。",
+      "keywords": "PowerWash Simulator 2, wiki, ジョブ, ツール, アップグレード, 実績, 協力プレイ, DLC, 攻略",
+      "ogTitle": "PowerWash Simulator 2 Wiki - ジョブ、ツール＆実績",
+      "ogDescription": "すべてのジョブ、ウォッシャー、ノズル、アップグレード、実績、収集品、協力プレイ機能、DLCパック、最新アップデートに関するPowerWash Simulator 2の完全ガイド。",
+      "twitterTitle": "PowerWash Simulator 2 Wiki - ジョブ、ツール＆実績",
+      "twitterDescription": "ジョブ、ウォッシャー、ツール、アップグレード、実績、協力プレイ、DLC、最新アップデートに関するPowerWash Simulator 2の完全ガイド。"
+    }
+  },
   "nav": {
     "guide": "ガイド",
     "updates": "アップデート",
@@ -6,7 +17,1698 @@
     "levels": "レベル",
     "multiplayer": "マルチプレイ",
     "equipment": "装備",
-    "technical": "技術",
+    "technical": "テクニカル",
     "purchase": "購入"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "リラックスできる協力プレイ対応の清掃シミュレーター",
+    "title": "PowerWash Simulator 2 Wiki",
+    "description": "38のキャリアジョブで汚れを吹き飛ばし、より強力な高圧洗浄機やツールをアンロック。Home Baseをデコレーションして、ソロ、オンライン、または画面分割協力プレイで清掃しましょう。",
+    "getFreeCodesCTA": "すべてのジョブを見る",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2025年10月23日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "38",
+        "label": "キャリアジョブ"
+      },
+      "stat3": {
+        "value": "4人",
+        "label": "オンライン協力プレイ"
+      },
+      "stat4": {
+        "value": "1万以上",
+        "label": "Steamレビュー"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "PowerWash Simulator 2 ゲームプレイ",
+    "description": "38のキャリアジョブをこなし、ノズルや表面清掃ツールを使いこなし、Home Baseをデコレーション。PC、PS5、Xbox Series X|S、Nintendo Switch 2で、ソロ、オンライン、またはローカル画面分割協力プレイで清掃しましょう。"
+  },
+  "tools": {
+    "title": "PowerWash Simulator 2",
+    "titleHighlight": "Wikiガイド",
+    "subtitle": "より速く清掃するために必要なすべて：ジョブ、装備、協力プレイ、実績、DLC、コンプリートのヒント、Home Baseの収集アイテム。",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "初心者ガイド",
+        "description": "清掃のルーティン、操作方法、ノズル、洗浄剤、そして最適な序盤のルート"
+      },
+      {
+        "icon": "マップ",
+        "title": "ジョブとロケーション",
+        "description": "解禁順の全38キャリアジョブ、ロケーション、装備"
+      },
+      {
+        "icon": "Wrench",
+        "title": "装備とアップグレード",
+        "description": "おすすめのウォッシャー、ノズル、洗浄剤、サーフェスクリーナーのランキング"
+      },
+      {
+        "icon": "Users",
+        "title": "マルチプレイとコープ",
+        "description": "オンラインコープ、クロスプレイ、画面分割、進行状況の共有"
+      },
+      {
+        "icon": "Trophy",
+        "title": "実績とトロフィー",
+        "description": "本編と2つのDLCパックに含まれる全60個の実績"
+      },
+      {
+        "icon": "Rocket",
+        "title": "DLCとアップデート",
+        "description": "無料のCaldera Chroniclesジョブ、有料のコラボパック、ロードマップ"
+      },
+      {
+        "icon": "Search",
+        "title": "最後の汚れガイド",
+        "description": "最後の汚れが残った場所を見つけ、ジョブを100%完了させよう"
+      },
+      {
+        "icon": "Home",
+        "title": "Home Baseと収集アイテム",
+        "description": "家具、小物、記念品、猫、コスメティック、隠し要素"
+      }
+    ]
+  },
+  "modules": {
+    "powerwashBeginnerGuide": {
+      "eyebrow": "スタートガイド",
+      "title": "PowerWash Simulator 2でより効率よく掃除を始める方法",
+      "subtitle": "掃除の基本サイクル、ノズルの役割、無料の洗浄剤システム、最初のジョブを進めるための最適なルートを学びましょう。タスクリストと汚れのハイライトを活用すれば、最後のわずかな汚れを闇雲に探すことなくジョブを完了できます。",
+      "intro": "キャリアモードには、Muckinghamやさらに広いCaldera Countyを舞台にした38の新しいジョブが含まれています。ジョブをクリアするとウォッシャーやアタッチメントを購入できるキャッシュを獲得でき、キャリアモードやフリープレイでは、Home Baseでの家具やコスメティックのカスタマイズに使用できるPowerWash Pointsも獲得できます。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Home Baseで準備をする",
+          "description": "ジョブマップを使用してキャリアの依頼を選択し、出発前にショップを訪れ、Home Baseに戻って掃除をしたりアンロックされた家具を配置したりしましょう。キャリアの依頼は、新しいウォッシャーや装備を購入するためのCashの主な入手先です。",
+          "quickTip": "外装アイテムを購入する前に、まずは清掃範囲を広げられるツールに序盤のCashを使いましょう。"
+        },
+        {
+          "step": 2,
+          "title": "基本的な清掃操作を覚えましょう",
+          "description": "ウォッシャーの長押しや切り替え、ウォッシャーの変更、ノズルや延長パイプのホイールを開く操作、ノズルの回転、タスクリストの表示、しゃがみ、ジャンプ、汚れのハイライトの有効化を練習しましょう。タスクリストには、まだ完了していない特定のパーツ名が表示されます。",
+          "quickTip": "長く平らな面には連続洗浄を使い、縁や底面、難しい角度の場所にはフリーエイムを使用しましょう。"
+        },
+        {
+          "step": 3,
+          "title": "表面に合わせてノズルを選びましょう",
+          "description": "40度と25度のノズルは広範囲で汚れが軽い場所に、15度と0度のノズルは狭い隙間や頑固な汚れに圧力を集中させます。ターボノズルは小さな頑固な汚れを狙い撃ちし、Adaptable Nozzleはアタッチメントを交換せずに噴射幅を変更できます。",
+          "quickTip": "最初は広範囲から始め、表面の汚れが効率よく落ちなくなった時だけ噴射幅を狭めましょう。"
+        },
+        {
+          "step": 4,
+          "title": "引っ越し用バンをセクションごとに掃除しましょう",
+          "description": "屋根と上部パネルから始め、両側面をスウィープし、前後を掃除してから、ホイール、ステップ、ハンドル、底面を仕上げます。これは最初のキャリアの依頼で、無料のPrime Vista 1500またはUrban X U1で完了できます。",
+          "quickTip": "小さなトリムの前に大きなパネルを完了させることで、タスクリストが短くなり、確認しやすくなります。"
+        },
+        {
+          "step": 5,
+          "title": "複数段階の依頼（マルチステージジョブ）を理解しましょう",
+          "description": "公共施設のジョブでは、段階的にエリアが解放されます。現在可能なすべてのタスクを掃除して次のセクションを出現させ、新しく開いたエリアで同じように上から下へのルーチンを繰り返しましょう。",
+          "quickTip": "ロックされていたり隠れていたりする場所を探して時間を無駄にせず、まずは目に見えるステージを終わらせましょう。"
+        },
+        {
+          "step": 6,
+          "title": "頑固な汚れの層にはSoap 2.0を使いましょう",
+          "description": "Soapは無料で使用でき、汚れた表面に密着します。ひどく汚れたセクションを洗剤ノズルで覆い、その後いずれかの水ノズルで洗い流すと、柔らかくなった汚れをより早く落とせます。",
+          "quickTip": "広い汚れたゾーンにはまずSoapを使い、小さな洗い残しの縁には集中噴射の水ノズルを使いましょう。"
+        },
+        {
+          "step": 7,
+          "title": "まずは清掃効率を上げるアップグレードを購入しましょう",
+          "description": "Adaptable Nozzleは序盤で最も柔軟なアタッチメントであり、SwirlForce Surf Aceは床やその他の大きな平らな面のために設計されています。延長パイプ、梯子、足場、シザーリフト、ラペリングキットは、後半のジョブでの高さやリーチの問題を解決してくれます。",
+          "quickTip": "次のジョブの形状に合わせて装備を選びましょう。平らな場所にはサーフェスクリーナー、屋根には延長パイプ、車両には集中ノズルが適しています。"
+        },
+        {
+          "step": 8,
+          "title": "最後の数パーセントを素早く終わらせましょう",
+          "description": "タスクリストを開き、未完了のパーツを選択して、汚れのハイライトを使いながら様々な高さから対象物の周りを回りましょう。底面、背面、トリムの継ぎ目、ホイールハウス、屋根の縁、小道具の裏に隠れた表面などをチェックしてください。",
+          "quickTip": "パーツがほぼ綺麗になったら、レベル全体に噴射するのをやめて、その名前の付いたタスクだけを点検しましょう。"
+        }
+      ]
+    },
+    "powerwashJobsAndLocations": {
+      "eyebrow": "キャリアの進行状況",
+      "title": "PowerWash Simulator 2の全38種類のキャリアの依頼（アンロック順）",
+      "subtitle": "Removals VanからMount Rushlessまでのゲーム本編の全キャンペーンを網羅しています。各行には、依頼場所、洗浄形式、実用的な装備の選択、そして実績や完了時の詳細が記載されています。",
+      "intro": "全38の依頼で構成されるキャリアキャンペーンは、Muckinghamと広大なCaldera Countyに及んでおり、Sponge Valley、Suds East、Lubri Cityなどの公式ロケーションがハイライトとして登場します。後半の依頼では、サーフェスクリーナー、延長ポール、リフト、懸垂下降をより多用することになります。",
+      "jobs": [
+        {
+          "unlockOrder": 1,
+          "job": "Removals Van",
+          "location": "PowerWash Services、Muckingham",
+          "jobType": "車両",
+          "difficulty": "初級",
+          "equipment": "Prime Vista 1500またはUrban X U1。パネルには25度、継ぎ目には15度を使用。",
+          "notableDetail": "この最初のキャリア依頼を完了すると、実績「All Moved In」が解除されます。"
+        },
+        {
+          "unlockOrder": 2,
+          "job": "公共施設",
+          "location": "Detergento",
+          "jobType": "マルチステージ・ロケーション",
+          "difficulty": "初級",
+          "equipment": "25度またはAdaptable Nozzle。頑固な汚れには洗浄剤を使用。",
+          "notableDetail": "ステージを完了するごとに、構造物が地面からせり上がり、その外装と内装が明らかになります。"
+        },
+        {
+          "unlockOrder": 3,
+          "job": "キャンプ場",
+          "location": "Great River Campground、Power Falls",
+          "jobType": "屋外敷地",
+          "difficulty": "初級",
+          "equipment": "テントと家具には25度、実績獲得ルートには赤の0度ノズルを使用。",
+          "notableDetail": "最初に赤ノズルのみを使用してランタンを洗浄すると、実績「Hit the Lights」を獲得できます。"
+        },
+        {
+          "unlockOrder": 4,
+          "job": "Art Deco House",
+          "location": "Caldera County",
+          "jobType": "建物",
+          "difficulty": "初級",
+          "equipment": "Adaptable Nozzle、延長ポール、はしごによるアクセス。",
+          "notableDetail": "上から下に向かって作業することで、流れ落ちる汚れや洗い残したトリムを把握しやすくなります。"
+        },
+        {
+          "unlockOrder": 5,
+          "job": "ドッグカー",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "車両",
+          "difficulty": "簡単",
+          "equipment": "洗剤用ノズルの後に15度または25度ノズル",
+          "notableDetail": "すべての洗浄対象を同時に洗剤で覆うことで、「Doggy Bath」を獲得できます。"
+        },
+        {
+          "unlockOrder": 6,
+          "job": "看板",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "大型建造物",
+          "difficulty": "簡単",
+          "equipment": "広い平らなエリアにはSwirlForce Surf Ace、高所には懸垂下降リグ",
+          "notableDetail": "サーフェスクリーナーは、大きな看板の面や文字の部分に特に効果的です。"
+        },
+        {
+          "unlockOrder": 7,
+          "job": "Teapot Tea Room",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "建物",
+          "difficulty": "簡単",
+          "equipment": "Adaptable Nozzle and soap",
+          "notableDetail": "各座席にノームを配置することで、「Tea Time」を獲得できます。"
+        },
+        {
+          "unlockOrder": 8,
+          "job": "Shooting Gallery",
+          "location": "Wengerloof Carnival, Muckingham Recreation Ground",
+          "jobType": "アトラクション",
+          "difficulty": "簡単",
+          "equipment": "動く標的や細かな標的には15度またはAdaptable Nozzle",
+          "notableDetail": "最初にビッグフットの標的を完了させることで、「Where's Woolly?」を獲得できます。"
+        },
+        {
+          "unlockOrder": 9,
+          "job": "道路清掃車",
+          "location": "Detergento",
+          "jobType": "車両",
+          "difficulty": "中",
+          "equipment": "可動部には15度、ボディパネルには25度、頑固な汚れには洗浄剤を使用",
+          "notableDetail": "タスクリストを使用して、終盤にホイール、ブラシ、下回りのパーツを特定します。"
+        },
+        {
+          "unlockOrder": 10,
+          "job": "ガソリンスタンド",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "場所",
+          "difficulty": "中",
+          "equipment": "舗装部分にはSwirlForce Surf Ace、ポンプや看板にはAdaptable Nozzleを使用",
+          "notableDetail": "遊び場のすべり台からボールを転がし落として、実績「Drop the Ball」を獲得します。"
+        },
+        {
+          "unlockOrder": 11,
+          "job": "バンドスタンド",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "建造物",
+          "difficulty": "中",
+          "equipment": "床にはサーフェスクリーナー、手すりやトリムにはAdaptable Nozzleを使用",
+          "notableDetail": "最後に中央のハッチを清掃して、実績「Hatching a Plan」を獲得します。"
+        },
+        {
+          "unlockOrder": 12,
+          "job": "モビリティスクーター",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "車両",
+          "difficulty": "中",
+          "equipment": "15度またはAdaptable Nozzle",
+          "notableDetail": "コンパクトなサイズのため、ノズル限定の実績を獲得するためのリプレイジョブとして実用的です。"
+        },
+        {
+          "unlockOrder": 13,
+          "job": "Nouveau House",
+          "location": "Muckingham",
+          "jobType": "建物",
+          "difficulty": "普通",
+          "equipment": "Adaptable Nozzle、ロング延長パイプ、足場",
+          "notableDetail": "最後の汚れスキャンを行う前に、外装を壁、屋根、窓、備品に分けて洗浄しましょう。"
+        },
+        {
+          "unlockOrder": 14,
+          "job": "飛行船",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "車両",
+          "difficulty": "普通",
+          "equipment": "アブセイリング用キット、延長パイプ、Adaptable Nozzle",
+          "notableDetail": "移動用装備を使用して、地上から何度も位置を変えることなく高い位置の車体を洗浄しましょう。"
+        },
+        {
+          "unlockOrder": 15,
+          "job": "コンクリートミキサー車",
+          "location": "Fumerole",
+          "jobType": "車両",
+          "difficulty": "普通",
+          "equipment": "ドラムとシャシー用のTurbo Nozzleと洗浄剤",
+          "notableDetail": "車両の周りを回りながら、ドラムの縁、フレーム、ホイールの窪みを個別にチェックしましょう。"
+        },
+        {
+          "unlockOrder": 16,
+          "job": "農場",
+          "location": "Pumpton",
+          "jobType": "屋外",
+          "difficulty": "普通",
+          "equipment": "広い地面用のサーフェスクリーナー、構造物用の延長パイプ",
+          "notableDetail": "最初に広い平らなエリアを清掃し、次にフェンス、機械、狭い縁を仕上げましょう。"
+        },
+        {
+          "unlockOrder": 17,
+          "job": "Stone Circle",
+          "location": "Great River National Park、Power Falls",
+          "jobType": "屋外のランドマーク",
+          "difficulty": "普通",
+          "equipment": "石の顔には25度または40度、層になった汚れには洗浄剤",
+          "notableDetail": "地面に触れずにすべての柱の上に立ち、「Floor is Lava」を獲得する。"
+        },
+        {
+          "unlockOrder": 18,
+          "job": "ロッククライミングパーク",
+          "location": "Muckingham レクリエーション広場",
+          "jobType": "屋外のアトラクション",
+          "difficulty": "普通",
+          "equipment": "懸垂下降キットとAdaptable Nozzle",
+          "notableDetail": "「Flying Start」を獲得するために、最初にプテロダクティルを洗浄する。"
+        },
+        {
+          "unlockOrder": 19,
+          "job": "ローラーディスコ",
+          "location": "Caldera County",
+          "jobType": "屋内のアトラクション",
+          "difficulty": "普通",
+          "equipment": "床にはサーフェスクリーナー、頭上の設備にはエクステンション",
+          "notableDetail": "「Make it all Shine」を獲得するために、最初にディスコボールを洗浄する。"
+        },
+        {
+          "unlockOrder": 20,
+          "job": "トラクター",
+          "location": "Pumpton",
+          "jobType": "車両",
+          "difficulty": "普通",
+          "equipment": "ターボまたは15度ノズル、エンジンとタイヤの周りには洗浄剤",
+          "notableDetail": "最後の汚れのハイライトに頼る前に、車軸、トレッドの溝、下部を確認する。"
+        },
+        {
+          "unlockOrder": 21,
+          "job": "寺院内部",
+          "location": "Pumpton",
+          "jobType": "複数の部屋があるロケーション",
+          "difficulty": "やりがいのある",
+          "equipment": "Adaptable Nozzle、洗浄剤、エクステンション",
+          "notableDetail": "ジョブ中に階段を降りて「Deep Lore」を獲得する。"
+        },
+        {
+          "unlockOrder": 22,
+          "job": "車とトレーラー",
+          "location": "Muckingham",
+          "jobType": "車両セット",
+          "difficulty": "やりがいのある",
+          "equipment": "屋根にはエクステンション、細部には15度ノズルまたはAdaptable Nozzle",
+          "notableDetail": "最初にパラボラアンテナを清掃して「Message Received」を獲得する。"
+        },
+        {
+          "unlockOrder": 23,
+          "job": "シアター",
+          "location": "Bucketon",
+          "jobType": "建物",
+          "difficulty": "やりがいのある",
+          "equipment": "通路とステージにはサーフェスクリーナー、上部の細部にはエクステンション",
+          "notableDetail": "最初に最前列の座席をすべて清掃して「Front Row Seats」を獲得する。"
+        },
+        {
+          "unlockOrder": 24,
+          "job": "モーテル",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "建物",
+          "difficulty": "やりがいのある",
+          "equipment": "シザーリフト、エクステンション、Adaptable Nozzle",
+          "notableDetail": "最初にすべての部屋のドア、ドアハンドル、ドア番号を清掃して「Door to Door」を獲得する。"
+        },
+        {
+          "unlockOrder": 25,
+          "job": "ミニジェットコースター",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "アトラクション",
+          "difficulty": "やりがいのある",
+          "equipment": "レールの部品には Adaptable Nozzle と Turbo Nozzle を使用。",
+          "notableDetail": "ローラーコースターに乗って1周し、Ticket to Ride を獲得する。"
+        },
+        {
+          "unlockOrder": 26,
+          "job": "太陽系展示",
+          "location": "Washingham",
+          "jobType": "展示物",
+          "difficulty": "難しい",
+          "equipment": "模型や支柱には 15 または Adaptable Nozzle を使用。",
+          "notableDetail": "太陽を洗浄した後、外側に向かって順番にすべての惑星を洗浄し、Cosmic Ordering を獲得する。"
+        },
+        {
+          "unlockOrder": 27,
+          "job": "路面電車",
+          "location": "Detergento",
+          "jobType": "車両",
+          "difficulty": "難しい",
+          "equipment": "15 および 25 Nozzles。外装の蓄積した汚れには洗浄剤を使用。",
+          "notableDetail": "片面ずつ進め、その後にルーフライン、ホイール、車体下部を点検する。"
+        },
+        {
+          "unlockOrder": 28,
+          "job": "Salvage House",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "建物",
+          "difficulty": "難しい",
+          "equipment": "Surface cleaner、延長ポール、および洗浄剤。",
+          "notableDetail": "部屋ごと、または壁ごとに洗浄を進めて、膨大なタスクリストを管理しやすくする。"
+        },
+        {
+          "unlockOrder": 29,
+          "job": "鉱山用ダンプトラック",
+          "location": "Fumerole",
+          "jobType": "大型車両",
+          "difficulty": "難しい",
+          "equipment": "Turbo Nozzle を装着した大型またはプロ仕様の洗浄機。",
+          "notableDetail": "巨大な荷台とタイヤを優先し、その後に梯子、手すり、油圧部品を点検しましょう。"
+        },
+        {
+          "unlockOrder": 30,
+          "job": "ファンハウス",
+          "location": "Wengerloof Carnival, Muckingham Recreation Ground",
+          "jobType": "体験型アトラクション",
+          "difficulty": "難しい",
+          "equipment": "サーフェスクリーナーと調整可能ノズル",
+          "notableDetail": "巨大なピアノを低音から高音に向かって弾いて「Glissando!」を獲得するか、サーフェスクリーナーで回転するフロアディスクを掃除して「Spin Doctor」を獲得しましょう。"
+        },
+        {
+          "unlockOrder": 31,
+          "job": "スキーセンター",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "広大なロケーション",
+          "difficulty": "難しい",
+          "equipment": "シザーリフト、ロングエクステンション、プロ仕様高圧洗浄機",
+          "notableDetail": "最初に広い外壁面を掃除し、次にリフトを使って屋根のラインや高い場所にある金具を掃除します。"
+        },
+        {
+          "unlockOrder": 32,
+          "job": "エクストラロング・リムジン",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "車両",
+          "difficulty": "上級",
+          "equipment": "15度と25度のノズルと洗剤",
+          "notableDetail": "長い車体をフロント、ミドル、リアのセクションに分割して掃除することで、小さなトリムパーツを見失うのを防ぎます。"
+        },
+        {
+          "unlockOrder": 33,
+          "job": "ショッピングモール",
+          "location": "Sparkleton",
+          "jobType": "大型建造物",
+          "difficulty": "上級",
+          "equipment": "サーフェスクリーナー、シザーリフト、プロ仕様高圧洗浄機",
+          "notableDetail": "最初にフクロウの像を掃除して「Wise Decision」を獲得しましょう。"
+        },
+        {
+          "unlockOrder": 34,
+          "job": "未来的なバイク",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "車両",
+          "difficulty": "上級",
+          "equipment": "狭い部品には0度または15度、頑固な汚れには洗浄剤を使用",
+          "notableDetail": "ホイール、フレームの継ぎ目、コンパクトな機械部品の周囲は、短くコントロールしながらノズルを動かします。"
+        },
+        {
+          "unlockOrder": 35,
+          "job": "劇場セット",
+          "location": "Bucketon",
+          "jobType": "複数セットのロケーション",
+          "difficulty": "上級",
+          "equipment": "調整可能ノズル、延長パイプ、洗浄剤",
+          "notableDetail": "各セットを個別のミニジョブとして扱い、次のセットに進む前にその小道具をすべて洗浄しましょう。"
+        },
+        {
+          "unlockOrder": 36,
+          "job": "18輪トラック",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "大型車両",
+          "difficulty": "上級",
+          "equipment": "プロ仕様の高圧洗浄機、ターボノズル、ロング延長パイプ",
+          "notableDetail": "トレーラーのパネルを大きく往復させて洗浄し、その後、キャブ、ホイール、下回りを個別に仕上げます。"
+        },
+        {
+          "unlockOrder": 37,
+          "job": "タウンフロート",
+          "location": "Detergento",
+          "jobType": "車両コレクション",
+          "difficulty": "上級",
+          "equipment": "調整可能ノズル、洗浄剤",
+          "notableDetail": "「Squeaky Clean」を獲得するために、ネズミは最後に洗浄します。"
+        },
+        {
+          "unlockOrder": 38,
+          "job": "Mount Rushless",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "最終ロケーション",
+          "difficulty": "上級",
+          "equipment": "プロ仕様の高圧洗浄機とすべての利用可能な移動ツール",
+          "notableDetail": "最後のキャリアの仕事は最大の集大成となる洗浄です。最後の数パーセントの間は、タスクリストと汚れのハイライトを頻繁に使用してください。"
+        }
+      ]
+    },
+    "powerwashBestEquipment": {
+      "eyebrow": "装備ティアリスト",
+      "title": "PowerWash Simulator 2の最強高圧洗浄機、ノズル、ツール",
+      "subtitle": "ライト、ミディアム、ヘビー、プロ仕様の高圧洗浄機シリーズに加え、SwirlForce Surf Aceや専用ノズルを比較。ランキングでは、キャリア進行における実際の洗浄速度、範囲、届きやすさ、価値を優先しています。",
+      "intro": "PowerWash Simulator 2のキャリア進行では、9種類の異なるPrime VistaおよびUrban Xの高圧洗浄機に加え、SwirlForce Surf Aceサーフェスクリーナーが用意されています。標準の洗浄機オプションには、基本となる0度、15度、25度、40度、ターボ、洗浄剤ノズルが含まれており、すべての洗浄機向けにAdaptable Nozzleを購入できます。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "総合最強",
+          "items": [
+            {
+              "name": "Prime Vista Pro + Triple-Tip Nozzle",
+              "category": "プロ仕様の高圧洗浄機",
+              "cleaningSpeed": "非常に高い",
+              "range": "長い",
+              "earlyGameValue": "低い",
+              "bestFor": "ゲーム終盤の大規模な仕事、混合した表面、素早い全体的な洗浄",
+              "why": "Prime Vista Proは、プロ仕様の圧力と専用のTriple-Tip Nozzleを組み合わせており、洗浄力を大きく損なうことなく、優れた洗浄範囲を提供します。"
+            },
+            {
+              "name": "Urban X Stream + Double Turbo Nozzle",
+              "category": "プロ仕様の高圧洗浄機",
+              "cleaningSpeed": "非常に高い",
+              "range": "長い",
+              "earlyGameValue": "低い",
+              "bestFor": "頑固な汚れ、車両、機械、および狭い範囲の高圧洗浄",
+              "why": "Urban X Streamは専用のDouble Turbo Nozzleを装着でき、ピンポイントな洗浄において最強の選択肢の一つとなります。"
+            },
+            {
+              "name": "アダプタブルノズル",
+              "category": "汎用アタッチメント",
+              "cleaningSpeed": "高い",
+              "range": "可変",
+              "earlyGameValue": "非常に高い",
+              "bestFor": "ノズルを交換せずに、広い面と細かい部分の洗浄を切り替え可能",
+              "why": "すべての高圧洗浄機で購入可能で、プレイヤーが手動でスプレーの幅を変更できるため、ゲーム内で最も柔軟なアップグレードとなっています。"
+            },
+            {
+              "name": "SwirlForce Surf Ace + 20インチヘッド",
+              "category": "サーフェスクリーナー",
+              "cleaningSpeed": "平らな面において非常に高い",
+              "range": "地上レベル",
+              "earlyGameValue": "高い",
+              "bestFor": "床、舗装、ステージ、広い壁、その他の広くて平らな場所",
+              "why": "回転式のサーフェスクリーナーは広いエリアを素早くカバーし、20インチのヘッドは最も広い洗浄範囲を提供します。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力なキャリアアップグレード",
+          "items": [
+            {
+              "name": "Prime Vista 3000",
+              "category": "高耐久高圧洗浄機",
+              "cleaningSpeed": "高い",
+              "range": "長い",
+              "earlyGameValue": "中程度",
+              "bestFor": "建物、大型オブジェクト、長時間の洗浄作業",
+              "why": "プロ仕様のモデルが購入可能になる前に、水圧と射程を向上させてくれる、キャリア後半の頼れる主力機。"
+            },
+            {
+              "name": "Urban X MAX",
+              "category": "高耐久高圧洗浄機",
+              "cleaningSpeed": "高",
+              "range": "長",
+              "earlyGameValue": "中",
+              "bestFor": "車両、頑固な汚れ、およびコンパクトな機械部品",
+              "why": "ヘビーデューティーな Urban X オプションは強力な洗浄に適しており、Turbo や Adaptable アタッチメントとの相性が抜群です。"
+            },
+            {
+              "name": "ソープノズル",
+              "category": "万能洗浄ツール",
+              "cleaningSpeed": "堆積した汚れに対して高い効果",
+              "range": "中",
+              "earlyGameValue": "非常に高い",
+              "bestFor": "頑固なシミや厚く堆積した汚れ",
+              "why": "洗剤は無料で、表面にしっかりと付着し、どのウォーターノズルでも軟化した汚れを洗い流せるようになります。"
+            },
+            {
+              "name": "ターボノズル",
+              "category": "集中型アタッチメント",
+              "cleaningSpeed": "狭い範囲に対して高い効果",
+              "range": "中",
+              "earlyGameValue": "高",
+              "bestFor": "錆のような斑点、タイヤの溝、機械類、および狭い場所の頑固な汚れ",
+              "why": "回転する集中スプレーは、広角のファンノズルよりも素早く頑固な汚れを落とせますが、洗浄範囲は狭くなります。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "信頼できる中盤の選択肢",
+          "items": [
+            {
+              "name": "Prime Vista 2400",
+              "category": "中型洗浄機",
+              "cleaningSpeed": "中〜高",
+              "range": "中〜長",
+              "earlyGameValue": "高",
+              "bestFor": "住宅、アトラクション、および汎用的なキャリアジョブ",
+              "why": "スターターティアからバランスよくアップグレードされており、序盤から中盤のほとんどの作業に十分な水圧と射程を備えています。"
+            },
+            {
+              "name": "Urban X U2",
+              "category": "中型洗浄機",
+              "cleaningSpeed": "中〜高",
+              "range": "中",
+              "earlyGameValue": "高",
+              "bestFor": "車両および細かなオブジェクト",
+              "why": "最大射程よりも強力で集中的な洗浄を好むプレイヤー向けの、実用的な中盤用 Urban X 洗浄機。"
+            },
+            {
+              "name": "Prime Vista 1500",
+              "category": "小型スターター洗浄機",
+              "cleaningSpeed": "中",
+              "range": "中",
+              "earlyGameValue": "非常に良い",
+              "bestFor": "引越しトラック、公共施設、およびその他の初期ジョブ",
+              "why": "開始時に無料で利用可能で、Adaptable Nozzle と組み合わせることで引き続き役立ちます。"
+            },
+            {
+              "name": "Urban X U1",
+              "category": "小型スターター洗浄機",
+              "cleaningSpeed": "中",
+              "range": "短〜中",
+              "earlyGameValue": "非常に良い",
+              "bestFor": "コンパクトカー、トリム、および近距離の清掃",
+              "why": "2台目の無料スターター洗浄機は、中型ティアを購入する前に異なる操作感の選択肢を提供します。"
+            }
+          ]
+        }
+      ]
+    },
+    "powerwashMultiplayer": {
+      "eyebrow": "協力プレイ（Co-op）ガイド",
+      "title": "PowerWash Simulator 2のマルチプレイヤー、クロスプレイ、画面分割",
+      "subtitle": "最大4人のオンラインでキャリアやフリープレイをプレイするか、1つの画面で2人のプレイヤーとローカルで清掃しましょう。プラットフォームのサブスクリプションとクロスプレイの利用可否は、Xbox、PC、PS5、Nintendo Switch 2によって異なります。",
+      "intro": "PowerWash Simulator 2では、オンラインでのキャンペーン進行状況の共有と、2人用のローカル画面分割が追加されました。オンラインセッションはキャリアとフリープレイで最大4人のプレイヤーをサポートしていますが、クロスプラットフォームプレイはすべてのプラットフォーム間ではなく、サポートされているXboxとPCの間で利用可能です。",
+      "faqs": [
+        {
+          "question": "PowerWash Simulator 2は何人で一緒にプレイできますか？",
+          "answer": "オンライン協力プレイは最大4人まで対応しています。ローカル画面分割は1台のPCまたはコンソールで2人のプレイヤーに対応しており、ソロプレイも可能です。"
+        },
+        {
+          "question": "PowerWash Simulator 2のどのモードがオンライン協力プレイに対応していますか？",
+          "answer": "キャリアとフリープレイの両方が4人オンライン協力プレイに対応しています。オンラインチームはセッション中に依頼の進行状況を共有するため、各プレイヤーが別々に同じ清掃を繰り返すのではなく、大規模な依頼を一緒に完了させることができます。"
+        },
+        {
+          "question": "PowerWash Simulator 2のローカル画面分割はどのように機能しますか？",
+          "answer": "マルチプレイヤーメニューを開いて画面分割セッションを開始し、2つ目のコントローラーまたはプラットフォームでサポートされているローカル入力を接続します。2人のプレイヤーが1つの画面から同じ依頼を清掃し、同じキャンペーンのセーブデータに貢献します。"
+        },
+        {
+          "question": "PowerWash Simulator 2はクロスプレイに対応していますか？",
+          "answer": "クロスプレイは、Xbox Series X|Sと、Steam、Epic Games Store、Windows Storeを含む互換性のあるPC版の間でサポートされています。PS5のプレイヤーはPlayStationのプレイヤープールを使用し、Nintendo Switch 2のプレイヤーはSwitch 2のプレイヤープールを使用します。"
+        },
+        {
+          "question": "PowerWash Simulator 2のオンラインセッションをホストしたり参加したりするにはどうすればよいですか？",
+          "answer": "ポーズメニューからマルチプレイヤー画面を開き、セッションタイプをシングルプレイヤーからオンラインマルチプレイヤーに変更して、生成されたルームコードを共有します。参加するプレイヤーは同じメニューを開き、「コードを入力」を選択してホストのコードを入力します。サポートされている場合はプラットフォームの招待も使用できます。"
+        },
+        {
+          "question": "PowerWash Simulator 2のコンソールオンラインプレイにはどのサブスクリプションが必要ですか？",
+          "answer": "PS5のオンラインマルチプレイヤーにはPlayStation Plusが必要です。Nintendo Switch 2のオンラインプレイにはNintendo Switch Onlineが必要です。Xboxコンソールのオンラインマルチプレイヤーには、オンラインコンソールマルチプレイヤーを含む対象のXbox Game Passティアが必要です。PCのオンラインプレイにはコンソールのサブスクリプションは必要ありません。"
+        },
+        {
+          "question": "PowerWash Simulator 2のキャリアの進行状況やセーブデータはプラットフォーム間で引き継げますか？",
+          "answer": "オンライン進行状況の共有により、協力チームが一緒に依頼を進めることができますが、ゲームはクロスプラットフォームのセーブデータ移行を提供していません。あるプラットフォームのエコシステムで作成されたセーブデータが、別のエコシステムに自動的に移動することはありません。"
+        },
+        {
+          "question": "完了したPowerWash Simulator 2の依頼をフレンドとリプレイできますか？",
+          "answer": "はい。完了したキャリアの依頼はフリープレイで再度選択でき、オンライン協力プレイは最大4人でのフリープレイをサポートしています。これは、実績の獲得ルート、ノズル限定ラン、リラックスしたリプレイに役立ちます。"
+        }
+      ]
+    },
+    "powerwashAchievements": {
+      "eyebrow": "実績",
+      "title": "PowerWash Simulator 2のすべての実績とトロフィー",
+      "subtitle": "基本ゲームと2つの有料パックにわたる、現在の全60個の実績を追跡しましょう。すべての項目に、正確な要件、関連する依頼、難易度、迅速な完了方法が含まれています。",
+      "intro": "現在のリストには、基本ゲームの実績が40個、Adventure Timeの実績が10個、STAR WARSの実績が10個含まれています。キャンペーン中に通常の完了マイルストーンをクリアしてから、最初に清掃する箇所、最後に清掃する箇所、特定の装備限定、隠されたインタラクションのチャレンジのために依頼をリプレイしましょう。",
+      "packs": [
+        {
+          "pack": "基本ゲーム",
+          "count": 40,
+          "entries": [
+            {
+              "achievement": "引っ越し完了",
+              "requirement": "キャリアモードで依頼「Removals Van」を完了する。",
+              "job": "Removals Van",
+              "difficulty": "イージー",
+              "guide": "最初のキャリア依頼を通常通り完了します。依頼完了画面が表示されると実績が解除されます。"
+            },
+            {
+              "achievement": "High Pressure",
+              "requirement": "アブセイリング中に洗浄タスクを1つ完了する。",
+              "job": "アブセイリング用リグがあるすべての依頼",
+              "difficulty": "イージー",
+              "guide": "アブセイリング用リグに装着し、吊り下がった状態で特定の洗浄タスクを1つ100%まで完了させる。"
+            },
+            {
+              "achievement": "Geo-Cashing",
+              "requirement": "Home Baseで、Job Mapを使用して依頼を選択する。",
+              "job": "Home Base",
+              "difficulty": "イージー",
+              "guide": "Home Baseにある大きなJob Mapを使用し、そこから利用可能な任務を開始する。"
+            },
+            {
+              "achievement": "Purr Bonding",
+              "requirement": "Home Baseで、3匹の猫すべてを撫でる。",
+              "job": "Home Base",
+              "difficulty": "イージー",
+              "guide": "Home Baseの各所にいる3匹の猫を見つけ、すべての猫に対して1回ずつインタラクトのプロンプトを使用する。"
+            },
+            {
+              "achievement": "Home Decor",
+              "requirement": "Home Baseで、家具を1つ洗浄して配置する。",
+              "job": "Home Base",
+              "difficulty": "イージー",
+              "guide": "汚れた家具を選んで100%まで洗浄し、Home Baseのデコレーション操作で配置する。"
+            },
+            {
+              "achievement": "Dressed for Success",
+              "requirement": "衣類を装備する。",
+              "job": "カスタマイズ",
+              "difficulty": "初級",
+              "guide": "キャラクターカスタマイズを開き、所持している衣類をどれか装備する。"
+            },
+            {
+              "achievement": "リーディング・ライト",
+              "requirement": "ライトデューティーのウォッシャー1台と、そのすべてのアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "中級",
+              "guide": "ライトデューティーのウォッシャーと互換性のあるすべてのアタッチメントを購入し、セット一式をインベントリに保持する。"
+            },
+            {
+              "achievement": "フラッシュ・サーフェス",
+              "requirement": "サーフェスクリーナーと、そのすべてのアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "中級",
+              "guide": "サーフェスクリーナーと専用の全アタッチメントを購入し、セットのどのパーツも売却せずに保持する。"
+            },
+            {
+              "achievement": "ディープ・ロア",
+              "requirement": "依頼「寺院の内部」で階段を下りる。",
+              "job": "寺院の内部",
+              "difficulty": "初級",
+              "guide": "階段にアクセスできるようになるまで依頼を進め、階段を下りる。"
+            },
+            {
+              "achievement": "テイキング・ノート",
+              "requirement": "Home Baseで、ハーパーのピンボードにあるアイテムを調べる。",
+              "job": "Home Base",
+              "difficulty": "初級",
+              "guide": "ハーパーのピンボードに近づき、ピン留めされたメモやアイテムを調べる。"
+            },
+            {
+              "achievement": "ラディカル・リブランド",
+              "requirement": "バンにスキンを適用する。",
+              "job": "バンのカスタマイズ",
+              "difficulty": "イージー",
+              "guide": "バンの外観オプションを開き、アンロックされているスキンを適用します。"
+            },
+            {
+              "achievement": "ちょうどいい塩梅",
+              "requirement": "中出力洗浄機と、そのすべてのアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "ノーマル",
+              "guide": "中出力洗浄機と互換性のあるすべてのアタッチメントを購入し、フルセットを同時に所有した状態にします。"
+            },
+            {
+              "achievement": "プロ中のプロ",
+              "requirement": "プロ用洗浄機と、そのすべてのアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "ハード",
+              "guide": "返金を行わずに、プロ用洗浄機と互換性のあるすべてのアタッチメントを購入できるだけの資金を貯めます。"
+            },
+            {
+              "achievement": "水に流して",
+              "requirement": "キャリアモードのすべての仕事を完了する。",
+              "job": "キャリアモード",
+              "difficulty": "ハード",
+              "guide": "キャリアリストが完全に完了するまで、複数ステージの仕事の全ステージを含む、すべてのキャリア依頼を完了します。"
+            },
+            {
+              "achievement": "ドッグバス",
+              "requirement": "「イヌの車」の仕事で、すべての洗浄対象に同時に洗浄剤がついている状態にする。",
+              "job": "イヌの車",
+              "difficulty": "ノーマル",
+              "guide": "いずれかの洗浄対象を完全に洗い流す前に、リストにあるすべての洗浄対象を洗浄剤で覆います。"
+            },
+            {
+              "achievement": "重水",
+              "requirement": "ヘビーデューティ用ウォッシャーと、そのすべてのアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "ハード",
+              "guide": "ヘビーデューティ用ウォッシャーと互換性のあるすべてのアタッチメントを購入し、一式をインベントリに保持する。"
+            },
+            {
+              "achievement": "柔軟な対応",
+              "requirement": "Adaptable Nozzleのみを使用して、いずれかの仕事を完了する。",
+              "job": "再プレイ可能な任意の仕事",
+              "difficulty": "ノーマル",
+              "guide": "小規模な仕事を選択し、最初から Adaptable Nozzle を装備して、他のノズルや洗浄剤に切り替えずにクリアする。"
+            },
+            {
+              "achievement": "我が家のノーム",
+              "requirement": "Home Baseで、隠されたノームを見つけて拾い上げる。",
+              "job": "Home Base",
+              "difficulty": "ノーマル",
+              "guide": "Home Baseの部屋や隅を探して隠されたノームを見つけ、インタラクトの指示に従って拾い上げます。"
+            },
+            {
+              "achievement": "チケット・トゥ・ライド",
+              "requirement": "ミニジェットコースターの仕事で、ジェットコースターに乗って1周する。",
+              "job": "ミニジェットコースター",
+              "difficulty": "イージー",
+              "guide": "動いているコースターに乗り、途切れることなく1周するまで乗り続けます。"
+            },
+            {
+              "achievement": "スタイリッシュに洗浄",
+              "requirement": "ウォッシャーにスキンを適用する。",
+              "job": "ウォッシャーのカスタマイズ",
+              "difficulty": "イージー",
+              "guide": "ウォッシャーのカスタマイズ画面を開き、所持しているウォッシャースキンを適用します。"
+            },
+            {
+              "achievement": "ティータイム",
+              "requirement": "Teapot Tea Roomの依頼で、すべての座席にノームを置く。",
+              "job": "Teapot Tea Room",
+              "difficulty": "普通",
+              "guide": "利用可能なノームを座席に移動させ、依頼を完了する前にすべての座席にノームが置かれていることを確認する。"
+            },
+            {
+              "achievement": "Maxed Out",
+              "requirement": "すべてのウォッシャーとアタッチメントを同時に所有する。",
+              "job": "装備ショップ",
+              "difficulty": "難しい",
+              "guide": "すべてのウォッシャーとすべてのアタッチメントを同時に所有できるだけの資金を貯める。以前の装備を売却しないようにすること。"
+            },
+            {
+              "achievement": "Drop the Ball",
+              "requirement": "Gas Stationの依頼で、ボールをPlayground Slideから転がし落とす。",
+              "job": "Gas Station",
+              "difficulty": "簡単",
+              "guide": "水流を使って、ボールをPlayground Slideの頂上まで押し上げ、一番下まで転がし落とす。"
+            },
+            {
+              "achievement": "Glissando!",
+              "requirement": "Fun Houseの依頼で、Giant Pianoのすべての鍵盤を低い方から高い方の順に叩く。",
+              "job": "Fun House",
+              "difficulty": "普通",
+              "guide": "Giant Pianoの最も低い鍵盤から始め、順番を飛ばしたり逆戻りしたりせずに、音程が上がる順に各鍵盤に水をかける。"
+            },
+            {
+              "achievement": "Three-Pronged Approach",
+              "requirement": "Prime Vista Triple-Tipノズルのみを使用して、任意の依頼を完了する。",
+              "job": "任意の再プレイ可能な依頼",
+              "difficulty": "普通",
+              "guide": "小さな依頼の開始時にPrime Vista Triple-Tipノズルを装備し、完了までそのノズルのみを使用し続ける。"
+            },
+            {
+              "achievement": "Rise and Shine",
+              "requirement": "いずれかの依頼で、ノームを乗せた状態でシザーリフトを最大まで伸ばす。",
+              "job": "シザーリフトがある任意の依頼",
+              "difficulty": "中",
+              "guide": "動かせるノームをリフトのプラットフォームに置き、シザーリフトを最大高度まで上げる。"
+            },
+            {
+              "achievement": "フライングスタート",
+              "requirement": "ロッククライミングパークの依頼で、最初にプテラノドンを洗浄する。",
+              "job": "ロッククライミングパーク",
+              "difficulty": "中",
+              "guide": "プテラノドンを見つけ、他の名前付き洗浄タスクが100%に達する前に完了させる。"
+            },
+            {
+              "achievement": "ウーリーはどこ？",
+              "requirement": "シューティングギャラリーの依頼で、最初にビッグフットのターゲットを完了する。",
+              "job": "シューティングギャラリー",
+              "difficulty": "中",
+              "guide": "ビッグフットのターゲットを見つけ、他のリストされたタスクを完了する前に完全に洗浄する。"
+            },
+            {
+              "achievement": "床は溶岩",
+              "requirement": "ストーンサークルの依頼で、床に触れずにすべての柱の上に立つ。",
+              "job": "ストーンサークル",
+              "difficulty": "難",
+              "guide": "すべての柱を渡る連続ジャンプのルートを計画し、キャラクターが地面に触れた場合はやり直す。"
+            },
+            {
+              "achievement": "すべてをピカピカに",
+              "requirement": "ローラーディスコの依頼で、最初にディスコボールを洗浄する。",
+              "job": "ローラーディスコ",
+              "difficulty": "中",
+              "guide": "ディスコボールに到達し、他の名前付きオブジェクトが100%に達する前に完了させる。"
+            },
+            {
+              "achievement": "メッセージ受信",
+              "requirement": "「車とトレーラー」の依頼で、最初にパラボラアンテナを清掃する。",
+              "job": "車とトレーラー",
+              "difficulty": "中級",
+              "guide": "他の清掃タスクを完了する前に、パラボラアンテナを完了する。"
+            },
+            {
+              "achievement": "ランタンを照らせ",
+              "requirement": "「キャンプ場」の依頼で、赤のノズルのみを使用して最初にランタンを清掃する。",
+              "job": "キャンプ場",
+              "difficulty": "上級",
+              "guide": "すぐに赤のノズルを装備し、他のタスクを完了したりノズルを変更したりする前に、すべてのランタンを完全に清掃する。"
+            },
+            {
+              "achievement": "スピン・ドクター",
+              "requirement": "「ファンハウス」の依頼で、サーフェスクリーナーを使用して回転床ディスクを清掃する。",
+              "job": "ファンハウス",
+              "difficulty": "中級",
+              "guide": "サーフェスクリーナーを装備し、いずれか1つの回転床ディスクが100%になるまでそのディスクの清掃を続ける。"
+            },
+            {
+              "achievement": "最前列の席",
+              "requirement": "「劇場」の依頼で、最初に最前列の座席をすべて清掃する。",
+              "job": "劇場",
+              "difficulty": "中級",
+              "guide": "その列以外のものを完了する前に、最前列の座席に属するすべてのパーツを完了する。"
+            },
+            {
+              "achievement": "ハッチの計画",
+              "requirement": "「音楽堂」の依頼で、最後にハッチを清掃する。",
+              "job": "音楽堂",
+              "difficulty": "中級",
+              "guide": "音楽堂の残りの部分を清掃している間はハッチを完了しないようにし、最後のタスクとしてハッチを完了する。"
+            },
+            {
+              "achievement": "ドア・トゥ・ドア",
+              "requirement": "モーテルの依頼で、最初にすべての部屋のドア、ドアハンドル、ドアナンバーを洗浄する。",
+              "job": "モーテル",
+              "difficulty": "ハード",
+              "guide": "部屋ごとに作業を進め、他のオブジェクトを完了する前に、すべてのドア、ドアハンドル、ドアナンバーを完了させる。"
+            },
+            {
+              "achievement": "ダブルトップ",
+              "requirement": "UrbanX Double Turbo Nozzleのみを使用して、いずれかの依頼を完了する。",
+              "job": "再挑戦可能なすべての依頼",
+              "difficulty": "ミディアム",
+              "guide": "短い再挑戦依頼を選択し、最初の噴射からUrbanX Double Turbo Nozzleを使用し、ツールを切り替えずに完了する。"
+            },
+            {
+              "achievement": "コズミック・オーダリング",
+              "requirement": "太陽系の依頼で、太陽を洗浄した後、太陽に近い順にすべての惑星を洗浄する。",
+              "job": "太陽系",
+              "difficulty": "ハード",
+              "guide": "最初に太陽を終わらせ、次に水星、金星、地球、火星、木星、土星、天王星、海王星の順に洗浄する。"
+            },
+            {
+              "achievement": "賢明な判断",
+              "requirement": "ショッピングモールの依頼で、最初にフクロウを洗浄する。",
+              "job": "ショッピングモール",
+              "difficulty": "ミディアム",
+              "guide": "フクロウを見つけ、他のどの名前付きタスクも100%になる前に完了させる。"
+            },
+            {
+              "achievement": "ピカピカ",
+              "requirement": "移動祝祭車の依頼で、最後にネズミを洗浄する。",
+              "job": "移動祝祭車",
+              "difficulty": "ミディアム",
+              "guide": "他のすべてのタスクを完了する間、ネズミを未完了のままにしておき、最後にネズミを洗浄して依頼を完了する。"
+            }
+          ]
+        },
+        {
+          "pack": "Adventure Time Pack",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "仲間は仲間を助けるもの",
+              "requirement": "リビングルームの依頼を完了する。",
+              "job": "ツリーハウスのリビングルーム",
+              "difficulty": "イージー",
+              "guide": "リビングルームのレベルで、すべての洗浄タスクを完了する。"
+            },
+            {
+              "achievement": "抱きしめて、ヒーロー",
+              "requirement": "Pizza Sassy'sの依頼を完了する。",
+              "job": "Pizza Sassy's",
+              "difficulty": "イージー",
+              "guide": "Pizza Sassy'sの達成率を100%にする。"
+            },
+            {
+              "achievement": "ビデオゲームをしたいのは誰？",
+              "requirement": "リビングルームの依頼でBMOを撫でる。",
+              "job": "ツリーハウスのリビングルーム",
+              "difficulty": "イージー",
+              "guide": "リビングルームでBMOを見つけ、インタラクトの指示に従って撫でる。"
+            },
+            {
+              "achievement": "キング・オブ・クール",
+              "requirement": "アイスキングの城の依頼を完了する。",
+              "job": "アイスキングの城",
+              "difficulty": "イージー",
+              "guide": "アイスキングの城のすべてのエリアとオブジェクトの洗浄を完了する。"
+            },
+            {
+              "achievement": "むむ… 許容範囲内だ！！！",
+              "requirement": "キャンディ・ビークルの依頼を完了する。",
+              "job": "キャンディ・ビークル",
+              "difficulty": "イージー",
+              "guide": "すべてのキャンディ・ビークルを100%まで洗浄する。"
+            },
+            {
+              "achievement": "限界",
+              "requirement": "Tree Houseのジョブで、Jakeシザーリフトに乗って最大高度に達する。",
+              "job": "Tree House外観",
+              "difficulty": "イージー",
+              "guide": "Jakeをテーマにしたシザーリフトの上に立つか操作して、最高位置まで上げる。"
+            },
+            {
+              "achievement": "Party God!",
+              "requirement": "Tree Houseのジョブを完了する。",
+              "job": "Tree House外観",
+              "difficulty": "イージー",
+              "guide": "Tree Houseの外観全体の清掃依頼を完了する。"
+            },
+            {
+              "achievement": "ONLY ONE!!!",
+              "requirement": "Adaptable Nozzleのみを使用してCandy Vehiclesのジョブを完了する。",
+              "job": "Candy Vehicles",
+              "difficulty": "ハード",
+              "guide": "清掃前にAdaptable Nozzleを装備し、ジョブが完了するまで他のノズル、ソープ用ノズル、またはサーフェスクリーナーを使用しない。"
+            },
+            {
+              "achievement": "Oh My Glob!",
+              "requirement": "Ice King's Castleのジョブで、ケージのドアを閉じた状態で最後にハンドバッグを清掃する。",
+              "job": "Ice King's Castle",
+              "difficulty": "ハード",
+              "guide": "ケージのドアを閉じたままにし、他のすべてを終わらせる間はハンドバッグを汚れたままにしておき、最後のタスクとしてハンドバッグを清掃する。"
+            },
+            {
+              "achievement": "Door Lord",
+              "requirement": "Pizza Sassy'sのジョブで、最初に3つのドアすべてを清掃する。",
+              "job": "Pizza Sassy's",
+              "difficulty": "ミディアム",
+              "guide": "他の名前付きオブジェクトを完了する前に、3つのドアのタスクを完全に清掃する。"
+            }
+          ]
+        },
+        {
+          "pack": "STAR WARS Pack",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "なんて荒れ果てた場所なんだ",
+              "requirement": "Lars Homesteadの依頼を完了する。",
+              "job": "Lars Homestead",
+              "difficulty": "簡単",
+              "guide": "Lars Homesteadのすべての洗浄タスクを完了する。"
+            },
+            {
+              "achievement": "汚してすまない",
+              "requirement": "Mos Eisley Cantinaの依頼を完了する。",
+              "job": "Mos Eisley Cantina",
+              "difficulty": "簡単",
+              "guide": "Cantinaの達成率を100%にする。"
+            },
+            {
+              "achievement": "おお、やったぞ！",
+              "requirement": "AT-ATの依頼を完了する。",
+              "job": "Blizzard 3 AT-AT",
+              "difficulty": "簡単",
+              "guide": "Blizzard 3 AT-ATの全洗浄任務を完了する。"
+            },
+            {
+              "achievement": "お見事だ、坊主！ 百万に一つの腕前だ！",
+              "requirement": "Lars Homesteadの依頼で、EG-6 Power Droidの上に立った状態でLukeのT-16 Skyhopperに放水する。",
+              "job": "Lars Homestead",
+              "difficulty": "普通",
+              "guide": "EG-6 Power Droidに登り、その上に立ったままLukeのT-16 Skyhopperに放水する。"
+            },
+            {
+              "achievement": "フォースに大きな乱れがある",
+              "requirement": "MSE-6 Repair Droidの巡回を妨害する。",
+              "job": "Executor Super Star Destroyer Bridge",
+              "difficulty": "普通",
+              "guide": "MSE-6 Repair Droidの巡回ルート上に直接立ち、巡回がブロックされるまでキャラクターをその場にとどまらせる。"
+            },
+            {
+              "achievement": "石鹸を信じぬ態度が気に障る",
+              "requirement": "石鹸を一切使用せずにAT-ATの仕事を完了する。",
+              "job": "Blizzard 3 AT-AT",
+              "difficulty": "普通",
+              "guide": "ウォーターノズルとナビゲーション機器のみを使用してください。100%に達するまで、どの段階でも石鹸を使用しないでください。"
+            },
+            {
+              "achievement": "あんなクズは必要ない",
+              "requirement": "Super Star Destroyer Bridgeの仕事を完了する。",
+              "job": "Executor Super Star Destroyer Bridge",
+              "difficulty": "簡単",
+              "guide": "すべてのブリッジコンポーネントを完了し、達成度100%に到達する。"
+            },
+            {
+              "achievement": "Red Leader、待機中",
+              "requirement": "X-wing Fighterの仕事を完了する。",
+              "job": "Red 2 X-wing Fighter",
+              "difficulty": "簡単",
+              "guide": "Red 2 X-wing Fighterの依頼を100%まで清掃する。"
+            },
+            {
+              "achievement": "肝心なところはバッチリさ、坊や",
+              "requirement": "Millennium Falconの仕事で、隠されたBlaster Cannonを見つけて清掃する。",
+              "job": "Millennium Falcon",
+              "difficulty": "難しい",
+              "guide": "Falconの隠された部分や新しく露出した部分を検査し、Blaster Cannonを特定して、そのコンポーネントを完全に清掃する。"
+            },
+            {
+              "achievement": "フォースは共にある、いかなる時も",
+              "requirement": "Millennium Falconの仕事を完了する。",
+              "job": "Millennium Falcon",
+              "difficulty": "簡単",
+              "guide": "Millennium Falconの依頼をすべて完了する。"
+            }
+          ]
+        }
+      ]
+    },
+    "powerwashDlcAndUpdates": {
+      "eyebrow": "ロードマップ",
+      "title": "PowerWash Simulator 2 DLC、無料ジョブ、アップデートタイムライン",
+      "subtitle": "2025年のローンチサポート計画から最新のSTAR WARSパックまでの、すべての主要なコンテンツリリースを追いましょう。タイムラインでは、無料のCaldera Chroniclesジョブと有料のコラボレーションキャンペーンが分けられています。",
+      "intro": "FuturLabの2025〜2026年のロードマップでは、QOL（クオリティ・オブ・ライフ）向上サポート、3つの無料のCaldera Chroniclesジョブ、および3つの有料IPパックが予定されています。Adventure TimeとSTAR WARSは最初の2つの有料キャンペーンで、Miniature VillageとBowling Alleyはすでに無料ジョブとして利用可能です。",
+      "entries": [
+        {
+          "date": "2025年10月〜12月",
+          "status": "リリース済み",
+          "release": "ローンチ後のサポート",
+          "type": "無料アップデート",
+          "price": "無料",
+          "jobs": [],
+          "highlights": [
+            "バグ修正、最適化、およびQOL（クオリティ・オブ・ライフ）の改善",
+            "小さな家具やコスメティックコンテンツの追加",
+            "より大規模な2026年のロードマップに向けた基礎作り"
+          ]
+        },
+        {
+          "date": "2026年3月10日",
+          "status": "リリース済み",
+          "release": "アップデート1.2およびCaldera Chronicles 1",
+          "type": "無料アップデート",
+          "price": "無料",
+          "jobs": [
+            "Miniature Village"
+          ],
+          "highlights": [
+            "最初の無料のCaldera Chronicles清掃ジョブを追加",
+            "キーリバインド機能を追加",
+            "Home Baseに重ねて配置できる家具を追加",
+            "コントローラーのデッドゾーン調整スライダーを追加",
+            "ジョブ、実績、所持金トラッキング、ナビゲーション機器、家具、UI、およびマルチプレイヤーの修正が含まれます。"
+          ]
+        },
+        {
+          "date": "2026年4月9日",
+          "status": "リリース済み",
+          "release": "Adventure Time Pack",
+          "type": "有料コラボDLC",
+          "price": "$7.99 USD",
+          "jobs": [
+            "Tree House リビングルーム",
+            "Pizza Sassy's",
+            "Ice King's Castle",
+            "Candy Vehicles",
+            "Tree House 外観"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "Land of Oooを舞台にした5つのレベルのキャンペーン",
+            "ソロキャンペーン、シェアキャンペーン協力プレイ、フリープレイでの最大4人プレイ",
+            "BMOやJake Scissor Liftを含む、インタラクティブなキャラクターとテーマに沿った装備"
+          ]
+        },
+        {
+          "date": "2026年7月16日",
+          "status": "リリース済み",
+          "release": "アップデート1.3とCaldera Chronicles 2",
+          "type": "無料アップデート",
+          "price": "無料",
+          "jobs": [
+            "ボウリング場"
+          ],
+          "highlights": [
+            "2つ目の無料Caldera Chroniclesジョブを追加",
+            "ジョブやグループチャットでソート可能なメッセージアーカイブを追加",
+            "「最初に綺麗にする」および「最後に綺麗にする」実績解除の挙動を改善",
+            "家具の配置、汚れた家具のスポーン、ショップでの返金、ナビゲーション機器、UI、およびマルチプレイヤーに関する問題を修正",
+            "レコードプレーヤーおよびいくつかのHome Baseオブジェクトの洗浄挙動を改善"
+          ]
+        },
+        {
+          "date": "2026年7月16日",
+          "status": "リリース済み",
+          "release": "STAR WARS パック",
+          "type": "有料コラボDLC",
+          "price": "9.99 USD / 9.99 EUR / 7.99 GBP",
+          "jobs": [
+            "ラーズ家",
+            "モス・アイズリー・カンティーナ",
+            "ブリザード3 AT-AT",
+            "エグゼキューター スーパースター・デストロイヤーのブリッジ",
+            "レッド2 Xウイング・ファイター",
+            "ミレニアム・ファルコン"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "スター・ウォーズ旧三部作にインスパイアされた6つの依頼",
+            "限定のP0-W2クラス5清掃ドロイドとしてプレイ",
+            "ハン・ソロ、ルーク・スカイウォーカー、オーウェン・ラーズなどのキャラクターからの新しいストーリーメッセージ",
+            "スター・ウォーズをテーマにしたシザーリフト、足場、アブセイリング器具",
+            "ソロキャンペーン、共有キャンペーン協力プレイ、フリープレイでの最大4人プレイ"
+          ]
+        },
+        {
+          "date": "2026年後半",
+          "status": "発表済み",
+          "release": "Caldera Chronicles 3: バウンシーキャッスル",
+          "type": "無料の依頼",
+          "price": "無料",
+          "jobs": [
+            "バウンシーキャッスル"
+          ],
+          "highlights": [
+            "Caldera Chroniclesの3番目の無料ミッション",
+            "プレイヤーは高く跳ねて、汚れた高い場所に到達できる",
+            "清掃中に追跡が必要な、揺れる吊り下げオブジェクトが含まれる"
+          ]
+        },
+        {
+          "date": "2026年",
+          "status": "予定",
+          "release": "有料IPパック3",
+          "type": "有料コラボDLC",
+          "price": "後日発表",
+          "jobs": [],
+          "highlights": [
+            "公式の2025-2026年ロードマップに含まれる、3番目の有料IPコラボレーション",
+            "テーマ、ジョブリスト、実績、価格、配信日は未発表です"
+          ]
+        }
+      ]
+    },
+    "powerwashLastDirtGuide": {
+      "eyebrow": "完了ヘルプ",
+      "title": "PowerWash Simulator 2で最後の汚れを見つける方法",
+      "subtitle": "アップグレードされたオブジェクトリスト、オレンジ色のタスクマーカー、汚れのハイライト機能を使用して、未完了の最後の表面を特定しましょう。この方法は、乗り物、建物、複数ステージのジョブで有効です。",
+      "intro": "ジョブの進捗が100%付近で停滞したときは、マップ全体を洗浄するのをやめ、名前の付いたタスクを1つずつ絞り込んで探しましょう。続編では、複数の未完了セクションにマークを付けたり、離れた場所にあるオレンジ色のインジケーターを表示したり、複数ステージのジョブ中に行けるエリアが新しく解放されたりするため、ランダムにスプレーするよりも、チェックリストを順に確認していくのが最も早い解決策です。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "オブジェクトリストを開く",
+          "action": "ジョブのチェックリストをソートまたはスキャンして、100%未満のタスクをすべて探します。通常、完了パーセンテージが最も低いアイテムには目に見える大きな汚れが残っているため、そこから始めましょう。",
+          "commonMisses": [
+            "個別にリスト化されている、細かく重複したパーツ",
+            "複数ステージのロック解除後に新しく追加されたタスク",
+            "大きなオブジェクトの内部に隠された1つのコンポーネント"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "未完了のタスクをすべてマークする",
+          "action": "未完了のチェックリスト項目を選択します。PowerWash Simulator 2では、複数の未完了セクションにマークを付け、離れたターゲットの上にオレンジ色のチェックインジケーターを表示できるため、大規模なジョブで正しい面を特定しやすくなります。",
+          "commonMisses": [
+            "反対側にある対になるコンポーネント",
+            "同じパーツの上部と下部バージョン",
+            "複数ある同一のドア、ライト、ホイール、または支柱"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "汚れのハイライトを断続的に表示する",
+          "action": "マークされたオブジェクトに向き合い、その周囲をゆっくり回りながら、汚れのハイライトを短く何度も表示します。大きな汚れが消えた後も残っている、小さな光る線や点を探してください。",
+          "commonMisses": [
+            "継ぎ目に沿った細い汚れの線",
+            "濡れた反射によって隠れている箇所",
+            "暗い素材に溶け込んでいる暗い汚れ"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "精密洗浄に切り替える",
+          "action": "残りがごくわずかになったら、サーフェスクリーナーやワイドスプレーを片付けましょう。ナローファン、赤のノズル、または幅を狭めたAdaptable Nozzleを使い、至近距離からエッジをなぞるように洗います。",
+          "commonMisses": [
+            "窓やパネルの境界",
+            "文字、ボルト、トリム",
+            "2つの面が交わる角",
+            "円形パーツの周囲の縁"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "隠れた角度をすべてチェックする",
+          "action": "しゃがんでオブジェクトの背後に回り込み、下から見上げるように覗き込みます。まず下側を掃除し、次に背面、奥のくぼみ、そして他の部品で部分的に遮られているスペースを洗浄します。",
+          "commonMisses": [
+            "車両や家具の下側",
+            "看板やパネルの裏側",
+            "ホイールアーチ、フレーム、手すりの内側",
+            "ドアジャム、内側の角、くぼんだ取っ手"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "適切な足場を使用する",
+          "action": "ノズルが汚れた面と同じ高さになるまで、ハシゴ、Scissor Lift、またはcherry pickerを移動させます。高さのある垂直な場所での作業では、アブセイリングリグを使用し、上端を確認してからまっすぐ下降しながら洗浄してください。",
+          "commonMisses": [
+            "屋根の棟や上部の棚状の突き出た部分",
+            "梁、文字、装飾品の上部",
+            "リフトプラットフォームの真下のエリア",
+            "メインルートの外側からしか見えない、高い位置にある背面"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "複数段階に分かれたセクションを再確認する",
+          "action": "ステージが完了したら、作業を一時停止し、拡張されたチェックリストを確認してから進めましょう。新しく開放された内部、部屋、車両セクションなど、今掃除していた場所から離れた位置に新しいタスクが追加されている場合があります。",
+          "commonMisses": [
+            "外観の後に明らかになる構造物の内部",
+            "新しく開いたドア、ハッチ、またはコンパートメント",
+            "次のステージが始まると移動する、または出現するオブジェクト",
+            "オブジェクトリストの最後に追加されたタスク"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "最後に系統的な一斉清掃を行う",
+          "action": "1つの方向を決めて、上から下へ、外周を時計回りに、そしてすべての室内の順にルートを完全に完了させます。最後の未完了タスクのみをマークした状態にし、完了の「チーン」という音が鳴るまで、エッジ、下側、高所のチェックを繰り返します。",
+          "commonMisses": [
+            "ルートに従わず、無計画な洗浄に戻ってしまう",
+            "繰り返し配置されているオブジェクトの片側を確認し忘れる",
+            "狭い隙間を通り抜けてしまう幅の広いツールを使う",
+            "見えている前面だけで指定されたタスクの全容だと思い込む"
+          ]
+        }
+      ]
+    },
+    "powerwashHomeBase": {
+      "eyebrow": "Home Base",
+      "title": "PowerWash Simulator 2 Home Base、記念品と収集品",
+      "subtitle": "隠されたインタラクションを完了しながら、Home Baseを自分専用の洗浄拠点に作り変えましょう。家具、装飾品、依頼の記念品、猫、コスメティック、実績解除用アクションの確認にはこのチェックリストを使用してください。",
+      "intro": "Home Baseは単なるメニューではなく、依頼の合間に操作可能なハブです。完了した依頼によって記念品が追加され、家具を洗浄して配置したり、装飾品で空間をカスタマイズしたりできます。Job Mapから仕事を開始でき、いくつかの小さなインタラクションで実績が解除されます。",
+      "items": [
+        {
+          "item": "Job Map",
+          "category": "依頼へのアクセス",
+          "howToGetOrUse": "Home Baseにある大きな地図に近づき、そこから直接、利用可能な依頼を選択します。",
+          "checklist": [
+            "Job Mapを開く",
+            "利用可能な場所を選択する",
+            "選択した依頼を開始する"
+          ],
+          "achievement": "ジオキャッシング",
+          "reward": "実績を解除し、ゲーム内の世界から依頼リストへのルートを提供します。"
+        },
+        {
+          "item": "洗浄可能な家具",
+          "category": "カスタマイズ",
+          "howToGetOrUse": "家具を収集またはアンロックし、汚れたパーツを100%まで洗浄して、Home Baseのデコレーション操作で配置しましょう。アップデート1.2では、積み重ね可能な家具も追加されました。",
+          "checklist": [
+            "汚れた家具を選択する",
+            "名称の付いた各セクションをすべて洗浄する",
+            "完成したアイテムを配置する",
+            "対応している場合は、積み重ねて配置してみる"
+          ],
+          "achievement": "ホームデコ",
+          "reward": "実績を解除し、洗浄したパーツをカスタマイズしたHome Baseのレイアウトで使用できるようにします。"
+        },
+        {
+          "item": "トリンケット",
+          "category": "収集品",
+          "howToGetOrUse": "進行中に装飾用のトリンケットを集め、それらを使ってHome Baseの各所に細かなディテールを加えましょう。",
+          "checklist": [
+            "新しく入手したトリンケットを確認する",
+            "展示場所を選ぶ",
+            "家具や棚の周りにトリンケットを配置する"
+          ],
+          "achievement": "なし",
+          "reward": "Home Baseに装飾のバリエーションを加えます。"
+        },
+        {
+          "item": "ジョブの記念品",
+          "category": "キャリアコレクション",
+          "howToGetOrUse": "ジョブを完了して、Home Baseに新しい記念品を追加しましょう。各記念品は、完了した清掃依頼の永続的な思い出となります。",
+          "checklist": [
+            "利用可能な各ジョブを完了する",
+            "大きな依頼の後にHome Baseへ戻る",
+            "記念品ディスプレイで新しく追加されたものを確認する",
+            "新しいコンテンツを進めてコレクションを拡大する"
+          ],
+          "achievement": "なし",
+          "reward": "キャンペーンの進行状況を記録するビジュアルコレクションを構築します。"
+        },
+        {
+          "item": "3匹の猫",
+          "category": "インタラクティブなキャラクター",
+          "howToGetOrUse": "Home Baseの周りにいる3匹の猫をすべて見つけ、それぞれと触れ合いましょう。",
+          "checklist": [
+            "1匹目の猫をなでる",
+            "2匹目の猫をなでる",
+            "3匹目の猫をなでる"
+          ],
+          "achievement": "ゴロゴロの絆",
+          "reward": "3匹の猫すべてをなでると、実績が解除されます。"
+        },
+        {
+          "item": "Harperの掲示板",
+          "category": "隠しインタラクション",
+          "howToGetOrUse": "Harperの掲示板を調べ、ピン留めされたメモやオブジェクトにインタラクトする。",
+          "checklist": [
+            "掲示板の場所を特定する",
+            "プロンプトが表示されるまで近づく",
+            "ピン留めされたアイテムを1つ調べる"
+          ],
+          "achievement": "メモを取る",
+          "reward": "実績を解除し、Home Baseのさらなる詳細を明らかにする。"
+        },
+        {
+          "item": "隠されたノーム",
+          "category": "隠し収集アイテム",
+          "howToGetOrUse": "隠されたノームを拾えるようになるまで、Home Baseの部屋や家具、隅々を捜索する。",
+          "checklist": [
+            "低い棚や床付近の隠れ場所を調べる",
+            "配置されたオブジェクトの背後や周囲を確認する",
+            "隠されたノームを拾う"
+          ],
+          "achievement": "我が家のノーム",
+          "reward": "実績を解除し、Home Baseの隠しノームのインタラクションを完了する。"
+        },
+        {
+          "item": "バンのスキン",
+          "category": "車両コスメティック",
+          "howToGetOrUse": "バンのカスタマイズを開き、アンロックされたスキンを適用する。",
+          "checklist": [
+            "バンの外観メニューを開く",
+            "所持しているスキンを選択する",
+            "新しい外見を適用して保存する"
+          ],
+          "achievement": "抜本的なリブランド",
+          "reward": "実績を解除し、バンの外見を変更する。"
+        },
+        {
+          "item": "ウォッシャーのスキン",
+          "category": "装備コスメティック",
+          "howToGetOrUse": "高圧洗浄機のカスタマイズを開き、対応する洗浄機にスキンを適用します。",
+          "checklist": [
+            "洗浄機を選択する",
+            "所持しているスキンを選択する",
+            "スキンを装備する"
+          ],
+          "achievement": "スタイリッシュに洗浄",
+          "reward": "実績を解除し、仕事で使用する洗浄機をカスタマイズします。"
+        },
+        {
+          "item": "服装",
+          "category": "キャラクターコスメティック",
+          "howToGetOrUse": "キャラクターのカスタマイズを開き、所持している衣服アイテムを装備します。",
+          "checklist": [
+            "キャラクターの外見オプションを開く",
+            "衣服アイテムを選択する",
+            "選択したアイテムを装備する"
+          ],
+          "achievement": "成功にふさわしい服装",
+          "reward": "実績を解除し、クリーナーの服装を変更します。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "PowerWash Simulator 2に関するすべての情報",
+    "questions": [
+      {
+        "question": "PowerWash Simulator 2とは何ですか？",
+        "answer": "PowerWash Simulator 2は、FuturLabが開発したリラックスできる協力プレイ対応の洗浄シミュレーターです。38の仕事があるキャリアキャンペーンで、乗り物や建物、アトラクションから汚れを吹き飛ばし、より強力な洗浄機やツールをアンロックします。ソロプレイはもちろん、最大4人でのオンライン協力プレイや、2人でのローカル画面分割プレイでも楽しめます。"
+      },
+      {
+        "question": "PowerWash Simulator 2はどのプラットフォームでプレイできますか？",
+        "answer": "PowerWash Simulator 2は、PC（Steam、Epic Games Store、Windows Store）、PlayStation 5、Xbox Series X|S、Nintendo Switch 2でご利用いただけます。また、発売初日からXbox Game Passでも配信されています。"
+      },
+      {
+        "question": "PowerWash Simulator 2には何個の仕事がありますか？",
+        "answer": "PowerWash Simulator 2の本編キャリアモードには、最初のRemovals Vanから最後のMount Rushlessまで、38の仕事が含まれています。無料のCaldera Chroniclesの仕事や有料のコラボパックによって、さらに多くの洗浄任務が追加されます。"
+      },
+      {
+        "question": "PowerWash Simulator 2は協力プレイや画面分割プレイに対応していますか？",
+        "answer": "はい。PowerWash Simulator 2は、キャリアモードとフリープレイの両方で最大4人のオンライン協力プレイに対応しており、さらに2人のローカル画面分割プレイも可能です。Xbox Series X|Sと互換性のあるPC版の間でクロスプレイが利用できます。"
+      },
+      {
+        "question": "PowerWash Simulator 2の実績はいくつありますか？",
+        "answer": "PowerWash Simulator 2には現在60個の実績があります。内訳は基本ゲームに40個、Adventure Time Packに10個、STAR WARS Packに10個です。それぞれに正確な達成条件と、素早く完了するための方法が記載されています。"
+      },
+      {
+        "question": "PowerWash Simulator 2で利用可能なDLCは何ですか？",
+        "answer": "PowerWash Simulator 2には、無料のCaldera Chroniclesジョブ（Miniature VillageとBowling Alley）と、2つの有料コラボパック（Adventure Time PackとSTAR WARS Pack）があります。2026年後半には、3つ目の無料ジョブと3つ目の有料IPパックが予定されています。"
+      },
+      {
+        "question": "PowerWash Simulator 2にHome Baseはありますか？",
+        "answer": "はい。PowerWash Simulator 2のHome Baseは、ジョブの合間に利用できるプレイ可能なハブです。家具の掃除や配置、小物や記念品の収集、猫を撫でる、ジョブマップからのジョブ開始などができ、隠されたインタラクションを通じていくつかの実績を解除することも可能です。"
+      },
+      {
+        "question": "PowerWash Simulator 2は今後もアップデートが行われますか？",
+        "answer": "はい。FuturLabによるPowerWash Simulator 2の2025-2026年ロードマップには、無料のクオリティ・オブ・ライフ（QoL）アップデート、3つの無料Caldera Chroniclesジョブ、および有料コラボパックが含まれており、2026年を通して継続的なサポートが計画されています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "PowerWash Simulator 2をプレイする準備はできましたか？",
+    "description": "DiscordのPowerWash Simulator 2コミュニティに参加して、ガイドやアップデート情報、協力プレイの相談などをチェックしましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamでプレイする"
+  },
+  "footer": {
+    "title": "PowerWash Simulator 2 Wiki",
+    "description": "PowerWash Simulator 2のジョブ、ウォッシャー、ノズル、ツール、アップグレード、実績、協力プレイ、Home Base、DLCガイドに関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steamコミュニティ",
+    "steamStore": "Steamストア",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 PowerWash Simulator 2 Wiki. FuturLabおよびPowerWash Simulator 2の開発元とは一切関係ありません。",
+    "disclaimer": "非公式のファン作成リソースサイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "PowerWash Simulator 2 ガイド",
+      "description": "操作方法、洗浄のコツ、ノズル管理、各レベルの再開やリプレイ方法を網羅した、わかりやすいステップバイステップのPowerWash Simulator 2ガイド。",
+      "metaTitle": "PowerWash Simulator 2 ガイド - 操作、ヒント、洗浄のヘルプ",
+      "metaDescription": "操作方法、高度な洗浄のコツ、ノズルの選択、レベルの再開やリプレイに関する実践的なガイドでPowerWash Simulator 2をマスターしましょう。",
+      "categoryLabel": "ガイド",
+      "whatIs": "PowerWash Simulator 2 ガイドとは？",
+      "whatIsDescription": "洗浄の基本サイクル、全操作レイアウト、そして最後の汚れを探し回ることなく仕事を100%完了させるための細かなワークフローの習慣を解説する実践的なウォークスルー。",
+      "why": "なぜこれらのガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "操作方法を学ぶ",
+        "step1Description": "カメラのロック、ノズルの回転、そしてPC、PS5、Xbox、Switch 2でお好みのレイアウトを設定。",
+        "step2Title": "より賢く洗浄する",
+        "step2Description": "各ノズルと洗剤を表面に合わせて使い分け、広いエリアや頑固な端の部分をより早く仕上げる。",
+        "step3Title": "任意のレベルをリプレイ",
+        "step3Description": "フリープレイで仕事を再開またはリプレイして、実績の獲得や新しいテクニックの練習。"
+      },
+      "featured": "おすすめ ＆ 必須",
+      "all": "すべてのガイド"
+    },
+    "updates": {
+      "title": "PowerWash Simulator 2 アップデート ＆ DLC",
+      "description": "PowerWash Simulator 2の全アップデート、無料のCaldera Chroniclesの仕事、Adventure TimeやSTAR WARSとのコラボを含む有料DLCパック、そして2026年のロードマップをチェック。",
+      "metaTitle": "PowerWash Simulator 2 アップデート ＆ DLC - パッチノート、仕事、ロードマップ",
+      "metaDescription": "PowerWash Simulator 2のアップデート、無料のCaldera Chroniclesの仕事、Adventure TimeやSTAR WARSなどの有料DLCパック、そして2026年の全コンテンツロードマップを確認。",
+      "categoryLabel": "アップデート ＆ DLC",
+      "whatIs": "PowerWash Simulator 2 アップデートとは？",
+      "whatIsDescription": "無料のQOL向上パッチ、無料のCaldera Chroniclesジョブシリーズ、そしてゲームに新しいステージ、キャラクター、実績を追加する有料コラボDLCキャンペーンの紹介。",
+      "why": "アップデート情報をチェックする理由",
+      "whySteps": {
+        "step1Title": "新規ジョブをキャッチ",
+        "step1Description": "現在プレイ可能な無料のCaldera Chroniclesジョブや有料DLCステージを確認する",
+        "step2Title": "ロードマップを読む",
+        "step2Description": "今後予定されているコラボパックなど、FuturLabが次に計画している内容を把握する",
+        "step3Title": "最新情報を維持する",
+        "step3Description": "バグ修正、最適化の改善、QOL（クオリティ・オブ・ライフ）の変更に関する最新情報を把握する"
+      },
+      "featured": "注目の必須情報",
+      "all": "すべてのアップデート＆DLC"
+    },
+    "achievements": {
+      "title": "PowerWash Simulator 2の実績",
+      "description": "隠し実績、Mount Rushlessのマイルストーン、Cosmic Orderingのクリア手順など、PowerWash Simulator 2のすべての実績とトロフィーを解説。",
+      "metaTitle": "PowerWash Simulator 2 実績＆トロフィー - 完全リスト",
+      "metaDescription": "隠し実績、Mount Rushless、Cosmic Ordering、そしてすべてのDLCパックの正確な獲得条件を掲載した、PowerWash Simulator 2の実績完全ガイド。",
+      "categoryLabel": "実績",
+      "whatIs": "PowerWash Simulator 2の実績とは？",
+      "whatIsDescription": "ゲーム本編とDLCにおける実績とトロフィーの完全な内訳。それぞれの正確な獲得条件、関連するジョブ、および迅速な達成方法を解説。",
+      "why": "実績を追う理由",
+      "whySteps": {
+        "step1Title": "隠し実績を見つける",
+        "step1Description": "特定のジョブやインタラクションに関連する秘密の目標を特定する",
+        "step2Title": "コンプリート周回の計画",
+        "step2Description": "「最初に洗浄」や「最後に洗浄」のルートを利用して、ジョブ固有のチャレンジをアンロックする",
+        "step3Title": "達成率100%に到達する",
+        "step3Description": "ゲーム本編、Adventure Time、STAR WARSパックを順番にクリアしていく"
+      },
+      "featured": "注目の必須情報",
+      "all": "全実績"
+    },
+    "levels": {
+      "title": "PowerWash Simulator 2のレベルとジョブ",
+      "description": "Removals VanからMount Rushlessまで、すべてのキャリアジョブやGas Stationの壁などの難しい場所を含む、PowerWash Simulator 2のレベルとジョブの攻略。",
+      "metaTitle": "PowerWash Simulator 2のレベルとジョブ - キャリア攻略",
+      "metaDescription": "ジョブ攻略、アンロック順、推奨装備、Gas Stationの壁やMotelのドアといった難しい場所の解決策を参考に、PowerWash Simulator 2の全レベルを清掃しましょう。",
+      "categoryLabel": "レベルとジョブ",
+      "whatIs": "PowerWash Simulator 2のレベルとは？",
+      "whatIsDescription": "MuckinghamとCaldera County全域でのキャリアおよびフリープレイの清掃依頼。それぞれに推奨ルート、適切な装備、そして最も手強い表面に関するメモが含まれています。",
+      "why": "なぜレベルガイドを使うのか？",
+      "whySteps": {
+        "step1Title": "アンロック順に進める",
+        "step1Description": "次のジョブが何か、そしてどの装備が必要かを確認",
+        "step2Title": "難しい場所を解決",
+        "step2Description": "Gas Stationの壁のような頑固な汚れや、隠れた汚れを素早く発見",
+        "step3Title": "すべてのジョブを完了",
+        "step3Description": "開始からMount Rushlessのフィナーレまで、全38種類のキャリアジョブを完了"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "全レベルとジョブ"
+    },
+    "multiplayer": {
+      "title": "PowerWash Simulator 2 マルチプレイヤー",
+      "description": "オンライン協力プレイ、クロスプレイ、画面分割、PC、PS5、Xbox、Nintendo Switch 2でのローカル協力プレイなど、PowerWash Simulator 2のマルチプレイヤーに関するすべて。",
+      "metaTitle": "PowerWash Simulator 2 マルチプレイヤー - 協力プレイ、クロスプレイ、画面分割",
+      "metaDescription": "オンライン協力プレイ、クロスプレイ、ローカル画面分割、全プラットフォームでのキャンペーン進行状況の共有に関するガイドで、PowerWash Simulator 2のマルチプレイヤーをセットアップしましょう。",
+      "categoryLabel": "マルチプレイヤー",
+      "whatIs": "PowerWash Simulator 2のマルチプレイヤーとは？",
+      "whatIsDescription": "最大4人のオンラインプレイヤーと2人のローカル画面分割による協力清掃。セッション中のキャンペーン進行状況の共有や、対応プラットフォーム間でのクロスプレイが可能です。",
+      "why": "なぜ協力プレイで遊ぶのか？",
+      "whySteps": {
+        "step1Title": "オンラインで一緒に洗浄",
+        "step1Description": "最大4人のプレイヤーでキャリアやフリープレイの依頼に挑戦しよう",
+        "step2Title": "画面分割の設定",
+        "step2Description": "1台のPCまたはコンソールで、ローカル2人協力プレイを楽しもう",
+        "step3Title": "クロスプレイについて",
+        "step3Description": "一緒にプレイ可能なプラットフォームと、必要なサブスクリプションを確認しよう"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "すべてのマルチプレイヤーガイド"
+    },
+    "equipment": {
+      "title": "PowerWash Simulator 2 の装備",
+      "description": "Urban X 対 Prime Vista の比較、スプレーモード、新しいギアの装備方法など、PowerWash Simulator 2 の高圧洗浄機、ノズル、洗浄剤、洗浄ツールを比較しよう。",
+      "metaTitle": "PowerWash Simulator 2 の装備 - 高圧洗浄機、ノズル、洗浄剤",
+      "metaDescription": "PowerWash Simulator 2 の装備をランク付けして比較：Prime Vista 対 Urban X の高圧洗浄機、全ノズルとスプレーモード、洗浄剤の使い方、新しいツールの装備方法。",
+      "categoryLabel": "装備",
+      "whatIs": "PowerWash Simulator 2 の装備とは？",
+      "whatIsDescription": "キャリアの進行状況における実際のパフォーマンスに基づき、洗浄スピードと範囲を決定する高圧洗浄機、ノズル、洗浄剤、サーフェスクリーナー、アタッチメントをランク付け。",
+      "why": "なぜ装備の計画が必要なのか？",
+      "whySteps": {
+        "step1Title": "適切な高圧洗浄機の選択",
+        "step1Description": "水圧、射程、価値に基づいて Urban X と Prime Vista のラインナップを比較",
+        "step2Title": "スプレーモードをマスターする",
+        "step2Description": "ノズルの幅を切り替え、頑固な汚れには洗浄剤を使用しよう",
+        "step3Title": "新しいギアを装備する",
+        "step3Description": "装備ホイールから素早くツールを装着・交換"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "すべての装備ガイド"
+    },
+    "technical": {
+      "title": "PowerWash Simulator 2 テクニカルガイド",
+      "description": "PowerWash Simulator 2のテクニカルヘルプ：最適化設定、Modサポート、GTX 1650などのGPU要件、およびパック選択画面が空白になる問題などの修正。",
+      "metaTitle": "PowerWash Simulator 2 テクニカル - 設定、Mod、パフォーマンス",
+      "metaDescription": "最適な設定、Mod、GPUパフォーマンス（GTX 1650を含む）、およびパック選択画面が空白になるバグの修正に関するテクニカルガイドで、PowerWash Simulator 2を最適化しましょう。",
+      "categoryLabel": "テクニカル",
+      "whatIs": "PowerWash Simulator 2のテクニカルセクションとは何ですか？",
+      "whatIsDescription": "パフォーマンスの調整、推奨設定、Modオプション、ハードウェア要件、およびクリーニングセッションに影響する一般的なバグやグリッチのトラブルシューティング。",
+      "why": "なぜテクニカルガイドをチェックするのですか？",
+      "whySteps": {
+        "step1Title": "パフォーマンスの最適化",
+        "step1Description": "お使いのハードウェアでスムーズなフレームレートを実現するために最適な設定を適用します",
+        "step2Title": "ハードウェアを知る",
+        "step2Description": "GTX 1650や内蔵グラフィックスなどのGPUでゲームがどのように動作するかを確認します",
+        "step3Title": "一般的なバグの修正",
+        "step3Description": "パック選択画面の空白やコンテンツの消失などの問題を解決します"
+      },
+      "featured": "おすすめ＆重要項目",
+      "all": "すべてのテクニカルガイド"
+    },
+    "purchase": {
+      "title": "PowerWash Simulator 2の購入とプラットフォーム",
+      "description": "価格、発売日、プラットフォーム（PC、PS5、Xbox、Switch 2）、PowerWash Simulator 2と1の比較、Redditなどのコミュニティリソースを網羅したPowerWash Simulator 2購入ガイド。",
+      "metaTitle": "PowerWash Simulator 2の購入 - 価格、プラットフォーム、発売日",
+      "metaDescription": "価格、発売日、PC/PS5/Xbox/Switch 2プラットフォーム、前作との比較、Redditコミュニティに関するガイドを参考に、PowerWash Simulator 2をどこで購入するか決めましょう。",
+      "categoryLabel": "購入とプラットフォーム",
+      "whatIs": "PowerWash Simulator 2の購入セクションとは何ですか？",
+      "whatIsDescription": "現在の価格、発売日、利用可能なすべてのプラットフォーム、続編と前作の比較、コミュニティのヘルプの場所などを含む購入およびプラットフォーム情報。",
+      "why": "購入前にチェックする理由は？",
+      "whySteps": {
+        "step1Title": "プラットフォームの比較",
+        "step1Description": "PC、PS5、Xbox Series X|S、Nintendo Switch 2から選択",
+        "step2Title": "価格と発売日を確認",
+        "step2Description": "現在の価格と必要な発売情報の詳細を確認",
+        "step3Title": "前作と比較",
+        "step3Description": "PowerWash Simulator 2と1の違いや新要素を把握"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべての購入ガイド"
+    }
   }
 }

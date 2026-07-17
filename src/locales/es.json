@@ -1,12 +1,1714 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de PowerWash Simulator 2 - Trabajos, herramientas y logros",
+      "description": "Guías completas de PowerWash Simulator 2 para cada trabajo, hidrolimpiadora, boquilla, mejora, logro, coleccionable, función cooperativa, paquete de DLC y última actualización.",
+      "keywords": "PowerWash Simulator 2, wiki, trabajos, herramientas, mejoras, logros, cooperativo, DLC, guía",
+      "ogTitle": "Wiki de PowerWash Simulator 2 - Trabajos, herramientas y logros",
+      "ogDescription": "Guías completas de PowerWash Simulator 2 para cada trabajo, hidrolimpiadora, boquilla, mejora, logro, coleccionable, función cooperativa, paquete de DLC y última actualización.",
+      "twitterTitle": "Wiki de PowerWash Simulator 2 - Trabajos, herramientas y logros",
+      "twitterDescription": "Guías completas de PowerWash Simulator 2 para trabajos, hidrolimpiadoras, herramientas, mejoras, logros, cooperativo, DLC y últimas actualizaciones."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "updates": "Actualizaciones",
     "achievements": "Logros",
     "levels": "Niveles",
     "multiplayer": "Multijugador",
-    "equipment": "Equipo",
+    "equipment": "Equipamiento",
     "technical": "Técnico",
-    "purchase": "Compra"
+    "purchase": "Comprar"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Relajante simulador de limpieza cooperativo",
+    "title": "Wiki de PowerWash Simulator 2",
+    "description": "Elimina la suciedad en 38 trabajos del modo Carrera, desbloquea hidrolimpiadoras y herramientas más potentes, decora tu home base y limpia en solitario, en línea o en cooperativo de pantalla dividida.",
+    "getFreeCodesCTA": "Explorar todos los trabajos",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "23 de oct. de 2025",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "38",
+        "label": "Trabajos del modo Carrera"
+      },
+      "stat3": {
+        "value": "4 jugadores",
+        "label": "Cooperativo en línea"
+      },
+      "stat4": {
+        "value": "10K+",
+        "label": "Reseñas de Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de PowerWash Simulator 2",
+    "description": "Arrasa con la suciedad en 38 trabajos del modo Carrera, domina las boquillas y las herramientas de limpieza de superficies, decora tu Home Base y limpia en solitario, en línea o en cooperativo local de pantalla dividida en PC, PS5, Xbox Series X|S y Nintendo Switch 2."
+  },
+  "tools": {
+    "title": "PowerWash Simulator 2",
+    "titleHighlight": "Guías wiki",
+    "subtitle": "Todo lo que necesitas para limpiar más rápido: trabajos, equipamiento, cooperativo, logros, DLC, ayuda para completarlo y coleccionables de la Home Base.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Ciclo de limpieza, controles, boquillas, jabón y la mejor ruta inicial"
+      },
+      {
+        "icon": "Mapa",
+        "title": "Trabajos y ubicaciones",
+        "description": "Los 38 trabajos del modo Carrera en orden de desbloqueo con ubicaciones y equipamiento"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Equipamiento y mejoras",
+        "description": "Clasificación de las mejores hidrolimpiadoras, boquillas, jabones y herramientas de limpieza de superficies"
+      },
+      {
+        "icon": "Users",
+        "title": "Multijugador y cooperativo",
+        "description": "Cooperativo en línea, juego cruzado, pantalla dividida y progresión compartida"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Logros y trofeos",
+        "description": "Los 60 logros del juego base y de ambos packs de DLC"
+      },
+      {
+        "icon": "Rocket",
+        "title": "DLC y actualizaciones",
+        "description": "Trabajos gratuitos de Caldera Chronicles, packs de colaboración de pago y hoja de ruta"
+      },
+      {
+        "icon": "Search",
+        "title": "Guía de la última suciedad",
+        "description": "Encuentra las últimas superficies sucias y completa cualquier trabajo al 100%"
+      },
+      {
+        "icon": "Home",
+        "title": "Home Base y coleccionables",
+        "description": "Muebles, baratijas, recuerdos, gatos, cosméticos e interacciones ocultas"
+      }
+    ]
+  },
+  "modules": {
+    "powerwashBeginnerGuide": {
+      "eyebrow": "Primeros pasos",
+      "title": "Empieza a limpiar más rápido en PowerWash Simulator 2",
+      "subtitle": "Aprende el ciclo de limpieza, el papel de las boquillas, el sistema de jabón gratuito y la mejor ruta a través de los trabajos iniciales. Usa la lista de tareas y el resaltado de suciedad para terminar los trabajos sin tener que buscar a ciegas las últimas manchas.",
+      "intro": "El modo Carrera contiene 38 trabajos nuevos en Muckingham y el área de Caldera County. Los trabajos otorgan dinero para comprar hidrolimpiadoras y accesorios, mientras que el modo Carrera y el Juego libre también otorgan puntos PowerWash para comprar muebles y elementos de personalización cosmética en la Home Base.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Instálate en la Home Base",
+          "description": "Usa el Mapa de Trabajos para elegir encargos de la Carrera, visita la tienda antes de marcharte y regresa a la Home Base para limpiar y colocar los muebles desbloqueados. Los trabajos de la Carrera son la fuente principal de dinero para comprar nuevas hidrolimpiadoras y equipamiento.",
+          "quickTip": "Gasta el dinero inicial en herramientas que mejoren la cobertura antes de comprar objetos cosméticos."
+        },
+        {
+          "step": 2,
+          "title": "Aprende los controles de limpieza básicos",
+          "description": "Practica cómo mantener o alternar el chorro, cambiar de hidrolimpiadora, abrir los diales de boquillas y extensiones, girar la boquilla, abrir la lista de tareas, agacharte, saltar y activar el resaltado de suciedad. La lista de tareas muestra qué partes específicas siguen incompletas.",
+          "quickTip": "Usa el lavado continuo para pasadas largas y planas, y el apuntado libre para bordes, partes inferiores y ángulos complicados."
+        },
+        {
+          "step": 3,
+          "title": "Adapta la boquilla a la superficie",
+          "description": "Las boquillas de 40 y 25 cubren zonas amplias y poco sucias; las de 15 y 0 concentran la presión en juntas estrechas y suciedad incrustada. Turbo ataca pequeñas manchas persistentes, mientras que la Adaptable Nozzle te permite cambiar el ancho del chorro sin cambiar de accesorio.",
+          "quickTip": "Empieza con un chorro ancho y estréchalo solo cuando la superficie deje de limpiarse de forma eficiente."
+        },
+        {
+          "step": 4,
+          "title": "Limpia la Furgoneta de mudanzas por secciones",
+          "description": "Empieza por el techo y los paneles superiores, barre ambos laterales, limpia el frontal y la trasera, y termina con las ruedas, escalones, manijas y la parte inferior. Este es el primer trabajo de la Carrera y puede completarse con la Prime Vista 1500 o la Urban X U1 gratuitas.",
+          "quickTip": "Completa los paneles grandes antes que los pequeños detalles para que la lista de tareas se acorte y sea más fácil de revisar."
+        },
+        {
+          "step": 5,
+          "title": "Entiende los trabajos por etapas",
+          "description": "La Instalación pública introduce zonas que se revelan por etapas. Limpia todas las tareas disponibles actualmente para activar la siguiente sección y luego repite la misma rutina de arriba a abajo dentro del área recién abierta.",
+          "quickTip": "No pierdas el tiempo buscando detrás de secciones bloqueadas u ocultas; termina primero la etapa visible."
+        },
+        {
+          "step": 6,
+          "title": "Usa Jabón 2.0 en capas persistentes",
+          "description": "El jabón es gratuito y se adhiere a las superficies sucias. Cubre una sección muy sucia con la boquilla de jabón y luego enjuágala con cualquier boquilla de agua para eliminar la suciedad ablandada más rápido.",
+          "quickTip": "Enjabona primero las zonas sucias amplias, pero usa boquillas de agua concentradas para los pequeños bordes olvidados."
+        },
+        {
+          "step": 7,
+          "title": "Compra primero mejoras de cobertura",
+          "description": "La Adaptable Nozzle es el accesorio inicial más flexible, mientras que el SwirlForce Surf Ace está diseñado para suelos y otras superficies planas grandes. Las extensiones, escaleras, andamios, el elevador de tijera y el kit de rápel solucionan problemas de altura y alcance en trabajos posteriores.",
+          "quickTip": "Elige el equipo según la forma del siguiente trabajo: limpiador de superficies para zonas planas, extensiones para techos y boquillas concentradas para vehículos."
+        },
+        {
+          "step": 8,
+          "title": "Termina el porcentaje final rápidamente",
+          "description": "Abre la lista de tareas, selecciona una parte incompleta y usa el resaltado de suciedad mientras rodeas el objeto desde varias alturas. Revisa las partes inferiores, caras traseras, juntas de los bordes, pasos de rueda, bordes del techo y superficies ocultas tras objetos decorativos.",
+          "quickTip": "Cuando una parte esté casi limpia, deja de rociar todo el nivel e inspecciona solo esa tarea específica."
+        }
+      ]
+    },
+    "powerwashJobsAndLocations": {
+      "eyebrow": "Progresión de la Carrera",
+      "title": "Los 38 trabajos de la Carrera de PowerWash Simulator 2 en orden de desbloqueo",
+      "subtitle": "Sigue la campaña completa del juego base desde la Removals Van hasta Mount Rushless. Cada fila identifica la ubicación del trabajo, el formato de limpieza, la elección de equipo práctico y un detalle de logro o finalización.",
+      "intro": "La campaña del modo Carrera de 38 trabajos abarca Muckingham y el área de Caldera County, con lugares destacados oficiales que incluyen Sponge Valley, Suds East y Lubri City. Los trabajos posteriores hacen un uso más intensivo de la limpieza de superficies, extensiones, elevadores y rapel.",
+      "jobs": [
+        {
+          "unlockOrder": 1,
+          "job": "Removals Van",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehículo",
+          "difficulty": "Fácil",
+          "equipment": "Prime Vista 1500 o Urban X U1; 25 para paneles y 15 para juntas",
+          "notableDetail": "Completar este trabajo inicial de Carrera desbloquea el logro All Moved In."
+        },
+        {
+          "unlockOrder": 2,
+          "job": "Instalación pública",
+          "location": "Detergento",
+          "jobType": "Ubicación en varias etapas",
+          "difficulty": "Fácil",
+          "equipment": "25 o Adaptable Nozzle; jabón para capas gruesas",
+          "notableDetail": "La estructura se eleva desde el suelo y luego revela su exterior e interior a medida que se completa cada etapa."
+        },
+        {
+          "unlockOrder": 3,
+          "job": "Zona de acampada",
+          "location": "Great River Campground, Power Falls",
+          "jobType": "Sitio al aire libre",
+          "difficulty": "Fácil",
+          "equipment": "25 para tiendas y muebles; boquilla roja 0 para la ruta de logros",
+          "notableDetail": "Limpia primero los faroles usando solo la boquilla roja para ganar Hit the Lights."
+        },
+        {
+          "unlockOrder": 4,
+          "job": "Art Deco House",
+          "location": "Caldera County",
+          "jobType": "Edificio",
+          "difficulty": "Fácil",
+          "equipment": "Adaptable Nozzle, extensiones y acceso por escalera",
+          "notableDetail": "Trabaja de arriba hacia abajo para que el escurrimiento y las molduras olvidadas sean más fáciles de localizar."
+        },
+        {
+          "unlockOrder": 5,
+          "job": "Coche perro",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehículo",
+          "difficulty": "Fácil",
+          "equipment": "Boquilla de jabón seguida de la de 15 o 25",
+          "notableDetail": "Cubre cada tarea de lavado con jabón al mismo tiempo para ganar Doggy Bath."
+        },
+        {
+          "unlockOrder": 6,
+          "job": "Valla publicitaria",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Estructura grande",
+          "difficulty": "Fácil",
+          "equipment": "SwirlForce Surf Ace para áreas planas amplias; equipo de rápel para la altura",
+          "notableDetail": "El limpiador de superficies es especialmente eficaz en la cara del letrero grande y en las letras."
+        },
+        {
+          "unlockOrder": 7,
+          "job": "Salón de té Teapot",
+          "location": "Great River National Park, Power Falls",
+          "jobType": "Edificio",
+          "difficulty": "Fácil",
+          "equipment": "Boquilla adaptable y jabón",
+          "notableDetail": "Coloca un gnomo en cada asiento para ganar Tea Time."
+        },
+        {
+          "unlockOrder": 8,
+          "job": "Galería de tiro",
+          "location": "Wengerloof Carnival, Muckingham Recreation Ground",
+          "jobType": "Atracción",
+          "difficulty": "Fácil",
+          "equipment": "Boquilla de 15 o adaptable para objetivos móviles y detallados",
+          "notableDetail": "Completa primero el objetivo de Bigfoot para ganar Where's Woolly?."
+        },
+        {
+          "unlockOrder": 9,
+          "job": "Barredora",
+          "location": "Detergento",
+          "jobType": "Vehículo",
+          "difficulty": "Moderada",
+          "equipment": "15 para mecanismos, 25 para paneles de carrocería, jabón para suciedad persistente",
+          "notableDetail": "Usa la lista de tareas para aislar ruedas, cepillos y partes de los bajos hacia el final."
+        },
+        {
+          "unlockOrder": 10,
+          "job": "Gasolinera",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Ubicación",
+          "difficulty": "Moderada",
+          "equipment": "SwirlForce Surf Ace para el pavimento; boquilla adaptable para surtidores y señales",
+          "notableDetail": "Haz rodar la pelota por el tobogán del parque para conseguir Drop the Ball."
+        },
+        {
+          "unlockOrder": 11,
+          "job": "Quiosco de música",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Estructura",
+          "difficulty": "Moderada",
+          "equipment": "Limpiador de superficies para el suelo; boquilla adaptable para barandillas y molduras",
+          "notableDetail": "Limpia la escotilla central al final para conseguir Hatching a Plan."
+        },
+        {
+          "unlockOrder": 12,
+          "job": "Scooter de movilidad",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehículo",
+          "difficulty": "Moderada",
+          "equipment": "15 o boquilla adaptable",
+          "notableDetail": "Su tamaño compacto lo convierte en un trabajo práctico para repetir y obtener logros de usar solo una boquilla."
+        },
+        {
+          "unlockOrder": 13,
+          "job": "Nouveau House",
+          "location": "Muckingham",
+          "jobType": "Edificio",
+          "difficulty": "Moderada",
+          "equipment": "Boquilla adaptable, extensión larga y andamio",
+          "notableDetail": "Divide el exterior en paredes, línea del tejado, ventanas y accesorios antes del escaneo de suciedad final."
+        },
+        {
+          "unlockOrder": 14,
+          "job": "Dirigible",
+          "location": "Campo de recreo de Muckingham",
+          "jobType": "Vehículo",
+          "difficulty": "Moderada",
+          "equipment": "Kit de rápel, extensiones y boquilla adaptable",
+          "notableDetail": "Usa el equipo de desplazamiento para limpiar la carrocería elevada sin tener que reposicionarte continuamente desde el suelo."
+        },
+        {
+          "unlockOrder": 15,
+          "job": "Hormigonera",
+          "location": "Fumarola",
+          "jobType": "Vehículo",
+          "difficulty": "Moderada",
+          "equipment": "Boquilla turbo y jabón para el tambor y el chasis",
+          "notableDetail": "Rodea el vehículo y revisa el borde del tambor, el bastidor y los huecos de las ruedas por separado."
+        },
+        {
+          "unlockOrder": 16,
+          "job": "Granja",
+          "location": "Pumpton",
+          "jobType": "Ubicación exterior",
+          "difficulty": "Moderada",
+          "equipment": "Limpiador de superficies para zonas de suelo amplias; extensiones para estructuras",
+          "notableDetail": "Limpia primero las superficies planas grandes y luego termina con las vallas, la maquinaria y los bordes estrechos."
+        },
+        {
+          "unlockOrder": 17,
+          "job": "Círculo de piedras",
+          "location": "Parque Nacional Great River, Power Falls",
+          "jobType": "Punto de referencia al aire libre",
+          "difficulty": "Moderado",
+          "equipment": "25 o 40 para caras de piedra; jabón para la suciedad en capas",
+          "notableDetail": "Párate en cada pilar sin tocar el suelo para obtener El suelo es lava."
+        },
+        {
+          "unlockOrder": 18,
+          "job": "Parque de escalada",
+          "location": "Parque recreativo de Muckingham",
+          "jobType": "Atracción al aire libre",
+          "difficulty": "Moderado",
+          "equipment": "Kit de rápel y boquilla adaptable",
+          "notableDetail": "Limpia el pterodáctilo primero para obtener Comienzo volador."
+        },
+        {
+          "unlockOrder": 19,
+          "job": "Pista de patinaje sobre ruedas",
+          "location": "Caldera County",
+          "jobType": "Atracción interior",
+          "difficulty": "Moderado",
+          "equipment": "Limpiador de superficies para el suelo; extensiones para los accesorios elevados",
+          "notableDetail": "Limpia la bola de discoteca primero para obtener Que todo brille."
+        },
+        {
+          "unlockOrder": 20,
+          "job": "Tractor",
+          "location": "Pumpton",
+          "jobType": "Vehículo",
+          "difficulty": "Moderado",
+          "equipment": "Boquilla turbo o de 15; jabón al rededor del motor y los neumáticos",
+          "notableDetail": "Revisa el eje, los surcos de la banda de rodadura y la parte inferior antes de confiar en el resaltado de suciedad final."
+        },
+        {
+          "unlockOrder": 21,
+          "job": "Interior del templo",
+          "location": "Pumpton",
+          "jobType": "Ubicación con varias salas",
+          "difficulty": "Desafiante",
+          "equipment": "Boquilla adaptable, jabón y extensiones",
+          "notableDetail": "Baja las escaleras durante el trabajo para conseguir \"Trasfondo profundo\"."
+        },
+        {
+          "unlockOrder": 22,
+          "job": "Coche y remolque",
+          "location": "Muckingham",
+          "jobType": "Conjunto de vehículos",
+          "difficulty": "Desafiante",
+          "equipment": "Extensiones para el techo; boquilla de 15 o boquilla adaptable para los detalles",
+          "notableDetail": "Limpia la antena parabólica primero para conseguir \"Mensaje recibido\"."
+        },
+        {
+          "unlockOrder": 23,
+          "job": "Teatro",
+          "location": "Bucketon",
+          "jobType": "Edificio",
+          "difficulty": "Desafiante",
+          "equipment": "Limpiador de superficies para los pasillos y el escenario; extensiones para los detalles superiores",
+          "notableDetail": "Limpia toda la fila delantera de asientos primero para conseguir \"Asientos de primera fila\"."
+        },
+        {
+          "unlockOrder": 24,
+          "job": "Motel",
+          "location": "Mauka Aitu Highway, Lubri City",
+          "jobType": "Edificio",
+          "difficulty": "Desafiante",
+          "equipment": "Elevador de tijera, extensiones y boquilla adaptable",
+          "notableDetail": "Limpia primero todas las puertas de las habitaciones, los pomos y los números de las puertas para conseguir \"De puerta en puerta\"."
+        },
+        {
+          "unlockOrder": 25,
+          "job": "Mini montaña rusa",
+          "location": "Muckingham Recreation Ground",
+          "jobType": "Atracción",
+          "difficulty": "Desafiante",
+          "equipment": "Boquilla adaptable y boquilla turbo para los herrajes de la vía",
+          "notableDetail": "Súbete a la montaña rusa durante una vuelta completa para ganar Ticket to Ride."
+        },
+        {
+          "unlockOrder": 26,
+          "job": "Exposición del Sistema Solar",
+          "location": "Washingham",
+          "jobType": "Exposición",
+          "difficulty": "Desafiante",
+          "equipment": "Boquilla de 15 o boquilla adaptable para modelos y soportes",
+          "notableDetail": "Limpia el Sol, luego cada planeta en orden hacia el exterior para ganar Cosmic Ordering."
+        },
+        {
+          "unlockOrder": 27,
+          "job": "Tranvía",
+          "location": "Detergento",
+          "jobType": "Vehículo",
+          "difficulty": "Desafiante",
+          "equipment": "Boquillas de 15 y 25; jabón para las capas de suciedad exterior",
+          "notableDetail": "Trabaja un lado a la vez, luego inspecciona la línea del techo, las ruedas y el chasis."
+        },
+        {
+          "unlockOrder": 28,
+          "job": "Casa de salvamento",
+          "location": "Parque Nacional Great River, Power Falls",
+          "jobType": "Edificio",
+          "difficulty": "Desafiante",
+          "equipment": "Limpiador de superficies, extensiones y jabón",
+          "notableDetail": "Realiza pasadas habitación por habitación o pared por pared para mantener manejable la gran lista de tareas."
+        },
+        {
+          "unlockOrder": 29,
+          "job": "Camión volquete de minería",
+          "location": "Fumerole",
+          "jobType": "Vehículo pesado",
+          "difficulty": "Desafiante",
+          "equipment": "Hidrolimpiadora de uso pesado o profesional con boquilla turbo",
+          "notableDetail": "Prioriza la enorme caja y los neumáticos, luego inspecciona las escaleras, los rieles y las piezas hidráulicas."
+        },
+        {
+          "unlockOrder": 30,
+          "job": "Casa de la risa",
+          "location": "Carnaval Wengerloof, Muckingham Recreation Ground",
+          "jobType": "Atracción interactiva",
+          "difficulty": "Desafiante",
+          "equipment": "Limpiador de superficies y Boquilla adaptable",
+          "notableDetail": "Toca el piano gigante de notas bajas a altas para conseguir ¡Glissando!, o limpia un disco de suelo giratorio con el limpiador de superficies para Spin Doctor."
+        },
+        {
+          "unlockOrder": 31,
+          "job": "Centro de esquí",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "Ubicación grande",
+          "difficulty": "Desafiante",
+          "equipment": "Elevador de tijera, extensiones largas e hidrolimpiadora profesional",
+          "notableDetail": "Limpia primero las superficies exteriores amplias, luego usa el elevador para la línea del techo y los accesorios elevados."
+        },
+        {
+          "unlockOrder": 32,
+          "job": "Limusina extra larga",
+          "location": "PowerWash Services, Muckingham",
+          "jobType": "Vehículo",
+          "difficulty": "Avanzado",
+          "equipment": "Boquillas de 15 y 25 con jabón",
+          "notableDetail": "Divide la carrocería larga en secciones delantera, central y trasera para evitar perder de vista las molduras pequeñas."
+        },
+        {
+          "unlockOrder": 33,
+          "job": "Centro comercial",
+          "location": "Sparkleton",
+          "jobType": "Edificio grande",
+          "difficulty": "Avanzado",
+          "equipment": "Limpiador de superficies, elevador de tijera e hidrolimpiadora profesional",
+          "notableDetail": "Limpia primero la estatua del búho para conseguir Wise Decision."
+        },
+        {
+          "unlockOrder": 34,
+          "job": "Moto futurista",
+          "location": "Autopista Mauka Aitu, Lubri City",
+          "jobType": "Vehículo",
+          "difficulty": "Avanzado",
+          "equipment": "0 o 15 para componentes estrechos; jabón para la suciedad densa",
+          "notableDetail": "Realiza pasadas cortas y controladas alrededor de las ruedas, las uniones del chasis y las piezas mecánicas compactas."
+        },
+        {
+          "unlockOrder": 35,
+          "job": "Sets de teatro",
+          "location": "Bucketon",
+          "jobType": "Ubicación de varios sets",
+          "difficulty": "Avanzado",
+          "equipment": "Boquilla adaptable, extensiones y jabón",
+          "notableDetail": "Trata cada set como un minitrabajo independiente y termina sus objetos antes de pasar al siguiente."
+        },
+        {
+          "unlockOrder": 36,
+          "job": "Camión de 18 ruedas",
+          "location": "Autopista Mauka Aitu, Lubri City",
+          "jobType": "Vehículo pesado",
+          "difficulty": "Avanzado",
+          "equipment": "Hidrolimpiadora profesional, boquilla turbo y extensión larga",
+          "notableDetail": "Limpia los paneles del remolque con pasadas amplias, luego concéntrate en la cabina, las ruedas y los bajos."
+        },
+        {
+          "unlockOrder": 37,
+          "job": "Carrozas del pueblo",
+          "location": "Detergento",
+          "jobType": "Colección de vehículos",
+          "difficulty": "Avanzado",
+          "equipment": "Boquilla adaptable y jabón",
+          "notableDetail": "Limpia el ratón al final para obtener Squeaky Clean."
+        },
+        {
+          "unlockOrder": 38,
+          "job": "Mount Rushless",
+          "location": "Mount Rushless, Fumerole",
+          "jobType": "Ubicación final",
+          "difficulty": "Avanzado",
+          "equipment": "Hidrolimpiadora profesional más todas las herramientas de desplazamiento disponibles",
+          "notableDetail": "El último trabajo de la Carrera es la limpieza final más grande; usa la lista de tareas y el resaltado de suciedad con frecuencia durante los últimos porcentajes."
+        }
+      ]
+    },
+    "powerwashBestEquipment": {
+      "eyebrow": "Tier List de equipamiento",
+      "title": "Las mejores hidrolimpiadoras, boquillas y herramientas de PowerWash Simulator 2",
+      "subtitle": "Compara las líneas de hidrolimpiadoras ligera, media, pesada y profesional, además de la SwirlForce Surf Ace y las boquillas especializadas. Las clasificaciones priorizan la velocidad de limpieza real, la cobertura, el alcance y el valor durante el progreso de la Carrera.",
+      "intro": "PowerWash Simulator 2 ofrece nueve hidrolimpiadoras Prime Vista y Urban X diferentes a lo largo de su progreso en la Carrera, además del limpiador de superficies SwirlForce Surf Ace. Las opciones de hidrolimpiadora estándar incluyen las boquillas básicas de 0, 15, 25, 40, Turbo y Jabón, mientras que la Boquilla Adaptable se puede comprar para cada hidrolimpiadora.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejor en general",
+          "items": [
+            {
+              "name": "Prime Vista Pro + Boquilla de triple punta",
+              "category": "Hidrolimpiadora profesional",
+              "cleaningSpeed": "Muy alta",
+              "range": "Largo",
+              "earlyGameValue": "Bajo",
+              "bestFor": "Trabajos grandes de final del juego, superficies mixtas y limpieza general rápida",
+              "why": "La Prime Vista Pro combina una presión profesional con la exclusiva Boquilla de triple punta, lo que le otorga una cobertura excepcional sin perder demasiada fuerza de limpieza."
+            },
+            {
+              "name": "Urban X Stream + Boquilla turbo doble",
+              "category": "Hidrolimpiadora profesional",
+              "cleaningSpeed": "Muy alta",
+              "range": "Largo",
+              "earlyGameValue": "Bajo",
+              "bestFor": "Suciedad pesada, vehículos, maquinaria y pasadas estrechas de alta presión",
+              "why": "La Urban X Stream obtiene la exclusiva Boquilla turbo doble, lo que la convierte en una de las opciones más potentes para la limpieza concentrada."
+            },
+            {
+              "name": "Boquilla adaptable",
+              "category": "Accesorio universal",
+              "cleaningSpeed": "Alta",
+              "range": "Variable",
+              "earlyGameValue": "Muy alta",
+              "bestFor": "Cambiar entre paneles anchos y detalles estrechos sin cambiar de boquilla",
+              "why": "Se puede comprar para cada hidrolimpiadora y permite al jugador cambiar manualmente el ancho del chorro, lo que la convierte en la mejora más flexible del juego."
+            },
+            {
+              "name": "SwirlForce Surf Ace + Cabezal de 20 pulgadas",
+              "category": "Limpiador de superficies",
+              "cleaningSpeed": "Muy alta en superficies planas",
+              "range": "A nivel del suelo",
+              "earlyGameValue": "Alta",
+              "bestFor": "Suelos, pavimentos, escenarios, paredes anchas y otras áreas planas extensas",
+              "why": "El limpiador de superficies rotatorio cubre grandes áreas rápidamente, y el cabezal de 20 pulgadas proporciona su franja de limpieza más ancha."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Mejoras potentes de la Carrera",
+          "items": [
+            {
+              "name": "Prime Vista 3000",
+              "category": "Hidrolimpiadora de alta resistencia",
+              "cleaningSpeed": "Alta",
+              "range": "Largo",
+              "earlyGameValue": "Media",
+              "bestFor": "Edificios, objetos grandes y sesiones de limpieza largas",
+              "why": "Una herramienta de trabajo robusta para el final de la carrera que mejora la presión y el alcance antes de que el nivel profesional sea asequible."
+            },
+            {
+              "name": "Urban X MAX",
+              "category": "Hidrolimpiadora de alta resistencia",
+              "cleaningSpeed": "Alto",
+              "range": "Largo",
+              "earlyGameValue": "Medio",
+              "bestFor": "Vehículos, suciedad incrustada y detalles mecánicos compactos",
+              "why": "La opción para trabajos pesados Urban X favorece una limpieza agresiva y funciona bien con los accesorios Turbo y Adaptable."
+            },
+            {
+              "name": "Boquilla de jabón",
+              "category": "Herramienta de limpieza universal",
+              "cleaningSpeed": "Alto en suciedad acumulada",
+              "range": "Medio",
+              "earlyGameValue": "Muy alto",
+              "bestFor": "Manchas difíciles y suciedad muy acumulada",
+              "why": "El jabón es gratis, se adhiere de forma visible a la superficie y permite que cualquier boquilla de agua enjuague la suciedad ablandada."
+            },
+            {
+              "name": "Boquilla Turbo",
+              "category": "Accesorio concentrado",
+              "cleaningSpeed": "Alto en áreas pequeñas",
+              "range": "Medio",
+              "earlyGameValue": "Alto",
+              "bestFor": "Manchas similares al óxido, ranuras de neumáticos, maquinaria y zonas estrechas y difíciles",
+              "why": "Su chorro concentrado giratorio elimina la suciedad difícil más rápido que las boquillas de abanico amplio, pero cubre menos área."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Opciones confiables para la mitad del juego",
+          "items": [
+            {
+              "name": "Prime Vista 2400",
+              "category": "Hidrolimpiadora de potencia media",
+              "cleaningSpeed": "Medio-alto",
+              "range": "Medio-largo",
+              "earlyGameValue": "Alto",
+              "bestFor": "Casas, atracciones y trabajos del modo Carrera de propósito general",
+              "why": "Una mejora equilibrada respecto a la categoría inicial, con suficiente presión y alcance para la mayoría de los trabajos al principio y a mitad de la partida."
+            },
+            {
+              "name": "Urban X U2",
+              "category": "Hidrolimpiadora de potencia media",
+              "cleaningSpeed": "Medio-alto",
+              "range": "Medio",
+              "earlyGameValue": "Alto",
+              "bestFor": "Vehículos y objetos detallados",
+              "why": "Una hidrolimpiadora Urban X práctica para mitad de la partida para jugadores que prefieren una limpieza concentrada más potente en lugar del máximo alcance."
+            },
+            {
+              "name": "Prime Vista 1500",
+              "category": "Hidrolimpiadora inicial para trabajos ligeros",
+              "cleaningSpeed": "Medio",
+              "range": "Medio",
+              "earlyGameValue": "Excelente",
+              "bestFor": "La furgoneta de mudanzas, las instalaciones públicas y otros trabajos iniciales",
+              "why": "Está disponible gratis al inicio y sigue siendo útil al combinarla con la boquilla adaptable."
+            },
+            {
+              "name": "Urban X U1",
+              "category": "Hidrolimpiadora inicial para trabajos ligeros",
+              "cleaningSpeed": "Medio",
+              "range": "Corto-medio",
+              "earlyGameValue": "Excelente",
+              "bestFor": "Vehículos compactos, molduras y limpieza a corta distancia",
+              "why": "La segunda hidrolimpiadora inicial gratuita ofrece una opción de manejo diferente antes de comprar la de gama media."
+            }
+          ]
+        }
+      ]
+    },
+    "powerwashMultiplayer": {
+      "eyebrow": "Guía cooperativa",
+      "title": "Multijugador, Crossplay y pantalla dividida de PowerWash Simulator 2",
+      "subtitle": "Juega en modo Carrera o Juego libre con hasta cuatro personas en línea, o limpia localmente con dos jugadores en una pantalla. Las suscripciones de plataforma y la disponibilidad de crossplay varían entre Xbox, PC, PS5 y Nintendo Switch 2.",
+      "intro": "PowerWash Simulator 2 añade progresión de campaña compartida en línea y pantalla dividida local para dos jugadores. Las sesiones en línea admiten hasta cuatro jugadores en Carrera y Juego libre, mientras que el juego multiplataforma está disponible entre las versiones compatibles de Xbox y PC en lugar de entre todas las plataformas.",
+      "faqs": [
+        {
+          "question": "¿Cuántos jugadores pueden jugar juntos a PowerWash Simulator 2?",
+          "answer": "El cooperativo en línea admite hasta cuatro jugadores. La pantalla dividida local admite dos jugadores en una PC o consola, y el juego también se puede jugar en solitario."
+        },
+        {
+          "question": "¿Qué modos de PowerWash Simulator 2 admiten cooperativo en línea?",
+          "answer": "Tanto Carrera como Juego libre admiten cooperativo en línea de cuatro jugadores. Los equipos en línea comparten el progreso del trabajo durante la sesión, por lo que los trabajos grandes pueden completarse juntos en lugar de que cada jugador repita la misma limpieza por separado."
+        },
+        {
+          "question": "¿Cómo funciona la pantalla dividida local en PowerWash Simulator 2?",
+          "answer": "Abre el menú multijugador e inicia una sesión de pantalla dividida, luego conecta un segundo mando o entrada local compatible con la plataforma. Dos jugadores limpian el mismo trabajo desde una sola pantalla y contribuyen al mismo archivo de guardado de la campaña."
+        },
+        {
+          "question": "¿Admite crossplay PowerWash Simulator 2?",
+          "answer": "El crossplay es compatible entre Xbox Series X|S y las versiones de PC compatibles, incluyendo Steam, Epic Games Store y Windows Store. Los jugadores de PS5 usan el grupo de jugadores de PlayStation, mientras que los jugadores de Nintendo Switch 2 usan el grupo de jugadores de Switch 2."
+        },
+        {
+          "question": "¿Cómo puedo organizar o unirme a una sesión en línea de PowerWash Simulator 2?",
+          "answer": "Abre la pantalla multijugador desde el menú de pausa, cambia el Tipo de sesión de Un jugador a Multijugador en línea y comparte el Código de sala generado. Los jugadores que se unan deben abrir el mismo menú, elegir Introducir un código y escribir el código del anfitrión; también se pueden usar invitaciones de plataforma donde sea compatible."
+        },
+        {
+          "question": "¿Qué suscripciones se requieren para el juego en línea de PowerWash Simulator 2 en consolas?",
+          "answer": "El multijugador en línea en PS5 requiere PlayStation Plus. El juego en línea en Nintendo Switch 2 requiere Nintendo Switch Online. El multijugador en línea en consolas Xbox requiere un nivel de Xbox Game Pass elegible que incluya multijugador en línea para consolas. El juego en línea en PC no requiere ninguna suscripción de consola."
+        },
+        {
+          "question": "¿Se transfieren el progreso de la carrera y los archivos de guardado de PowerWash Simulator 2 entre plataformas?",
+          "answer": "La progresión compartida en línea permite que un equipo cooperativo avance en un trabajo juntos, pero el juego no ofrece transferencia de archivos de guardado entre plataformas. Un archivo de guardado creado en el ecosistema de una plataforma no se traslada automáticamente a otro ecosistema."
+        },
+        {
+          "question": "¿Se pueden repetir los trabajos completados de PowerWash Simulator 2 con amigos?",
+          "answer": "Sí. Los trabajos completados en Carrera se pueden seleccionar de nuevo en Juego libre, y el cooperativo en línea admite Juego libre con hasta cuatro jugadores. Esto es útil para rutas de logros, partidas solo con boquillas y repeticiones relajadas."
+        }
+      ]
+    },
+    "powerwashAchievements": {
+      "eyebrow": "Logros",
+      "title": "Todos los logros y trofeos de PowerWash Simulator 2",
+      "subtitle": "Haz un seguimiento de los 60 logros actuales del juego base y de ambos paquetes de pago. Cada entrada incluye su requisito exacto, el trabajo relacionado, la dificultad y un método de completado rápido.",
+      "intro": "La lista actual contiene 40 logros del juego base, 10 logros de Adventure Time y 10 logros de STAR WARS. Supera los hitos normales de completado durante las campañas y luego repite trabajos para desafíos de limpiar primero, limpiar al último, solo equipo e interacciones ocultas.",
+      "packs": [
+        {
+          "pack": "Juego base",
+          "count": 40,
+          "entries": [
+            {
+              "achievement": "Mudanza completada",
+              "requirement": "Completa el trabajo de la Furgoneta de mudanzas en el Modo carrera.",
+              "job": "Furgoneta de mudanzas",
+              "difficulty": "Fácil",
+              "guide": "Termina el trabajo inicial del Modo carrera con normalidad; el logro se desbloquea cuando aparece la pantalla de finalización del trabajo."
+            },
+            {
+              "achievement": "Alta presión",
+              "requirement": "Completa una tarea de lavado mientras haces rápel.",
+              "job": "Cualquier trabajo con un equipo de rápel",
+              "difficulty": "Fácil",
+              "guide": "Engánchate al equipo de rápel, mantente suspendido y termina una tarea de lavado específica al 100 %."
+            },
+            {
+              "achievement": "Geo-Cashing",
+              "requirement": "En la Home Base, selecciona un trabajo usando el Mapa de trabajos.",
+              "job": "Home Base",
+              "difficulty": "Fácil",
+              "guide": "Usa el gran Mapa de trabajos en la Home Base e inicia cualquier encargo disponible desde allí."
+            },
+            {
+              "achievement": "Vínculo gatuno",
+              "requirement": "En la Home Base, acaricia a los tres gatos.",
+              "job": "Home Base",
+              "difficulty": "Fácil",
+              "guide": "Encuentra a cada uno de los tres gatos por la Home Base y usa el indicador de interacción con cada uno una vez."
+            },
+            {
+              "achievement": "Decoración del hogar",
+              "requirement": "En la Home Base, limpia y coloca un mueble.",
+              "job": "Home Base",
+              "difficulty": "Fácil",
+              "guide": "Elige un mueble sucio, lávalo al 100 % y luego colócalo mediante los controles de decoración de la Home Base."
+            },
+            {
+              "achievement": "Vestido para el éxito",
+              "requirement": "Equipa una prenda de ropa.",
+              "job": "Personalización",
+              "difficulty": "Fácil",
+              "guide": "Abre la personalización del personaje y equipa cualquier prenda de ropa que poseas."
+            },
+            {
+              "achievement": "Luz guía",
+              "requirement": "Posee una hidrolimpiadora ligera y todos sus accesorios al mismo tiempo.",
+              "job": "Tienda de equipo",
+              "difficulty": "Media",
+              "guide": "Compra la hidrolimpiadora ligera y todos los accesorios compatibles, manteniendo el conjunto completo en tu inventario."
+            },
+            {
+              "achievement": "Superficie a ras",
+              "requirement": "Posee el limpiador de superficies y todos sus accesorios al mismo tiempo.",
+              "job": "Tienda de equipo",
+              "difficulty": "Media",
+              "guide": "Compra el limpiador de superficies y todos los accesorios fabricados para él sin devolver ninguna parte del conjunto."
+            },
+            {
+              "achievement": "Trasfondo profundo",
+              "requirement": "En el trabajo Interior del templo, baja las escaleras.",
+              "job": "Interior del templo",
+              "difficulty": "Fácil",
+              "guide": "Progresa en el trabajo hasta que la escalera sea accesible y luego baja por ella."
+            },
+            {
+              "achievement": "Tomar nota",
+              "requirement": "En la Home Base, examina un objeto en el tablón de anuncios de Harper.",
+              "job": "Home Base",
+              "difficulty": "Fácil",
+              "guide": "Acércate al tablón de anuncios de Harper e interactúa con cualquier nota u objeto fijado."
+            },
+            {
+              "achievement": "Cambio de imagen radical",
+              "requirement": "Aplica un diseño a tu furgoneta.",
+              "job": "Personalización de la furgoneta",
+              "difficulty": "Fácil",
+              "guide": "Abre las opciones de apariencia de la furgoneta y aplica cualquier diseño desbloqueado."
+            },
+            {
+              "achievement": "Término medio",
+              "requirement": "Ten una hidrolimpiadora de potencia media y todos sus accesorios al mismo tiempo.",
+              "job": "Tienda de equipo",
+              "difficulty": "Media",
+              "guide": "Compra la hidrolimpiadora de potencia media y cada accesorio compatible, y mantén el conjunto completo en tu propiedad."
+            },
+            {
+              "achievement": "Profesional consumado",
+              "requirement": "Ten una hidrolimpiadora profesional y todos sus accesorios al mismo tiempo.",
+              "job": "Tienda de equipo",
+              "difficulty": "Difícil",
+              "guide": "Ahorra suficiente dinero para comprar la hidrolimpiadora profesional y todos los accesorios compatibles sin reembolsarlos."
+            },
+            {
+              "achievement": "Todo sale en el lavado",
+              "requirement": "Completa todos los trabajos en el Modo Carrera.",
+              "job": "Modo Carrera",
+              "difficulty": "Difícil",
+              "guide": "Termina cada encargo de Carrera, incluyendo todas las etapas de los trabajos de varias fases, hasta que la lista de Carrera esté totalmente completa."
+            },
+            {
+              "achievement": "Baño perruno",
+              "requirement": "En el trabajo del Coche perro, ten jabón en cada tarea de lavado al mismo tiempo.",
+              "job": "Coche perro",
+              "difficulty": "Media",
+              "guide": "Cubre con jabón cada tarea de lavado de la lista antes de enjuagar por completo cualquier tarea."
+            },
+            {
+              "achievement": "Agua pesada",
+              "requirement": "Posee una hidrolimpiadora de alta potencia y todos sus accesorios al mismo tiempo.",
+              "job": "Tienda de equipo",
+              "difficulty": "Difícil",
+              "guide": "Compra la hidrolimpiadora de alta potencia y todos los accesorios compatibles, manteniendo el conjunto completo en tu inventario."
+            },
+            {
+              "achievement": "Adaptabilidad constante",
+              "requirement": "Completa cualquier trabajo usando solo la Boquilla adaptable.",
+              "job": "Cualquier trabajo repetible",
+              "difficulty": "Medio",
+              "guide": "Elige un trabajo compacto, equipa la Boquilla adaptable desde el principio y no cambies a otra boquilla o limpiador."
+            },
+            {
+              "achievement": "El gnomo del hogar",
+              "requirement": "En la Home Base, busca y recoge al gnomo oculto.",
+              "job": "Home Base",
+              "difficulty": "Medio",
+              "guide": "Busca en las habitaciones y rincones de la Home Base al gnomo escondido y luego usa el indicador de interacción para recogerlo."
+            },
+            {
+              "achievement": "Billete para el viaje",
+              "requirement": "En el trabajo Mini Roller Coaster, monta en la montaña rusa durante una vuelta completa.",
+              "job": "Mini Roller Coaster",
+              "difficulty": "Fácil",
+              "guide": "Súbete a la montaña rusa en movimiento y quédate en ella hasta que complete un circuito ininterrumpido."
+            },
+            {
+              "achievement": "Lavado con estilo",
+              "requirement": "Aplica un aspecto a una hidrolimpiadora.",
+              "job": "Personalización de la hidrolimpiadora",
+              "difficulty": "Fácil",
+              "guide": "Abre la personalización de la hidrolimpiadora y aplica cualquier aspecto que poseas."
+            },
+            {
+              "achievement": "La hora del té",
+              "requirement": "En el trabajo del Salón de té Tetera, coloca un gnomo en cada asiento.",
+              "job": "Salón de té Tetera",
+              "difficulty": "Medio",
+              "guide": "Mueve los gnomos disponibles a los asientos y confirma que cada asiento tenga uno antes de completar el trabajo."
+            },
+            {
+              "achievement": "Al máximo",
+              "requirement": "Posee todas las hidrolimpiadoras y accesorios al mismo tiempo.",
+              "job": "Tienda de equipamiento",
+              "difficulty": "Difícil",
+              "guide": "Acumula suficiente dinero para poseer todas las hidrolimpiadoras y todos los accesorios simultáneamente; evita reembolsar el equipamiento anterior."
+            },
+            {
+              "achievement": "Deja caer la bola",
+              "requirement": "En el trabajo de la Gasolinera, haz rodar la bola por el tobogán del parque infantil.",
+              "job": "Gasolinera",
+              "difficulty": "Fácil",
+              "guide": "Usa el chorro de agua para empujar la bola suelta hasta la parte superior del tobogán del parque infantil y hacerla bajar del todo."
+            },
+            {
+              "achievement": "¡Glissando!",
+              "requirement": "En el trabajo de la Casa de la risa, toca todas las teclas del piano gigante en orden de la más baja a la más alta.",
+              "job": "Casa de la risa",
+              "difficulty": "Medio",
+              "guide": "Comienza en la tecla más baja del piano gigante y rocía cada tecla siguiente en tono ascendente sin saltarte ninguna ni invertir el orden."
+            },
+            {
+              "achievement": "Enfoque de tres puntas",
+              "requirement": "Completa cualquier trabajo usando solo la boquilla de triple punta Prime Vista.",
+              "job": "Cualquier trabajo repetible",
+              "difficulty": "Medio",
+              "guide": "Equipa la boquilla de triple punta Prime Vista al inicio de un trabajo pequeño y mantenla equipada hasta completarlo al 100%."
+            },
+            {
+              "achievement": "A levantarse y brillar",
+              "requirement": "En cualquier trabajo, extiende por completo un elevador de tijera con un gnomo encima.",
+              "job": "Cualquier trabajo con un elevador de tijera",
+              "difficulty": "Medio",
+              "guide": "Coloca un gnomo móvil en la plataforma del elevador, luego sube el elevador de tijera a su altura máxima."
+            },
+            {
+              "achievement": "Comienzo volador",
+              "requirement": "En el trabajo del Parque de escalada, limpia primero el pterodáctilo.",
+              "job": "Parque de escalada",
+              "difficulty": "Medio",
+              "guide": "Localiza el pterodáctilo y complétalo antes de permitir que cualquier otra tarea de lavado designada llegue al 100 %."
+            },
+            {
+              "achievement": "¿Dónde está Woolly?",
+              "requirement": "En el trabajo de la Galería de tiro, completa primero la diana de Bigfoot.",
+              "job": "Galería de tiro",
+              "difficulty": "Medio",
+              "guide": "Encuentra la diana de Bigfoot y límpiala por completo antes de completar cualquier otra tarea de la lista."
+            },
+            {
+              "achievement": "El suelo es lava",
+              "requirement": "En el trabajo del Círculo de piedras, ponte de pie sobre todos los pilares sin tocar el suelo.",
+              "job": "Círculo de piedras",
+              "difficulty": "Difícil",
+              "guide": "Planifica una ruta de salto continuo por cada pilar; reinicia el intento si tu personaje toca el suelo."
+            },
+            {
+              "achievement": "Haz que todo brille",
+              "requirement": "En el trabajo de la Pista de patinaje, limpia primero la bola de discoteca.",
+              "job": "Pista de patinaje",
+              "difficulty": "Medio",
+              "guide": "Llega a la bola de discoteca y termínala antes de que cualquier otro objeto designado llegue al 100 %."
+            },
+            {
+              "achievement": "Mensaje recibido",
+              "requirement": "En el trabajo del coche y el remolque, limpia primero la antena parabólica.",
+              "job": "Coche y remolque",
+              "difficulty": "Medio",
+              "guide": "Completa la antena parabólica antes de terminar cualquier otra tarea de limpieza."
+            },
+            {
+              "achievement": "Enciende las luces",
+              "requirement": "En el trabajo del campamento, limpia primero los faroles usando solo la boquilla roja.",
+              "job": "Campamento",
+              "difficulty": "Difícil",
+              "guide": "Equípate la boquilla roja de inmediato y limpia por completo todos los faroles antes de completar cualquier otra tarea o cambiar de boquilla."
+            },
+            {
+              "achievement": "Doctor del giro",
+              "requirement": "En el trabajo de la casa de la risa, limpia un disco giratorio del suelo con el limpiador de superficies.",
+              "job": "Casa de la risa",
+              "difficulty": "Medio",
+              "guide": "Equípate el limpiador de superficies y úsalo en un disco giratorio del suelo hasta que ese disco llegue al 100 %."
+            },
+            {
+              "achievement": "En primera fila",
+              "requirement": "En el trabajo del teatro, limpia primero toda la fila de asientos delantera.",
+              "job": "Teatro",
+              "difficulty": "Medio",
+              "guide": "Termina todos los componentes que pertenezcan a la fila de asientos delantera antes de completar cualquier cosa fuera de esa fila."
+            },
+            {
+              "achievement": "Trazando un plan",
+              "requirement": "En el trabajo del kiosco de música, limpia la trampilla al final.",
+              "job": "Kiosco de música",
+              "difficulty": "Medio",
+              "guide": "Evita terminar la trampilla mientras limpias el resto del kiosco de música, y luego complétala como tarea final."
+            },
+            {
+              "achievement": "De puerta en puerta",
+              "requirement": "En el trabajo del Motel, limpia primero todas las puertas de las habitaciones, los pomos y los números de las puertas.",
+              "job": "Motel",
+              "difficulty": "Difícil",
+              "guide": "Trabaja habitación por habitación y completa cada puerta, pomo y número de puerta antes de terminar cualquier otro objeto."
+            },
+            {
+              "achievement": "Doble superior",
+              "requirement": "Completa cualquier trabajo usando solo la UrbanX Double Turbo Nozzle.",
+              "job": "Cualquier trabajo repetible",
+              "difficulty": "Media",
+              "guide": "Selecciona un trabajo corto para repetir, usa la UrbanX Double Turbo Nozzle desde el primer chorro y nunca cambies de herramienta."
+            },
+            {
+              "achievement": "Orden cósmico",
+              "requirement": "En el trabajo del Sistema Solar, limpia el Sol y luego todos los planetas en orden desde el Sol.",
+              "job": "Sistema Solar",
+              "difficulty": "Difícil",
+              "guide": "Termina primero el Sol, luego limpia Mercurio, Venus, la Tierra, Marte, Júpiter, Saturno, Urano y Neptuno en ese orden."
+            },
+            {
+              "achievement": "Decisión sabia",
+              "requirement": "En el trabajo del centro comercial, limpia el búho primero.",
+              "job": "Centro comercial",
+              "difficulty": "Media",
+              "guide": "Localiza el búho y complétalo antes de que cualquier otra tarea con nombre llegue al 100 %."
+            },
+            {
+              "achievement": "Reluciente",
+              "requirement": "En el trabajo de las carrozas del pueblo, limpia el ratón al último.",
+              "job": "Carrozas del pueblo",
+              "difficulty": "Media",
+              "guide": "Deja el ratón sin terminar mientras completas todas las demás tareas, luego limpia el ratón para terminar el trabajo."
+            }
+          ]
+        },
+        {
+          "pack": "Adventure Time Pack",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "Los colegas ayudan a los colegas",
+              "requirement": "Completa el trabajo de la sala de estar.",
+              "job": "Sala de estar de la casa del árbol",
+              "difficulty": "Fácil",
+              "guide": "Termina todas las tareas de lavado en el nivel de la sala de estar."
+            },
+            {
+              "achievement": "Dame un abrazo, héroe",
+              "requirement": "Completa el trabajo de Pizza Sassy's.",
+              "job": "Pizza Sassy's",
+              "difficulty": "Fácil",
+              "guide": "Alcanza el 100 % de progreso en Pizza Sassy's."
+            },
+            {
+              "achievement": "¿Quién quiere jugar a videojuegos?",
+              "requirement": "Acaricia a BMO en el trabajo de la sala de estar.",
+              "job": "Sala de estar de la casa del árbol",
+              "difficulty": "Fácil",
+              "guide": "Busca a BMO en la sala de estar y usa el botón de interacción para acariciarlo."
+            },
+            {
+              "achievement": "El rey de lo guay",
+              "requirement": "Completa el trabajo del castillo del Rey Hielo.",
+              "job": "Castillo del Rey Hielo",
+              "difficulty": "Fácil",
+              "guide": "Termina todas las áreas y objetos del castillo del Rey Hielo."
+            },
+            {
+              "achievement": "¡¡¡Mmm... aceptable!!!",
+              "requirement": "Completa el trabajo de los vehículos de chuches.",
+              "job": "Vehículos de chuches",
+              "difficulty": "Fácil",
+              "guide": "Limpia todos los vehículos de chuches al 100 %."
+            },
+            {
+              "achievement": "El límite",
+              "requirement": "En el trabajo de la Tree House, alcanza la altura máxima en el Jake Scissor Lift.",
+              "job": "Exterior de la Tree House",
+              "difficulty": "Fácil",
+              "guide": "Súbete o maneja el Jake Scissor Lift y elévalo hasta su posición más alta."
+            },
+            {
+              "achievement": "¡Dios de la fiesta!",
+              "requirement": "Completa el trabajo de la Tree House.",
+              "job": "Exterior de la Tree House",
+              "difficulty": "Fácil",
+              "guide": "Termina el encargo completo del exterior de la Tree House."
+            },
+            {
+              "achievement": "¡SOLO UNA!",
+              "requirement": "Completa el trabajo de los Candy Vehicles usando solo la Adaptable Nozzle.",
+              "job": "Candy Vehicles",
+              "difficulty": "Difícil",
+              "guide": "Equípate la Adaptable Nozzle antes de limpiar y no utilices ninguna otra boquilla, aplicador de jabón o limpiador de superficies hasta completar el trabajo."
+            },
+            {
+              "achievement": "¡Ay, mi Glob!",
+              "requirement": "En el trabajo del Ice King's Castle, limpia el bolso al final con la Cage Door cerrada.",
+              "job": "Ice King's Castle",
+              "difficulty": "Difícil",
+              "guide": "Mantén la Cage Door cerrada, deja el bolso sucio mientras terminas todo lo demás y luego limpia el bolso como tarea final."
+            },
+            {
+              "achievement": "Señor de las puertas",
+              "requirement": "En el trabajo de Pizza Sassy's, limpia primero las tres puertas.",
+              "job": "Pizza Sassy's",
+              "difficulty": "Media",
+              "guide": "Limpia por completo las tres tareas de las puertas antes de terminar cualquier otro objeto con nombre."
+            }
+          ]
+        },
+        {
+          "pack": "Pack de STAR WARS",
+          "count": 10,
+          "entries": [
+            {
+              "achievement": "Qué lugar más desolado",
+              "requirement": "Completa el trabajo de la Granja Lars.",
+              "job": "Granja Lars",
+              "difficulty": "Fácil",
+              "guide": "Completa todas las tareas de limpieza en la Granja Lars."
+            },
+            {
+              "achievement": "Siento el desorden",
+              "requirement": "Completa el trabajo de la Cantina de Mos Eisley.",
+              "job": "Cantina de Mos Eisley",
+              "difficulty": "Fácil",
+              "guide": "Alcanza el 100 % de progreso en la cantina."
+            },
+            {
+              "achievement": "¡Vaya, le ha dado!",
+              "requirement": "Completa el trabajo del AT-AT.",
+              "job": "Blizzard 3 AT-AT",
+              "difficulty": "Fácil",
+              "guide": "Termina de limpiar el encargo completo del Blizzard 3 AT-AT."
+            },
+            {
+              "achievement": "¡Buen disparo, chico! ¡Uno entre un millón!",
+              "requirement": "En el trabajo de la Granja Lars, rocía el T-16 Skyhopper de Luke mientras estás sobre el droide de energía EG-6.",
+              "job": "Granja Lars",
+              "difficulty": "Medio",
+              "guide": "Súbete al droide de energía EG-6, mantente encima y rocía el T-16 Skyhopper de Luke."
+            },
+            {
+              "achievement": "Siento una gran perturbación en la Fuerza",
+              "requirement": "Impide que el droide de reparación MSE-6 realice su patrulla.",
+              "job": "Puente del Superdestructor Estelar Ejecutor",
+              "difficulty": "Medio",
+              "guide": "Colócate directamente en la ruta del droide de reparación MSE-6 y mantén a tu personaje en su lugar hasta que su patrulla quede bloqueada."
+            },
+            {
+              "achievement": "Encuentro perturbadora tu falta de jabón",
+              "requirement": "Completa el trabajo del AT-AT sin usar jabón.",
+              "job": "AT-AT Blizzard 3",
+              "difficulty": "Medio",
+              "guide": "Usa solo boquillas de agua y equipo de navegación; no apliques jabón en ningún momento antes de llegar al 100 %."
+            },
+            {
+              "achievement": "No necesitamos a esa escoria",
+              "requirement": "Completa el trabajo del puente del Superdestructor Estelar.",
+              "job": "Puente del Superdestructor Estelar Executor",
+              "difficulty": "Fácil",
+              "guide": "Termina cada componente del puente y alcanza el 100 % de finalización."
+            },
+            {
+              "achievement": "Aquí Líder Rojo",
+              "requirement": "Completa el trabajo del caza Ala-X.",
+              "job": "Caza Ala-X Rojo 2",
+              "difficulty": "Fácil",
+              "guide": "Limpia el encargo del caza Ala-X Rojo 2 al 100 %."
+            },
+            {
+              "achievement": "Tiene lo que hay que tener, chico",
+              "requirement": "En el trabajo del Halcón Milenario, encuentra y limpia el cañón bláster oculto.",
+              "job": "Halcón Milenario",
+              "difficulty": "Difícil",
+              "guide": "Inspecciona las secciones ocultas y recién expuestas del Halcón, localiza el cañón bláster y limpia ese componente por completo."
+            },
+            {
+              "achievement": "La Fuerza estará contigo, siempre",
+              "requirement": "Completa el trabajo del Halcón Milenario.",
+              "job": "Halcón Milenario",
+              "difficulty": "Fácil",
+              "guide": "Completa todo el encargo del Millennium Falcon."
+            }
+          ]
+        }
+      ]
+    },
+    "powerwashDlcAndUpdates": {
+      "eyebrow": "Hoja de ruta",
+      "title": "DLC, trabajos gratuitos y cronología de actualizaciones de PowerWash Simulator 2",
+      "subtitle": "Sigue cada lanzamiento de contenido importante desde el plan de soporte de lanzamiento de 2025 hasta el último STAR WARS Pack. La cronología separa los trabajos gratuitos de Caldera Chronicles de las campañas de colaboración de pago.",
+      "intro": "La hoja de ruta de 2025-2026 de FuturLab programó soporte de calidad de vida, tres trabajos gratuitos de Caldera Chronicles y tres packs de IP de pago. Adventure Time y STAR WARS son las dos primeras campañas de pago, mientras que Miniature Village y Bowling Alley ya están disponibles como trabajos gratuitos.",
+      "entries": [
+        {
+          "date": "Octubre-diciembre de 2025",
+          "status": "Lanzado",
+          "release": "Soporte postlanzamiento",
+          "type": "Actualizaciones gratuitas",
+          "price": "Gratis",
+          "jobs": [],
+          "highlights": [
+            "Corrección de errores, optimización y mejoras de calidad de vida",
+            "Pequeños lanzamientos de muebles y contenido cosmético",
+            "Trabajo de base para la hoja de ruta más amplia de 2026"
+          ]
+        },
+        {
+          "date": "10 de marzo de 2026",
+          "status": "Lanzado",
+          "release": "Actualización 1.2 y Caldera Chronicles 1",
+          "type": "Actualización gratuita",
+          "price": "Gratis",
+          "jobs": [
+            "Miniature Village"
+          ],
+          "highlights": [
+            "Añadido el primer trabajo de limpieza gratuito de Caldera Chronicles",
+            "Añadida la reasignación de teclas",
+            "Añadidos muebles apilables en la Home Base",
+            "Añadidos deslizadores de zona muerta del mando",
+            "Incluidas correcciones de trabajos, logros, seguimiento de dinero, equipamiento de navegación, muebles, interfaz de usuario y multijugador"
+          ]
+        },
+        {
+          "date": "9 de abril de 2026",
+          "status": "Lanzado",
+          "release": "Adventure Time Pack",
+          "type": "DLC crossover de pago",
+          "price": "$7.99 USD",
+          "jobs": [
+            "Sala de estar de la casa del árbol",
+            "Pizza Sassy's",
+            "Castillo del Rey Hielo",
+            "Vehículos de chuches",
+            "Exterior de la casa del árbol"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "Campaña de cinco niveles ambientada en Land of Ooo",
+            "Campaña en solitario, cooperativo de campaña compartida y hasta cuatro jugadores en Juego libre",
+            "Personajes interactivos y equipo temático, incluyendo a BMO y el elevador de tijera de Jake"
+          ]
+        },
+        {
+          "date": "16 de julio de 2026",
+          "status": "Lanzado",
+          "release": "Actualización 1.3 y Caldera Chronicles 2",
+          "type": "Actualización gratuita",
+          "price": "Gratis",
+          "jobs": [
+            "Bolera"
+          ],
+          "highlights": [
+            "Se añadió el segundo trabajo gratuito de Caldera Chronicles",
+            "Se añadió un archivo de mensajes clasificable por trabajo y chat de grupo",
+            "Se mejoró el desbloqueo de logros de limpiar primero y limpiar al final",
+            "Se corrigieron problemas de colocación de muebles, aparición de muebles sucios, reembolsos de la tienda, equipo de navegación, interfaz de usuario y multijugador",
+            "Se mejoró el comportamiento de limpieza del tocadiscos y de varios objetos de la Home Base"
+          ]
+        },
+        {
+          "date": "16 de julio de 2026",
+          "status": "Lanzado",
+          "release": "Pack de STAR WARS",
+          "type": "DLC de colaboración de pago",
+          "price": "$9.99 USD / 9.99 EUR / 7.99 GBP",
+          "jobs": [
+            "Granja de los Lars",
+            "Cantina de Mos Eisley",
+            "AT-AT Blizzard 3",
+            "Puente del Superdestructor Estelar Executor",
+            "Caza X-wing Rojo 2",
+            "Halcón Milenario"
+          ],
+          "achievements": 10,
+          "highlights": [
+            "Seis trabajos inspirados en la trilogía original de Star Wars",
+            "Juega como el exclusivo droide de limpieza P0-W2 de clase cinco",
+            "Nuevos mensajes de la historia de Han Solo, Luke Skywalker, Owen Lars y otros personajes",
+            "Elevadores de tijera, andamios y equipos de rápel temáticos de Star Wars",
+            "Campaña en solitario, cooperativo de campaña compartida y hasta cuatro jugadores en Juego libre"
+          ]
+        },
+        {
+          "date": "Más adelante en 2026",
+          "status": "Anunciado",
+          "release": "Caldera Chronicles 3: Castillo hinchable",
+          "type": "Trabajo gratuito",
+          "price": "Gratis",
+          "jobs": [
+            "Castillo hinchable"
+          ],
+          "highlights": [
+            "El tercer encargo gratuito de Caldera Chronicles",
+            "Los jugadores pueden rebotar más alto para llegar a superficies elevadas sucias",
+            "Incluye objetos colgantes que se balancean y que deben seguirse mientras se limpia"
+          ]
+        },
+        {
+          "date": "2026",
+          "status": "Planificado",
+          "release": "Pack de IP de pago 3",
+          "type": "DLC de crossover de pago",
+          "price": "Por anunciar",
+          "jobs": [],
+          "highlights": [
+            "La tercera colaboración de IP de pago de la hoja de ruta oficial de 2025-2026",
+            "El tema, la lista de trabajos, los logros, el precio y la fecha de lanzamiento no se han anunciado"
+          ]
+        }
+      ]
+    },
+    "powerwashLastDirtGuide": {
+      "eyebrow": "Ayuda para completar",
+      "title": "Cómo encontrar la última suciedad en PowerWash Simulator 2",
+      "subtitle": "Usa la lista de objetos mejorada, los marcadores de tareas naranjas y el resaltado de suciedad para aislar las últimas superficies sin terminar. Este método sirve para vehículos, edificios y trabajos de varias fases.",
+      "intro": "Cuando un trabajo se estanque cerca del 100 %, deja de limpiar todo el mapa y reduce la búsqueda a una sola tarea específica a la vez. La secuela te permite marcar múltiples secciones incompletas, muestra indicadores naranjas lejanos y desbloquea nuevas áreas durante los trabajos multifase, por lo que la solución más rápida es un barrido controlado de la lista de tareas en lugar de rociar al azar.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Abre la lista de objetos",
+          "action": "Ordena o examina la lista de tareas del trabajo para buscar todas las que estén por debajo del 100 %. Empieza por el elemento que muestre el porcentaje de completado más bajo, ya que suele ser el que tiene la mancha visible restante más grande.",
+          "commonMisses": [
+            "Partes repetidas diminutas enumeradas por separado",
+            "Una tarea recién añadida después de un desbloqueo multifase",
+            "Un componente oculto dentro de un objeto más grande"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Marca cada tarea sin terminar",
+          "action": "Selecciona las entradas incompletas de la lista de tareas. PowerWash Simulator 2 puede marcar múltiples secciones inacabadas y mostrar indicadores de verificación naranjas sobre objetivos lejanos, lo que facilita identificar el lado correcto de un trabajo grande.",
+          "commonMisses": [
+            "Un componente correspondiente en el lado opuesto",
+            "Versiones superior e inferior de la misma pieza",
+            "Varias puertas, luces, ruedas o soportes idénticos"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Pulsa el resaltado de suciedad",
+          "action": "Ponte de cara al objeto marcado y activa el resaltado de suciedad en ráfagas cortas mientras giras lentamente a su alrededor. Busca pequeñas líneas o puntos brillantes que queden después de que la suciedad más grande haya desaparecido.",
+          "commonMisses": [
+            "Líneas finas de suciedad a lo largo de las juntas",
+            "Manchas ocultas por reflejos húmedos",
+            "Mugre oscura que se confunde con materiales oscuros"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Cambia a la limpieza de precisión",
+          "action": "Guarda el limpiador de superficies y el rociador ancho cuando solo quede una pequeña franja. Usa una boquilla de abanico estrecho, la boquilla roja o una Adaptable Nozzle estrechada, luego recorre el borde desde cerca.",
+          "commonMisses": [
+            "Bordes de ventanas y paneles",
+            "Letras, pernos y molduras",
+            "Esquinas donde se unen dos superficies",
+            "El borde alrededor de las piezas circulares"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Revisa cada ángulo oculto",
+          "action": "Agáchate, colócate detrás del objeto y mira hacia arriba desde abajo. Limpia primero la parte inferior, luego la cara trasera, los huecos interiores y cualquier espacio parcialmente bloqueado por otro componente.",
+          "commonMisses": [
+            "Partes inferiores de vehículos y muebles",
+            "Partes traseras de carteles y paneles",
+            "El interior de los pasos de rueda, marcos y barandillas",
+            "Marcos de puertas, esquinas interiores y manijas empotradas"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Usa el equipo de acceso correcto",
+          "action": "Mueve la escalera, el Scissor Lift o la plataforma elevadora hasta que la boquilla esté al nivel de la superficie sucia. En trabajos verticales altos, usa el equipo de rapel e inspecciona el borde superior antes de descender en pasadas rectas.",
+          "commonMisses": [
+            "Cumbres de tejados y repisas superiores",
+            "La parte superior de vigas, letras y decoraciones",
+            "Áreas directamente debajo de una plataforma elevadora",
+            "Superficies traseras altas visibles solo desde fuera de la ruta principal"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Vuelve a comprobar las secciones de varias etapas",
+          "action": "Después de completar una etapa, haz una pausa e inspecciona la lista de tareas ampliada antes de continuar. Los interiores, habitaciones y secciones de vehículos recién abiertos añaden nuevas tareas que pueden estar alejadas del área que acabas de limpiar.",
+          "commonMisses": [
+            "El interior de una estructura revelado después de su exterior",
+            "Una puerta, escotilla o compartimento recién abierto",
+            "Objetos que se mueven o aparecen cuando comienza la siguiente etapa",
+            "Tareas añadidas al final de la lista de objetos"
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Realiza un barrido sistemático final",
+          "action": "Elige una dirección y completa una ruta entera: de arriba a abajo, en el sentido de las agujas del reloj alrededor del exterior, y luego por cada habitación interior. Mantén marcada únicamente la última tarea incompleta y repite las comprobaciones de bordes, partes inferiores y elevación hasta que suene el timbre de finalización.",
+          "commonMisses": [
+            "Volver a rociar al azar en lugar de seguir la ruta",
+            "Dejar un lado de un objeto repetido sin revisar",
+            "Usar una herramienta ancha que pasa por encima de huecos estrechos",
+            "Suponer que la parte frontal visible es la tarea completa"
+          ]
+        }
+      ]
+    },
+    "powerwashHomeBase": {
+      "eyebrow": "Home Base",
+      "title": "Home Base de PowerWash Simulator 2, recuerdos y coleccionables",
+      "subtitle": "Convierte la Home Base en un cuartel general de limpieza personalizado mientras completas sus interacciones ocultas. Usa esta lista de verificación para muebles, adornos, recuerdos de trabajos, gatos, cosméticos y acciones de logros.",
+      "intro": "La Home Base es un centro jugable entre trabajos en lugar de un simple menú. Los encargos completados añaden recuerdos, los muebles se pueden limpiar y organizar, los adornos personalizan el espacio, el Job Map inicia el trabajo y varias interacciones pequeñas desbloquean logros.",
+      "items": [
+        {
+          "item": "Job Map",
+          "category": "Acceso a trabajos",
+          "howToGetOrUse": "Acércate al gran mapa en la Home Base y selecciona cualquier encargo disponible directamente desde él.",
+          "checklist": [
+            "Abrir el Job Map",
+            "Elegir una ubicación disponible",
+            "Iniciar el trabajo seleccionado"
+          ],
+          "achievement": "Geo-Cashing",
+          "reward": "Desbloquea el logro y proporciona una ruta dentro del mundo hacia la lista de trabajos."
+        },
+        {
+          "item": "Muebles limpiables",
+          "category": "Personalización",
+          "howToGetOrUse": "Colecciona o desbloquea muebles, lava las piezas sucias al 100 % y luego colócalas con los controles de decoración de la Home Base. La actualización 1.2 también añadió muebles apilables.",
+          "checklist": [
+            "Elige un mueble sucio",
+            "Limpia cada sección nombrada",
+            "Coloca el objeto terminado",
+            "Prueba disposiciones apiladas donde sea posible"
+          ],
+          "achievement": "Home Decor",
+          "reward": "Desbloquea el logro y hace que la pieza limpia se pueda usar en tu diseño personalizado de la Home Base."
+        },
+        {
+          "item": "Adornos",
+          "category": "Coleccionables",
+          "howToGetOrUse": "Colecciona adornos decorativos durante el progreso y úsalos para añadir pequeños detalles por la Home Base.",
+          "checklist": [
+            "Revisa los nuevos adornos coleccionados",
+            "Elige un área de exhibición",
+            "Organiza los adornos alrededor de muebles y estantes"
+          ],
+          "achievement": "Ninguno",
+          "reward": "Añade variedad decorativa a la Home Base."
+        },
+        {
+          "item": "Recuerdos de trabajos",
+          "category": "Colección de la Carrera",
+          "howToGetOrUse": "Completa trabajos para añadir nuevos recuerdos a la Home Base. Cada recuerdo actúa como un recordatorio permanente de un encargo de limpieza finalizado.",
+          "checklist": [
+            "Completa cada trabajo disponible",
+            "Regresa a la Home Base después de los encargos principales",
+            "Revisa el expositor de recuerdos para ver las nuevas incorporaciones",
+            "Continúa a través del nuevo contenido para ampliar la colección"
+          ],
+          "achievement": "Ninguno",
+          "reward": "Crea una colección visual que registra el progreso de la campaña."
+        },
+        {
+          "item": "Tres gatos",
+          "category": "Personajes interactivos",
+          "howToGetOrUse": "Encuentra a los tres gatos por la Home Base e interactúa con cada uno de ellos.",
+          "checklist": [
+            "Acaricia al primer gato",
+            "Acaricia al segundo gato",
+            "Acaricia al tercer gato"
+          ],
+          "achievement": "Vínculo de ronroneos",
+          "reward": "Desbloquea el logro después de haber acariciado a los tres gatos."
+        },
+        {
+          "item": "Tablón de anuncios de Harper",
+          "category": "Interacción oculta",
+          "howToGetOrUse": "Inspecciona el tablón de anuncios de Harper e interactúa con cualquier nota u objeto fijado.",
+          "checklist": [
+            "Localiza el tablón de anuncios.",
+            "Acércate lo suficiente para ver la indicación.",
+            "Examina un elemento fijado."
+          ],
+          "achievement": "Tomando nota",
+          "reward": "Desbloquea el logro y revela un detalle adicional de la Home Base."
+        },
+        {
+          "item": "Gnomo oculto",
+          "category": "Coleccionable oculto",
+          "howToGetOrUse": "Registra las habitaciones, muebles y rincones de la Home Base hasta que puedas recoger el gnomo oculto.",
+          "checklist": [
+            "Inspecciona los estantes bajos y los escondites a nivel del suelo.",
+            "Revisa detrás y alrededor de los objetos colocados.",
+            "Recoge el gnomo oculto."
+          ],
+          "achievement": "Gnomo de hogar",
+          "reward": "Desbloquea el logro y completa la interacción con el gnomo oculto de la Home Base."
+        },
+        {
+          "item": "Aspectos de la furgoneta",
+          "category": "Cosmético de vehículo",
+          "howToGetOrUse": "Abre la personalización de la furgoneta y aplica cualquier aspecto desbloqueado.",
+          "checklist": [
+            "Abre el menú de apariencia de la furgoneta.",
+            "Selecciona un aspecto adquirido.",
+            "Aplica y guarda la nueva apariencia."
+          ],
+          "achievement": "Cambio de imagen radical",
+          "reward": "Desbloquea el logro y cambia la apariencia de la furgoneta."
+        },
+        {
+          "item": "Aspectos de la hidrolimpiadora",
+          "category": "Cosmético de equipo",
+          "howToGetOrUse": "Abre la personalización de la hidrolimpiadora y aplica un aspecto a cualquier hidrolimpiadora compatible.",
+          "checklist": [
+            "Elige una hidrolimpiadora",
+            "Selecciona un aspecto que poseas",
+            "Equipa el aspecto"
+          ],
+          "achievement": "Limpieza con estilo",
+          "reward": "Desbloquea el logro y personaliza la hidrolimpiadora utilizada en los trabajos."
+        },
+        {
+          "item": "Ropa",
+          "category": "Cosmético de personaje",
+          "howToGetOrUse": "Abre la personalización del personaje y equipa cualquier prenda de ropa que poseas.",
+          "checklist": [
+            "Abre las opciones de apariencia del personaje",
+            "Elige una prenda de ropa",
+            "Equipa el objeto seleccionado"
+          ],
+          "achievement": "Vestido para el éxito",
+          "reward": "Desbloquea el logro y cambia el atuendo del limpiador."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre PowerWash Simulator 2",
+    "questions": [
+      {
+        "question": "¿Qué es PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 es un relajante simulador de limpieza cooperativo de FuturLab. Elimina la suciedad de vehículos, edificios y atracciones a lo largo de una campaña de Modo carrera de 38 trabajos, desbloquea hidrolimpiadoras y herramientas más potentes, y limpia en solitario, en línea con hasta cuatro jugadores o en pantalla dividida local para dos jugadores."
+      },
+      {
+        "question": "¿En qué plataformas está disponible PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 está disponible en PC (Steam, Epic Games Store y Windows Store), PlayStation 5, Xbox Series X|S y Nintendo Switch 2. También se lanzó en Xbox Game Pass desde el primer día."
+      },
+      {
+        "question": "¿Cuántos trabajos hay en PowerWash Simulator 2?",
+        "answer": "El Modo carrera del juego base de PowerWash Simulator 2 contiene 38 trabajos, desde la Furgoneta de mudanzas inicial hasta el gran final de Mount Rushless. Los trabajos gratuitos de Caldera Chronicles y los paquetes de colaboración de pago añaden aún más encargos de limpieza."
+      },
+      {
+        "question": "¿Admite PowerWash Simulator 2 cooperativo y pantalla dividida?",
+        "answer": "Sí. PowerWash Simulator 2 admite hasta cuatro jugadores en cooperativo en línea tanto para el modo Carrera como para el Juego libre, además de pantalla dividida local para dos jugadores. El juego cruzado está disponible entre Xbox Series X|S y versiones de PC compatibles."
+      },
+      {
+        "question": "¿Cuántos logros tiene PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 tiene actualmente 60 logros: 40 en el juego base, 10 en el Adventure Time Pack y 10 en el STAR WARS Pack. Cada uno incluye un requisito exacto y un método de completado rápido."
+      },
+      {
+        "question": "¿Qué DLC hay disponible para PowerWash Simulator 2?",
+        "answer": "PowerWash Simulator 2 tiene trabajos gratuitos de Caldera Chronicles (Miniature Village y Bowling Alley) y dos packs de colaboración de pago: el Adventure Time Pack y el STAR WARS Pack. Un tercer trabajo gratuito y un tercer pack de IP de pago están previstos para finales de 2026."
+      },
+      {
+        "question": "¿Hay una Home Base en PowerWash Simulator 2?",
+        "answer": "Sí. La Home Base de PowerWash Simulator 2 es un centro jugable entre trabajos donde puedes limpiar y organizar muebles, recoger baratijas y recuerdos, acariciar gatos, iniciar trabajos desde el Job Map y desbloquear varios logros mediante interacciones ocultas."
+      },
+      {
+        "question": "¿Seguirá recibiendo actualizaciones PowerWash Simulator 2?",
+        "answer": "Sí. La hoja de ruta 2025-2026 de PowerWash Simulator 2 de FuturLab incluye actualizaciones gratuitas de calidad de vida, tres trabajos gratuitos de Caldera Chronicles y packs de colaboración de pago, con soporte continuo previsto a lo largo de 2026."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a PowerWash Simulator 2?",
+    "description": "¡Únete a la comunidad de PowerWash Simulator 2 en Discord para obtener guías, actualizaciones y debates sobre el modo cooperativo!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de PowerWash Simulator 2",
+    "description": "Tu centro de recursos completo para trabajos, hidrolimpiadoras, boquillas, herramientas, mejoras, logros, cooperativo, Home Base y guías de DLC de PowerWash Simulator 2.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 PowerWash Simulator 2 Wiki. No afiliado con FuturLab ni con los desarrolladores de PowerWash Simulator 2.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de PowerWash Simulator 2",
+      "description": "Guías claras y paso a paso de PowerWash Simulator 2 que cubren los controles, consejos de limpieza, gestión de boquillas y cómo reiniciar o repetir cualquier nivel.",
+      "metaTitle": "Guías de PowerWash Simulator 2 - Controles, consejos y ayuda para la limpieza",
+      "metaDescription": "Domina PowerWash Simulator 2 con guías prácticas sobre controles, consejos de limpieza avanzados, selección de boquillas y cómo reiniciar o repetir niveles.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de PowerWash Simulator 2?",
+      "whatIsDescription": "Guías prácticas que explican el ciclo básico de limpieza, la distribución completa de los controles y los pequeños hábitos de trabajo que te ayudan a terminar los trabajos al 100% sin tener que buscar la última mota de suciedad.",
+      "why": "¿Por qué leer estas guías?",
+      "whySteps": {
+        "step1Title": "Aprende los controles",
+        "step1Description": "Bloquea la cámara, gira las boquillas y configura tu distribución preferida en PC, PS5, Xbox y Switch 2",
+        "step2Title": "Limpia de forma más inteligente",
+        "step2Description": "Adapta cada boquilla y pasada de jabón a la superficie para que las áreas amplias y los bordes difíciles se terminen más rápido",
+        "step3Title": "Repite cualquier nivel",
+        "step3Description": "Reinicia o repite trabajos en Juego libre para conseguir logros y practicar nuevas técnicas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "updates": {
+      "title": "Actualizaciones y DLC de PowerWash Simulator 2",
+      "description": "Sigue cada actualización de PowerWash Simulator 2, los trabajos gratuitos de Caldera Chronicles y los paquetes de DLC de pago, incluidos los crossovers de Adventure Time y STAR WARS y la hoja de ruta de 2026.",
+      "metaTitle": "Actualizaciones y DLC de PowerWash Simulator 2 - Notas del parche, trabajos y hoja de ruta",
+      "metaDescription": "Sigue las actualizaciones de PowerWash Simulator 2, los trabajos gratuitos de Caldera Chronicles, los paquetes de DLC de pago como Adventure Time y STAR WARS, y la hoja de ruta completa de contenido para 2026.",
+      "categoryLabel": "ACTUALIZACIONES Y DLC",
+      "whatIs": "¿Qué son las actualizaciones de PowerWash Simulator 2?",
+      "whatIsDescription": "Información sobre los parches gratuitos de calidad de vida, la serie de trabajos gratuita Caldera Chronicles y las campañas de DLC de crossover de pago que añaden nuevos niveles, personajes y logros al juego.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Descubre nuevos trabajos",
+        "step1Description": "Mira qué trabajos gratuitos de Caldera Chronicles y niveles de DLC de pago están disponibles ahora mismo",
+        "step2Title": "Lee la hoja de ruta",
+        "step2Description": "Conoce lo que FuturLab tiene planeado para el futuro, incluyendo los próximos packs de crossover",
+        "step3Title": "Mantente al día",
+        "step3Description": "Mantente al tanto de las correcciones de errores, mejoras de optimización y cambios de calidad de vida"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las actualizaciones y DLC"
+    },
+    "achievements": {
+      "title": "Logros de PowerWash Simulator 2",
+      "description": "Explicación de cada logro y trofeo de PowerWash Simulator 2, incluyendo logros ocultos, hitos de Mount Rushless y rutas de finalización de Cosmic Ordering.",
+      "metaTitle": "Logros y trofeos de PowerWash Simulator 2 - Lista completa",
+      "metaDescription": "Guía completa de logros de PowerWash Simulator 2 con los requisitos exactos para los logros ocultos, Mount Rushless, Cosmic Ordering y cada pack de DLC.",
+      "categoryLabel": "LOGROS",
+      "whatIs": "¿Qué son los logros de PowerWash Simulator 2?",
+      "whatIsDescription": "Un desglose completo de los logros y trofeos del juego base y los DLC, con el requisito exacto, el trabajo relacionado y un método rápido para completar cada uno.",
+      "why": "¿Por qué hacer un seguimiento de los logros?",
+      "whySteps": {
+        "step1Title": "Encuentra logros ocultos",
+        "step1Description": "Localiza objetivos secretos vinculados a trabajos e interacciones específicos",
+        "step2Title": "Planifica partidas de completado",
+        "step2Description": "Usa rutas de limpiar primero y limpiar al final para desbloquear desafíos específicos de cada trabajo",
+        "step3Title": "Alcanza el 100%",
+        "step3Description": "Completa el juego base y los packs de Adventure Time y STAR WARS en orden"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los logros"
+    },
+    "levels": {
+      "title": "Niveles y trabajos de PowerWash Simulator 2",
+      "description": "Guías para los niveles y trabajos de PowerWash Simulator 2, desde la furgoneta de mudanzas hasta Mount Rushless, incluyendo todos los trabajos de carrera y puntos difíciles como la pared de la gasolinera.",
+      "metaTitle": "Niveles y trabajos de PowerWash Simulator 2 - Guías de carrera",
+      "metaDescription": "Limpia todos los niveles de PowerWash Simulator 2 con guías de trabajo, orden de desbloqueo, equipo recomendado y soluciones para puntos difíciles como la pared de la gasolinera y las puertas del motel.",
+      "categoryLabel": "NIVELES Y TRABAJOS",
+      "whatIs": "¿Qué son los niveles de PowerWash Simulator 2?",
+      "whatIsDescription": "Misiones de limpieza en modo Carrera y Juego libre por Muckingham y Caldera County, cada una con una ruta recomendada, el equipo adecuado y notas sobre las superficies más complicadas.",
+      "why": "¿Por qué usar guías de nivel?",
+      "whySteps": {
+        "step1Title": "Sigue el orden de desbloqueo",
+        "step1Description": "Mira qué trabajo sigue y qué equipo necesitarás",
+        "step2Title": "Resuelve los puntos difíciles",
+        "step2Description": "Encuentra rápidamente superficies resistentes, como la pared de la gasolinera, y suciedad oculta",
+        "step3Title": "Termina cada trabajo",
+        "step3Description": "Completa los 38 trabajos de carrera desde el principio hasta el final en Mount Rushless"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los niveles y trabajos"
+    },
+    "multiplayer": {
+      "title": "Multijugador de PowerWash Simulator 2",
+      "description": "Todo sobre el multijugador de PowerWash Simulator 2: cooperativo en línea, juego cruzado (crossplay), pantalla dividida y cooperativo local en PC, PS5, Xbox y Nintendo Switch 2.",
+      "metaTitle": "Multijugador de PowerWash Simulator 2 - Cooperativo, juego cruzado y pantalla dividida",
+      "metaDescription": "Configura el multijugador de PowerWash Simulator 2 con guías sobre cooperativo en línea, juego cruzado, pantalla dividida local y progreso de campaña compartido en todas las plataformas.",
+      "categoryLabel": "MULTIJUGADOR",
+      "whatIs": "¿Qué es el multijugador de PowerWash Simulator 2?",
+      "whatIsDescription": "Limpieza cooperativa para hasta cuatro jugadores en línea y dos jugadores en pantalla dividida local, con progreso de campaña compartido durante las sesiones y juego cruzado entre plataformas compatibles.",
+      "why": "¿Por qué jugar en cooperativo?",
+      "whySteps": {
+        "step1Title": "Limpia en cooperativo online",
+        "step1Description": "Enfréntate a trabajos del modo Carrera y Juego libre con hasta cuatro jugadores",
+        "step2Title": "Configura la pantalla dividida",
+        "step2Description": "Juega en cooperativo local para dos jugadores en una PC o consola",
+        "step3Title": "Entiende el juego cruzado",
+        "step3Description": "Mira qué plataformas pueden jugar juntas y qué suscripciones se requieren"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de multijugador"
+    },
+    "equipment": {
+      "title": "Equipamiento de PowerWash Simulator 2",
+      "description": "Compara las hidrolimpiadoras, boquillas, jabón y herramientas de limpieza de superficies de PowerWash Simulator 2, incluyendo Urban X vs Prime Vista, modos de pulverización y cómo equipar nuevo equipo.",
+      "metaTitle": "Equipamiento de PowerWash Simulator 2 - Hidrolimpiadoras, boquillas y jabón",
+      "metaDescription": "Clasifica y compara el equipamiento de PowerWash Simulator 2: hidrolimpiadoras Prime Vista vs Urban X, cada boquilla y modo de pulverización, el uso del jabón y cómo equipar nuevas herramientas.",
+      "categoryLabel": "EQUIPAMIENTO",
+      "whatIs": "¿Qué es el equipamiento de PowerWash Simulator 2?",
+      "whatIsDescription": "Las hidrolimpiadoras, boquillas, jabones, limpiadores de superficies y accesorios que determinan la velocidad y cobertura de limpieza, clasificados según su rendimiento real durante el progreso del modo Carrera.",
+      "why": "¿Por qué planificar tu equipamiento?",
+      "whySteps": {
+        "step1Title": "Elige la hidrolimpiadora adecuada",
+        "step1Description": "Compara las líneas Urban X y Prime Vista por presión, alcance y valor",
+        "step2Title": "Domina los modos de pulverización",
+        "step2Description": "Cambia el ancho de la boquilla y usa jabón para la suciedad incrustada más difícil",
+        "step3Title": "Equipa nuevo equipo",
+        "step3Description": "Acopla y cambia herramientas rápidamente desde la rueda de equipamiento"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de equipamiento"
+    },
+    "technical": {
+      "title": "Técnico de PowerWash Simulator 2",
+      "description": "Ayuda técnica de PowerWash Simulator 2: ajustes optimizados, soporte para mods, requisitos de GPU como la GTX 1650 y soluciones para problemas como la selección de pack vacía.",
+      "metaTitle": "Aspectos técnicos de PowerWash Simulator 2: ajustes, mods y rendimiento",
+      "metaDescription": "Optimiza PowerWash Simulator 2 con guías técnicas sobre los mejores ajustes, mods, rendimiento de GPU (incluyendo la GTX 1650) y soluciones para errores como la pantalla de selección de pack vacía.",
+      "categoryLabel": "TÉCNICO",
+      "whatIs": "¿Qué es la sección técnica de PowerWash Simulator 2?",
+      "whatIsDescription": "Ajuste de rendimiento, configuraciones recomendadas, opciones de modding, requisitos de hardware y solución de problemas para errores comunes y fallos que afectan a las sesiones de limpieza.",
+      "why": "¿Por qué consultar las guías técnicas?",
+      "whySteps": {
+        "step1Title": "Optimizar el rendimiento",
+        "step1Description": "Aplica los mejores ajustes para obtener tasas de fotogramas fluidas en tu hardware",
+        "step2Title": "Conoce tu hardware",
+        "step2Description": "Mira cómo funciona el juego en GPUs como la GTX 1650 y gráficos integrados",
+        "step3Title": "Corregir errores comunes",
+        "step3Description": "Resuelve problemas como la selección de pack vacía o el contenido faltante"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías técnicas"
+    },
+    "purchase": {
+      "title": "Compra y plataformas de PowerWash Simulator 2",
+      "description": "Guías de compra de PowerWash Simulator 2 que cubren precio, fecha de lanzamiento, plataformas (PC, PS5, Xbox, Switch 2), PowerWash Simulator 2 vs 1 y recursos de la comunidad como Reddit.",
+      "metaTitle": "Compra de PowerWash Simulator 2: precio, plataformas y fecha de lanzamiento",
+      "metaDescription": "Decide dónde comprar PowerWash Simulator 2 con guías sobre precio, fecha de lanzamiento, plataformas PC/PS5/Xbox/Switch 2, comparativas con el primer juego y la comunidad de Reddit.",
+      "categoryLabel": "COMPRA Y PLATAFORMAS",
+      "whatIs": "¿Qué es la sección de compra de PowerWash Simulator 2?",
+      "whatIsDescription": "Información de compra y plataformas, incluyendo precio actual, fecha de lanzamiento, todas las plataformas disponibles, comparativa de la secuela con el original y dónde encontrar ayuda de la comunidad.",
+      "why": "¿Por qué consultar antes de comprar?",
+      "whySteps": {
+        "step1Title": "Comparar plataformas",
+        "step1Description": "Elige entre PC, PS5, Xbox Series X|S y Nintendo Switch 2",
+        "step2Title": "Comprobar precio y fecha",
+        "step2Description": "Consulta el precio actual y los detalles de lanzamiento que necesitas",
+        "step3Title": "Comparar con el original",
+        "step3Description": "Entiende las novedades de PowerWash Simulator 2 frente al 1"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de compra"
+    }
   }
 }
